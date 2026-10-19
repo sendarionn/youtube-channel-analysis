@@ -1,0 +1,621 @@
+{
+ "id": "xTqcdXG5p-0",
+ "title": "なぜMicrosoft製品は嫌われるのか？",
+ "thumbnail": "https://i.ytimg.com/vi_webp/xTqcdXG5p-0/maxresdefault.webp",
+ "description": "なぜMicrosoftが嫌われているのか？ 最も害悪な機能を紹介して、みなさんの目を覚させます。\n\n【カスDXのおたよりフォーム】\nおたよりの内容に「カスIT環境」を入れて送ってください！\nhttps://forms.gle/BLEZpLcdEPmoZTH4A\n\n【目次】\n0:00 Microsoftは嫌われてる？\n1:16 コンピュータ科学を教えてくれるマンガ\n3:12 Windowsは文字が汚い\n6:09 みんなの恨みを買うOneDrive\n18:45 ユーザーのせいで嫌われているWord\n19:56 愚かなOffice体制に反旗を翻したい\n25:09 みんなのカスDXを募集します\n31:48 圧倒的に嫌われていたあの製品\n41:01 勝者がカスを生み出す原理\n\n【参考文献】\n◯CODING HORRORS「What’s Wrong With Apple’s Font Rendering?」( https://blog.codinghorror.com/whats-wrong-with-apples-font-rendering )\n→Windowsの文字は汚いのか？ という話。\n\n◯statcounter「Browser Market Share Japan」( https://gs.statcounter.com/browser-market-share/all/japan/#monthly-200901-202010 )\n→ブラウザのシェア推移\n\n◯Boing Boing「Everyone hates OneDrive, Microsoft's cloud app that steals then deletes all your files」( https://boingboing.net/2026/01/05/everyone-hates-onedrive-microsofts-cloud-app-that-steals-then-deletes-all-your-files.html )\n\n◯note「そんなことある？　と今でも信じられない驚愕のお話」( https://note.com/kyoukn/n/nfb9f1450c440 )\n→ OneDriveの悪口\n\n◯Hacker News「OneDrive is an absolute cancer.」( https://news.ycombinator.com/item?id=46527226 )\n→OneDriveを「絶対的な癌」と評するコメント。\n\n◯小学館コミック「美味しんぼ 59 | 雁屋　哲 花咲アキラ | 【試し読みあり】」( https://shogakukan-comic.jp/book?isbn=9784091835994 )\n→山岡士郎のWindows批評が載っている美味しんぼ59巻について。第1話「マルチメディアと食文化」。\n\n◯Stanford Report「‘You’ve got to find what you love,’ Jobs says」( https://news.stanford.edu/stories/2005/06/youve-got-find-love-jobs-says )\n→ジョブズがカリグラフィを学んだ話・「stay hungry, stay foolish」のスタンフォード卒業スピーチ。\n\n◯Microsoft Lifecycle「特定のオペレーティング システムでの Internet Explorer 11 デスクトップ アプリケーションのサポート終了」( https://learn.microsoft.com/ja-jp/lifecycle/announcements/internet-explorer-11-end-of-support )\n→IEが2022年6月15日にサポート終了したことについて。\n\n◯Computerworld「The death of Internet Explorer: Good riddance to bad rubbish」( https://www.computerworld.com/article/1626467/death-of-internet-explorer-good-riddance-to-bad-rubbish.html )\n→IE6で開発チームが解散し、更新が止まったことについて。\n\n◯ISO「ISO 32000-1:2008 - Document management — Portable document format — Part 1: PDF 1.7」( https://www.iso.org/standard/51502.html )\n→PDFが環境に依存せず文書を表示できる規格であることについて。\n\n◯Microsoft Learn「Windows の既知のフォルダーを OneDrive にリダイレクトして移動する」( https://learn.microsoft.com/ja-jp/sharepoint/redirect-known-folders )\n→OneDriveがデスクトップ等をOneDriveフォルダ配下に移動させる仕組みについて。\n\n◯Microsoft サポート「OneDrive を使用してフォルダーをバックアップする」( https://support.microsoft.com/ja-jp/office/back-up-your-folders-with-onedrive-d61a7930-a6fb-4b95-b28a-6552e77c3057 )\n→OneDriveバックアップ停止時の挙動について。\n\n◯ITmedia NEWS「『Evernote』日本法人が解散 解散公告を掲載【追記あり】」( https://www.itmedia.co.jp/news/articles/2404/26/news137.html )\n→Evernote日本法人の解散について。\n\n◯Google ブックス「The Icarus Paradox: How Exceptional Companies Bring about Their Own Downfall」( https://books.google.com/books?id=%5FNlWhUDuCFMC )\n→ダニー・ミラーが提唱した「イカロス・パラドックス」について。\n\n【サポーターコミュニティへの加入はこちらから！】\nhttps://yurugengo.com/support\n\n【親チャンネル：ゆる言語学ラジオ】\nhttps://www.youtube.com/@yurugengo\n\n【実店舗プロジェクト：ゆる学徒カフェ】\nhttps://www.youtube.com/@yurugakuto\n\n【お仕事依頼はこちら！】\ninfo@pedantic.jp\n\n【堀元見プロフィール】\n慶應義塾大学理工学部卒。専攻は情報工学。理屈っぽいコンテンツを作り散らかすことで生計を立てている。\nTwitter→https://twitter.com/kenhori2\nnoteマガジン→https://note.com/kenhori2/m/m125fc4524aca\n個人YouTube→https://www.youtube.com/@kenHorimoto\n\n【水野太貴プロフィール】\n1995年生まれ。愛知県出身。名古屋大学文学部卒。専攻は言語学。本業は雑誌編集者。著書に『会話の0.2秒を言語学する 』（新潮社）などがある。Podcast「神保町で会いましょう」のパーソナリティも務める。\nTwitter→https://x.com/yuru_mizuno\n神保町で会いましょう→https://open.spotify.com/show/6cYkvDO0HnJKLPgDBGUjjS\n\n【姉妹チャンネル】\n◯ゆる音楽学ラジオ(https://www.youtube.com/@yuruongaku)\n◯ゆる民俗学ラジオ (https://www.youtube.com/@yuruminzoku)\n◯ゆる天文学ラジオ (https://www.youtube.com/@yurutenmon)\n◯ゆる生態学ラジオ (https://www.youtube.com/@yuruseitai)\n◯ゆる哲学ラジオ (https://www.youtube.com/@yurutetsugaku )\n\n#microsoft #onedrive #ゆるコンピュータ科学ラジオ",
+ "channel_id": "UCpLu0KjNy616-E95gPx7LZg",
+ "channel_url": "https://www.youtube.com/channel/UCpLu0KjNy616-E95gPx7LZg",
+ "duration": 2969,
+ "view_count": 518086,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=xTqcdXG5p-0",
+ "categories": [
+  "Entertainment"
+ ],
+ "tags": [],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "video",
+ "release_timestamp": null,
+ "comment_count": 2388,
+ "chapters": [
+  {
+   "start_time": 0,
+   "title": "Microsoftは嫌われてる？",
+   "end_time": 76
+  },
+  {
+   "start_time": 76,
+   "title": "コンピュータ科学を教えてくれるマンガ",
+   "end_time": 192
+  },
+  {
+   "start_time": 192,
+   "title": "Windowsは文字が汚い",
+   "end_time": 369
+  },
+  {
+   "start_time": 369,
+   "title": "みんなの恨みを買うOneDrive",
+   "end_time": 1125
+  },
+  {
+   "start_time": 1125,
+   "title": "ユーザーのせいで嫌われているWord",
+   "end_time": 1196
+  },
+  {
+   "start_time": 1196,
+   "title": "愚かなOffice体制に反旗を翻したい",
+   "end_time": 1509
+  },
+  {
+   "start_time": 1509,
+   "title": "みんなのカスDXを募集します",
+   "end_time": 1908
+  },
+  {
+   "start_time": 1908,
+   "title": "圧倒的に嫌われていたあの製品",
+   "end_time": 2461
+  },
+  {
+   "start_time": 2461,
+   "title": "勝者がカスを生み出す原理",
+   "end_time": 2969
+  }
+ ],
+ "like_count": 9205,
+ "channel": "ゆるコンピュータ科学ラジオ",
+ "channel_follower_count": null,
+ "creators": null,
+ "uploader": "ゆるコンピュータ科学ラジオ",
+ "uploader_id": "@yurucom",
+ "uploader_url": "https://www.youtube.com/@yurucom",
+ "upload_date": "20260705",
+ "timestamp": 1783212327,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=xTqcdXG5p-0",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "xTqcdXG5p-0",
+ "fulltitle": "なぜMicrosoft製品は嫌われるのか？",
+ "duration_string": "49:29",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792413830,
+ "format": "399 - 1920x1080 (1080p60)+251 - audio only (medium)",
+ "format_id": "399+251",
+ "ext": "webm",
+ "protocol": "https+https",
+ "language": "ja",
+ "format_note": "1080p60+medium",
+ "filesize_approx": 462622852,
+ "tbr": 1246.645,
+ "width": 1920,
+ "height": 1080,
+ "resolution": "1920x1080",
+ "fps": 60,
+ "dynamic_range": "SDR",
+ "vcodec": "av01.0.09M.08",
+ "vbr": 1134.291,
+ "stretched_ratio": null,
+ "aspect_ratio": 1.78,
+ "acodec": "opus",
+ "abr": 112.354,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [],
+ "auto_caption_has_ja": true,
+ "heatmap": [
+  {
+   "start_time": 0.0,
+   "end_time": 29.69,
+   "value": 0.6618083410095099
+  },
+  {
+   "start_time": 29.69,
+   "end_time": 59.38,
+   "value": 0.0895278834691555
+  },
+  {
+   "start_time": 59.38,
+   "end_time": 89.07,
+   "value": 0.15813607115255252
+  },
+  {
+   "start_time": 89.07,
+   "end_time": 118.76,
+   "value": 0.15827435103478257
+  },
+  {
+   "start_time": 118.76,
+   "end_time": 148.45,
+   "value": 0.1928148213842997
+  },
+  {
+   "start_time": 148.45,
+   "end_time": 178.14,
+   "value": 0.14073852027706354
+  },
+  {
+   "start_time": 178.14,
+   "end_time": 207.83,
+   "value": 0.34459489092382434
+  },
+  {
+   "start_time": 207.83,
+   "end_time": 237.52,
+   "value": 0.0
+  },
+  {
+   "start_time": 237.52,
+   "end_time": 267.21,
+   "value": 0.02354603895421875
+  },
+  {
+   "start_time": 267.21,
+   "end_time": 296.9,
+   "value": 0.0018521782436303354
+  },
+  {
+   "start_time": 296.9,
+   "end_time": 326.59,
+   "value": 0.05109867096127721
+  },
+  {
+   "start_time": 326.59,
+   "end_time": 356.28,
+   "value": 0.07456209433934116
+  },
+  {
+   "start_time": 356.28,
+   "end_time": 385.97,
+   "value": 0.05751704658461436
+  },
+  {
+   "start_time": 385.97,
+   "end_time": 415.66,
+   "value": 0.0731391872291613
+  },
+  {
+   "start_time": 415.66,
+   "end_time": 445.35,
+   "value": 0.1887633220427878
+  },
+  {
+   "start_time": 445.35,
+   "end_time": 475.04,
+   "value": 0.2780035128862681
+  },
+  {
+   "start_time": 475.04,
+   "end_time": 504.73,
+   "value": 0.13061593810399053
+  },
+  {
+   "start_time": 504.73,
+   "end_time": 534.42,
+   "value": 0.17970570862385915
+  },
+  {
+   "start_time": 534.42,
+   "end_time": 564.11,
+   "value": 0.1835383741479519
+  },
+  {
+   "start_time": 564.11,
+   "end_time": 593.8,
+   "value": 0.26745810689331023
+  },
+  {
+   "start_time": 593.8,
+   "end_time": 623.49,
+   "value": 0.37878312054324764
+  },
+  {
+   "start_time": 623.49,
+   "end_time": 653.18,
+   "value": 0.35157710660910363
+  },
+  {
+   "start_time": 653.18,
+   "end_time": 682.87,
+   "value": 0.2263189235625246
+  },
+  {
+   "start_time": 682.87,
+   "end_time": 712.56,
+   "value": 0.07063650503426484
+  },
+  {
+   "start_time": 712.56,
+   "end_time": 742.25,
+   "value": 0.07089439757688965
+  },
+  {
+   "start_time": 742.25,
+   "end_time": 771.94,
+   "value": 0.4819342900297019
+  },
+  {
+   "start_time": 771.94,
+   "end_time": 801.63,
+   "value": 0.32029001815668456
+  },
+  {
+   "start_time": 801.63,
+   "end_time": 831.32,
+   "value": 0.14924020283848227
+  },
+  {
+   "start_time": 831.32,
+   "end_time": 861.01,
+   "value": 0.0012393835798468673
+  },
+  {
+   "start_time": 861.01,
+   "end_time": 890.7,
+   "value": 0.21868350505053308
+  },
+  {
+   "start_time": 890.7,
+   "end_time": 920.39,
+   "value": 0.14318801213504362
+  },
+  {
+   "start_time": 920.39,
+   "end_time": 950.08,
+   "value": 0.07474411849442633
+  },
+  {
+   "start_time": 950.08,
+   "end_time": 979.77,
+   "value": 0.09452305210726321
+  },
+  {
+   "start_time": 979.77,
+   "end_time": 1009.46,
+   "value": 0.0016500249758431905
+  },
+  {
+   "start_time": 1009.46,
+   "end_time": 1039.15,
+   "value": 0.3985157234609269
+  },
+  {
+   "start_time": 1039.15,
+   "end_time": 1068.84,
+   "value": 0.04442944985898001
+  },
+  {
+   "start_time": 1068.84,
+   "end_time": 1098.53,
+   "value": 0.03373658031039917
+  },
+  {
+   "start_time": 1098.53,
+   "end_time": 1128.22,
+   "value": 0.3579956321699656
+  },
+  {
+   "start_time": 1128.22,
+   "end_time": 1157.91,
+   "value": 0.4343879763899377
+  },
+  {
+   "start_time": 1157.91,
+   "end_time": 1187.6,
+   "value": 0.3385415382045686
+  },
+  {
+   "start_time": 1187.6,
+   "end_time": 1217.29,
+   "value": 0.8769861567931182
+  },
+  {
+   "start_time": 1217.29,
+   "end_time": 1246.98,
+   "value": 0.39212636074863505
+  },
+  {
+   "start_time": 1246.98,
+   "end_time": 1276.67,
+   "value": 0.6647300236174092
+  },
+  {
+   "start_time": 1276.67,
+   "end_time": 1306.36,
+   "value": 0.47895600600619737
+  },
+  {
+   "start_time": 1306.36,
+   "end_time": 1336.05,
+   "value": 0.13860670854971505
+  },
+  {
+   "start_time": 1336.05,
+   "end_time": 1365.74,
+   "value": 0.08469412257647545
+  },
+  {
+   "start_time": 1365.74,
+   "end_time": 1395.43,
+   "value": 0.05051837525599021
+  },
+  {
+   "start_time": 1395.43,
+   "end_time": 1425.12,
+   "value": 0.0646472131224722
+  },
+  {
+   "start_time": 1425.12,
+   "end_time": 1454.81,
+   "value": 0.08641746700193696
+  },
+  {
+   "start_time": 1454.81,
+   "end_time": 1484.5,
+   "value": 0.033133456616964124
+  },
+  {
+   "start_time": 1484.5,
+   "end_time": 1514.19,
+   "value": 1.0
+  },
+  {
+   "start_time": 1514.19,
+   "end_time": 1543.88,
+   "value": 0.3028714760277261
+  },
+  {
+   "start_time": 1543.88,
+   "end_time": 1573.57,
+   "value": 0.27081978116768196
+  },
+  {
+   "start_time": 1573.57,
+   "end_time": 1603.26,
+   "value": 0.15354936981633177
+  },
+  {
+   "start_time": 1603.26,
+   "end_time": 1632.95,
+   "value": 0.14744811205790828
+  },
+  {
+   "start_time": 1632.95,
+   "end_time": 1662.64,
+   "value": 0.14568106084397284
+  },
+  {
+   "start_time": 1662.64,
+   "end_time": 1692.33,
+   "value": 0.3779608631573439
+  },
+  {
+   "start_time": 1692.33,
+   "end_time": 1722.02,
+   "value": 0.532323194233043
+  },
+  {
+   "start_time": 1722.02,
+   "end_time": 1751.71,
+   "value": 0.15900698326524795
+  },
+  {
+   "start_time": 1751.71,
+   "end_time": 1781.4,
+   "value": 0.105917404365536
+  },
+  {
+   "start_time": 1781.4,
+   "end_time": 1811.09,
+   "value": 0.5146074009612045
+  },
+  {
+   "start_time": 1811.09,
+   "end_time": 1840.78,
+   "value": 0.7226538132223755
+  },
+  {
+   "start_time": 1840.78,
+   "end_time": 1870.47,
+   "value": 0.4542106917600109
+  },
+  {
+   "start_time": 1870.47,
+   "end_time": 1900.16,
+   "value": 0.18326511300903697
+  },
+  {
+   "start_time": 1900.16,
+   "end_time": 1929.85,
+   "value": 0.6699897570179946
+  },
+  {
+   "start_time": 1929.85,
+   "end_time": 1959.54,
+   "value": 0.12712100685446892
+  },
+  {
+   "start_time": 1959.54,
+   "end_time": 1989.23,
+   "value": 0.1692674329923579
+  },
+  {
+   "start_time": 1989.23,
+   "end_time": 2018.92,
+   "value": 0.09418850400509368
+  },
+  {
+   "start_time": 2018.92,
+   "end_time": 2048.61,
+   "value": 0.04926429779871472
+  },
+  {
+   "start_time": 2048.61,
+   "end_time": 2078.3,
+   "value": 0.0664334563395797
+  },
+  {
+   "start_time": 2078.3,
+   "end_time": 2107.99,
+   "value": 0.02138334009676518
+  },
+  {
+   "start_time": 2107.99,
+   "end_time": 2137.68,
+   "value": 0.05899164465646277
+  },
+  {
+   "start_time": 2137.68,
+   "end_time": 2167.37,
+   "value": 0.035860520317696626
+  },
+  {
+   "start_time": 2167.37,
+   "end_time": 2197.06,
+   "value": 0.008047746705141636
+  },
+  {
+   "start_time": 2197.06,
+   "end_time": 2226.75,
+   "value": 0.04053594718420702
+  },
+  {
+   "start_time": 2226.75,
+   "end_time": 2256.44,
+   "value": 0.05816758802026166
+  },
+  {
+   "start_time": 2256.44,
+   "end_time": 2286.13,
+   "value": 0.003283219464529617
+  },
+  {
+   "start_time": 2286.13,
+   "end_time": 2315.82,
+   "value": 0.5642556887608856
+  },
+  {
+   "start_time": 2315.82,
+   "end_time": 2345.51,
+   "value": 0.07856853745465608
+  },
+  {
+   "start_time": 2345.51,
+   "end_time": 2375.2,
+   "value": 0.032121678199736124
+  },
+  {
+   "start_time": 2375.2,
+   "end_time": 2404.89,
+   "value": 0.020298429651824827
+  },
+  {
+   "start_time": 2404.89,
+   "end_time": 2434.58,
+   "value": 0.04505810041600916
+  },
+  {
+   "start_time": 2434.58,
+   "end_time": 2464.27,
+   "value": 0.273387011466997
+  },
+  {
+   "start_time": 2464.27,
+   "end_time": 2493.96,
+   "value": 0.09512801253537682
+  },
+  {
+   "start_time": 2493.96,
+   "end_time": 2523.65,
+   "value": 0.03408552241494775
+  },
+  {
+   "start_time": 2523.65,
+   "end_time": 2553.34,
+   "value": 0.19748882384432467
+  },
+  {
+   "start_time": 2553.34,
+   "end_time": 2583.03,
+   "value": 0.07519216930285573
+  },
+  {
+   "start_time": 2583.03,
+   "end_time": 2612.72,
+   "value": 0.2811662950340167
+  },
+  {
+   "start_time": 2612.72,
+   "end_time": 2642.41,
+   "value": 0.0978271128877375
+  },
+  {
+   "start_time": 2642.41,
+   "end_time": 2672.1,
+   "value": 0.09070305630401453
+  },
+  {
+   "start_time": 2672.1,
+   "end_time": 2701.79,
+   "value": 0.11881180659048891
+  },
+  {
+   "start_time": 2701.79,
+   "end_time": 2731.48,
+   "value": 0.11346623395696598
+  },
+  {
+   "start_time": 2731.48,
+   "end_time": 2761.17,
+   "value": 0.6477116647420936
+  },
+  {
+   "start_time": 2761.17,
+   "end_time": 2790.86,
+   "value": 0.10822876627881077
+  },
+  {
+   "start_time": 2790.86,
+   "end_time": 2820.55,
+   "value": 0.03414665944067755
+  },
+  {
+   "start_time": 2820.55,
+   "end_time": 2850.24,
+   "value": 0.030915130937816487
+  },
+  {
+   "start_time": 2850.24,
+   "end_time": 2879.93,
+   "value": 0.04067122831594146
+  },
+  {
+   "start_time": 2879.93,
+   "end_time": 2909.62,
+   "value": 0.0337494749375304
+  },
+  {
+   "start_time": 2909.62,
+   "end_time": 2939.31,
+   "value": 0.09225865812362634
+  },
+  {
+   "start_time": 2939.31,
+   "end_time": 2969.0,
+   "value": 0.07129173201756159
+  }
+ ],
+ "tab": "videos",
+ "retrieved_at": "2026-10-19T12:43:50Z"
+}

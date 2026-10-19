@@ -1,0 +1,631 @@
+{
+ "id": "QFhHNBcPelo",
+ "title": "100時間かけて動画編集AIを作ったら、気が狂いそうになった。",
+ "thumbnail": "https://i.ytimg.com/vi/QFhHNBcPelo/maxresdefault.jpg",
+ "description": "【PR：Surfshark】\nプロモリンク https://surfshark.com/yurucom にアクセスするか、チェックアウト時にプロモコード yurucom を使用すると、Surfshark VPN が4か月分追加されます！\n30日間の返金保証付き！ぜひご利用ください！\n\n動画編集AIを作ったら、狂いそうになった話です。AIのキモい認知特性に振り回されまくったよ！\n\n【目次】\n0:00 動画編集AIを作ってみた\n0:37 AI 「勝ち筋が見えた」\n2:50 動画を見ずに編集しててキモい\n7:30 話者識別がうまくいかない\n13:09 テロップの文言は高クオリティ\n14:20 ずっと画面右端がはみ出す\n18:31 「測る」って難しい\n24:14 人間向けはAIにとって高コスト\n28:46 AIは「笑い」が分からない\n37:28 使いものになった動画編集AI\n41:13 お得意様のSurfshark\n\n【参考文献】\n◯OpenAI「Introducing Whisper」( https://openai.com/index/whisper/ )\n→Whisperの概要と、Web由来の多言語・多タスク音声データで学習したことを確認。\n\n◯arXiv「Investigation of Whisper ASR Hallucinations Induced by Non-Speech Audio」( https://arxiv.org/abs/2501.11378 )\n→非音声で起きるWhisperの幻覚と、「thanks for watching」系の定型句が頻出する実験結果を確認。\n\n◯GitHub openai/whisper Discussions「Share your hallucinations here #1873」( https://github.com/openai/whisper/discussions/1873 )\n→無音や交通音で「ご視聴ありがとうございました」が出た公開報告を確認。\n\n【サポーターコミュニティへの加入はこちらから！】\nhttps://yurugengo.com/support\n\n【親チャンネル：ゆる言語学ラジオ】\nhttps://www.youtube.com/@yurugengo\n\n【切り抜きチャンネル（公認）】\nhttps://www.youtube.com/@yuru_kiri\n\n【実店舗プロジェクト：ゆる学徒カフェ】\nhttps://www.youtube.com/@yurugakuto\n\n【おたよりフォーム】\nhttps://forms.gle/BLEZpLcdEPmoZTH4A\n※皆様からのおたよりをお待ちしています！\n\n【お仕事依頼はこちら！】\ninfo@pedantic.jp\n\n【堀元見プロフィール】\n慶應義塾大学理工学部卒。専攻は情報工学。理屈っぽいコンテンツを作り散らかすことで生計を立てている。\nTwitter→https://twitter.com/kenhori2\nnoteマガジン→https://note.com/kenhori2/m/m125fc4524aca\n個人YouTube→https://www.youtube.com/@kenHorimoto\n\n【水野太貴プロフィール】\n1995年生まれ。愛知県出身。名古屋大学文学部卒。専攻は言語学。本業は雑誌編集者。著書に『会話の0.2秒を言語学する 』（新潮社）などがある。Podcast「神保町で会いましょう」のパーソナリティも務める。\nTwitter→https://x.com/yuru_mizuno\n神保町で会いましょう→https://open.spotify.com/show/6cYkvDO0HnJKLPgDBGUjjS\n\n【姉妹チャンネル】\n◯ゆる音楽学ラジオ(https://www.youtube.com/@yuruongaku)\n◯ゆる民俗学ラジオ (https://www.youtube.com/@yuruminzoku)\n◯ゆる天文学ラジオ (https://www.youtube.com/@yurutenmon)\n◯ゆる哲学ラジオ (https://www.youtube.com/@yurutetsugaku )\n\n#ゆるコンピュータ科学ラジオ",
+ "channel_id": "UCpLu0KjNy616-E95gPx7LZg",
+ "channel_url": "https://www.youtube.com/channel/UCpLu0KjNy616-E95gPx7LZg",
+ "duration": 2666,
+ "view_count": 570989,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=QFhHNBcPelo",
+ "categories": [
+  "Entertainment"
+ ],
+ "tags": [],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "video",
+ "release_timestamp": null,
+ "comment_count": 778,
+ "chapters": [
+  {
+   "start_time": 0,
+   "title": "動画編集AIを作ってみた",
+   "end_time": 37
+  },
+  {
+   "start_time": 37,
+   "title": "AI 「勝ち筋が見えた」",
+   "end_time": 170
+  },
+  {
+   "start_time": 170,
+   "title": "動画を見ずに編集しててキモい",
+   "end_time": 450
+  },
+  {
+   "start_time": 450,
+   "title": "話者識別がうまくいかない",
+   "end_time": 789
+  },
+  {
+   "start_time": 789,
+   "title": "テロップの文言は高クオリティ",
+   "end_time": 860
+  },
+  {
+   "start_time": 860,
+   "title": "ずっと画面右端がはみ出す",
+   "end_time": 1111
+  },
+  {
+   "start_time": 1111,
+   "title": "「測る」って難しい",
+   "end_time": 1454
+  },
+  {
+   "start_time": 1454,
+   "title": "人間向けはAIにとって高コスト",
+   "end_time": 1726
+  },
+  {
+   "start_time": 1726,
+   "title": "AIは「笑い」が分からない",
+   "end_time": 2248
+  },
+  {
+   "start_time": 2248,
+   "title": "使いものになった動画編集AI",
+   "end_time": 2473
+  },
+  {
+   "start_time": 2473,
+   "title": "お得意様のSurfshark",
+   "end_time": 2666
+  }
+ ],
+ "like_count": 6075,
+ "channel": "ゆるコンピュータ科学ラジオ",
+ "channel_follower_count": null,
+ "creators": null,
+ "uploader": "ゆるコンピュータ科学ラジオ",
+ "uploader_id": "@yurucom",
+ "uploader_url": "https://www.youtube.com/@yurucom",
+ "upload_date": "20260927",
+ "timestamp": 1790469917,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=QFhHNBcPelo",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "QFhHNBcPelo",
+ "fulltitle": "100時間かけて動画編集AIを作ったら、気が狂いそうになった。",
+ "duration_string": "44:26",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792413780,
+ "format": "399 - 1920x1080 (1080p60)+251-1 - audio only (日本語（オリジナル） (default), medium)",
+ "format_id": "399+251-1",
+ "ext": "webm",
+ "protocol": "https+https",
+ "language": "ja",
+ "format_note": "1080p60+日本語（オリジナル） (default), medium",
+ "filesize_approx": 497186825,
+ "tbr": 1492.1380000000001,
+ "width": 1920,
+ "height": 1080,
+ "resolution": "1920x1080",
+ "fps": 60,
+ "dynamic_range": "SDR",
+ "vcodec": "av01.0.09M.08",
+ "vbr": 1381.102,
+ "stretched_ratio": null,
+ "aspect_ratio": 1.78,
+ "acodec": "opus",
+ "abr": 111.036,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [],
+ "auto_caption_has_ja": true,
+ "heatmap": [
+  {
+   "start_time": 0.0,
+   "end_time": 26.66,
+   "value": 0.13489725041592135
+  },
+  {
+   "start_time": 26.66,
+   "end_time": 53.32,
+   "value": 0.10029793977667538
+  },
+  {
+   "start_time": 53.32,
+   "end_time": 79.98,
+   "value": 0.3787275657451747
+  },
+  {
+   "start_time": 79.98,
+   "end_time": 106.64,
+   "value": 0.5917941678882438
+  },
+  {
+   "start_time": 106.64,
+   "end_time": 133.3,
+   "value": 0.07842236362190778
+  },
+  {
+   "start_time": 133.3,
+   "end_time": 159.96,
+   "value": 0.03249773897795494
+  },
+  {
+   "start_time": 159.96,
+   "end_time": 186.62,
+   "value": 0.0646763018387275
+  },
+  {
+   "start_time": 186.62,
+   "end_time": 213.28,
+   "value": 0.12435030393436766
+  },
+  {
+   "start_time": 213.28,
+   "end_time": 239.94,
+   "value": 0.3104484745687652
+  },
+  {
+   "start_time": 239.94,
+   "end_time": 266.6,
+   "value": 0.05273324093058539
+  },
+  {
+   "start_time": 266.6,
+   "end_time": 293.26,
+   "value": 0.028591147210977823
+  },
+  {
+   "start_time": 293.26,
+   "end_time": 319.92,
+   "value": 0.12446574426833923
+  },
+  {
+   "start_time": 319.92,
+   "end_time": 346.58,
+   "value": 0.0519872614081082
+  },
+  {
+   "start_time": 346.58,
+   "end_time": 373.24,
+   "value": 0.12304397643420159
+  },
+  {
+   "start_time": 373.24,
+   "end_time": 399.9,
+   "value": 0.14284028424801615
+  },
+  {
+   "start_time": 399.9,
+   "end_time": 426.56,
+   "value": 0.061941506330001256
+  },
+  {
+   "start_time": 426.56,
+   "end_time": 453.22,
+   "value": 0.5590166392636416
+  },
+  {
+   "start_time": 453.22,
+   "end_time": 479.88,
+   "value": 0.4069026252407732
+  },
+  {
+   "start_time": 479.88,
+   "end_time": 506.54,
+   "value": 0.08828594967687146
+  },
+  {
+   "start_time": 506.54,
+   "end_time": 533.2,
+   "value": 0.017627000142608165
+  },
+  {
+   "start_time": 533.2,
+   "end_time": 559.86,
+   "value": 0.01586503783590791
+  },
+  {
+   "start_time": 559.86,
+   "end_time": 586.52,
+   "value": 0.04508399368485615
+  },
+  {
+   "start_time": 586.52,
+   "end_time": 613.18,
+   "value": 0.07342378109887679
+  },
+  {
+   "start_time": 613.18,
+   "end_time": 639.84,
+   "value": 0.012576422430394195
+  },
+  {
+   "start_time": 639.84,
+   "end_time": 666.5,
+   "value": 0.01575694015883773
+  },
+  {
+   "start_time": 666.5,
+   "end_time": 693.16,
+   "value": 0.0537767930968929
+  },
+  {
+   "start_time": 693.16,
+   "end_time": 719.82,
+   "value": 0.31732317476751026
+  },
+  {
+   "start_time": 719.82,
+   "end_time": 746.48,
+   "value": 0.605247016730129
+  },
+  {
+   "start_time": 746.48,
+   "end_time": 773.14,
+   "value": 0.1399216240213185
+  },
+  {
+   "start_time": 773.14,
+   "end_time": 799.8,
+   "value": 0.06889013790542221
+  },
+  {
+   "start_time": 799.8,
+   "end_time": 826.46,
+   "value": 0.07094592121719223
+  },
+  {
+   "start_time": 826.46,
+   "end_time": 853.12,
+   "value": 0.1062241981617888
+  },
+  {
+   "start_time": 853.12,
+   "end_time": 879.78,
+   "value": 0.06489902527376924
+  },
+  {
+   "start_time": 879.78,
+   "end_time": 906.44,
+   "value": 0.13307705166167194
+  },
+  {
+   "start_time": 906.44,
+   "end_time": 933.1,
+   "value": 0.03618827306560859
+  },
+  {
+   "start_time": 933.1,
+   "end_time": 959.76,
+   "value": 0.004515837250468697
+  },
+  {
+   "start_time": 959.76,
+   "end_time": 986.42,
+   "value": 0.0
+  },
+  {
+   "start_time": 986.42,
+   "end_time": 1013.08,
+   "value": 0.022402033181695997
+  },
+  {
+   "start_time": 1013.08,
+   "end_time": 1039.74,
+   "value": 0.04591881935584018
+  },
+  {
+   "start_time": 1039.74,
+   "end_time": 1066.4,
+   "value": 0.10904728911975425
+  },
+  {
+   "start_time": 1066.4,
+   "end_time": 1093.06,
+   "value": 0.5414163365626109
+  },
+  {
+   "start_time": 1093.06,
+   "end_time": 1119.72,
+   "value": 0.16132574423850968
+  },
+  {
+   "start_time": 1119.72,
+   "end_time": 1146.38,
+   "value": 0.09362330403269042
+  },
+  {
+   "start_time": 1146.38,
+   "end_time": 1173.04,
+   "value": 0.06723467854249637
+  },
+  {
+   "start_time": 1173.04,
+   "end_time": 1199.7,
+   "value": 0.046271863477980235
+  },
+  {
+   "start_time": 1199.7,
+   "end_time": 1226.36,
+   "value": 0.059780631241330075
+  },
+  {
+   "start_time": 1226.36,
+   "end_time": 1253.02,
+   "value": 0.05786791501012312
+  },
+  {
+   "start_time": 1253.02,
+   "end_time": 1279.68,
+   "value": 0.03868918200622267
+  },
+  {
+   "start_time": 1279.68,
+   "end_time": 1306.34,
+   "value": 0.07363484806608758
+  },
+  {
+   "start_time": 1306.34,
+   "end_time": 1333.0,
+   "value": 0.20101025780642026
+  },
+  {
+   "start_time": 1333.0,
+   "end_time": 1359.66,
+   "value": 0.22524820761729522
+  },
+  {
+   "start_time": 1359.66,
+   "end_time": 1386.32,
+   "value": 0.08297549927485527
+  },
+  {
+   "start_time": 1386.32,
+   "end_time": 1412.98,
+   "value": 0.0759988049825893
+  },
+  {
+   "start_time": 1412.98,
+   "end_time": 1439.64,
+   "value": 0.09236759497353833
+  },
+  {
+   "start_time": 1439.64,
+   "end_time": 1466.3,
+   "value": 0.3517008518973483
+  },
+  {
+   "start_time": 1466.3,
+   "end_time": 1492.96,
+   "value": 0.09382749873195757
+  },
+  {
+   "start_time": 1492.96,
+   "end_time": 1519.62,
+   "value": 0.09393206275539395
+  },
+  {
+   "start_time": 1519.62,
+   "end_time": 1546.28,
+   "value": 0.06170208982341025
+  },
+  {
+   "start_time": 1546.28,
+   "end_time": 1572.94,
+   "value": 0.11784716512063584
+  },
+  {
+   "start_time": 1572.94,
+   "end_time": 1599.6,
+   "value": 0.038557977905715926
+  },
+  {
+   "start_time": 1599.6,
+   "end_time": 1626.26,
+   "value": 0.048103087690483146
+  },
+  {
+   "start_time": 1626.26,
+   "end_time": 1652.92,
+   "value": 0.06621395744999163
+  },
+  {
+   "start_time": 1652.92,
+   "end_time": 1679.58,
+   "value": 0.04475129101691323
+  },
+  {
+   "start_time": 1679.58,
+   "end_time": 1706.24,
+   "value": 0.0874437354573804
+  },
+  {
+   "start_time": 1706.24,
+   "end_time": 1732.9,
+   "value": 0.22467277277425426
+  },
+  {
+   "start_time": 1732.9,
+   "end_time": 1759.56,
+   "value": 0.11923462897956229
+  },
+  {
+   "start_time": 1759.56,
+   "end_time": 1786.22,
+   "value": 0.40156354994974297
+  },
+  {
+   "start_time": 1786.22,
+   "end_time": 1812.88,
+   "value": 0.16369209899140577
+  },
+  {
+   "start_time": 1812.88,
+   "end_time": 1839.54,
+   "value": 0.05126310334410983
+  },
+  {
+   "start_time": 1839.54,
+   "end_time": 1866.2,
+   "value": 0.05086168946963186
+  },
+  {
+   "start_time": 1866.2,
+   "end_time": 1892.86,
+   "value": 0.0780487141688382
+  },
+  {
+   "start_time": 1892.86,
+   "end_time": 1919.52,
+   "value": 0.08777010508374587
+  },
+  {
+   "start_time": 1919.52,
+   "end_time": 1946.18,
+   "value": 0.08354877721243144
+  },
+  {
+   "start_time": 1946.18,
+   "end_time": 1972.84,
+   "value": 0.04550931708586928
+  },
+  {
+   "start_time": 1972.84,
+   "end_time": 1999.5,
+   "value": 0.05543758735897366
+  },
+  {
+   "start_time": 1999.5,
+   "end_time": 2026.16,
+   "value": 0.07664342142112306
+  },
+  {
+   "start_time": 2026.16,
+   "end_time": 2052.82,
+   "value": 0.05302857635864106
+  },
+  {
+   "start_time": 2052.82,
+   "end_time": 2079.48,
+   "value": 0.07255758851544213
+  },
+  {
+   "start_time": 2079.48,
+   "end_time": 2106.14,
+   "value": 0.18108318186235248
+  },
+  {
+   "start_time": 2106.14,
+   "end_time": 2132.8,
+   "value": 0.2085223924074174
+  },
+  {
+   "start_time": 2132.8,
+   "end_time": 2159.46,
+   "value": 0.15420524859999052
+  },
+  {
+   "start_time": 2159.46,
+   "end_time": 2186.12,
+   "value": 0.2559942295895076
+  },
+  {
+   "start_time": 2186.12,
+   "end_time": 2212.78,
+   "value": 0.20305550899469735
+  },
+  {
+   "start_time": 2212.78,
+   "end_time": 2239.44,
+   "value": 0.08165851344928077
+  },
+  {
+   "start_time": 2239.44,
+   "end_time": 2266.1,
+   "value": 0.17744567552500856
+  },
+  {
+   "start_time": 2266.1,
+   "end_time": 2292.76,
+   "value": 0.1563343666975632
+  },
+  {
+   "start_time": 2292.76,
+   "end_time": 2319.42,
+   "value": 0.07605440266281452
+  },
+  {
+   "start_time": 2319.42,
+   "end_time": 2346.08,
+   "value": 0.06653058658306134
+  },
+  {
+   "start_time": 2346.08,
+   "end_time": 2372.74,
+   "value": 0.3188063914615914
+  },
+  {
+   "start_time": 2372.74,
+   "end_time": 2399.4,
+   "value": 0.33520405874538545
+  },
+  {
+   "start_time": 2399.4,
+   "end_time": 2426.06,
+   "value": 0.07272973940107554
+  },
+  {
+   "start_time": 2426.06,
+   "end_time": 2452.72,
+   "value": 0.046214900522487404
+  },
+  {
+   "start_time": 2452.72,
+   "end_time": 2479.38,
+   "value": 0.07164233780558503
+  },
+  {
+   "start_time": 2479.38,
+   "end_time": 2506.04,
+   "value": 0.0716323449084583
+  },
+  {
+   "start_time": 2506.04,
+   "end_time": 2532.7,
+   "value": 0.0729757757717792
+  },
+  {
+   "start_time": 2532.7,
+   "end_time": 2559.36,
+   "value": 0.10321884869204909
+  },
+  {
+   "start_time": 2559.36,
+   "end_time": 2586.02,
+   "value": 0.11176253480448053
+  },
+  {
+   "start_time": 2586.02,
+   "end_time": 2612.68,
+   "value": 0.07926626435790587
+  },
+  {
+   "start_time": 2612.68,
+   "end_time": 2639.34,
+   "value": 0.7345919565094432
+  },
+  {
+   "start_time": 2639.34,
+   "end_time": 2666.0,
+   "value": 1.0
+  }
+ ],
+ "tab": "videos",
+ "retrieved_at": "2026-10-19T12:43:00Z"
+}

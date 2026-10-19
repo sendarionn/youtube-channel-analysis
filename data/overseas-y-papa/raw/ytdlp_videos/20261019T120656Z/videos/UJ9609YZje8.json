@@ -1,0 +1,582 @@
+{
+ "id": "UJ9609YZje8",
+ "title": "ビットコインは終わったのか？に答えます。",
+ "thumbnail": "https://i.ytimg.com/vi_webp/UJ9609YZje8/maxresdefault.webp",
+ "description": "史上最高値から半値――ビットコインは終わったのか。技術の話を一切せずに、この問いに答えます。\n\nそもそも、何かを「所有する」とは、どういう状態なのでしょうか。\n\n無人島に一人なら所有は消える。モナリザを2年間隠し持った犯人は、なぜ売れなかったのか。所有の正体は、モノとの距離ではなく、大勢の人の合意です。国家の登記簿は、その合意をまとめて代行してきた道具にすぎません。\n\nこの動画では、ビットコインが人類で初めて実現したことを、\n\n渡す\n持つ\n減らない\n\nという3つの柱で整理し、1946年の預金封鎖、2022年のロシア外貨準備凍結、ブラックロックの資産配分モデルまで交えながら、これから上がるのか下がるのか、僕の見立てまで話します。\n\nチャンネル登録・高評価もよろしくお願いします。\n\n#ビットコイン #資産防衛 #所有とは #インフレ #分散投資",
+ "channel_id": "UC8fTn4DsxlAlql3OXJ8syRA",
+ "channel_url": "https://www.youtube.com/channel/UC8fTn4DsxlAlql3OXJ8syRA",
+ "duration": 1006,
+ "view_count": 77712,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=UJ9609YZje8",
+ "categories": [
+  "Education"
+ ],
+ "tags": [
+  "インフレ",
+  "ビットコイン",
+  "分散投資",
+  "所有とは",
+  "資産防衛"
+ ],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "video",
+ "release_timestamp": null,
+ "comment_count": 481,
+ "chapters": null,
+ "like_count": 2690,
+ "channel": "海外Yパパラジオ　世界を読み解く",
+ "channel_follower_count": null,
+ "creators": null,
+ "channel_is_verified": true,
+ "uploader": "海外Yパパラジオ　世界を読み解く",
+ "uploader_id": "@海外Yパパ",
+ "uploader_url": "https://www.youtube.com/@海外Yパパ",
+ "upload_date": "20260816",
+ "timestamp": 1786914026,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=UJ9609YZje8",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "UJ9609YZje8",
+ "fulltitle": "ビットコインは終わったのか？に答えます。",
+ "duration_string": "16:46",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792412044,
+ "format": "616 - 1920x1080 (Premium)+251-1 - audio only (日本語（オリジナル） (default), medium)",
+ "format_id": "616+251-1",
+ "ext": "webm",
+ "protocol": "m3u8_native+https",
+ "language": "ja",
+ "format_note": "Premium+日本語（オリジナル） (default), medium",
+ "filesize_approx": 19406670,
+ "tbr": 6408.25,
+ "width": 1920,
+ "height": 1080,
+ "resolution": "1920x1080",
+ "fps": 30.0,
+ "dynamic_range": "SDR",
+ "vcodec": "vp09.00.40.08",
+ "vbr": 6253.936,
+ "stretched_ratio": null,
+ "aspect_ratio": 1.78,
+ "acodec": "opus",
+ "abr": 154.314,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [],
+ "auto_caption_has_ja": true,
+ "heatmap": [
+  {
+   "start_time": 0.0,
+   "end_time": 10.07,
+   "value": 0.012147666156006603
+  },
+  {
+   "start_time": 10.07,
+   "end_time": 20.14,
+   "value": 0.004053174962046272
+  },
+  {
+   "start_time": 20.14,
+   "end_time": 30.21,
+   "value": 0.0
+  },
+  {
+   "start_time": 30.21,
+   "end_time": 40.28,
+   "value": 3.7667582614947616e-05
+  },
+  {
+   "start_time": 40.28,
+   "end_time": 50.35,
+   "value": 0.001827420982547304
+  },
+  {
+   "start_time": 50.35,
+   "end_time": 60.42,
+   "value": 0.002707695474794382
+  },
+  {
+   "start_time": 60.42,
+   "end_time": 70.49,
+   "value": 0.001209771727478046
+  },
+  {
+   "start_time": 70.49,
+   "end_time": 80.56,
+   "value": 1.7223419299377687e-05
+  },
+  {
+   "start_time": 80.56,
+   "end_time": 90.63,
+   "value": 0.002739923292624073
+  },
+  {
+   "start_time": 90.63,
+   "end_time": 100.7,
+   "value": 0.003441711937907882
+  },
+  {
+   "start_time": 100.7,
+   "end_time": 110.77,
+   "value": 0.0033997596825174805
+  },
+  {
+   "start_time": 110.77,
+   "end_time": 120.84,
+   "value": 0.003087728253581448
+  },
+  {
+   "start_time": 120.84,
+   "end_time": 130.91,
+   "value": 0.003046583597339962
+  },
+  {
+   "start_time": 130.91,
+   "end_time": 140.98,
+   "value": 0.00309570986429357
+  },
+  {
+   "start_time": 140.98,
+   "end_time": 151.05,
+   "value": 0.001897437576489721
+  },
+  {
+   "start_time": 151.05,
+   "end_time": 161.12,
+   "value": 0.0024155290544057733
+  },
+  {
+   "start_time": 161.12,
+   "end_time": 171.19,
+   "value": 0.003773732786415607
+  },
+  {
+   "start_time": 171.19,
+   "end_time": 181.26,
+   "value": 0.006053820063237352
+  },
+  {
+   "start_time": 181.26,
+   "end_time": 191.33,
+   "value": 0.0054535551037919565
+  },
+  {
+   "start_time": 191.33,
+   "end_time": 201.4,
+   "value": 0.0030346465740631653
+  },
+  {
+   "start_time": 201.4,
+   "end_time": 211.47,
+   "value": 0.012183584476719982
+  },
+  {
+   "start_time": 211.47,
+   "end_time": 221.54,
+   "value": 0.016906306323605583
+  },
+  {
+   "start_time": 221.54,
+   "end_time": 231.61,
+   "value": 0.0033987332915672653
+  },
+  {
+   "start_time": 231.61,
+   "end_time": 241.68,
+   "value": 0.00326228442819196
+  },
+  {
+   "start_time": 241.68,
+   "end_time": 251.75,
+   "value": 1.0
+  },
+  {
+   "start_time": 251.75,
+   "end_time": 261.82,
+   "value": 0.004304205306264034
+  },
+  {
+   "start_time": 261.82,
+   "end_time": 271.89,
+   "value": 0.005488375175463517
+  },
+  {
+   "start_time": 271.89,
+   "end_time": 281.96,
+   "value": 0.006697335013757328
+  },
+  {
+   "start_time": 281.96,
+   "end_time": 292.03,
+   "value": 0.005683103096146804
+  },
+  {
+   "start_time": 292.03,
+   "end_time": 302.1,
+   "value": 0.004702680946890075
+  },
+  {
+   "start_time": 302.1,
+   "end_time": 312.17,
+   "value": 0.00462820700625059
+  },
+  {
+   "start_time": 312.17,
+   "end_time": 322.24,
+   "value": 0.003938984946926729
+  },
+  {
+   "start_time": 322.24,
+   "end_time": 332.31,
+   "value": 0.002626886224496673
+  },
+  {
+   "start_time": 332.31,
+   "end_time": 342.38,
+   "value": 0.0024106394866502553
+  },
+  {
+   "start_time": 342.38,
+   "end_time": 352.45,
+   "value": 0.0023613984612518477
+  },
+  {
+   "start_time": 352.45,
+   "end_time": 362.52,
+   "value": 0.0028655709195734465
+  },
+  {
+   "start_time": 362.52,
+   "end_time": 372.59,
+   "value": 0.003137691077422379
+  },
+  {
+   "start_time": 372.59,
+   "end_time": 382.66,
+   "value": 0.0032148409275924664
+  },
+  {
+   "start_time": 382.66,
+   "end_time": 392.73,
+   "value": 0.0028660267358261546
+  },
+  {
+   "start_time": 392.73,
+   "end_time": 402.8,
+   "value": 0.004362733185620553
+  },
+  {
+   "start_time": 402.8,
+   "end_time": 412.87,
+   "value": 0.004914508948357301
+  },
+  {
+   "start_time": 412.87,
+   "end_time": 422.94,
+   "value": 0.004250950952824137
+  },
+  {
+   "start_time": 422.94,
+   "end_time": 433.01,
+   "value": 0.024168087719416108
+  },
+  {
+   "start_time": 433.01,
+   "end_time": 443.08,
+   "value": 0.025222739277299105
+  },
+  {
+   "start_time": 443.08,
+   "end_time": 453.15,
+   "value": 0.004557340985314891
+  },
+  {
+   "start_time": 453.15,
+   "end_time": 463.22,
+   "value": 0.005040437572620109
+  },
+  {
+   "start_time": 463.22,
+   "end_time": 473.29,
+   "value": 0.005566333697291349
+  },
+  {
+   "start_time": 473.29,
+   "end_time": 483.36,
+   "value": 0.005465418123959489
+  },
+  {
+   "start_time": 483.36,
+   "end_time": 493.43,
+   "value": 0.005257615248130881
+  },
+  {
+   "start_time": 493.43,
+   "end_time": 503.5,
+   "value": 0.006226119679269752
+  },
+  {
+   "start_time": 503.5,
+   "end_time": 513.57,
+   "value": 0.0077266689282016856
+  },
+  {
+   "start_time": 513.57,
+   "end_time": 523.64,
+   "value": 0.008025510643547598
+  },
+  {
+   "start_time": 523.64,
+   "end_time": 533.71,
+   "value": 0.005503709906713439
+  },
+  {
+   "start_time": 533.71,
+   "end_time": 543.78,
+   "value": 0.004066583467437692
+  },
+  {
+   "start_time": 543.78,
+   "end_time": 553.85,
+   "value": 0.0035640412225375426
+  },
+  {
+   "start_time": 553.85,
+   "end_time": 563.92,
+   "value": 0.0038713074947423257
+  },
+  {
+   "start_time": 563.92,
+   "end_time": 573.99,
+   "value": 0.00477423230096808
+  },
+  {
+   "start_time": 573.99,
+   "end_time": 584.06,
+   "value": 0.005956862047487826
+  },
+  {
+   "start_time": 584.06,
+   "end_time": 594.13,
+   "value": 0.005163066087213312
+  },
+  {
+   "start_time": 594.13,
+   "end_time": 604.2,
+   "value": 0.005277264682403494
+  },
+  {
+   "start_time": 604.2,
+   "end_time": 614.27,
+   "value": 0.005265799563011854
+  },
+  {
+   "start_time": 614.27,
+   "end_time": 624.34,
+   "value": 0.005393528929600066
+  },
+  {
+   "start_time": 624.34,
+   "end_time": 634.41,
+   "value": 0.006646712596986008
+  },
+  {
+   "start_time": 634.41,
+   "end_time": 644.48,
+   "value": 0.008116819755290036
+  },
+  {
+   "start_time": 644.48,
+   "end_time": 654.55,
+   "value": 0.00946961160774419
+  },
+  {
+   "start_time": 654.55,
+   "end_time": 664.62,
+   "value": 0.009920588700611537
+  },
+  {
+   "start_time": 664.62,
+   "end_time": 674.69,
+   "value": 0.011084749845080389
+  },
+  {
+   "start_time": 674.69,
+   "end_time": 684.76,
+   "value": 0.027869999952037407
+  },
+  {
+   "start_time": 684.76,
+   "end_time": 694.83,
+   "value": 0.00831018237223286
+  },
+  {
+   "start_time": 694.83,
+   "end_time": 704.9,
+   "value": 0.008410135905144299
+  },
+  {
+   "start_time": 704.9,
+   "end_time": 714.97,
+   "value": 0.00809450728159278
+  },
+  {
+   "start_time": 714.97,
+   "end_time": 725.04,
+   "value": 0.007883045005636549
+  },
+  {
+   "start_time": 725.04,
+   "end_time": 735.11,
+   "value": 0.007730255397728874
+  },
+  {
+   "start_time": 735.11,
+   "end_time": 745.18,
+   "value": 0.006862252551513522
+  },
+  {
+   "start_time": 745.18,
+   "end_time": 755.25,
+   "value": 0.006818374070264618
+  },
+  {
+   "start_time": 755.25,
+   "end_time": 765.32,
+   "value": 0.008045984837110404
+  },
+  {
+   "start_time": 765.32,
+   "end_time": 775.39,
+   "value": 0.009114748466177236
+  },
+  {
+   "start_time": 775.39,
+   "end_time": 785.46,
+   "value": 0.009704611162481424
+  },
+  {
+   "start_time": 785.46,
+   "end_time": 795.53,
+   "value": 0.00855052087592534
+  },
+  {
+   "start_time": 795.53,
+   "end_time": 805.6,
+   "value": 0.00795961570103849
+  },
+  {
+   "start_time": 805.6,
+   "end_time": 815.67,
+   "value": 0.008328524418241823
+  },
+  {
+   "start_time": 815.67,
+   "end_time": 825.74,
+   "value": 0.00883121574186933
+  },
+  {
+   "start_time": 825.74,
+   "end_time": 835.81,
+   "value": 0.009743680514137052
+  },
+  {
+   "start_time": 835.81,
+   "end_time": 845.88,
+   "value": 0.010863950307251043
+  },
+  {
+   "start_time": 845.88,
+   "end_time": 855.95,
+   "value": 0.011990936150657872
+  },
+  {
+   "start_time": 855.95,
+   "end_time": 866.02,
+   "value": 0.011293161905924382
+  },
+  {
+   "start_time": 866.02,
+   "end_time": 876.09,
+   "value": 0.010962824896279602
+  },
+  {
+   "start_time": 876.09,
+   "end_time": 886.16,
+   "value": 0.011406667660410447
+  },
+  {
+   "start_time": 886.16,
+   "end_time": 896.23,
+   "value": 0.012053184563145317
+  },
+  {
+   "start_time": 896.23,
+   "end_time": 906.3,
+   "value": 0.011610710320281424
+  },
+  {
+   "start_time": 906.3,
+   "end_time": 916.37,
+   "value": 0.01106915985672895
+  },
+  {
+   "start_time": 916.37,
+   "end_time": 926.44,
+   "value": 0.011620026131977943
+  },
+  {
+   "start_time": 926.44,
+   "end_time": 936.51,
+   "value": 0.012648695090947761
+  },
+  {
+   "start_time": 936.51,
+   "end_time": 946.58,
+   "value": 0.01421160429328545
+  },
+  {
+   "start_time": 946.58,
+   "end_time": 956.65,
+   "value": 0.015715607020649665
+  },
+  {
+   "start_time": 956.65,
+   "end_time": 966.72,
+   "value": 0.01855945427387347
+  },
+  {
+   "start_time": 966.72,
+   "end_time": 976.79,
+   "value": 0.02112600222410875
+  },
+  {
+   "start_time": 976.79,
+   "end_time": 986.86,
+   "value": 0.02098085316910529
+  },
+  {
+   "start_time": 986.86,
+   "end_time": 996.93,
+   "value": 0.01426081957847194
+  },
+  {
+   "start_time": 996.93,
+   "end_time": 1007.0,
+   "value": 0.006061774861228726
+  }
+ ],
+ "tab": "videos",
+ "retrieved_at": "2026-10-19T12:14:04Z"
+}

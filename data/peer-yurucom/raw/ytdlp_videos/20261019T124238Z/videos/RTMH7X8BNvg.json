@@ -1,0 +1,606 @@
+{
+ "id": "RTMH7X8BNvg",
+ "title": "最新技術MCPの正体は、「すごい説明書」でした。",
+ "thumbnail": "https://i.ytimg.com/vi_webp/RTMH7X8BNvg/maxresdefault.webp",
+ "description": "【PR：Surfshark】\nプロモリンク https://surfshark.com/yurucom にアクセスするか、チェックアウト時にプロモコード yurucom を使用すると、Surfshark VPN が4か月分追加されます！\n30日間の返金保証付き！ぜひご利用ください！\n\n実は「すごい説明書」だった？MCPの仕組みを深掘ります。AIにも人間と同じ苦労があり、進化の歴史がありました。\n\n【目次】\n0:00 イケてる技術「MCP」\n2:15 なぜ新技術が必要だったのか？\n12:18 MCPはAIのための予備校\n19:32 AIの認知特性に合わせた道具がMCP\n22:08 MCPも社会に合わせて進化している\n26:13 SurfsharkとMCPはまったく同じ\n\n【参考文献】\n◯Anthropic「Introducing the Model Context Protocol」（ https://www.anthropic.com/news/model-context-protocol ）\n→MCPの概要発表\n\n◯modelcontextprotocol.io「Architecture overview」（ https://modelcontextprotocol.io/docs/learn/architecture ）\n→MCPが「説明書（一覧取得）＋ 実行 ＋ 認証」を一連のやり取りとして含む設計について。\n\n◯modelcontextprotocol.io「Tools」（ https://modelcontextprotocol.io/specification/2025-11-25/server/tools ）\n→MCPのツール定義は構造化された形で必ず同じ書式で返ってくる。\n\n◯IBM「What Is an API (Application Programming Interface)?」（ https://www.ibm.com/think/topics/api ）\n→APIについてはこちら。\n\n◯Stripe.js Reference「The Elements object」（ https://docs.stripe.com/js/elements_object ）\n→APIの仕様書が「分厚い辞書みたい」の実例（50以上の支払い方法タイプ・多階層オプション）。\n\n◯Notion Blog「Notion's hosted MCP server: an inside look」（ https://www.notion.com/blog/notions-hosted-mcp-server-an-inside-look ）\n→Notion MCPの開発経緯について。\n\n◯Claude Help Center「Use Google Workspace connectors」（ https://support.claude.com/en/articles/10166901-use-google-workspace-connectors ）\n→Anthropic公式のGmailコネクタについて。\n\n◯Anthropic Engineering「Introducing advanced tool use on the Claude Developer Platform」（ https://www.anthropic.com/engineering/advanced-tool-use ）\n→Tool Searchについて。\n\n◯Claude API Docs「Tool search tool」（ https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool ）\n→Tool Searchの動作仕様について。\n\n【サポーターコミュニティへの加入はこちらから！】\nhttps://yurugengo.com/support\n\n【親チャンネル：ゆる言語学ラジオ】\nhttps://www.youtube.com/@yurugengo\n\n【切り抜きチャンネル（公認）】\nhttps://www.youtube.com/@yuru_kiri\n\n【実店舗プロジェクト：ゆる学徒カフェ】\nhttps://www.youtube.com/@yurugakuto\n\n【おたよりフォーム】\nhttps://forms.gle/BLEZpLcdEPmoZTH4A\n※皆様からのおたよりをお待ちしています！\n\n【お仕事依頼はこちら！】\ninfo@pedantic.jp\n\n【堀元見プロフィール】\n慶應義塾大学理工学部卒。専攻は情報工学。理屈っぽいコンテンツを作り散らかすことで生計を立てている。\nTwitter→https://twitter.com/kenhori2\nnoteマガジン→https://note.com/kenhori2/m/m125fc4524aca\n個人YouTube→https://www.youtube.com/@kenHorimoto\n\n【水野太貴プロフィール】\n1995年生まれ。愛知県出身。名古屋大学文学部卒。専攻は言語学。本業は雑誌編集者。著書に『会話の0.2秒を言語学する 』（新潮社）などがある。Podcast「神保町で会いましょう」のパーソナリティも務める。\nTwitter→https://x.com/yuru_mizuno\n神保町で会いましょう→https://open.spotify.com/show/6cYkvDO0HnJKLPgDBGUjjS\n\n【姉妹チャンネル】\n◯ゆる音楽学ラジオ(https://www.youtube.com/@yuruongaku)\n◯ゆる民俗学ラジオ (https://www.youtube.com/@yuruminzoku)\n◯ゆる天文学ラジオ (https://www.youtube.com/@yurutenmon)\n◯ゆる生態学ラジオ (https://www.youtube.com/@yuruseitai)\n◯ゆる哲学ラジオ (https://www.youtube.com/@yurutetsugaku )\n\n#ai #mcp #ゆるコンピュータ科学ラジオ",
+ "channel_id": "UCpLu0KjNy616-E95gPx7LZg",
+ "channel_url": "https://www.youtube.com/channel/UCpLu0KjNy616-E95gPx7LZg",
+ "duration": 1732,
+ "view_count": 271240,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=RTMH7X8BNvg",
+ "categories": [
+  "Entertainment"
+ ],
+ "tags": [],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "video",
+ "release_timestamp": null,
+ "comment_count": 356,
+ "chapters": [
+  {
+   "start_time": 0,
+   "title": "イケてる技術「MCP」",
+   "end_time": 135
+  },
+  {
+   "start_time": 135,
+   "title": "なぜ新技術が必要だったのか？",
+   "end_time": 738
+  },
+  {
+   "start_time": 738,
+   "title": "MCPはAIのための予備校",
+   "end_time": 1172
+  },
+  {
+   "start_time": 1172,
+   "title": "AIの認知特性に合わせた道具がMCP",
+   "end_time": 1328
+  },
+  {
+   "start_time": 1328,
+   "title": "MCPも社会に合わせて進化している",
+   "end_time": 1573
+  },
+  {
+   "start_time": 1573,
+   "title": "SurfsharkとMCPはまったく同じ",
+   "end_time": 1732
+  }
+ ],
+ "like_count": 4734,
+ "channel": "ゆるコンピュータ科学ラジオ",
+ "channel_follower_count": null,
+ "creators": null,
+ "uploader": "ゆるコンピュータ科学ラジオ",
+ "uploader_id": "@yurucom",
+ "uploader_url": "https://www.youtube.com/@yurucom",
+ "upload_date": "20260726",
+ "timestamp": 1785026717,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=RTMH7X8BNvg",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "RTMH7X8BNvg",
+ "fulltitle": "最新技術MCPの正体は、「すごい説明書」でした。",
+ "duration_string": "28:52",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792413818,
+ "format": "399 - 1920x1080 (1080p60)+251 - audio only (medium)",
+ "format_id": "399+251",
+ "ext": "webm",
+ "protocol": "https+https",
+ "language": "ja",
+ "format_note": "1080p60+medium",
+ "filesize_approx": 347462351,
+ "tbr": 1605.402,
+ "width": 1920,
+ "height": 1080,
+ "resolution": "1920x1080",
+ "fps": 60,
+ "dynamic_range": "SDR",
+ "vcodec": "av01.0.09M.08",
+ "vbr": 1491.862,
+ "stretched_ratio": null,
+ "aspect_ratio": 1.78,
+ "acodec": "opus",
+ "abr": 113.54,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [],
+ "auto_caption_has_ja": true,
+ "heatmap": [
+  {
+   "start_time": 0.0,
+   "end_time": 17.32,
+   "value": 1.0
+  },
+  {
+   "start_time": 17.32,
+   "end_time": 34.64,
+   "value": 0.5171618858828785
+  },
+  {
+   "start_time": 34.64,
+   "end_time": 51.96,
+   "value": 0.5060182510797351
+  },
+  {
+   "start_time": 51.96,
+   "end_time": 69.28,
+   "value": 0.2804666011626357
+  },
+  {
+   "start_time": 69.28,
+   "end_time": 86.6,
+   "value": 0.2402549268828308
+  },
+  {
+   "start_time": 86.6,
+   "end_time": 103.92,
+   "value": 0.20937667329231946
+  },
+  {
+   "start_time": 103.92,
+   "end_time": 121.24,
+   "value": 0.10081984522977441
+  },
+  {
+   "start_time": 121.24,
+   "end_time": 138.56,
+   "value": 0.3162936726073208
+  },
+  {
+   "start_time": 138.56,
+   "end_time": 155.88,
+   "value": 0.10881866546335085
+  },
+  {
+   "start_time": 155.88,
+   "end_time": 173.2,
+   "value": 0.11557515002094275
+  },
+  {
+   "start_time": 173.2,
+   "end_time": 190.52,
+   "value": 0.12778396630033165
+  },
+  {
+   "start_time": 190.52,
+   "end_time": 207.84,
+   "value": 0.14016634614380347
+  },
+  {
+   "start_time": 207.84,
+   "end_time": 225.16,
+   "value": 0.1445183663864487
+  },
+  {
+   "start_time": 225.16,
+   "end_time": 242.48,
+   "value": 0.15858536087895947
+  },
+  {
+   "start_time": 242.48,
+   "end_time": 259.8,
+   "value": 0.1671898825300497
+  },
+  {
+   "start_time": 259.8,
+   "end_time": 277.12,
+   "value": 0.13229989420847088
+  },
+  {
+   "start_time": 277.12,
+   "end_time": 294.44,
+   "value": 0.1338778087519973
+  },
+  {
+   "start_time": 294.44,
+   "end_time": 311.76,
+   "value": 0.10886316023222534
+  },
+  {
+   "start_time": 311.76,
+   "end_time": 329.08,
+   "value": 0.16824853778337956
+  },
+  {
+   "start_time": 329.08,
+   "end_time": 346.4,
+   "value": 0.14938096046277083
+  },
+  {
+   "start_time": 346.4,
+   "end_time": 363.72,
+   "value": 0.07390310599324763
+  },
+  {
+   "start_time": 363.72,
+   "end_time": 381.04,
+   "value": 0.09862594258280027
+  },
+  {
+   "start_time": 381.04,
+   "end_time": 398.36,
+   "value": 0.19224669675773
+  },
+  {
+   "start_time": 398.36,
+   "end_time": 415.68,
+   "value": 0.20631861624374215
+  },
+  {
+   "start_time": 415.68,
+   "end_time": 433.0,
+   "value": 0.13334396856971042
+  },
+  {
+   "start_time": 433.0,
+   "end_time": 450.32,
+   "value": 0.14829959686502087
+  },
+  {
+   "start_time": 450.32,
+   "end_time": 467.64,
+   "value": 0.13302447477946613
+  },
+  {
+   "start_time": 467.64,
+   "end_time": 484.96,
+   "value": 0.13252697765267216
+  },
+  {
+   "start_time": 484.96,
+   "end_time": 502.28,
+   "value": 0.17005926137931576
+  },
+  {
+   "start_time": 502.28,
+   "end_time": 519.6,
+   "value": 0.20094855374836465
+  },
+  {
+   "start_time": 519.6,
+   "end_time": 536.92,
+   "value": 0.19949752450539085
+  },
+  {
+   "start_time": 536.92,
+   "end_time": 554.24,
+   "value": 0.5683545488750229
+  },
+  {
+   "start_time": 554.24,
+   "end_time": 571.56,
+   "value": 0.14206154672186672
+  },
+  {
+   "start_time": 571.56,
+   "end_time": 588.88,
+   "value": 0.12484272621583867
+  },
+  {
+   "start_time": 588.88,
+   "end_time": 606.2,
+   "value": 0.11967684473182846
+  },
+  {
+   "start_time": 606.2,
+   "end_time": 623.52,
+   "value": 0.12587804233740338
+  },
+  {
+   "start_time": 623.52,
+   "end_time": 640.84,
+   "value": 0.16236008939566776
+  },
+  {
+   "start_time": 640.84,
+   "end_time": 658.16,
+   "value": 0.2920109314961668
+  },
+  {
+   "start_time": 658.16,
+   "end_time": 675.48,
+   "value": 0.2967468828824536
+  },
+  {
+   "start_time": 675.48,
+   "end_time": 692.8,
+   "value": 0.18672786549313858
+  },
+  {
+   "start_time": 692.8,
+   "end_time": 710.12,
+   "value": 0.15135110342963082
+  },
+  {
+   "start_time": 710.12,
+   "end_time": 727.44,
+   "value": 0.12297542584726598
+  },
+  {
+   "start_time": 727.44,
+   "end_time": 744.76,
+   "value": 0.18105735413312551
+  },
+  {
+   "start_time": 744.76,
+   "end_time": 762.08,
+   "value": 0.1483225478199583
+  },
+  {
+   "start_time": 762.08,
+   "end_time": 779.4,
+   "value": 0.16732935931645068
+  },
+  {
+   "start_time": 779.4,
+   "end_time": 796.72,
+   "value": 0.18782252414723707
+  },
+  {
+   "start_time": 796.72,
+   "end_time": 814.04,
+   "value": 0.19410671881078342
+  },
+  {
+   "start_time": 814.04,
+   "end_time": 831.36,
+   "value": 0.24086072534455152
+  },
+  {
+   "start_time": 831.36,
+   "end_time": 848.68,
+   "value": 0.26399315294893627
+  },
+  {
+   "start_time": 848.68,
+   "end_time": 866.0,
+   "value": 0.2344222061309449
+  },
+  {
+   "start_time": 866.0,
+   "end_time": 883.32,
+   "value": 0.1672721517564692
+  },
+  {
+   "start_time": 883.32,
+   "end_time": 900.64,
+   "value": 0.15488237229221946
+  },
+  {
+   "start_time": 900.64,
+   "end_time": 917.96,
+   "value": 0.14388037350908103
+  },
+  {
+   "start_time": 917.96,
+   "end_time": 935.28,
+   "value": 0.15036134956321676
+  },
+  {
+   "start_time": 935.28,
+   "end_time": 952.6,
+   "value": 0.14977520255339805
+  },
+  {
+   "start_time": 952.6,
+   "end_time": 969.92,
+   "value": 0.12693296138876664
+  },
+  {
+   "start_time": 969.92,
+   "end_time": 987.24,
+   "value": 0.1370695441956119
+  },
+  {
+   "start_time": 987.24,
+   "end_time": 1004.56,
+   "value": 0.16999739569740194
+  },
+  {
+   "start_time": 1004.56,
+   "end_time": 1021.88,
+   "value": 0.19136267255475922
+  },
+  {
+   "start_time": 1021.88,
+   "end_time": 1039.2,
+   "value": 0.21228807228318344
+  },
+  {
+   "start_time": 1039.2,
+   "end_time": 1056.52,
+   "value": 0.2738726899126926
+  },
+  {
+   "start_time": 1056.52,
+   "end_time": 1073.84,
+   "value": 0.3227133409837325
+  },
+  {
+   "start_time": 1073.84,
+   "end_time": 1091.16,
+   "value": 0.18330188959506205
+  },
+  {
+   "start_time": 1091.16,
+   "end_time": 1108.48,
+   "value": 0.10523414359221286
+  },
+  {
+   "start_time": 1108.48,
+   "end_time": 1125.8,
+   "value": 0.10261157242220532
+  },
+  {
+   "start_time": 1125.8,
+   "end_time": 1143.12,
+   "value": 0.10012432939875279
+  },
+  {
+   "start_time": 1143.12,
+   "end_time": 1160.44,
+   "value": 0.13387802710146288
+  },
+  {
+   "start_time": 1160.44,
+   "end_time": 1177.76,
+   "value": 0.7674593718665714
+  },
+  {
+   "start_time": 1177.76,
+   "end_time": 1195.08,
+   "value": 0.1641439317462861
+  },
+  {
+   "start_time": 1195.08,
+   "end_time": 1212.4,
+   "value": 0.16966824600856872
+  },
+  {
+   "start_time": 1212.4,
+   "end_time": 1229.72,
+   "value": 0.16276294415965945
+  },
+  {
+   "start_time": 1229.72,
+   "end_time": 1247.04,
+   "value": 0.1827328223656619
+  },
+  {
+   "start_time": 1247.04,
+   "end_time": 1264.36,
+   "value": 0.1925081823732857
+  },
+  {
+   "start_time": 1264.36,
+   "end_time": 1281.68,
+   "value": 0.2010365971050961
+  },
+  {
+   "start_time": 1281.68,
+   "end_time": 1299.0,
+   "value": 0.19116448402316946
+  },
+  {
+   "start_time": 1299.0,
+   "end_time": 1316.32,
+   "value": 0.1288975000526768
+  },
+  {
+   "start_time": 1316.32,
+   "end_time": 1333.64,
+   "value": 0.21648307499902622
+  },
+  {
+   "start_time": 1333.64,
+   "end_time": 1350.96,
+   "value": 0.37036592835150994
+  },
+  {
+   "start_time": 1350.96,
+   "end_time": 1368.28,
+   "value": 0.2578720410751251
+  },
+  {
+   "start_time": 1368.28,
+   "end_time": 1385.6,
+   "value": 0.13573955333972362
+  },
+  {
+   "start_time": 1385.6,
+   "end_time": 1402.92,
+   "value": 0.13911659469645887
+  },
+  {
+   "start_time": 1402.92,
+   "end_time": 1420.24,
+   "value": 0.20403647615162268
+  },
+  {
+   "start_time": 1420.24,
+   "end_time": 1437.56,
+   "value": 0.22503803132143022
+  },
+  {
+   "start_time": 1437.56,
+   "end_time": 1454.88,
+   "value": 0.1437884241230209
+  },
+  {
+   "start_time": 1454.88,
+   "end_time": 1472.2,
+   "value": 0.10337450971598715
+  },
+  {
+   "start_time": 1472.2,
+   "end_time": 1489.52,
+   "value": 0.08796748029217148
+  },
+  {
+   "start_time": 1489.52,
+   "end_time": 1506.84,
+   "value": 0.08270676235694516
+  },
+  {
+   "start_time": 1506.84,
+   "end_time": 1524.16,
+   "value": 0.07630356723465873
+  },
+  {
+   "start_time": 1524.16,
+   "end_time": 1541.48,
+   "value": 0.059996040353747
+  },
+  {
+   "start_time": 1541.48,
+   "end_time": 1558.8,
+   "value": 0.12927701568490338
+  },
+  {
+   "start_time": 1558.8,
+   "end_time": 1576.12,
+   "value": 0.18046616082454678
+  },
+  {
+   "start_time": 1576.12,
+   "end_time": 1593.44,
+   "value": 0.11047123126305328
+  },
+  {
+   "start_time": 1593.44,
+   "end_time": 1610.76,
+   "value": 0.10180028285232381
+  },
+  {
+   "start_time": 1610.76,
+   "end_time": 1628.08,
+   "value": 0.062455674300329764
+  },
+  {
+   "start_time": 1628.08,
+   "end_time": 1645.4,
+   "value": 0.03913027429047736
+  },
+  {
+   "start_time": 1645.4,
+   "end_time": 1662.72,
+   "value": 0.02973376273615753
+  },
+  {
+   "start_time": 1662.72,
+   "end_time": 1680.04,
+   "value": 0.020200758504799632
+  },
+  {
+   "start_time": 1680.04,
+   "end_time": 1697.36,
+   "value": 0.03150754888083344
+  },
+  {
+   "start_time": 1697.36,
+   "end_time": 1714.68,
+   "value": 0.015263610216508416
+  },
+  {
+   "start_time": 1714.68,
+   "end_time": 1732.0,
+   "value": 0.0
+  }
+ ],
+ "tab": "videos",
+ "retrieved_at": "2026-10-19T12:43:38Z"
+}

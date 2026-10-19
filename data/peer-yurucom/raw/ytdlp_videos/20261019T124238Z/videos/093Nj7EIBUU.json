@@ -1,0 +1,621 @@
+{
+ "id": "093Nj7EIBUU",
+ "title": "Googleドライブはなぜグチャグチャになる運命なのか？",
+ "thumbnail": "https://i.ytimg.com/vi/093Nj7EIBUU/maxresdefault.jpg",
+ "description": "【PR：Genspark】#secondbrain #secondbrainnote #genspark \n◯SecondBrain Noteの購入ページはこちら！\nhttps://shop.genspark.ai/products/secondbrain-note-sale?utm_campaign=yurucom&utm_source=Influencer\n\n◯こちらのリンク経由で登録すると、特典クレジットがもらえます！\nhttps://www.genspark.ai/?utm_source=yt&utm_campaign=yurucom04\n\n◯グローバル公式アカウント\n・X → https://x.com/genspark_ai\n・YouTube → https://www.youtube.com/@GensparkProduct\n\n◯日本公式アカウント\n・X → https://x.com/genspark_japan\n・YouTube → https://www.youtube.com/@Genspark-Japan\n\nGoogleドライブは必ずグチャグチャになる。会社で起こった悲劇を例に、組織でのデータ管理について話しました。\n\n【目次】\n0:00 なぜGoogleドライブはグチャグチャ？\n1:56 マイドライブと共有ドライブの違い\n6:17 場当たり的な対応が残り続ける\n14:04 中途半端な移行による混迷\n16:55 言語もGoogleドライブと同じ\n19:27 信頼できる唯一の情報源\n26:14 思いやりが生んだ三重管理\n35:03 全体最適を考えるヤツが必要\n39:41 情報をキレイに保存してくれるAI\n\n【参考文献】\n◯Google Workspace ラーニング センター「共有ドライブとは」( https://support.google.com/a/users/answer/7212025?hl=ja )\n→マイドライブと共有ドライブの所有者の違いについて。\n\n◯Google Workspace ヘルプ「組織からユーザーを削除する」( https://knowledge.workspace.google.com/admin/users/delete-or-remove-a-user-from-your-organization?hl=ja )\n→退職でアカウントが消えたときにファイルがどうなるかについて。\n\n◯Google Workspace ヘルプ「Google Workspace のストレージに関するよくある質問（管理者向け）」( https://knowledge.workspace.google.com/admin/storage/google-workspace-storage-faq-for-admins?hl=ja )\n→アップした人の容量が食われることについて。\n\n◯Google Workspace ヘルプ「組織のコンテンツを共有ドライブに移動する」( https://knowledge.workspace.google.com/admin/drive/move-your-organizations-content-to-shared-drives?hl=ja )\n→マイドライブの中身を管理者が動かせない件について。\n\n◯Google ドライブ ヘルプ「ドライブで自分と共有されているファイルを確認する」( https://support.google.com/drive/answer/2375057?hl=ja )\n→「共有アイテム」について。\n\n◯Google for Developers「Files and folders overview」( https://developers.google.com/workspace/drive/api/guides/about-files )\n→Driveの内部的なデータの持ち方について。\n\n◯Melvin E. Conway「Committees Paper」( http://www.melconway.com/Home/Committees_Paper.html )\n→コンウェイの法則の原論文。\n\n◯Microsoft Learn「信頼できる唯一の情報源を構築する意味」( https://learn.microsoft.com/ja-jp/azure/databricks/lakehouse/ssot )\n→信頼できる唯一の情報源について。\n\n◯Springer Nature Link「Single Source of Truth (SSOT) for Service Oriented Architecture (SOA)」( https://link.springer.com/chapter/10.1007/978-3-662-45391-9_50 )\n→データを複製すると食い違いが起きることについて。\n\n◯国税庁「電子帳簿保存法一問一答【電子取引関係】」(  https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/07denshi/index.htm )\n→電子帳簿保存法について。\n\n◯個人情報保護委員会「本人確認書類の写しの取扱いについて」( https://www.ppc.go.jp/news/careful_information/honninnkakuninnsyorui_toriatsukai/ )\n→マイナンバーの本人確認を郵送でやる件について。\n\n【サポーターコミュニティへの加入はこちらから！】\nhttps://yurugengo.com/support\n\n【親チャンネル：ゆる言語学ラジオ】\nhttps://www.youtube.com/@yurugengo\n\n【切り抜きチャンネル（公認）】\nhttps://www.youtube.com/@yuru_kiri\n\n【実店舗プロジェクト：ゆる学徒カフェ】\nhttps://www.youtube.com/@yurugakuto\n\n【おたよりフォーム】\nhttps://forms.gle/BLEZpLcdEPmoZTH4A\n※皆様からのおたよりをお待ちしています！\n\n【お仕事依頼はこちら！】\ninfo@pedantic.jp\n\n【堀元見プロフィール】\n慶應義塾大学理工学部卒。専攻は情報工学。理屈っぽいコンテンツを作り散らかすことで生計を立てている。\nTwitter→https://twitter.com/kenhori2\nnoteマガジン→https://note.com/kenhori2/m/m125fc4524aca\n個人YouTube→https://www.youtube.com/@kenHorimoto\n\n【水野太貴プロフィール】\n1995年生まれ。愛知県出身。名古屋大学文学部卒。専攻は言語学。本業は雑誌編集者。著書に『会話の0.2秒を言語学する 』（新潮社）などがある。Podcast「神保町で会いましょう」のパーソナリティも務める。\nTwitter→https://x.com/yuru_mizuno\n神保町で会いましょう→https://open.spotify.com/show/6cYkvDO0HnJKLPgDBGUjjS\n\n【姉妹チャンネル】\n◯ゆる音楽学ラジオ(https://www.youtube.com/@yuruongaku)\n◯ゆる民俗学ラジオ (https://www.youtube.com/@yuruminzoku)\n◯ゆる天文学ラジオ (https://www.youtube.com/@yurutenmon)\n◯ゆる哲学ラジオ (https://www.youtube.com/@yurutetsugaku )\n\n#ゆるコンピュータ科学ラジオ",
+ "channel_id": "UCpLu0KjNy616-E95gPx7LZg",
+ "channel_url": "https://www.youtube.com/channel/UCpLu0KjNy616-E95gPx7LZg",
+ "duration": 3052,
+ "view_count": 431947,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=093Nj7EIBUU",
+ "categories": [
+  "Entertainment"
+ ],
+ "tags": [],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "video",
+ "release_timestamp": null,
+ "comment_count": 615,
+ "chapters": [
+  {
+   "start_time": 0,
+   "title": "なぜGoogleドライブはグチャグチャ？",
+   "end_time": 116
+  },
+  {
+   "start_time": 116,
+   "title": "マイドライブと共有ドライブの違い",
+   "end_time": 377
+  },
+  {
+   "start_time": 377,
+   "title": "場当たり的な対応が残り続ける",
+   "end_time": 844
+  },
+  {
+   "start_time": 844,
+   "title": "中途半端な移行による混迷",
+   "end_time": 1015
+  },
+  {
+   "start_time": 1015,
+   "title": "言語もGoogleドライブと同じ",
+   "end_time": 1167
+  },
+  {
+   "start_time": 1167,
+   "title": "信頼できる唯一の情報源",
+   "end_time": 1574
+  },
+  {
+   "start_time": 1574,
+   "title": "思いやりが生んだ三重管理",
+   "end_time": 2103
+  },
+  {
+   "start_time": 2103,
+   "title": "全体最適を考えるヤツが必要",
+   "end_time": 2381
+  },
+  {
+   "start_time": 2381,
+   "title": "情報をキレイに保存してくれるAI",
+   "end_time": 3052
+  }
+ ],
+ "like_count": 4742,
+ "channel": "ゆるコンピュータ科学ラジオ",
+ "channel_follower_count": null,
+ "creators": null,
+ "uploader": "ゆるコンピュータ科学ラジオ",
+ "uploader_id": "@yurucom",
+ "uploader_url": "https://www.youtube.com/@yurucom",
+ "upload_date": "20260920",
+ "timestamp": 1789865138,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=093Nj7EIBUU",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "093Nj7EIBUU",
+ "fulltitle": "Googleドライブはなぜグチャグチャになる運命なのか？",
+ "duration_string": "50:52",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792413784,
+ "format": "399 - 1920x1080 (1080p60)+251-1 - audio only (日本語（オリジナル） (default), medium)",
+ "format_id": "399+251-1",
+ "ext": "webm",
+ "protocol": "https+https",
+ "language": "ja",
+ "format_note": "1080p60+日本語（オリジナル） (default), medium",
+ "filesize_approx": 832025850,
+ "tbr": 2180.872,
+ "width": 1920,
+ "height": 1080,
+ "resolution": "1920x1080",
+ "fps": 60,
+ "dynamic_range": "SDR",
+ "vcodec": "av01.0.09M.08",
+ "vbr": 2068.526,
+ "stretched_ratio": null,
+ "aspect_ratio": 1.78,
+ "acodec": "opus",
+ "abr": 112.346,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [],
+ "auto_caption_has_ja": true,
+ "heatmap": [
+  {
+   "start_time": 0.0,
+   "end_time": 30.53,
+   "value": 0.40580941877621063
+  },
+  {
+   "start_time": 30.53,
+   "end_time": 61.06,
+   "value": 0.16783948348946776
+  },
+  {
+   "start_time": 61.06,
+   "end_time": 91.59,
+   "value": 0.053603771202159915
+  },
+  {
+   "start_time": 91.59,
+   "end_time": 122.12,
+   "value": 0.3013718921485492
+  },
+  {
+   "start_time": 122.12,
+   "end_time": 152.65,
+   "value": 0.34015517847013
+  },
+  {
+   "start_time": 152.65,
+   "end_time": 183.18,
+   "value": 0.300825475977915
+  },
+  {
+   "start_time": 183.18,
+   "end_time": 213.71,
+   "value": 0.4007402072473002
+  },
+  {
+   "start_time": 213.71,
+   "end_time": 244.24,
+   "value": 0.24434765534529074
+  },
+  {
+   "start_time": 244.24,
+   "end_time": 274.77,
+   "value": 0.20954824761181046
+  },
+  {
+   "start_time": 274.77,
+   "end_time": 305.3,
+   "value": 0.45548747279893553
+  },
+  {
+   "start_time": 305.3,
+   "end_time": 335.83,
+   "value": 0.19565610092375643
+  },
+  {
+   "start_time": 335.83,
+   "end_time": 366.36,
+   "value": 0.16396338825540244
+  },
+  {
+   "start_time": 366.36,
+   "end_time": 396.89,
+   "value": 0.80307318861972
+  },
+  {
+   "start_time": 396.89,
+   "end_time": 427.42,
+   "value": 0.12929855917905542
+  },
+  {
+   "start_time": 427.42,
+   "end_time": 457.95,
+   "value": 0.28473920725425217
+  },
+  {
+   "start_time": 457.95,
+   "end_time": 488.48,
+   "value": 0.30395250700851817
+  },
+  {
+   "start_time": 488.48,
+   "end_time": 519.01,
+   "value": 0.1233594993071813
+  },
+  {
+   "start_time": 519.01,
+   "end_time": 549.54,
+   "value": 0.08996680393124046
+  },
+  {
+   "start_time": 549.54,
+   "end_time": 580.07,
+   "value": 0.09014730957366346
+  },
+  {
+   "start_time": 580.07,
+   "end_time": 610.6,
+   "value": 0.07975045827084518
+  },
+  {
+   "start_time": 610.6,
+   "end_time": 641.13,
+   "value": 0.13409245512689943
+  },
+  {
+   "start_time": 641.13,
+   "end_time": 671.66,
+   "value": 0.3087515211603248
+  },
+  {
+   "start_time": 671.66,
+   "end_time": 702.19,
+   "value": 0.36510645015769816
+  },
+  {
+   "start_time": 702.19,
+   "end_time": 732.72,
+   "value": 0.2211616987335374
+  },
+  {
+   "start_time": 732.72,
+   "end_time": 763.25,
+   "value": 0.3736172843554241
+  },
+  {
+   "start_time": 763.25,
+   "end_time": 793.78,
+   "value": 0.4974228063993643
+  },
+  {
+   "start_time": 793.78,
+   "end_time": 824.31,
+   "value": 0.2896330860848515
+  },
+  {
+   "start_time": 824.31,
+   "end_time": 854.84,
+   "value": 1.0
+  },
+  {
+   "start_time": 854.84,
+   "end_time": 885.37,
+   "value": 0.1331471474880813
+  },
+  {
+   "start_time": 885.37,
+   "end_time": 915.9,
+   "value": 0.15637686884922575
+  },
+  {
+   "start_time": 915.9,
+   "end_time": 946.43,
+   "value": 0.141487739821384
+  },
+  {
+   "start_time": 946.43,
+   "end_time": 976.96,
+   "value": 0.17785704029756308
+  },
+  {
+   "start_time": 976.96,
+   "end_time": 1007.49,
+   "value": 0.22315861938117684
+  },
+  {
+   "start_time": 1007.49,
+   "end_time": 1038.02,
+   "value": 0.4060610045025415
+  },
+  {
+   "start_time": 1038.02,
+   "end_time": 1068.55,
+   "value": 0.42107743174765533
+  },
+  {
+   "start_time": 1068.55,
+   "end_time": 1099.08,
+   "value": 0.3581419704384582
+  },
+  {
+   "start_time": 1099.08,
+   "end_time": 1129.61,
+   "value": 0.18532365140662752
+  },
+  {
+   "start_time": 1129.61,
+   "end_time": 1160.14,
+   "value": 0.20808268959373888
+  },
+  {
+   "start_time": 1160.14,
+   "end_time": 1190.67,
+   "value": 0.2806542236103351
+  },
+  {
+   "start_time": 1190.67,
+   "end_time": 1221.2,
+   "value": 0.2116270595228509
+  },
+  {
+   "start_time": 1221.2,
+   "end_time": 1251.73,
+   "value": 0.14453643769829277
+  },
+  {
+   "start_time": 1251.73,
+   "end_time": 1282.26,
+   "value": 0.13886571403844522
+  },
+  {
+   "start_time": 1282.26,
+   "end_time": 1312.79,
+   "value": 0.8608161635837106
+  },
+  {
+   "start_time": 1312.79,
+   "end_time": 1343.32,
+   "value": 0.19613444771869606
+  },
+  {
+   "start_time": 1343.32,
+   "end_time": 1373.85,
+   "value": 0.32113527566345473
+  },
+  {
+   "start_time": 1373.85,
+   "end_time": 1404.38,
+   "value": 0.3607138816146833
+  },
+  {
+   "start_time": 1404.38,
+   "end_time": 1434.91,
+   "value": 0.639234443684347
+  },
+  {
+   "start_time": 1434.91,
+   "end_time": 1465.44,
+   "value": 0.24163536305610311
+  },
+  {
+   "start_time": 1465.44,
+   "end_time": 1495.97,
+   "value": 0.16418735757639522
+  },
+  {
+   "start_time": 1495.97,
+   "end_time": 1526.5,
+   "value": 0.1895669161923387
+  },
+  {
+   "start_time": 1526.5,
+   "end_time": 1557.03,
+   "value": 0.1645957190904136
+  },
+  {
+   "start_time": 1557.03,
+   "end_time": 1587.56,
+   "value": 0.5167194754010633
+  },
+  {
+   "start_time": 1587.56,
+   "end_time": 1618.09,
+   "value": 0.14890541323694542
+  },
+  {
+   "start_time": 1618.09,
+   "end_time": 1648.62,
+   "value": 0.2965929128913982
+  },
+  {
+   "start_time": 1648.62,
+   "end_time": 1679.15,
+   "value": 0.23306524527665043
+  },
+  {
+   "start_time": 1679.15,
+   "end_time": 1709.68,
+   "value": 0.11533842522553078
+  },
+  {
+   "start_time": 1709.68,
+   "end_time": 1740.21,
+   "value": 0.11626189154476538
+  },
+  {
+   "start_time": 1740.21,
+   "end_time": 1770.74,
+   "value": 0.0951195215579572
+  },
+  {
+   "start_time": 1770.74,
+   "end_time": 1801.27,
+   "value": 0.07822747783612409
+  },
+  {
+   "start_time": 1801.27,
+   "end_time": 1831.8,
+   "value": 0.05615783708970274
+  },
+  {
+   "start_time": 1831.8,
+   "end_time": 1862.33,
+   "value": 0.11368453372368169
+  },
+  {
+   "start_time": 1862.33,
+   "end_time": 1892.86,
+   "value": 0.1735600480552823
+  },
+  {
+   "start_time": 1892.86,
+   "end_time": 1923.39,
+   "value": 0.09725315572855389
+  },
+  {
+   "start_time": 1923.39,
+   "end_time": 1953.92,
+   "value": 0.176957878604632
+  },
+  {
+   "start_time": 1953.92,
+   "end_time": 1984.45,
+   "value": 0.13499366957543046
+  },
+  {
+   "start_time": 1984.45,
+   "end_time": 2014.98,
+   "value": 0.15659881278469326
+  },
+  {
+   "start_time": 2014.98,
+   "end_time": 2045.51,
+   "value": 0.8626484258621587
+  },
+  {
+   "start_time": 2045.51,
+   "end_time": 2076.04,
+   "value": 0.687023579374065
+  },
+  {
+   "start_time": 2076.04,
+   "end_time": 2106.57,
+   "value": 0.9566394518715575
+  },
+  {
+   "start_time": 2106.57,
+   "end_time": 2137.1,
+   "value": 0.1754420964995481
+  },
+  {
+   "start_time": 2137.1,
+   "end_time": 2167.63,
+   "value": 0.25135745990817776
+  },
+  {
+   "start_time": 2167.63,
+   "end_time": 2198.16,
+   "value": 0.11878850524741809
+  },
+  {
+   "start_time": 2198.16,
+   "end_time": 2228.69,
+   "value": 0.07515874506455972
+  },
+  {
+   "start_time": 2228.69,
+   "end_time": 2259.22,
+   "value": 0.11607301065949453
+  },
+  {
+   "start_time": 2259.22,
+   "end_time": 2289.75,
+   "value": 0.08400212566947887
+  },
+  {
+   "start_time": 2289.75,
+   "end_time": 2320.28,
+   "value": 0.06442606294558824
+  },
+  {
+   "start_time": 2320.28,
+   "end_time": 2350.81,
+   "value": 0.0721018361652511
+  },
+  {
+   "start_time": 2350.81,
+   "end_time": 2381.34,
+   "value": 0.4691195216674375
+  },
+  {
+   "start_time": 2381.34,
+   "end_time": 2411.87,
+   "value": 0.5039058465052274
+  },
+  {
+   "start_time": 2411.87,
+   "end_time": 2442.4,
+   "value": 0.32877809531321955
+  },
+  {
+   "start_time": 2442.4,
+   "end_time": 2472.93,
+   "value": 0.15843214249605336
+  },
+  {
+   "start_time": 2472.93,
+   "end_time": 2503.46,
+   "value": 0.11785992072422094
+  },
+  {
+   "start_time": 2503.46,
+   "end_time": 2533.99,
+   "value": 0.11549101339179435
+  },
+  {
+   "start_time": 2533.99,
+   "end_time": 2564.52,
+   "value": 0.1983777264084052
+  },
+  {
+   "start_time": 2564.52,
+   "end_time": 2595.05,
+   "value": 0.7697331532674367
+  },
+  {
+   "start_time": 2595.05,
+   "end_time": 2625.58,
+   "value": 0.18719201481356026
+  },
+  {
+   "start_time": 2625.58,
+   "end_time": 2656.11,
+   "value": 0.3839481190381477
+  },
+  {
+   "start_time": 2656.11,
+   "end_time": 2686.64,
+   "value": 0.22617086031863037
+  },
+  {
+   "start_time": 2686.64,
+   "end_time": 2717.17,
+   "value": 0.12681204263578855
+  },
+  {
+   "start_time": 2717.17,
+   "end_time": 2747.7,
+   "value": 0.6289224396129938
+  },
+  {
+   "start_time": 2747.7,
+   "end_time": 2778.23,
+   "value": 0.4430075945935782
+  },
+  {
+   "start_time": 2778.23,
+   "end_time": 2808.76,
+   "value": 0.2173508263874014
+  },
+  {
+   "start_time": 2808.76,
+   "end_time": 2839.29,
+   "value": 0.20821384699153886
+  },
+  {
+   "start_time": 2839.29,
+   "end_time": 2869.82,
+   "value": 0.10108045011948953
+  },
+  {
+   "start_time": 2869.82,
+   "end_time": 2900.35,
+   "value": 0.0511328008613034
+  },
+  {
+   "start_time": 2900.35,
+   "end_time": 2930.88,
+   "value": 0.038474551879347015
+  },
+  {
+   "start_time": 2930.88,
+   "end_time": 2961.41,
+   "value": 0.04065392144471078
+  },
+  {
+   "start_time": 2961.41,
+   "end_time": 2991.94,
+   "value": 0.03632830010432925
+  },
+  {
+   "start_time": 2991.94,
+   "end_time": 3022.47,
+   "value": 0.010623626056464355
+  },
+  {
+   "start_time": 3022.47,
+   "end_time": 3053.0,
+   "value": 0.0
+  }
+ ],
+ "tab": "videos",
+ "retrieved_at": "2026-10-19T12:43:05Z"
+}

@@ -1,0 +1,616 @@
+{
+ "id": "XDshkeytM64",
+ "title": "機械オンチに「API」を説明する動画",
+ "thumbnail": "https://i.ytimg.com/vi/XDshkeytM64/maxresdefault.jpg",
+ "description": "APIって何？ その正体は「窓口」です。これを理解すると、コンピュータ科学と社会学の共通点が見えてきます。\n\n【サポーターコミュニティへの加入はこちらから！】\nhttps://yurugengo.com/support\n\n【ゆる科学部のnote】\n上げろ電圧、流せ電流！光って痺れろ、堀元見！ゆる科学部大発電大会！！\n⁠https://note.com/yuru_scienceclub/n/n32a20eeb80d1?sub_rt=share_sb⁠\n\n【目次】\n0:00 API理解が意外な学問につながる\n1:03 よく連携していてなぜ便利なのか\n5:25 みんなAPIに感謝しよう\n9:43 中身が違っても成立する仕組み\n12:43 情報隠ぺいのインパクト\n19:36 うまく分けて弱くつながる\n25:57 サポーターが生み出したイノベーション\n28:57 APIの世界はまだまだ広い\n\n【参考文献】\n◯The Strength of Weak Ties\"; American Journal of Sociology\nhttps://snap.stanford.edu/class/cs224w-readings/granovetter73weakties.pdf\n\n◯Loose Coupling: Rethinking Control in Organizations\nhttps://www.leadingsapiens.com/loose-coupling\n\n◯ScienceDirect「Loose Coupling」\nhttps://www.sciencedirect.com/topics/computer-science/loose-coupling\n\n◯疎結合のための Web API\nhttps://naoya-2.hatenadiary.org/entry/20060228/1141094456\n\n◯What is Loose Coupling in REST APIs?\nhttps://blog.dreamfactory.com/the-importance-of-loose-coupling-in-rest-api-design\n\n◯防災アプリ 特務機関NERV\n（バリューブックス）⇨ https://www.valuebooks.jp/bp/VS0082898164\n（Amazon）⇨ https://amzn.to/49TzwKZ\n\n【親チャンネル：ゆる言語学ラジオ】\nhttps://www.youtube.com/@yurugengo\n\n【実店舗プロジェクト：ゆる学徒カフェ】\nhttps://www.youtube.com/@yurugakuto\n\n【おたよりフォーム】\nhttps://forms.gle/BLEZpLcdEPmoZTH4A\n※皆様からの楽しいおたよりをお待ちしています！\n\n【お仕事依頼はこちら！】\ninfo@pedantic.jp\n\n【堀元見プロフィール】\n慶應義塾大学理工学部卒。専攻は情報工学。理屈っぽいコンテンツを作り散らかすことで生計を立てている。\nTwitter→https://twitter.com/kenhori2\nnoteマガジン→https://note.com/kenhori2/m/m125fc4524aca\n個人YouTube→https://www.youtube.com/@kenHorimoto\n\n【水野太貴プロフィール】\n1995年生まれ。愛知県出身。名古屋大学文学部卒。専攻は言語学。本業は雑誌編集者。著書に『会話の0.2秒を言語学する 』（新潮社）などがある。Podcast「神保町で会いましょう」のパーソナリティも務める。\nTwitter→https://x.com/yuru_mizuno\n神保町で会いましょう→https://open.spotify.com/show/6cYkvDO0HnJKLPgDBGUjjS\n\n【姉妹チャンネル】\n◯ゆる音楽学ラジオ(https://www.youtube.com/@yuruongaku)\n◯ゆる民俗学ラジオ (https://www.youtube.com/@yuruminzoku)\n◯ゆる天文学ラジオ (https://www.youtube.com/@yurutenmon)\n◯ゆる哲学ラジオ (https://www.youtube.com/@yurutetsugaku )\n\n#api #ゆるコンピュータ科学ラジオ",
+ "channel_id": "UCpLu0KjNy616-E95gPx7LZg",
+ "channel_url": "https://www.youtube.com/channel/UCpLu0KjNy616-E95gPx7LZg",
+ "duration": 1854,
+ "view_count": 921899,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=XDshkeytM64",
+ "categories": [
+  "Entertainment"
+ ],
+ "tags": [],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "video",
+ "release_timestamp": null,
+ "comment_count": 696,
+ "chapters": [
+  {
+   "start_time": 0,
+   "title": "API理解が意外な学問につながる",
+   "end_time": 63
+  },
+  {
+   "start_time": 63,
+   "title": "よく連携していてなぜ便利なのか",
+   "end_time": 325
+  },
+  {
+   "start_time": 325,
+   "title": "みんなAPIに感謝しよう",
+   "end_time": 583
+  },
+  {
+   "start_time": 583,
+   "title": "中身が違っても成立する仕組み",
+   "end_time": 763
+  },
+  {
+   "start_time": 763,
+   "title": "情報隠ぺいのインパクト",
+   "end_time": 1176
+  },
+  {
+   "start_time": 1176,
+   "title": "うまく分けて弱くつながる",
+   "end_time": 1557
+  },
+  {
+   "start_time": 1557,
+   "title": "サポーターが生み出したイノベーション",
+   "end_time": 1737
+  },
+  {
+   "start_time": 1737,
+   "title": "APIの世界はまだまだ広い",
+   "end_time": 1854
+  }
+ ],
+ "like_count": 13339,
+ "channel": "ゆるコンピュータ科学ラジオ",
+ "channel_follower_count": null,
+ "creators": null,
+ "uploader": "ゆるコンピュータ科学ラジオ",
+ "uploader_id": "@yurucom",
+ "uploader_url": "https://www.youtube.com/@yurucom",
+ "upload_date": "20260201",
+ "timestamp": 1769906700,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=XDshkeytM64",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "XDshkeytM64",
+ "fulltitle": "機械オンチに「API」を説明する動画",
+ "duration_string": "30:54",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792413917,
+ "format": "399 - 1920x1080 (1080p60)+251-1 - audio only (日本語（オリジナル） (default), medium)",
+ "format_id": "399+251-1",
+ "ext": "webm",
+ "protocol": "https+https",
+ "language": "ja",
+ "format_note": "1080p60+日本語（オリジナル） (default), medium",
+ "filesize_approx": 289419604,
+ "tbr": 1248.965,
+ "width": 1920,
+ "height": 1080,
+ "resolution": "1920x1080",
+ "fps": 60,
+ "dynamic_range": "SDR",
+ "vcodec": "av01.0.09M.08",
+ "vbr": 1135.5,
+ "stretched_ratio": null,
+ "aspect_ratio": 1.78,
+ "acodec": "opus",
+ "abr": 113.465,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [],
+ "auto_caption_has_ja": true,
+ "heatmap": [
+  {
+   "start_time": 0.0,
+   "end_time": 18.54,
+   "value": 0.5583637223645042
+  },
+  {
+   "start_time": 18.54,
+   "end_time": 37.08,
+   "value": 0.32788083822823394
+  },
+  {
+   "start_time": 37.08,
+   "end_time": 55.62,
+   "value": 0.10617621406034738
+  },
+  {
+   "start_time": 55.62,
+   "end_time": 74.16,
+   "value": 0.5168864121259291
+  },
+  {
+   "start_time": 74.16,
+   "end_time": 92.7,
+   "value": 0.3933741302410671
+  },
+  {
+   "start_time": 92.7,
+   "end_time": 111.24,
+   "value": 0.16811085672915724
+  },
+  {
+   "start_time": 111.24,
+   "end_time": 129.78,
+   "value": 0.21864378134542398
+  },
+  {
+   "start_time": 129.78,
+   "end_time": 148.32,
+   "value": 0.21415069660434538
+  },
+  {
+   "start_time": 148.32,
+   "end_time": 166.86,
+   "value": 0.2439976402907946
+  },
+  {
+   "start_time": 166.86,
+   "end_time": 185.4,
+   "value": 0.24655425175782392
+  },
+  {
+   "start_time": 185.4,
+   "end_time": 203.94,
+   "value": 0.20882063552708735
+  },
+  {
+   "start_time": 203.94,
+   "end_time": 222.48,
+   "value": 0.20801460232463245
+  },
+  {
+   "start_time": 222.48,
+   "end_time": 241.02,
+   "value": 0.23243156931881997
+  },
+  {
+   "start_time": 241.02,
+   "end_time": 259.56,
+   "value": 0.2419269068853787
+  },
+  {
+   "start_time": 259.56,
+   "end_time": 278.1,
+   "value": 0.26215242564051994
+  },
+  {
+   "start_time": 278.1,
+   "end_time": 296.64,
+   "value": 0.3305932519166732
+  },
+  {
+   "start_time": 296.64,
+   "end_time": 315.18,
+   "value": 0.19209787950956314
+  },
+  {
+   "start_time": 315.18,
+   "end_time": 333.72,
+   "value": 0.3203811202004926
+  },
+  {
+   "start_time": 333.72,
+   "end_time": 352.26,
+   "value": 0.28315804205549805
+  },
+  {
+   "start_time": 352.26,
+   "end_time": 370.8,
+   "value": 0.6034186257587416
+  },
+  {
+   "start_time": 370.8,
+   "end_time": 389.34,
+   "value": 0.7144654544123196
+  },
+  {
+   "start_time": 389.34,
+   "end_time": 407.88,
+   "value": 0.643335929643345
+  },
+  {
+   "start_time": 407.88,
+   "end_time": 426.42,
+   "value": 0.3175685074484965
+  },
+  {
+   "start_time": 426.42,
+   "end_time": 444.96,
+   "value": 0.3634696464983179
+  },
+  {
+   "start_time": 444.96,
+   "end_time": 463.5,
+   "value": 0.2646759681096757
+  },
+  {
+   "start_time": 463.5,
+   "end_time": 482.04,
+   "value": 0.16302564796044003
+  },
+  {
+   "start_time": 482.04,
+   "end_time": 500.58,
+   "value": 0.19264559659720012
+  },
+  {
+   "start_time": 500.58,
+   "end_time": 519.12,
+   "value": 0.17798053535164451
+  },
+  {
+   "start_time": 519.12,
+   "end_time": 537.66,
+   "value": 0.16569823712715442
+  },
+  {
+   "start_time": 537.66,
+   "end_time": 556.2,
+   "value": 0.14001198751172916
+  },
+  {
+   "start_time": 556.2,
+   "end_time": 574.74,
+   "value": 0.13217482398140104
+  },
+  {
+   "start_time": 574.74,
+   "end_time": 593.28,
+   "value": 0.8857128819690698
+  },
+  {
+   "start_time": 593.28,
+   "end_time": 611.82,
+   "value": 0.25864408841468994
+  },
+  {
+   "start_time": 611.82,
+   "end_time": 630.36,
+   "value": 0.29202303728116147
+  },
+  {
+   "start_time": 630.36,
+   "end_time": 648.9,
+   "value": 0.3547319196730421
+  },
+  {
+   "start_time": 648.9,
+   "end_time": 667.44,
+   "value": 0.35172613673203895
+  },
+  {
+   "start_time": 667.44,
+   "end_time": 685.98,
+   "value": 0.14886408582822191
+  },
+  {
+   "start_time": 685.98,
+   "end_time": 704.52,
+   "value": 0.2776707142726385
+  },
+  {
+   "start_time": 704.52,
+   "end_time": 723.06,
+   "value": 0.36156227394239737
+  },
+  {
+   "start_time": 723.06,
+   "end_time": 741.6,
+   "value": 0.2521270865208993
+  },
+  {
+   "start_time": 741.6,
+   "end_time": 760.14,
+   "value": 0.28069336240255716
+  },
+  {
+   "start_time": 760.14,
+   "end_time": 778.68,
+   "value": 0.2716497001055255
+  },
+  {
+   "start_time": 778.68,
+   "end_time": 797.22,
+   "value": 0.204014009444742
+  },
+  {
+   "start_time": 797.22,
+   "end_time": 815.76,
+   "value": 0.3561733500489244
+  },
+  {
+   "start_time": 815.76,
+   "end_time": 834.3,
+   "value": 1.0
+  },
+  {
+   "start_time": 834.3,
+   "end_time": 852.84,
+   "value": 0.21614376510618397
+  },
+  {
+   "start_time": 852.84,
+   "end_time": 871.38,
+   "value": 0.23607544219450594
+  },
+  {
+   "start_time": 871.38,
+   "end_time": 889.92,
+   "value": 0.2091617186194402
+  },
+  {
+   "start_time": 889.92,
+   "end_time": 908.46,
+   "value": 0.24786189441659498
+  },
+  {
+   "start_time": 908.46,
+   "end_time": 927.0,
+   "value": 0.404435001408385
+  },
+  {
+   "start_time": 927.0,
+   "end_time": 945.54,
+   "value": 0.4509030848060356
+  },
+  {
+   "start_time": 945.54,
+   "end_time": 964.08,
+   "value": 0.47170934240526174
+  },
+  {
+   "start_time": 964.08,
+   "end_time": 982.62,
+   "value": 0.4656558261373816
+  },
+  {
+   "start_time": 982.62,
+   "end_time": 1001.16,
+   "value": 0.3172824133754648
+  },
+  {
+   "start_time": 1001.16,
+   "end_time": 1019.7,
+   "value": 0.28354320139787376
+  },
+  {
+   "start_time": 1019.7,
+   "end_time": 1038.24,
+   "value": 0.2844607716060136
+  },
+  {
+   "start_time": 1038.24,
+   "end_time": 1056.78,
+   "value": 0.3168537446801726
+  },
+  {
+   "start_time": 1056.78,
+   "end_time": 1075.32,
+   "value": 0.3517484346848908
+  },
+  {
+   "start_time": 1075.32,
+   "end_time": 1093.86,
+   "value": 0.3208180561452532
+  },
+  {
+   "start_time": 1093.86,
+   "end_time": 1112.4,
+   "value": 0.22964852969920793
+  },
+  {
+   "start_time": 1112.4,
+   "end_time": 1130.94,
+   "value": 0.22162854185206465
+  },
+  {
+   "start_time": 1130.94,
+   "end_time": 1149.48,
+   "value": 0.4363411515924199
+  },
+  {
+   "start_time": 1149.48,
+   "end_time": 1168.02,
+   "value": 0.3553171936939783
+  },
+  {
+   "start_time": 1168.02,
+   "end_time": 1186.56,
+   "value": 0.893436193663862
+  },
+  {
+   "start_time": 1186.56,
+   "end_time": 1205.1,
+   "value": 0.1652083435443706
+  },
+  {
+   "start_time": 1205.1,
+   "end_time": 1223.64,
+   "value": 0.19201449839349627
+  },
+  {
+   "start_time": 1223.64,
+   "end_time": 1242.18,
+   "value": 0.22191855696341564
+  },
+  {
+   "start_time": 1242.18,
+   "end_time": 1260.72,
+   "value": 0.2713229784065349
+  },
+  {
+   "start_time": 1260.72,
+   "end_time": 1279.26,
+   "value": 0.23647897845141427
+  },
+  {
+   "start_time": 1279.26,
+   "end_time": 1297.8,
+   "value": 0.49625060159002826
+  },
+  {
+   "start_time": 1297.8,
+   "end_time": 1316.34,
+   "value": 0.199812498782057
+  },
+  {
+   "start_time": 1316.34,
+   "end_time": 1334.88,
+   "value": 0.18671481355285635
+  },
+  {
+   "start_time": 1334.88,
+   "end_time": 1353.42,
+   "value": 0.2503707448024098
+  },
+  {
+   "start_time": 1353.42,
+   "end_time": 1371.96,
+   "value": 0.20880325068249098
+  },
+  {
+   "start_time": 1371.96,
+   "end_time": 1390.5,
+   "value": 0.3276957935644187
+  },
+  {
+   "start_time": 1390.5,
+   "end_time": 1409.04,
+   "value": 0.24083997616670083
+  },
+  {
+   "start_time": 1409.04,
+   "end_time": 1427.58,
+   "value": 0.19496892990494435
+  },
+  {
+   "start_time": 1427.58,
+   "end_time": 1446.12,
+   "value": 0.11875953464833779
+  },
+  {
+   "start_time": 1446.12,
+   "end_time": 1464.66,
+   "value": 0.3817073877912803
+  },
+  {
+   "start_time": 1464.66,
+   "end_time": 1483.2,
+   "value": 0.6103468642618025
+  },
+  {
+   "start_time": 1483.2,
+   "end_time": 1501.74,
+   "value": 0.11095477873592574
+  },
+  {
+   "start_time": 1501.74,
+   "end_time": 1520.28,
+   "value": 0.09407083497448077
+  },
+  {
+   "start_time": 1520.28,
+   "end_time": 1538.82,
+   "value": 0.05826046441864406
+  },
+  {
+   "start_time": 1538.82,
+   "end_time": 1557.36,
+   "value": 0.11458896711937731
+  },
+  {
+   "start_time": 1557.36,
+   "end_time": 1575.9,
+   "value": 0.1484571954301007
+  },
+  {
+   "start_time": 1575.9,
+   "end_time": 1594.44,
+   "value": 0.11798000388560725
+  },
+  {
+   "start_time": 1594.44,
+   "end_time": 1612.98,
+   "value": 0.17659555847927488
+  },
+  {
+   "start_time": 1612.98,
+   "end_time": 1631.52,
+   "value": 0.3877355826550744
+  },
+  {
+   "start_time": 1631.52,
+   "end_time": 1650.06,
+   "value": 0.4783101978293746
+  },
+  {
+   "start_time": 1650.06,
+   "end_time": 1668.6,
+   "value": 0.5082702374885514
+  },
+  {
+   "start_time": 1668.6,
+   "end_time": 1687.14,
+   "value": 0.047295753172999874
+  },
+  {
+   "start_time": 1687.14,
+   "end_time": 1705.68,
+   "value": 0.03610820412311352
+  },
+  {
+   "start_time": 1705.68,
+   "end_time": 1724.22,
+   "value": 0.017174171459210866
+  },
+  {
+   "start_time": 1724.22,
+   "end_time": 1742.76,
+   "value": 0.004927564131711457
+  },
+  {
+   "start_time": 1742.76,
+   "end_time": 1761.3,
+   "value": 0.0
+  },
+  {
+   "start_time": 1761.3,
+   "end_time": 1779.84,
+   "value": 0.06208423264276211
+  },
+  {
+   "start_time": 1779.84,
+   "end_time": 1798.38,
+   "value": 0.0379149052012219
+  },
+  {
+   "start_time": 1798.38,
+   "end_time": 1816.92,
+   "value": 0.0006588997826303907
+  },
+  {
+   "start_time": 1816.92,
+   "end_time": 1835.46,
+   "value": 0.005312723474087192
+  },
+  {
+   "start_time": 1835.46,
+   "end_time": 1854.0,
+   "value": 0.08612397685406356
+  }
+ ],
+ "tab": "videos",
+ "retrieved_at": "2026-10-19T12:45:17Z"
+}

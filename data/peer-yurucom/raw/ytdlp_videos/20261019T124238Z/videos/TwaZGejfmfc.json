@@ -1,0 +1,621 @@
+{
+ "id": "TwaZGejfmfc",
+ "title": "暗号技術はどう破られ、死んでいくのか？ ハッシュ関数を例に。",
+ "thumbnail": "https://i.ytimg.com/vi_webp/TwaZGejfmfc/maxresdefault.webp",
+ "description": "【プロモーション：コインチェック株式会社】\n2026/5/31までの期間限定！対象者全員に最大で2500円分のビットコインをプレゼント\nキャンペーン参加はこちらから：https://coincheck.com/ja/cp_lp/yurupc202605?utm_source=youtube\n\n暗号技術が破られるとはどういうことか？ ハッシュ関数を例にして、直観的に説明しました。\n\n【目次】\n0:00 暗号技術は死んでいく\n5:54 ハッシュ関数って何？\n10:30 ハッシュ値を計算してみよう\n15:12 ハッシュ関数をハックしよう\n19:37 ハッシュはどこで使われている？\n23:41 業界を震撼させた無名の女性\n25:06 Web全部を揺るがす脆弱性\n29:52 日々進化し続ける暗号技術\n34:44 コインチェックとタイアップキャンペーン\n\n【参考文献】\n◯CRYPTO 2004 ( https://www.iacr.org/conferences/crypto2004/ )\n→国際学会 CRYPTOの詳細はこちらから。\n\n◯CITP Blog「Report from Crypto 2004」( https://blog.citp.princeton.edu/2004/08/18/report-crypto-2004/ )\n→ スタンディングオベーションが起きた話はここから。\n\n◯Collisions for Hash Functions MD4, MD5, HAVAL-128 and RIPEMD ( https://eprint.iacr.org/2004/199.pdf )\n→ 王小雲が2004年のCRYPTOで発表したもの。\n\n◯Flame malware collision attack explained ( https://www.microsoft.com/en-us/msrc/blog/2012/06/flame-malware-collision-attack-explained/ )\n→ Flameについての詳細情報\n\n◯RFC 1321「The MD5 Message-Digest Algorithm」( https://www.ietf.org/rfc/rfc1321.txt )\n→ MD5の仕様、MD4の後継であること\n\n◯Online Etymology Dictionary「hash」( https://www.etymonline.com/word/hash )\n→ hashの語源\n\n◯ Washington Post「U.S., Israel developed Flame computer virus」( https://www.washingtonpost.com/world/national-security/us-israel-developed-computer-virus-to-slow-iranian-nuclear-efforts-officials-say/2012/06/19/gJQA6xBPoV_story.html )\n→ Flameが米国・イスラエルの合同でイラン攻撃用に開発された\n\n◯NIST「NIST Selects Winner of Secure Hash Algorithm (SHA-3) Competition」( https://www.nist.gov/news-events/news/2012/10/nist-selects-winner-secure-hash-algorithm-sha-3-competition )\n→ SHA-3について\n\n◯現代経済学の直観的方法\n（バリューブックス）→ https://www.valuebooks.jp/bp/VS0057255792\n（Amazon）→ https://amzn.to/42toyqQ\n\n【サポーターコミュニティへの加入はこちらから！】\nhttps://yurugengo.com/support\n\n【親チャンネル：ゆる言語学ラジオ】\nhttps://www.youtube.com/@yurugengo\n\n【実店舗プロジェクト：ゆる学徒カフェ】\nhttps://www.youtube.com/@yurugakuto\n\n【おたよりフォーム】\nhttps://forms.gle/BLEZpLcdEPmoZTH4A\n※皆様からのおたよりをお待ちしています！\n\n【お仕事依頼はこちら！】\ninfo@pedantic.jp\n\n【堀元見プロフィール】\n慶應義塾大学理工学部卒。専攻は情報工学。理屈っぽいコンテンツを作り散らかすことで生計を立てている。\nTwitter→https://twitter.com/kenhori2\nnoteマガジン→https://note.com/kenhori2/m/m125fc4524aca\n個人YouTube→https://www.youtube.com/@kenHorimoto\n\n【水野太貴プロフィール】\n1995年生まれ。愛知県出身。名古屋大学文学部卒。専攻は言語学。本業は雑誌編集者。著書に『会話の0.2秒を言語学する 』（新潮社）などがある。Podcast「神保町で会いましょう」のパーソナリティも務める。\nTwitter→https://x.com/yuru_mizuno\n神保町で会いましょう→https://open.spotify.com/show/6cYkvDO0HnJKLPgDBGUjjS\n\n【姉妹チャンネル】\n◯ゆる音楽学ラジオ(https://www.youtube.com/@yuruongaku)\n◯ゆる民俗学ラジオ (https://www.youtube.com/@yuruminzoku)\n◯ゆる天文学ラジオ (https://www.youtube.com/@yurutenmon)\n◯ゆる生態学ラジオ (https://www.youtube.com/@yuruseitai)\n◯ゆる哲学ラジオ (https://www.youtube.com/@yurutetsugaku )\n\n#coincheck #ハッシュ関数 #ゆるコンピュータ科学ラジオ",
+ "channel_id": "UCpLu0KjNy616-E95gPx7LZg",
+ "channel_url": "https://www.youtube.com/channel/UCpLu0KjNy616-E95gPx7LZg",
+ "duration": 2595,
+ "view_count": 274631,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=TwaZGejfmfc",
+ "categories": [
+  "Entertainment"
+ ],
+ "tags": [],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "video",
+ "release_timestamp": null,
+ "comment_count": 393,
+ "chapters": [
+  {
+   "start_time": 0,
+   "title": "暗号技術は死んでいく",
+   "end_time": 354
+  },
+  {
+   "start_time": 354,
+   "title": "ハッシュ関数って何？",
+   "end_time": 630
+  },
+  {
+   "start_time": 630,
+   "title": "ハッシュ値を計算してみよう",
+   "end_time": 912
+  },
+  {
+   "start_time": 912,
+   "title": "ハッシュ関数をハックしよう",
+   "end_time": 1177
+  },
+  {
+   "start_time": 1177,
+   "title": "ハッシュはどこで使われている？",
+   "end_time": 1421
+  },
+  {
+   "start_time": 1421,
+   "title": "業界を震撼させた無名の女性",
+   "end_time": 1506
+  },
+  {
+   "start_time": 1506,
+   "title": "Web全部を揺るがす脆弱性",
+   "end_time": 1792
+  },
+  {
+   "start_time": 1792,
+   "title": "日々進化し続ける暗号技術",
+   "end_time": 2084
+  },
+  {
+   "start_time": 2084,
+   "title": "コインチェックとタイアップキャンペーン",
+   "end_time": 2595
+  }
+ ],
+ "like_count": 4260,
+ "channel": "ゆるコンピュータ科学ラジオ",
+ "channel_follower_count": null,
+ "creators": null,
+ "uploader": "ゆるコンピュータ科学ラジオ",
+ "uploader_id": "@yurucom",
+ "uploader_url": "https://www.youtube.com/@yurucom",
+ "upload_date": "20260517",
+ "timestamp": 1778978729,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=TwaZGejfmfc",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "TwaZGejfmfc",
+ "fulltitle": "暗号技術はどう破られ、死んでいくのか？ ハッシュ関数を例に。",
+ "duration_string": "43:15",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792413858,
+ "format": "399 - 1920x1080 (1080p60)+251 - audio only (medium)",
+ "format_id": "399+251",
+ "ext": "webm",
+ "protocol": "https+https",
+ "language": "ja",
+ "format_note": "1080p60+medium",
+ "filesize_approx": 435796123,
+ "tbr": 1343.3329999999999,
+ "width": 1920,
+ "height": 1080,
+ "resolution": "1920x1080",
+ "fps": 60,
+ "dynamic_range": "SDR",
+ "vcodec": "av01.0.09M.08",
+ "vbr": 1228.675,
+ "stretched_ratio": null,
+ "aspect_ratio": 1.78,
+ "acodec": "opus",
+ "abr": 114.658,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [],
+ "auto_caption_has_ja": true,
+ "heatmap": [
+  {
+   "start_time": 0.0,
+   "end_time": 25.96,
+   "value": 1.0
+  },
+  {
+   "start_time": 25.96,
+   "end_time": 51.92,
+   "value": 0.3677272681788943
+  },
+  {
+   "start_time": 51.92,
+   "end_time": 77.88,
+   "value": 0.200705701833288
+  },
+  {
+   "start_time": 77.88,
+   "end_time": 103.84,
+   "value": 0.20757015111831378
+  },
+  {
+   "start_time": 103.84,
+   "end_time": 129.8,
+   "value": 0.2047197420999032
+  },
+  {
+   "start_time": 129.8,
+   "end_time": 155.76,
+   "value": 0.5135541511977809
+  },
+  {
+   "start_time": 155.76,
+   "end_time": 181.72,
+   "value": 0.4326782918040816
+  },
+  {
+   "start_time": 181.72,
+   "end_time": 207.68,
+   "value": 0.2635960211794546
+  },
+  {
+   "start_time": 207.68,
+   "end_time": 233.64,
+   "value": 0.11509362259373598
+  },
+  {
+   "start_time": 233.64,
+   "end_time": 259.6,
+   "value": 0.008723162400822193
+  },
+  {
+   "start_time": 259.6,
+   "end_time": 285.56,
+   "value": 0.0026166090858554107
+  },
+  {
+   "start_time": 285.56,
+   "end_time": 311.52,
+   "value": 0.014494208064994775
+  },
+  {
+   "start_time": 311.52,
+   "end_time": 337.48,
+   "value": 0.05186304801926318
+  },
+  {
+   "start_time": 337.48,
+   "end_time": 363.44,
+   "value": 0.9593797268068605
+  },
+  {
+   "start_time": 363.44,
+   "end_time": 389.4,
+   "value": 0.21439059401178553
+  },
+  {
+   "start_time": 389.4,
+   "end_time": 415.36,
+   "value": 0.15124974865229057
+  },
+  {
+   "start_time": 415.36,
+   "end_time": 441.32,
+   "value": 0.09404932791466748
+  },
+  {
+   "start_time": 441.32,
+   "end_time": 467.28,
+   "value": 0.08785180371060433
+  },
+  {
+   "start_time": 467.28,
+   "end_time": 493.24,
+   "value": 0.13874517728294386
+  },
+  {
+   "start_time": 493.24,
+   "end_time": 519.2,
+   "value": 0.15967505534397186
+  },
+  {
+   "start_time": 519.2,
+   "end_time": 545.16,
+   "value": 0.15594247338416747
+  },
+  {
+   "start_time": 545.16,
+   "end_time": 571.12,
+   "value": 0.23715380390883395
+  },
+  {
+   "start_time": 571.12,
+   "end_time": 597.08,
+   "value": 0.2412063725929508
+  },
+  {
+   "start_time": 597.08,
+   "end_time": 623.04,
+   "value": 0.1805784930502404
+  },
+  {
+   "start_time": 623.04,
+   "end_time": 649.0,
+   "value": 0.7396046494998646
+  },
+  {
+   "start_time": 649.0,
+   "end_time": 674.96,
+   "value": 0.5600453517819813
+  },
+  {
+   "start_time": 674.96,
+   "end_time": 700.92,
+   "value": 0.3915515616498869
+  },
+  {
+   "start_time": 700.92,
+   "end_time": 726.88,
+   "value": 0.33519781658179826
+  },
+  {
+   "start_time": 726.88,
+   "end_time": 752.84,
+   "value": 0.25280780864019664
+  },
+  {
+   "start_time": 752.84,
+   "end_time": 778.8,
+   "value": 0.17492412823338332
+  },
+  {
+   "start_time": 778.8,
+   "end_time": 804.76,
+   "value": 0.1533633701606573
+  },
+  {
+   "start_time": 804.76,
+   "end_time": 830.72,
+   "value": 0.12890228046599006
+  },
+  {
+   "start_time": 830.72,
+   "end_time": 856.68,
+   "value": 0.0842277221568639
+  },
+  {
+   "start_time": 856.68,
+   "end_time": 882.64,
+   "value": 0.24135409529322974
+  },
+  {
+   "start_time": 882.64,
+   "end_time": 908.6,
+   "value": 0.253224536386274
+  },
+  {
+   "start_time": 908.6,
+   "end_time": 934.56,
+   "value": 0.20092916665479774
+  },
+  {
+   "start_time": 934.56,
+   "end_time": 960.52,
+   "value": 0.15194552439659567
+  },
+  {
+   "start_time": 960.52,
+   "end_time": 986.48,
+   "value": 0.1967172254455839
+  },
+  {
+   "start_time": 986.48,
+   "end_time": 1012.44,
+   "value": 0.2676016618858561
+  },
+  {
+   "start_time": 1012.44,
+   "end_time": 1038.4,
+   "value": 0.3937530498620537
+  },
+  {
+   "start_time": 1038.4,
+   "end_time": 1064.36,
+   "value": 0.26258968082620704
+  },
+  {
+   "start_time": 1064.36,
+   "end_time": 1090.32,
+   "value": 0.23629153427316377
+  },
+  {
+   "start_time": 1090.32,
+   "end_time": 1116.28,
+   "value": 0.18540079012836938
+  },
+  {
+   "start_time": 1116.28,
+   "end_time": 1142.24,
+   "value": 0.18281595329201772
+  },
+  {
+   "start_time": 1142.24,
+   "end_time": 1168.2,
+   "value": 0.2769182349558581
+  },
+  {
+   "start_time": 1168.2,
+   "end_time": 1194.16,
+   "value": 0.4825808824694824
+  },
+  {
+   "start_time": 1194.16,
+   "end_time": 1220.12,
+   "value": 0.498292442448222
+  },
+  {
+   "start_time": 1220.12,
+   "end_time": 1246.08,
+   "value": 0.5200112218124454
+  },
+  {
+   "start_time": 1246.08,
+   "end_time": 1272.04,
+   "value": 0.4636543360392334
+  },
+  {
+   "start_time": 1272.04,
+   "end_time": 1298.0,
+   "value": 0.2871871720747783
+  },
+  {
+   "start_time": 1298.0,
+   "end_time": 1323.96,
+   "value": 0.22435864427592248
+  },
+  {
+   "start_time": 1323.96,
+   "end_time": 1349.92,
+   "value": 0.22670036862382995
+  },
+  {
+   "start_time": 1349.92,
+   "end_time": 1375.88,
+   "value": 0.5370708016459924
+  },
+  {
+   "start_time": 1375.88,
+   "end_time": 1401.84,
+   "value": 0.3102337393096423
+  },
+  {
+   "start_time": 1401.84,
+   "end_time": 1427.8,
+   "value": 0.5063349848329507
+  },
+  {
+   "start_time": 1427.8,
+   "end_time": 1453.76,
+   "value": 0.4312768069225231
+  },
+  {
+   "start_time": 1453.76,
+   "end_time": 1479.72,
+   "value": 0.2667314674477235
+  },
+  {
+   "start_time": 1479.72,
+   "end_time": 1505.68,
+   "value": 0.4758349400231229
+  },
+  {
+   "start_time": 1505.68,
+   "end_time": 1531.64,
+   "value": 0.7961201774016333
+  },
+  {
+   "start_time": 1531.64,
+   "end_time": 1557.6,
+   "value": 0.13584988539713083
+  },
+  {
+   "start_time": 1557.6,
+   "end_time": 1583.56,
+   "value": 0.19033951241502475
+  },
+  {
+   "start_time": 1583.56,
+   "end_time": 1609.52,
+   "value": 0.1805473051179689
+  },
+  {
+   "start_time": 1609.52,
+   "end_time": 1635.48,
+   "value": 0.1407776882555085
+  },
+  {
+   "start_time": 1635.48,
+   "end_time": 1661.44,
+   "value": 0.2841787417648703
+  },
+  {
+   "start_time": 1661.44,
+   "end_time": 1687.4,
+   "value": 0.3874098480680245
+  },
+  {
+   "start_time": 1687.4,
+   "end_time": 1713.36,
+   "value": 0.15886639681436088
+  },
+  {
+   "start_time": 1713.36,
+   "end_time": 1739.32,
+   "value": 0.0888624168836127
+  },
+  {
+   "start_time": 1739.32,
+   "end_time": 1765.28,
+   "value": 0.09997857746947253
+  },
+  {
+   "start_time": 1765.28,
+   "end_time": 1791.24,
+   "value": 0.2168368381046122
+  },
+  {
+   "start_time": 1791.24,
+   "end_time": 1817.2,
+   "value": 0.5202522526707497
+  },
+  {
+   "start_time": 1817.2,
+   "end_time": 1843.16,
+   "value": 0.0691125674731194
+  },
+  {
+   "start_time": 1843.16,
+   "end_time": 1869.12,
+   "value": 0.034742114876329624
+  },
+  {
+   "start_time": 1869.12,
+   "end_time": 1895.08,
+   "value": 0.09116579541315355
+  },
+  {
+   "start_time": 1895.08,
+   "end_time": 1921.04,
+   "value": 0.22504952636340747
+  },
+  {
+   "start_time": 1921.04,
+   "end_time": 1947.0,
+   "value": 0.3864321392591573
+  },
+  {
+   "start_time": 1947.0,
+   "end_time": 1972.96,
+   "value": 0.4001153150057851
+  },
+  {
+   "start_time": 1972.96,
+   "end_time": 1998.92,
+   "value": 0.10681070670758933
+  },
+  {
+   "start_time": 1998.92,
+   "end_time": 2024.88,
+   "value": 0.07627249867853006
+  },
+  {
+   "start_time": 2024.88,
+   "end_time": 2050.84,
+   "value": 0.028609048166949366
+  },
+  {
+   "start_time": 2050.84,
+   "end_time": 2076.8,
+   "value": 0.06365752787211458
+  },
+  {
+   "start_time": 2076.8,
+   "end_time": 2102.76,
+   "value": 0.0730349064540979
+  },
+  {
+   "start_time": 2102.76,
+   "end_time": 2128.72,
+   "value": 0.10194286940517164
+  },
+  {
+   "start_time": 2128.72,
+   "end_time": 2154.68,
+   "value": 0.2629786169839254
+  },
+  {
+   "start_time": 2154.68,
+   "end_time": 2180.64,
+   "value": 0.11226925221198766
+  },
+  {
+   "start_time": 2180.64,
+   "end_time": 2206.6,
+   "value": 0.0913884202786419
+  },
+  {
+   "start_time": 2206.6,
+   "end_time": 2232.56,
+   "value": 0.055974486664529526
+  },
+  {
+   "start_time": 2232.56,
+   "end_time": 2258.52,
+   "value": 0.001546943352562483
+  },
+  {
+   "start_time": 2258.52,
+   "end_time": 2284.48,
+   "value": 0.0
+  },
+  {
+   "start_time": 2284.48,
+   "end_time": 2310.44,
+   "value": 0.05709904169782721
+  },
+  {
+   "start_time": 2310.44,
+   "end_time": 2336.4,
+   "value": 0.6544585267332073
+  },
+  {
+   "start_time": 2336.4,
+   "end_time": 2362.36,
+   "value": 0.009422261449385747
+  },
+  {
+   "start_time": 2362.36,
+   "end_time": 2388.32,
+   "value": 0.22293400582403594
+  },
+  {
+   "start_time": 2388.32,
+   "end_time": 2414.28,
+   "value": 0.038015460011410256
+  },
+  {
+   "start_time": 2414.28,
+   "end_time": 2440.24,
+   "value": 0.10972126388109495
+  },
+  {
+   "start_time": 2440.24,
+   "end_time": 2466.2,
+   "value": 0.0816432505187824
+  },
+  {
+   "start_time": 2466.2,
+   "end_time": 2492.16,
+   "value": 0.10925822899436156
+  },
+  {
+   "start_time": 2492.16,
+   "end_time": 2518.12,
+   "value": 0.018481041060483188
+  },
+  {
+   "start_time": 2518.12,
+   "end_time": 2544.08,
+   "value": 0.025907932201379383
+  },
+  {
+   "start_time": 2544.08,
+   "end_time": 2570.04,
+   "value": 0.15828222566141606
+  },
+  {
+   "start_time": 2570.04,
+   "end_time": 2596.0,
+   "value": 0.5051786210303222
+  }
+ ],
+ "tab": "videos",
+ "retrieved_at": "2026-10-19T12:44:18Z"
+}

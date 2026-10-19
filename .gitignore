@@ -1,0 +1,37 @@
+# 認証情報
+.env
+.env.*
+!.env.example
+*.pem
+client_secret*.json
+token*.json
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# 一時ファイル・大きなメディア
+tmp/
+*.mp4
+*.webm
+*.mkv
+*.m4a
+*.mp3
+*.wav
+*.part
+data/*/raw/media/
+data/*/raw/frames/
+
+# OS
+.DS_Store
+
+# 第三者の著作物（字幕全文・サムネイル原画像）はローカル保持のみ
+data/*/raw/subs/
+data/*/raw/thumbnails/
+
+# Wayback のスナップショットはタイムスタンプ付きURLで同一内容を再取得できるため本体は管理外
+# 一覧は raw/wayback/cdx_*.json に残す（collect.wayback で再取得）
+data/*/raw/wayback/*.html

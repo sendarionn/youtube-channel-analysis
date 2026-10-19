@@ -1,0 +1,621 @@
+{
+ "id": "IDoPr3nqwi8",
+ "title": "なぜケーブルは統一されないのか？",
+ "thumbnail": "https://i.ytimg.com/vi_webp/IDoPr3nqwi8/maxresdefault.webp",
+ "description": "ケーブルはなぜたくさんあるの？ 統一されない理由を技術や歴史から深堀りしました。\n\n【目次】\n0:00 なぜケーブルは統一されないのか？\n2:08 USBは偉大な存在だった\n7:40 USBがなかった時代の地獄\n11:25 繋がっている相手は誰？\n16:14 USBの標準ドライバは共通言語\n18:18 世界統一できないUSBの悲しい運命\n21:45 夢の規格Type-Cの登場\n31:35 世界はType-C統一へと進む\n37:39 Type-Cを超える新たな規格は？\n\n【参考文献】\n◯USB-IF「About USB-IF」 ( https://www.usb.org/about ) \n\n◯USB-IF「USB 2.0 Specification」 ( https://www.usb.org/document-library/usb-20-specification )\n→USB Type-Aについては上記2本を参考にした。\n\n◯USB-IF「Universal Serial Bus Type-C Cable and Connector Specification Release 2.0」(August 2019) ( https://www.usb.org/sites/default/files/USB%20Type-C%20Spec%20R2.0%20-%20August%202019.pdf )\n→Type-Cについてはこちらを参照。\n\n◯「USB Promoter Group Announces USB Power Delivery Specification Revision 3.1 」( https://www.usb.org/sites/default/files/2021-05/USB%20PG%20USB%20PD%203.1%20DevUpdate%20Announcement_FINAL.pdf )\n→Type-Cを使った大容量電力利用について。\n\n◯Microsoft DevBlogs「For one internal build, Windows 95 contained an evil message」( https://devblogs.microsoft.com/oldnewthing/20191031-00/?p=103042 )\n→初期のPlug and Playが低品質だったり対応が地獄だったりしたノリが分かる。\n\n◯IEEE Design and Test「The future: plug and pray?」( https://www.computer.org/csdl/magazine/dt/1998/02/d2008/13rRUxNmPML )\n→「Plug and Pray」の用例。\n\n◯Wireless Power Consortium「Qi Wireless charging (公式)」( https://www.wirelesspowerconsortium.com/standards/qi-wireless-charging/ )\n→無線充電Qi。\n\n◯npr「Ever Plugged A USB In Wrong? Of Course You Have. Here's Why」( https://www.npr.org/2019/06/21/734451600/ever-plugged-a-usb-in-wrong-of-course-you-have-heres-why )\n→USB Type-A開発者がリバーシブルじゃないことを後悔している話はここから。\n\n◯CORNING「Original Equipment Manufacturer (OEM)」( https://www.corning.com/oem-solutions/worldwide/en/home/products-solutions/active-optical-cables/thunderbolt-optical-cables.html )\n→Type-Cの中間を光にすることで伝送距離を伸ばすケーブル。\n\n【画像引用の出典情報】\n◯”Hardware ports” by George Shuklin, CC BY-SA 1.0 https://creativecommons.org/licenses/by-sa/1.0, via Wikimedia Commons\nhttps://commons.wikimedia.org/wiki/File:Hardware_ports.jpg\n→昔のPCの背面ポート\n\n【サポーターコミュニティへの加入はこちらから！】\nhttps://yurugengo.com/support\n\n【親チャンネル：ゆる言語学ラジオ】\nhttps://www.youtube.com/@yurugengo\n\n【実店舗プロジェクト：ゆる学徒カフェ】\nhttps://www.youtube.com/@yurugakuto\n\n【おたよりフォーム】\nhttps://forms.gle/BLEZpLcdEPmoZTH4A\n※皆様からのおたよりをお待ちしています！\n\n【お仕事依頼はこちら！】\ninfo@pedantic.jp\n\n【堀元見プロフィール】\n慶應義塾大学理工学部卒。専攻は情報工学。理屈っぽいコンテンツを作り散らかすことで生計を立てている。\nTwitter→https://twitter.com/kenhori2\nnoteマガジン→https://note.com/kenhori2/m/m125fc4524aca\n個人YouTube→https://www.youtube.com/@kenHorimoto\n\n【水野太貴プロフィール】\n1995年生まれ。愛知県出身。名古屋大学文学部卒。専攻は言語学。本業は雑誌編集者。著書に『会話の0.2秒を言語学する 』（新潮社）などがある。Podcast「神保町で会いましょう」のパーソナリティも務める。\nTwitter→https://x.com/yuru_mizuno\n神保町で会いましょう→https://open.spotify.com/show/6cYkvDO0HnJKLPgDBGUjjS\n\n【姉妹チャンネル】\n◯ゆる音楽学ラジオ(https://www.youtube.com/@yuruongaku)\n◯ゆる民俗学ラジオ (https://www.youtube.com/@yuruminzoku)\n◯ゆる天文学ラジオ (https://www.youtube.com/@yurutenmon)\n◯ゆる生態学ラジオ (https://www.youtube.com/@yuruseitai)\n◯ゆる哲学ラジオ (https://www.youtube.com/@yurutetsugaku )\n\n#usb #typec #ゆるコンピュータ科学ラジオ",
+ "channel_id": "UCpLu0KjNy616-E95gPx7LZg",
+ "channel_url": "https://www.youtube.com/channel/UCpLu0KjNy616-E95gPx7LZg",
+ "duration": 2405,
+ "view_count": 510495,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=IDoPr3nqwi8",
+ "categories": [
+  "Entertainment"
+ ],
+ "tags": [],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "video",
+ "release_timestamp": null,
+ "comment_count": 1320,
+ "chapters": [
+  {
+   "start_time": 0,
+   "title": "なぜケーブルは統一されないのか？",
+   "end_time": 128
+  },
+  {
+   "start_time": 128,
+   "title": "USBは偉大な存在だった",
+   "end_time": 460
+  },
+  {
+   "start_time": 460,
+   "title": "USBがなかった時代の地獄",
+   "end_time": 685
+  },
+  {
+   "start_time": 685,
+   "title": "繋がっている相手は誰？",
+   "end_time": 974
+  },
+  {
+   "start_time": 974,
+   "title": "USBの標準ドライバは共通言語",
+   "end_time": 1098
+  },
+  {
+   "start_time": 1098,
+   "title": "世界統一できないUSBの悲しい運命",
+   "end_time": 1305
+  },
+  {
+   "start_time": 1305,
+   "title": "夢の規格Type-Cの登場",
+   "end_time": 1895
+  },
+  {
+   "start_time": 1895,
+   "title": "世界はType-C統一へと進む",
+   "end_time": 2259
+  },
+  {
+   "start_time": 2259,
+   "title": "Type-Cを超える新たな規格は？",
+   "end_time": 2405
+  }
+ ],
+ "like_count": 7918,
+ "channel": "ゆるコンピュータ科学ラジオ",
+ "channel_follower_count": null,
+ "creators": null,
+ "uploader": "ゆるコンピュータ科学ラジオ",
+ "uploader_id": "@yurucom",
+ "uploader_url": "https://www.youtube.com/@yurucom",
+ "upload_date": "20260607",
+ "timestamp": 1780793138,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=IDoPr3nqwi8",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "IDoPr3nqwi8",
+ "fulltitle": "なぜケーブルは統一されないのか？",
+ "duration_string": "40:05",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792413847,
+ "format": "399 - 1920x1080 (1080p60)+251 - audio only (medium)",
+ "format_id": "399+251",
+ "ext": "webm",
+ "protocol": "https+https",
+ "language": "ja",
+ "format_note": "1080p60+medium",
+ "filesize_approx": 330054571,
+ "tbr": 1098.09,
+ "width": 1920,
+ "height": 1080,
+ "resolution": "1920x1080",
+ "fps": 60,
+ "dynamic_range": "SDR",
+ "vcodec": "av01.0.09M.08",
+ "vbr": 983.826,
+ "stretched_ratio": null,
+ "aspect_ratio": 1.78,
+ "acodec": "opus",
+ "abr": 114.264,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [],
+ "auto_caption_has_ja": true,
+ "heatmap": [
+  {
+   "start_time": 0.0,
+   "end_time": 24.05,
+   "value": 0.4056515323873503
+  },
+  {
+   "start_time": 24.05,
+   "end_time": 48.1,
+   "value": 0.3065077995574216
+  },
+  {
+   "start_time": 48.1,
+   "end_time": 72.15,
+   "value": 0.08176386318080894
+  },
+  {
+   "start_time": 72.15,
+   "end_time": 96.2,
+   "value": 0.026042517216285446
+  },
+  {
+   "start_time": 96.2,
+   "end_time": 120.25,
+   "value": 0.0033108151918356896
+  },
+  {
+   "start_time": 120.25,
+   "end_time": 144.3,
+   "value": 0.22460436495794092
+  },
+  {
+   "start_time": 144.3,
+   "end_time": 168.35,
+   "value": 0.05415025018815435
+  },
+  {
+   "start_time": 168.35,
+   "end_time": 192.4,
+   "value": 0.45645343869605276
+  },
+  {
+   "start_time": 192.4,
+   "end_time": 216.45,
+   "value": 0.21628934543837874
+  },
+  {
+   "start_time": 216.45,
+   "end_time": 240.5,
+   "value": 0.10944466088464777
+  },
+  {
+   "start_time": 240.5,
+   "end_time": 264.55,
+   "value": 0.06533470480250157
+  },
+  {
+   "start_time": 264.55,
+   "end_time": 288.6,
+   "value": 0.04032438905804666
+  },
+  {
+   "start_time": 288.6,
+   "end_time": 312.65,
+   "value": 0.060832678903619826
+  },
+  {
+   "start_time": 312.65,
+   "end_time": 336.7,
+   "value": 0.15243525883368642
+  },
+  {
+   "start_time": 336.7,
+   "end_time": 360.75,
+   "value": 0.08167721742988313
+  },
+  {
+   "start_time": 360.75,
+   "end_time": 384.8,
+   "value": 0.05846210132039671
+  },
+  {
+   "start_time": 384.8,
+   "end_time": 408.85,
+   "value": 0.05815265220994737
+  },
+  {
+   "start_time": 408.85,
+   "end_time": 432.9,
+   "value": 0.09640109639503514
+  },
+  {
+   "start_time": 432.9,
+   "end_time": 456.95,
+   "value": 0.695170355160724
+  },
+  {
+   "start_time": 456.95,
+   "end_time": 481.0,
+   "value": 1.0
+  },
+  {
+   "start_time": 481.0,
+   "end_time": 505.05,
+   "value": 0.07349301418342871
+  },
+  {
+   "start_time": 505.05,
+   "end_time": 529.1,
+   "value": 0.06087952009354675
+  },
+  {
+   "start_time": 529.1,
+   "end_time": 553.15,
+   "value": 0.04745692979292896
+  },
+  {
+   "start_time": 553.15,
+   "end_time": 577.2,
+   "value": 0.045174135897323
+  },
+  {
+   "start_time": 577.2,
+   "end_time": 601.25,
+   "value": 0.0799864757385395
+  },
+  {
+   "start_time": 601.25,
+   "end_time": 625.3,
+   "value": 0.04496721720508257
+  },
+  {
+   "start_time": 625.3,
+   "end_time": 649.35,
+   "value": 0.07044269360111724
+  },
+  {
+   "start_time": 649.35,
+   "end_time": 673.4,
+   "value": 0.040673944631066064
+  },
+  {
+   "start_time": 673.4,
+   "end_time": 697.45,
+   "value": 0.19627689408865576
+  },
+  {
+   "start_time": 697.45,
+   "end_time": 721.5,
+   "value": 0.142413450393113
+  },
+  {
+   "start_time": 721.5,
+   "end_time": 745.55,
+   "value": 0.04537480754935998
+  },
+  {
+   "start_time": 745.55,
+   "end_time": 769.6,
+   "value": 0.05955277880424312
+  },
+  {
+   "start_time": 769.6,
+   "end_time": 793.65,
+   "value": 0.03954427539814315
+  },
+  {
+   "start_time": 793.65,
+   "end_time": 817.7,
+   "value": 0.04179060887323088
+  },
+  {
+   "start_time": 817.7,
+   "end_time": 841.75,
+   "value": 0.04746122608451869
+  },
+  {
+   "start_time": 841.75,
+   "end_time": 865.8,
+   "value": 0.05980955770212217
+  },
+  {
+   "start_time": 865.8,
+   "end_time": 889.85,
+   "value": 0.1042308439737381
+  },
+  {
+   "start_time": 889.85,
+   "end_time": 913.9,
+   "value": 0.1413139713173071
+  },
+  {
+   "start_time": 913.9,
+   "end_time": 937.95,
+   "value": 0.11175241971786973
+  },
+  {
+   "start_time": 937.95,
+   "end_time": 962.0,
+   "value": 0.11307419124284795
+  },
+  {
+   "start_time": 962.0,
+   "end_time": 986.05,
+   "value": 0.34902747750183044
+  },
+  {
+   "start_time": 986.05,
+   "end_time": 1010.1,
+   "value": 0.12100147625223663
+  },
+  {
+   "start_time": 1010.1,
+   "end_time": 1034.15,
+   "value": 0.11689733340095929
+  },
+  {
+   "start_time": 1034.15,
+   "end_time": 1058.2,
+   "value": 0.07381848730034785
+  },
+  {
+   "start_time": 1058.2,
+   "end_time": 1082.25,
+   "value": 0.08099183119373368
+  },
+  {
+   "start_time": 1082.25,
+   "end_time": 1106.3,
+   "value": 0.44287381313203095
+  },
+  {
+   "start_time": 1106.3,
+   "end_time": 1130.35,
+   "value": 0.24100779203310552
+  },
+  {
+   "start_time": 1130.35,
+   "end_time": 1154.4,
+   "value": 0.29952277257485255
+  },
+  {
+   "start_time": 1154.4,
+   "end_time": 1178.45,
+   "value": 0.198709013146002
+  },
+  {
+   "start_time": 1178.45,
+   "end_time": 1202.5,
+   "value": 0.2615292029854257
+  },
+  {
+   "start_time": 1202.5,
+   "end_time": 1226.55,
+   "value": 0.3213447290493779
+  },
+  {
+   "start_time": 1226.55,
+   "end_time": 1250.6,
+   "value": 0.2980690003936797
+  },
+  {
+   "start_time": 1250.6,
+   "end_time": 1274.65,
+   "value": 0.18215379925013223
+  },
+  {
+   "start_time": 1274.65,
+   "end_time": 1298.7,
+   "value": 0.22682120497184513
+  },
+  {
+   "start_time": 1298.7,
+   "end_time": 1322.75,
+   "value": 0.41672732565927406
+  },
+  {
+   "start_time": 1322.75,
+   "end_time": 1346.8,
+   "value": 0.13422070100987468
+  },
+  {
+   "start_time": 1346.8,
+   "end_time": 1370.85,
+   "value": 0.12760064980365252
+  },
+  {
+   "start_time": 1370.85,
+   "end_time": 1394.9,
+   "value": 0.1172305862891355
+  },
+  {
+   "start_time": 1394.9,
+   "end_time": 1418.95,
+   "value": 0.12042331152024811
+  },
+  {
+   "start_time": 1418.95,
+   "end_time": 1443.0,
+   "value": 0.23098563524456536
+  },
+  {
+   "start_time": 1443.0,
+   "end_time": 1467.05,
+   "value": 0.2321893400320183
+  },
+  {
+   "start_time": 1467.05,
+   "end_time": 1491.1,
+   "value": 0.38442009538603367
+  },
+  {
+   "start_time": 1491.1,
+   "end_time": 1515.15,
+   "value": 0.140115189847784
+  },
+  {
+   "start_time": 1515.15,
+   "end_time": 1539.2,
+   "value": 0.2266653773147258
+  },
+  {
+   "start_time": 1539.2,
+   "end_time": 1563.25,
+   "value": 0.2915832721634304
+  },
+  {
+   "start_time": 1563.25,
+   "end_time": 1587.3,
+   "value": 0.20025112637153883
+  },
+  {
+   "start_time": 1587.3,
+   "end_time": 1611.35,
+   "value": 0.1781762460499663
+  },
+  {
+   "start_time": 1611.35,
+   "end_time": 1635.4,
+   "value": 0.1476996075651146
+  },
+  {
+   "start_time": 1635.4,
+   "end_time": 1659.45,
+   "value": 0.15197811018534155
+  },
+  {
+   "start_time": 1659.45,
+   "end_time": 1683.5,
+   "value": 0.17745525865161654
+  },
+  {
+   "start_time": 1683.5,
+   "end_time": 1707.55,
+   "value": 0.15034375441821338
+  },
+  {
+   "start_time": 1707.55,
+   "end_time": 1731.6,
+   "value": 0.1270634275693542
+  },
+  {
+   "start_time": 1731.6,
+   "end_time": 1755.65,
+   "value": 0.16569180327016067
+  },
+  {
+   "start_time": 1755.65,
+   "end_time": 1779.7,
+   "value": 0.19816373246207328
+  },
+  {
+   "start_time": 1779.7,
+   "end_time": 1803.75,
+   "value": 0.12967824352365395
+  },
+  {
+   "start_time": 1803.75,
+   "end_time": 1827.8,
+   "value": 0.08316512771179603
+  },
+  {
+   "start_time": 1827.8,
+   "end_time": 1851.85,
+   "value": 0.12105475026794926
+  },
+  {
+   "start_time": 1851.85,
+   "end_time": 1875.9,
+   "value": 0.13150518926999086
+  },
+  {
+   "start_time": 1875.9,
+   "end_time": 1899.95,
+   "value": 0.6452899917864194
+  },
+  {
+   "start_time": 1899.95,
+   "end_time": 1924.0,
+   "value": 0.19408216255904034
+  },
+  {
+   "start_time": 1924.0,
+   "end_time": 1948.05,
+   "value": 0.17267585487842285
+  },
+  {
+   "start_time": 1948.05,
+   "end_time": 1972.1,
+   "value": 0.11549709069067463
+  },
+  {
+   "start_time": 1972.1,
+   "end_time": 1996.15,
+   "value": 0.11385867086393454
+  },
+  {
+   "start_time": 1996.15,
+   "end_time": 2020.2,
+   "value": 0.1489004791224381
+  },
+  {
+   "start_time": 2020.2,
+   "end_time": 2044.25,
+   "value": 0.13900769876874322
+  },
+  {
+   "start_time": 2044.25,
+   "end_time": 2068.3,
+   "value": 0.1375777303652972
+  },
+  {
+   "start_time": 2068.3,
+   "end_time": 2092.35,
+   "value": 0.1702280833857713
+  },
+  {
+   "start_time": 2092.35,
+   "end_time": 2116.4,
+   "value": 0.16631711109364727
+  },
+  {
+   "start_time": 2116.4,
+   "end_time": 2140.45,
+   "value": 0.17656262859845773
+  },
+  {
+   "start_time": 2140.45,
+   "end_time": 2164.5,
+   "value": 0.18969715835378367
+  },
+  {
+   "start_time": 2164.5,
+   "end_time": 2188.55,
+   "value": 0.09828663426937684
+  },
+  {
+   "start_time": 2188.55,
+   "end_time": 2212.6,
+   "value": 0.10536364833836162
+  },
+  {
+   "start_time": 2212.6,
+   "end_time": 2236.65,
+   "value": 0.08979221554694625
+  },
+  {
+   "start_time": 2236.65,
+   "end_time": 2260.7,
+   "value": 0.07502829978881753
+  },
+  {
+   "start_time": 2260.7,
+   "end_time": 2284.75,
+   "value": 0.0868377371018824
+  },
+  {
+   "start_time": 2284.75,
+   "end_time": 2308.8,
+   "value": 0.10767249866187935
+  },
+  {
+   "start_time": 2308.8,
+   "end_time": 2332.85,
+   "value": 0.16932832381089333
+  },
+  {
+   "start_time": 2332.85,
+   "end_time": 2356.9,
+   "value": 0.07760240547740485
+  },
+  {
+   "start_time": 2356.9,
+   "end_time": 2380.95,
+   "value": 0.006873834311587316
+  },
+  {
+   "start_time": 2380.95,
+   "end_time": 2405.0,
+   "value": 0.0
+  }
+ ],
+ "tab": "videos",
+ "retrieved_at": "2026-10-19T12:44:07Z"
+}

@@ -1,0 +1,582 @@
+{
+ "id": "1y3EMWCUqZ8",
+ "title": "【AI実務中級】僕たちがAI組織をデザインする時代は終わった。今、AIを下僕にするために必要な力は？",
+ "thumbnail": "https://i.ytimg.com/vi/1y3EMWCUqZ8/maxresdefault.jpg",
+ "description": "▼関連動画\n(AIの組織作ろう) 新機能Claude Agent Teamsで自分のAIチームを持つ\nhttps://youtu.be/vqOJazoFd1A\n(実例で解説)なぜ、あなたの部下がAIで作った資料はゴミばかりなのか\nhttps://youtu.be/NoDXy0OvLII\n【実演】中国最強AI（自称）、GLM 5.2でテキトーにゲーム作ってみよう\nhttps://youtu.be/rb-d2WoYgfs\nAIの真価は自分の分身を作れること。チャットで終わらせない僕のやり方\nhttps://youtu.be/k_AE5UDVESI\n\n4か月前、私は「これからは人間がAIの布陣を組むマネージャーだ」と言いました――今日はそれを撤回します。\n\nでは、AIが自分でチームを組む時代に、人間には何が残るのか。\n\n残るのは2つだけ、「注文」と「検品」です。48体のAIが暴走した例、20体を並べて処理量が落ちた例、そしてGoogleが93体のAIにOSを書かせた実験。成否を分けたのは人数ではなく、「何が合格か」と「誰が検品するか」を人間が渡したかどうかでした。\n\nこの動画では、AI時代に人間に残る仕事として、\n\n合格ラインの解像度を上げる良い注文\n作る役と採点する役を分ける良い検品\n指摘をどこまで採用するかの線引き\n\nという3つの柱を、Anthropicの実験や日本の個人開発の実例も交えながら具体的に解説します。\n\nチャンネル登録・高評価もよろしくお願いします。\n\n#AIエージェント #ClaudeCode #AI活用 #マネジメント #個人開発",
+ "channel_id": "UC8fTn4DsxlAlql3OXJ8syRA",
+ "channel_url": "https://www.youtube.com/channel/UC8fTn4DsxlAlql3OXJ8syRA",
+ "duration": 804,
+ "view_count": 189448,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=1y3EMWCUqZ8",
+ "categories": [
+  "Education"
+ ],
+ "tags": [
+  "AIエージェント",
+  "AI活用",
+  "ClaudeCode",
+  "マネジメント",
+  "個人開発"
+ ],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "video",
+ "release_timestamp": null,
+ "comment_count": 273,
+ "chapters": null,
+ "like_count": 2939,
+ "channel": "海外Yパパラジオ　世界を読み解く",
+ "channel_follower_count": null,
+ "creators": null,
+ "channel_is_verified": true,
+ "uploader": "海外Yパパラジオ　世界を読み解く",
+ "uploader_id": "@海外Yパパ",
+ "uploader_url": "https://www.youtube.com/@海外Yパパ",
+ "upload_date": "20260907",
+ "timestamp": 1788782891,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=1y3EMWCUqZ8",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "1y3EMWCUqZ8",
+ "fulltitle": "【AI実務中級】僕たちがAI組織をデザインする時代は終わった。今、AIを下僕にするために必要な力は？",
+ "duration_string": "13:24",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792411916,
+ "format": "616 - 1920x1080 (Premium)+251-1 - audio only (日本語（オリジナル） (default), medium)",
+ "format_id": "616+251-1",
+ "ext": "webm",
+ "protocol": "m3u8_native+https",
+ "language": "ja",
+ "format_note": "Premium+日本語（オリジナル） (default), medium",
+ "filesize_approx": 15362918,
+ "tbr": 6137.383000000001,
+ "width": 1920,
+ "height": 1080,
+ "resolution": "1920x1080",
+ "fps": 30.0,
+ "dynamic_range": "SDR",
+ "vcodec": "vp09.00.40.08",
+ "vbr": 5984.591,
+ "stretched_ratio": null,
+ "aspect_ratio": 1.78,
+ "acodec": "opus",
+ "abr": 152.792,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [],
+ "auto_caption_has_ja": true,
+ "heatmap": [
+  {
+   "start_time": 0.0,
+   "end_time": 8.05,
+   "value": 0.3162615881403082
+  },
+  {
+   "start_time": 8.05,
+   "end_time": 16.1,
+   "value": 0.20840803270894095
+  },
+  {
+   "start_time": 16.1,
+   "end_time": 24.15,
+   "value": 0.22079177967827898
+  },
+  {
+   "start_time": 24.15,
+   "end_time": 32.2,
+   "value": 0.2405146468361726
+  },
+  {
+   "start_time": 32.2,
+   "end_time": 40.25,
+   "value": 0.19456067571313101
+  },
+  {
+   "start_time": 40.25,
+   "end_time": 48.3,
+   "value": 0.13770647706473046
+  },
+  {
+   "start_time": 48.3,
+   "end_time": 56.35,
+   "value": 0.09364702540133658
+  },
+  {
+   "start_time": 56.35,
+   "end_time": 64.4,
+   "value": 0.11673788747420424
+  },
+  {
+   "start_time": 64.4,
+   "end_time": 72.45,
+   "value": 0.22130250534128157
+  },
+  {
+   "start_time": 72.45,
+   "end_time": 80.5,
+   "value": 0.29332893004870797
+  },
+  {
+   "start_time": 80.5,
+   "end_time": 88.55,
+   "value": 0.25808926106107644
+  },
+  {
+   "start_time": 88.55,
+   "end_time": 96.6,
+   "value": 0.19996045793267306
+  },
+  {
+   "start_time": 96.6,
+   "end_time": 104.65,
+   "value": 0.17371569414295737
+  },
+  {
+   "start_time": 104.65,
+   "end_time": 112.7,
+   "value": 0.23323797793706205
+  },
+  {
+   "start_time": 112.7,
+   "end_time": 120.75,
+   "value": 0.2794365313437843
+  },
+  {
+   "start_time": 120.75,
+   "end_time": 128.8,
+   "value": 0.2178238479913295
+  },
+  {
+   "start_time": 128.8,
+   "end_time": 136.85,
+   "value": 0.1837464247306392
+  },
+  {
+   "start_time": 136.85,
+   "end_time": 144.9,
+   "value": 0.15568584171236347
+  },
+  {
+   "start_time": 144.9,
+   "end_time": 152.95,
+   "value": 0.14821574791177664
+  },
+  {
+   "start_time": 152.95,
+   "end_time": 161.0,
+   "value": 0.15243234826803023
+  },
+  {
+   "start_time": 161.0,
+   "end_time": 169.05,
+   "value": 0.19697998241989506
+  },
+  {
+   "start_time": 169.05,
+   "end_time": 177.1,
+   "value": 0.25490585233756424
+  },
+  {
+   "start_time": 177.1,
+   "end_time": 185.15,
+   "value": 0.2522593729274508
+  },
+  {
+   "start_time": 185.15,
+   "end_time": 193.2,
+   "value": 0.3657547037449659
+  },
+  {
+   "start_time": 193.2,
+   "end_time": 201.25,
+   "value": 0.34876786373601826
+  },
+  {
+   "start_time": 201.25,
+   "end_time": 209.3,
+   "value": 0.20054689295014222
+  },
+  {
+   "start_time": 209.3,
+   "end_time": 217.35,
+   "value": 0.22436944843637194
+  },
+  {
+   "start_time": 217.35,
+   "end_time": 225.4,
+   "value": 0.23414358859393936
+  },
+  {
+   "start_time": 225.4,
+   "end_time": 233.45,
+   "value": 0.2494479935436348
+  },
+  {
+   "start_time": 233.45,
+   "end_time": 241.5,
+   "value": 1.0
+  },
+  {
+   "start_time": 241.5,
+   "end_time": 249.55,
+   "value": 0.3337240221719487
+  },
+  {
+   "start_time": 249.55,
+   "end_time": 257.6,
+   "value": 0.38441795241997406
+  },
+  {
+   "start_time": 257.6,
+   "end_time": 265.65,
+   "value": 0.436451348994724
+  },
+  {
+   "start_time": 265.65,
+   "end_time": 273.7,
+   "value": 0.4552870864348612
+  },
+  {
+   "start_time": 273.7,
+   "end_time": 281.75,
+   "value": 0.4916007033291894
+  },
+  {
+   "start_time": 281.75,
+   "end_time": 289.8,
+   "value": 0.4591437102378019
+  },
+  {
+   "start_time": 289.8,
+   "end_time": 297.85,
+   "value": 0.38531146565051855
+  },
+  {
+   "start_time": 297.85,
+   "end_time": 305.9,
+   "value": 0.33729057558259934
+  },
+  {
+   "start_time": 305.9,
+   "end_time": 313.95,
+   "value": 0.34304997723585773
+  },
+  {
+   "start_time": 313.95,
+   "end_time": 322.0,
+   "value": 0.3438367563469861
+  },
+  {
+   "start_time": 322.0,
+   "end_time": 330.05,
+   "value": 0.25181980334405896
+  },
+  {
+   "start_time": 330.05,
+   "end_time": 338.1,
+   "value": 0.2656072088875997
+  },
+  {
+   "start_time": 338.1,
+   "end_time": 346.15,
+   "value": 0.26296309539481333
+  },
+  {
+   "start_time": 346.15,
+   "end_time": 354.2,
+   "value": 0.26402257995785006
+  },
+  {
+   "start_time": 354.2,
+   "end_time": 362.25,
+   "value": 0.29984752332426207
+  },
+  {
+   "start_time": 362.25,
+   "end_time": 370.3,
+   "value": 0.3084345979429286
+  },
+  {
+   "start_time": 370.3,
+   "end_time": 378.35,
+   "value": 0.3673575457741391
+  },
+  {
+   "start_time": 378.35,
+   "end_time": 386.4,
+   "value": 0.4516604476520927
+  },
+  {
+   "start_time": 386.4,
+   "end_time": 394.45,
+   "value": 0.6213274322891201
+  },
+  {
+   "start_time": 394.45,
+   "end_time": 402.5,
+   "value": 0.623241950446174
+  },
+  {
+   "start_time": 402.5,
+   "end_time": 410.55,
+   "value": 0.4062420666439628
+  },
+  {
+   "start_time": 410.55,
+   "end_time": 418.6,
+   "value": 0.37824755075104705
+  },
+  {
+   "start_time": 418.6,
+   "end_time": 426.65,
+   "value": 0.7182680824494512
+  },
+  {
+   "start_time": 426.65,
+   "end_time": 434.7,
+   "value": 0.40716013184676947
+  },
+  {
+   "start_time": 434.7,
+   "end_time": 442.75,
+   "value": 0.3246372925977723
+  },
+  {
+   "start_time": 442.75,
+   "end_time": 450.8,
+   "value": 0.29493520935399786
+  },
+  {
+   "start_time": 450.8,
+   "end_time": 458.85,
+   "value": 0.28177387910314233
+  },
+  {
+   "start_time": 458.85,
+   "end_time": 466.9,
+   "value": 0.37710700003959563
+  },
+  {
+   "start_time": 466.9,
+   "end_time": 474.95,
+   "value": 0.40566326505786965
+  },
+  {
+   "start_time": 474.95,
+   "end_time": 483.0,
+   "value": 0.44534496614707103
+  },
+  {
+   "start_time": 483.0,
+   "end_time": 491.05,
+   "value": 0.4430817207039952
+  },
+  {
+   "start_time": 491.05,
+   "end_time": 499.1,
+   "value": 0.3006440785843458
+  },
+  {
+   "start_time": 499.1,
+   "end_time": 507.15,
+   "value": 0.31280123316967884
+  },
+  {
+   "start_time": 507.15,
+   "end_time": 515.2,
+   "value": 0.29084802021154066
+  },
+  {
+   "start_time": 515.2,
+   "end_time": 523.25,
+   "value": 0.2953295586684778
+  },
+  {
+   "start_time": 523.25,
+   "end_time": 531.3,
+   "value": 0.31352645379035354
+  },
+  {
+   "start_time": 531.3,
+   "end_time": 539.35,
+   "value": 0.2988673639516069
+  },
+  {
+   "start_time": 539.35,
+   "end_time": 547.4,
+   "value": 0.26999821752681374
+  },
+  {
+   "start_time": 547.4,
+   "end_time": 555.45,
+   "value": 0.23673391094749677
+  },
+  {
+   "start_time": 555.45,
+   "end_time": 563.5,
+   "value": 0.23307807763771102
+  },
+  {
+   "start_time": 563.5,
+   "end_time": 571.55,
+   "value": 0.2076415201349162
+  },
+  {
+   "start_time": 571.55,
+   "end_time": 579.6,
+   "value": 0.18023776933457772
+  },
+  {
+   "start_time": 579.6,
+   "end_time": 587.65,
+   "value": 0.18183369217156795
+  },
+  {
+   "start_time": 587.65,
+   "end_time": 595.7,
+   "value": 0.1848172478408661
+  },
+  {
+   "start_time": 595.7,
+   "end_time": 603.75,
+   "value": 0.1956696213402886
+  },
+  {
+   "start_time": 603.75,
+   "end_time": 611.8,
+   "value": 0.22703838174111785
+  },
+  {
+   "start_time": 611.8,
+   "end_time": 619.85,
+   "value": 0.23519744852333055
+  },
+  {
+   "start_time": 619.85,
+   "end_time": 627.9,
+   "value": 0.22691200604389206
+  },
+  {
+   "start_time": 627.9,
+   "end_time": 635.95,
+   "value": 0.2588138567224572
+  },
+  {
+   "start_time": 635.95,
+   "end_time": 644.0,
+   "value": 0.265410212790158
+  },
+  {
+   "start_time": 644.0,
+   "end_time": 652.05,
+   "value": 0.24817606746060603
+  },
+  {
+   "start_time": 652.05,
+   "end_time": 660.1,
+   "value": 0.19747365562216282
+  },
+  {
+   "start_time": 660.1,
+   "end_time": 668.15,
+   "value": 0.22365677164152567
+  },
+  {
+   "start_time": 668.15,
+   "end_time": 676.2,
+   "value": 0.2828588084374326
+  },
+  {
+   "start_time": 676.2,
+   "end_time": 684.25,
+   "value": 0.2829523737717262
+  },
+  {
+   "start_time": 684.25,
+   "end_time": 692.3,
+   "value": 0.2621356939295784
+  },
+  {
+   "start_time": 692.3,
+   "end_time": 700.35,
+   "value": 0.25406635344599654
+  },
+  {
+   "start_time": 700.35,
+   "end_time": 708.4,
+   "value": 0.2505697508363183
+  },
+  {
+   "start_time": 708.4,
+   "end_time": 716.45,
+   "value": 0.33281792047562614
+  },
+  {
+   "start_time": 716.45,
+   "end_time": 724.5,
+   "value": 0.3482364697763659
+  },
+  {
+   "start_time": 724.5,
+   "end_time": 732.55,
+   "value": 0.2933650437679082
+  },
+  {
+   "start_time": 732.55,
+   "end_time": 740.6,
+   "value": 0.21838059744233623
+  },
+  {
+   "start_time": 740.6,
+   "end_time": 748.65,
+   "value": 0.2615572941030314
+  },
+  {
+   "start_time": 748.65,
+   "end_time": 756.7,
+   "value": 0.3321741231229627
+  },
+  {
+   "start_time": 756.7,
+   "end_time": 764.75,
+   "value": 0.34018047663770473
+  },
+  {
+   "start_time": 764.75,
+   "end_time": 772.8,
+   "value": 0.2971963120794945
+  },
+  {
+   "start_time": 772.8,
+   "end_time": 780.85,
+   "value": 0.1754066107926274
+  },
+  {
+   "start_time": 780.85,
+   "end_time": 788.9,
+   "value": 0.09359439490079642
+  },
+  {
+   "start_time": 788.9,
+   "end_time": 796.95,
+   "value": 0.038560747315610114
+  },
+  {
+   "start_time": 796.95,
+   "end_time": 805.0,
+   "value": 0.0
+  }
+ ],
+ "tab": "videos",
+ "retrieved_at": "2026-10-19T12:11:56Z"
+}

@@ -1,0 +1,601 @@
+{
+ "id": "m34ZZempdnc",
+ "title": "銀行のシステムはなぜ完璧を保てるのか？",
+ "thumbnail": "https://i.ytimg.com/vi_webp/m34ZZempdnc/maxresdefault.webp",
+ "description": "銀行のシステムが完璧な理由とは？何があっても正常に動く仕組みについて話しました。\n\n【株式会社pedanticの自社チャンネル】\nhttps://www.youtube.com/@pedanticInc \n\n【目次】\n0:00 同時にお金は引き出せるか\n18:37 次のリーダーは？\n23:59 分散合意の啓蒙マンガ\n29:34 コンクラーベから幻影旅団へ\n35:17 お仕事の依頼をお待ちしています\n\n【参考文献】\n◯『分散システム (第2版) (未来へつなぐデジタルシリーズ 31)』( https://amzn.to/43ZPpLX )\n→分散システム全般の概要についてはこちらを参考にした。\n\n◯分散合意アルゴリズム Raft を理解する( https://qiita.com/torao@github/items/5e2c0b7b0ea59b475cce )\n◯raft.github.io「In Search of an Understandable Consensus Algorithm」( https://raft.github.io/raft.pdf )\n→Raftの仕組みについて。\n\n◯Cockroach Labs「Why Fortune 50 banks are leaving traditional RDBMS for CockroachDB」( https://www.cockroachlabs.com/blog/banks-leaving-legacy-rdbms-for-cockroachdb/ )\n→嵐で停電・自家発電燃料切れでCockroachDBに移行した銀行のエピソードについて。\n\n◯Cockroach Labs「Brazil's Nubank uses CockroachDB for application resiliency and scale」( https://www.cockroachlabs.com/blog/nubank/ )\n→ブラジルのデジタル銀行 Nubank の CockroachDB 採用について。\n\n◯Cockroach Labs「What do you think of the name \"CockroachDB\"?」( https://www.cockroachlabs.com/blog/the-name-cockroachdb/ )\n→CockroachDBの命名の由来について。\n\n◯Changelog Interviews #448「Massive scale and ultra-resilience with Spencer Kimball, CEO & Co-founder of Cockroach Labs」( https://changelog.com/podcast/448 )\n→Cockroach Labs 創業者 Spencer Kimball が「第三次世界大戦の後に生き残る」と語ったインタビュー。\n\n◯note つっちー「銀行の基幹系システムはなぜ古臭いのか？」( https://note.com/tsuchie88/n/ncae14ac6466b )\n→日本のメガバンク勘定系の構成について。\n\n【サポーターコミュニティへの加入はこちらから！】\nhttps://yurugengo.com/support\n\n【親チャンネル：ゆる言語学ラジオ】\nhttps://www.youtube.com/@yurugengo\n\n【切り抜きチャンネル（公認）】\nhttps://www.youtube.com/@yuru_kiri\n\n【実店舗プロジェクト：ゆる学徒カフェ】\nhttps://www.youtube.com/@yurugakuto\n\n【おたよりフォーム】\nhttps://forms.gle/BLEZpLcdEPmoZTH4A\n※皆様からのおたよりをお待ちしています！\n\n【お仕事依頼はこちら！】\ninfo@pedantic.jp\n\n【堀元見プロフィール】\n慶應義塾大学理工学部卒。専攻は情報工学。理屈っぽいコンテンツを作り散らかすことで生計を立てている。\nTwitter→https://twitter.com/kenhori2\nnoteマガジン→https://note.com/kenhori2/m/m125fc4524aca\n個人YouTube→https://www.youtube.com/@kenHorimoto\n\n【水野太貴プロフィール】\n1995年生まれ。愛知県出身。名古屋大学文学部卒。専攻は言語学。本業は雑誌編集者。著書に『会話の0.2秒を言語学する 』（新潮社）などがある。Podcast「神保町で会いましょう」のパーソナリティも務める。\nTwitter→https://x.com/yuru_mizuno\n神保町で会いましょう→https://open.spotify.com/show/6cYkvDO0HnJKLPgDBGUjjS\n\n【姉妹チャンネル】\n◯ゆる音楽学ラジオ(https://www.youtube.com/@yuruongaku)\n◯ゆる民俗学ラジオ (https://www.youtube.com/@yuruminzoku)\n◯ゆる天文学ラジオ (https://www.youtube.com/@yurutenmon)\n◯ゆる生態学ラジオ (https://www.youtube.com/@yuruseitai)\n◯ゆる哲学ラジオ (https://www.youtube.com/@yurutetsugaku )\n\n#ゆるコンピュータ科学ラジオ",
+ "channel_id": "UCpLu0KjNy616-E95gPx7LZg",
+ "channel_url": "https://www.youtube.com/channel/UCpLu0KjNy616-E95gPx7LZg",
+ "duration": 2582,
+ "view_count": 293661,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=m34ZZempdnc",
+ "categories": [
+  "Entertainment"
+ ],
+ "tags": [],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "video",
+ "release_timestamp": null,
+ "comment_count": 1230,
+ "chapters": [
+  {
+   "start_time": 0,
+   "title": "同時にお金は引き出せるか",
+   "end_time": 1117
+  },
+  {
+   "start_time": 1117,
+   "title": "次のリーダーは？",
+   "end_time": 1439
+  },
+  {
+   "start_time": 1439,
+   "title": "分散合意の啓蒙マンガ",
+   "end_time": 1774
+  },
+  {
+   "start_time": 1774,
+   "title": "コンクラーベから幻影旅団へ",
+   "end_time": 2117
+  },
+  {
+   "start_time": 2117,
+   "title": "お仕事の依頼をお待ちしています",
+   "end_time": 2582
+  }
+ ],
+ "like_count": 4910,
+ "channel": "ゆるコンピュータ科学ラジオ",
+ "channel_follower_count": null,
+ "creators": null,
+ "uploader": "ゆるコンピュータ科学ラジオ",
+ "uploader_id": "@yurucom",
+ "uploader_url": "https://www.youtube.com/@yurucom",
+ "upload_date": "20260809",
+ "timestamp": 1786236334,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=m34ZZempdnc",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "m34ZZempdnc",
+ "fulltitle": "銀行のシステムはなぜ完璧を保てるのか？",
+ "duration_string": "43:02",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792413810,
+ "format": "399 - 1920x1080 (1080p60)+251-1 - audio only (日本語（オリジナル） (default), medium)",
+ "format_id": "399+251-1",
+ "ext": "webm",
+ "protocol": "https+https",
+ "language": "ja",
+ "format_note": "1080p60+日本語（オリジナル） (default), medium",
+ "filesize_approx": 537642926,
+ "tbr": 1666.0339999999999,
+ "width": 1920,
+ "height": 1080,
+ "resolution": "1920x1080",
+ "fps": 60,
+ "dynamic_range": "SDR",
+ "vcodec": "av01.0.09M.08",
+ "vbr": 1552.897,
+ "stretched_ratio": null,
+ "aspect_ratio": 1.78,
+ "acodec": "opus",
+ "abr": 113.137,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [],
+ "auto_caption_has_ja": true,
+ "heatmap": [
+  {
+   "start_time": 0.0,
+   "end_time": 25.82,
+   "value": 0.70793122636685
+  },
+  {
+   "start_time": 25.82,
+   "end_time": 51.64,
+   "value": 0.4522562407978003
+  },
+  {
+   "start_time": 51.64,
+   "end_time": 77.46,
+   "value": 0.3473253930555236
+  },
+  {
+   "start_time": 77.46,
+   "end_time": 103.28,
+   "value": 0.2707175771351173
+  },
+  {
+   "start_time": 103.28,
+   "end_time": 129.1,
+   "value": 0.19848045295950864
+  },
+  {
+   "start_time": 129.1,
+   "end_time": 154.92,
+   "value": 0.21791196086326906
+  },
+  {
+   "start_time": 154.92,
+   "end_time": 180.74,
+   "value": 0.2117818876945188
+  },
+  {
+   "start_time": 180.74,
+   "end_time": 206.56,
+   "value": 0.1449753459658825
+  },
+  {
+   "start_time": 206.56,
+   "end_time": 232.38,
+   "value": 0.19512215466182725
+  },
+  {
+   "start_time": 232.38,
+   "end_time": 258.2,
+   "value": 0.1534380096453107
+  },
+  {
+   "start_time": 258.2,
+   "end_time": 284.02,
+   "value": 0.11482784039172236
+  },
+  {
+   "start_time": 284.02,
+   "end_time": 309.84,
+   "value": 0.24398213083388026
+  },
+  {
+   "start_time": 309.84,
+   "end_time": 335.66,
+   "value": 0.15902247816251533
+  },
+  {
+   "start_time": 335.66,
+   "end_time": 361.48,
+   "value": 0.17141847483323788
+  },
+  {
+   "start_time": 361.48,
+   "end_time": 387.3,
+   "value": 0.12869348208294318
+  },
+  {
+   "start_time": 387.3,
+   "end_time": 413.12,
+   "value": 0.18332108550459633
+  },
+  {
+   "start_time": 413.12,
+   "end_time": 438.94,
+   "value": 0.4424126943637881
+  },
+  {
+   "start_time": 438.94,
+   "end_time": 464.76,
+   "value": 0.5163849005061558
+  },
+  {
+   "start_time": 464.76,
+   "end_time": 490.58,
+   "value": 0.3637916747100913
+  },
+  {
+   "start_time": 490.58,
+   "end_time": 516.4,
+   "value": 0.3589387709391208
+  },
+  {
+   "start_time": 516.4,
+   "end_time": 542.22,
+   "value": 0.17945781804660882
+  },
+  {
+   "start_time": 542.22,
+   "end_time": 568.04,
+   "value": 0.12433550663439707
+  },
+  {
+   "start_time": 568.04,
+   "end_time": 593.86,
+   "value": 0.10773362645445393
+  },
+  {
+   "start_time": 593.86,
+   "end_time": 619.68,
+   "value": 0.16131251314712375
+  },
+  {
+   "start_time": 619.68,
+   "end_time": 645.5,
+   "value": 0.18291501387602876
+  },
+  {
+   "start_time": 645.5,
+   "end_time": 671.32,
+   "value": 0.3487763098674336
+  },
+  {
+   "start_time": 671.32,
+   "end_time": 697.14,
+   "value": 0.31836138436022093
+  },
+  {
+   "start_time": 697.14,
+   "end_time": 722.96,
+   "value": 0.218486649321093
+  },
+  {
+   "start_time": 722.96,
+   "end_time": 748.78,
+   "value": 0.21468869452330838
+  },
+  {
+   "start_time": 748.78,
+   "end_time": 774.6,
+   "value": 0.2115072912378392
+  },
+  {
+   "start_time": 774.6,
+   "end_time": 800.42,
+   "value": 0.15232407468406692
+  },
+  {
+   "start_time": 800.42,
+   "end_time": 826.24,
+   "value": 0.08881914301165394
+  },
+  {
+   "start_time": 826.24,
+   "end_time": 852.06,
+   "value": 0.1022851026984138
+  },
+  {
+   "start_time": 852.06,
+   "end_time": 877.88,
+   "value": 0.3060203447520113
+  },
+  {
+   "start_time": 877.88,
+   "end_time": 903.7,
+   "value": 0.1498230247240367
+  },
+  {
+   "start_time": 903.7,
+   "end_time": 929.52,
+   "value": 0.13504486287284362
+  },
+  {
+   "start_time": 929.52,
+   "end_time": 955.34,
+   "value": 0.13118017899571918
+  },
+  {
+   "start_time": 955.34,
+   "end_time": 981.16,
+   "value": 0.13809346899523034
+  },
+  {
+   "start_time": 981.16,
+   "end_time": 1006.98,
+   "value": 0.11754525624391392
+  },
+  {
+   "start_time": 1006.98,
+   "end_time": 1032.8,
+   "value": 0.06476025673950324
+  },
+  {
+   "start_time": 1032.8,
+   "end_time": 1058.62,
+   "value": 0.04561527468915344
+  },
+  {
+   "start_time": 1058.62,
+   "end_time": 1084.44,
+   "value": 0.026812688358170977
+  },
+  {
+   "start_time": 1084.44,
+   "end_time": 1110.26,
+   "value": 0.024262032252367362
+  },
+  {
+   "start_time": 1110.26,
+   "end_time": 1136.08,
+   "value": 0.21465211943359477
+  },
+  {
+   "start_time": 1136.08,
+   "end_time": 1161.9,
+   "value": 0.4748746917596543
+  },
+  {
+   "start_time": 1161.9,
+   "end_time": 1187.72,
+   "value": 0.429250446415967
+  },
+  {
+   "start_time": 1187.72,
+   "end_time": 1213.54,
+   "value": 0.25830672380144737
+  },
+  {
+   "start_time": 1213.54,
+   "end_time": 1239.36,
+   "value": 0.1170813947145596
+  },
+  {
+   "start_time": 1239.36,
+   "end_time": 1265.18,
+   "value": 0.1113144599365375
+  },
+  {
+   "start_time": 1265.18,
+   "end_time": 1291.0,
+   "value": 0.08337030449580562
+  },
+  {
+   "start_time": 1291.0,
+   "end_time": 1316.82,
+   "value": 0.067538547138602
+  },
+  {
+   "start_time": 1316.82,
+   "end_time": 1342.64,
+   "value": 0.10679630322159496
+  },
+  {
+   "start_time": 1342.64,
+   "end_time": 1368.46,
+   "value": 0.07391501428521652
+  },
+  {
+   "start_time": 1368.46,
+   "end_time": 1394.28,
+   "value": 0.0660642751489231
+  },
+  {
+   "start_time": 1394.28,
+   "end_time": 1420.1,
+   "value": 0.09319405253788157
+  },
+  {
+   "start_time": 1420.1,
+   "end_time": 1445.92,
+   "value": 0.9777832455053794
+  },
+  {
+   "start_time": 1445.92,
+   "end_time": 1471.74,
+   "value": 0.1994165486291156
+  },
+  {
+   "start_time": 1471.74,
+   "end_time": 1497.56,
+   "value": 0.13528058649320968
+  },
+  {
+   "start_time": 1497.56,
+   "end_time": 1523.38,
+   "value": 0.29767656585214275
+  },
+  {
+   "start_time": 1523.38,
+   "end_time": 1549.2,
+   "value": 0.22354125117716234
+  },
+  {
+   "start_time": 1549.2,
+   "end_time": 1575.02,
+   "value": 0.19426884082177867
+  },
+  {
+   "start_time": 1575.02,
+   "end_time": 1600.84,
+   "value": 0.23907351457685722
+  },
+  {
+   "start_time": 1600.84,
+   "end_time": 1626.66,
+   "value": 0.12754237398835017
+  },
+  {
+   "start_time": 1626.66,
+   "end_time": 1652.48,
+   "value": 0.1078419667804387
+  },
+  {
+   "start_time": 1652.48,
+   "end_time": 1678.3,
+   "value": 0.19403176373423733
+  },
+  {
+   "start_time": 1678.3,
+   "end_time": 1704.12,
+   "value": 0.3026286189626983
+  },
+  {
+   "start_time": 1704.12,
+   "end_time": 1729.94,
+   "value": 0.18491345537431442
+  },
+  {
+   "start_time": 1729.94,
+   "end_time": 1755.76,
+   "value": 0.10720061219523656
+  },
+  {
+   "start_time": 1755.76,
+   "end_time": 1781.58,
+   "value": 0.2757335264867388
+  },
+  {
+   "start_time": 1781.58,
+   "end_time": 1807.4,
+   "value": 0.17176332567910924
+  },
+  {
+   "start_time": 1807.4,
+   "end_time": 1833.22,
+   "value": 0.2481769977498136
+  },
+  {
+   "start_time": 1833.22,
+   "end_time": 1859.04,
+   "value": 0.19586467304938704
+  },
+  {
+   "start_time": 1859.04,
+   "end_time": 1884.86,
+   "value": 0.33575614449703695
+  },
+  {
+   "start_time": 1884.86,
+   "end_time": 1910.68,
+   "value": 0.25182626001420133
+  },
+  {
+   "start_time": 1910.68,
+   "end_time": 1936.5,
+   "value": 0.10956606362989131
+  },
+  {
+   "start_time": 1936.5,
+   "end_time": 1962.32,
+   "value": 0.06514382304178402
+  },
+  {
+   "start_time": 1962.32,
+   "end_time": 1988.14,
+   "value": 0.049493084050280106
+  },
+  {
+   "start_time": 1988.14,
+   "end_time": 2013.96,
+   "value": 0.09542525891433613
+  },
+  {
+   "start_time": 2013.96,
+   "end_time": 2039.78,
+   "value": 0.07767812517223263
+  },
+  {
+   "start_time": 2039.78,
+   "end_time": 2065.6,
+   "value": 0.05804375457208294
+  },
+  {
+   "start_time": 2065.6,
+   "end_time": 2091.42,
+   "value": 0.0988751523162057
+  },
+  {
+   "start_time": 2091.42,
+   "end_time": 2117.24,
+   "value": 1.0
+  },
+  {
+   "start_time": 2117.24,
+   "end_time": 2143.06,
+   "value": 0.5515459003054335
+  },
+  {
+   "start_time": 2143.06,
+   "end_time": 2168.88,
+   "value": 0.1430905327583595
+  },
+  {
+   "start_time": 2168.88,
+   "end_time": 2194.7,
+   "value": 0.10420082531910271
+  },
+  {
+   "start_time": 2194.7,
+   "end_time": 2220.52,
+   "value": 0.09707733871967104
+  },
+  {
+   "start_time": 2220.52,
+   "end_time": 2246.34,
+   "value": 0.2289572602450147
+  },
+  {
+   "start_time": 2246.34,
+   "end_time": 2272.16,
+   "value": 0.17468467441103797
+  },
+  {
+   "start_time": 2272.16,
+   "end_time": 2297.98,
+   "value": 0.14677775505561697
+  },
+  {
+   "start_time": 2297.98,
+   "end_time": 2323.8,
+   "value": 0.23926281112551276
+  },
+  {
+   "start_time": 2323.8,
+   "end_time": 2349.62,
+   "value": 0.1593736242045508
+  },
+  {
+   "start_time": 2349.62,
+   "end_time": 2375.44,
+   "value": 0.17248031704622346
+  },
+  {
+   "start_time": 2375.44,
+   "end_time": 2401.26,
+   "value": 0.29509924959058403
+  },
+  {
+   "start_time": 2401.26,
+   "end_time": 2427.08,
+   "value": 0.3971144772294414
+  },
+  {
+   "start_time": 2427.08,
+   "end_time": 2452.9,
+   "value": 0.21505356409298168
+  },
+  {
+   "start_time": 2452.9,
+   "end_time": 2478.72,
+   "value": 0.1692971196298475
+  },
+  {
+   "start_time": 2478.72,
+   "end_time": 2504.54,
+   "value": 0.10608497753102847
+  },
+  {
+   "start_time": 2504.54,
+   "end_time": 2530.36,
+   "value": 0.07515076129223631
+  },
+  {
+   "start_time": 2530.36,
+   "end_time": 2556.18,
+   "value": 0.1405472105560871
+  },
+  {
+   "start_time": 2556.18,
+   "end_time": 2582.0,
+   "value": 0.0
+  }
+ ],
+ "tab": "videos",
+ "retrieved_at": "2026-10-19T12:43:30Z"
+}

@@ -1,0 +1,606 @@
+{
+ "id": "EiysY_0ZFmw",
+ "title": "データ改ざんの発見手法、徹底解説。",
+ "thumbnail": "https://i.ytimg.com/vi/EiysY_0ZFmw/maxresdefault.jpg",
+ "description": "【PR：Saily】\nSailyのeSIMプランを15%OFFでゲットできるチャンス！\nSailyアプリをダウンロードするか、https://saily.com/yurucom にアクセスし、お支払い時にプロモコードyurucomを入力すると、特別割引が適用されます。\n\n警察のデータ改ざんはなぜ見破られたのか？バイナリ解析の手法を深掘りました。\n\n【目次】\n0:00 裁判官がデータ解析で疑惑を発見\n8:39 機械オンチは正直に生きよう\n14:42 もっと抽象化すると良い結論になる\n18:45 完璧なウソをつくのは難しい\n24:11 損得を考えたら美しい結論になる\n25:35 考慮漏れを防ぐならSailyのSIM\n\n【参考文献】\n◯裁判所「名古屋地方裁判所　令和4年10月5日判決（判決文PDF）」（ https://www.courts.go.jp/assets/hanrei/hanrei-pdf-91551.pdf ）\n→西尾裁判官の判決文。事件・争点・結末などの情報はここから。\n\n◯金岡法律事務所「裁判官はいかにして改ざんを疑ったかを推測する」（ https://www.kanaoka-law.com/archives/1439 ）\n→事件についての弁護士の解説。音声データ部分のバイナリについての情報はこちらを参考にした。\n\n◯『法律実務のためのデジタル・フォレンジックとサイバーセキュリティ』（https://amzn.to/4xxq9u9 ）\n→西尾裁判官が技術章を分担執筆した専門書。\n\n◯『0と1のコンピュータ世界　バイナリで遊ぼう！』（https://amzn.to/4oFIJfE ）\n→バイナリ解析の世界について参考にした本。\n\n◯弁士山中理司のブログ「西尾太一裁判官（６４期）の経歴」（ https://yamanaka-bengoshi.jp/2022/04/23/nishio64/ ）\n→西尾裁判官の経歴について。\n\n◯IPA「情報処理安全確保支援士検索サービス」（ https://riss.ipa.go.jp/ ）\n→西尾裁判官の情報処理安全確保支援士の登録確認（登録番号024090で検索）\n\n◯MDN Web Docs「Media container formats (file types)」（ https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Containers ）\n→動画ファイルが映像トラックと音声トラックに分かれる構造について。\n\n◯NASA「Mars Climate Orbiter Mishap Investigation Board Phase I Report」（ https://llis.nasa.gov/llis_lib/pdf/1009464main1_0641-mr.pdf ）\n→火星探査機がヤード・ポンド法とメートル法の取り違えで失われた件について。\n\n◯Microsoft Learn「Windows クライアントのリリース サイクルを更新する」（ https://learn.microsoft.com/ja-jp/windows/deployment/update/release-cycle ）\n→Windowsアップデートが脆弱性に対処する件について。\n\n【サポーターコミュニティへの加入はこちらから！】\nhttps://yurugengo.com/support\n\n【親チャンネル：ゆる言語学ラジオ】\nhttps://www.youtube.com/@yurugengo\n\n【切り抜きチャンネル（公認）】\nhttps://www.youtube.com/@yuru_kiri\n\n【実店舗プロジェクト：ゆる学徒カフェ】\nhttps://www.youtube.com/@yurugakuto\n\n【おたよりフォーム】\nhttps://forms.gle/BLEZpLcdEPmoZTH4A\n※皆様からのおたよりをお待ちしています！\n\n【お仕事依頼はこちら！】\ninfo@pedantic.jp\n\n【堀元見プロフィール】\n慶應義塾大学理工学部卒。専攻は情報工学。理屈っぽいコンテンツを作り散らかすことで生計を立てている。\nTwitter→https://twitter.com/kenhori2\nnoteマガジン→https://note.com/kenhori2/m/m125fc4524aca\n個人YouTube→https://www.youtube.com/@kenHorimoto\n\n【水野太貴プロフィール】\n1995年生まれ。愛知県出身。名古屋大学文学部卒。専攻は言語学。本業は雑誌編集者。著書に『会話の0.2秒を言語学する 』（新潮社）などがある。Podcast「神保町で会いましょう」のパーソナリティも務める。\nTwitter→https://x.com/yuru_mizuno\n神保町で会いましょう→https://open.spotify.com/show/6cYkvDO0HnJKLPgDBGUjjS\n\n【姉妹チャンネル】\n◯ゆる音楽学ラジオ(https://www.youtube.com/@yuruongaku)\n◯ゆる民俗学ラジオ (https://www.youtube.com/@yuruminzoku)\n◯ゆる天文学ラジオ (https://www.youtube.com/@yurutenmon)\n◯ゆる生態学ラジオ (https://www.youtube.com/@yuruseitai)\n◯ゆる哲学ラジオ (https://www.youtube.com/@yurutetsugaku )\n\n#ゆるコンピュータ科学ラジオ",
+ "channel_id": "UCpLu0KjNy616-E95gPx7LZg",
+ "channel_url": "https://www.youtube.com/channel/UCpLu0KjNy616-E95gPx7LZg",
+ "duration": 1790,
+ "view_count": 282333,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=EiysY_0ZFmw",
+ "categories": [
+  "Entertainment"
+ ],
+ "tags": [],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "video",
+ "release_timestamp": null,
+ "comment_count": 485,
+ "chapters": [
+  {
+   "start_time": 0,
+   "title": "裁判官がデータ解析で疑惑を発見",
+   "end_time": 519
+  },
+  {
+   "start_time": 519,
+   "title": "機械オンチは正直に生きよう",
+   "end_time": 882
+  },
+  {
+   "start_time": 882,
+   "title": "もっと抽象化すると良い結論になる",
+   "end_time": 1125
+  },
+  {
+   "start_time": 1125,
+   "title": "完璧なウソをつくのは難しい",
+   "end_time": 1451
+  },
+  {
+   "start_time": 1451,
+   "title": "損得を考えたら美しい結論になる",
+   "end_time": 1535
+  },
+  {
+   "start_time": 1535,
+   "title": "考慮漏れを防ぐならSailyのSIM",
+   "end_time": 1790
+  }
+ ],
+ "like_count": 4726,
+ "channel": "ゆるコンピュータ科学ラジオ",
+ "channel_follower_count": null,
+ "creators": null,
+ "uploader": "ゆるコンピュータ科学ラジオ",
+ "uploader_id": "@yurucom",
+ "uploader_url": "https://www.youtube.com/@yurucom",
+ "upload_date": "20260816",
+ "timestamp": 1786841104,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=EiysY_0ZFmw",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "EiysY_0ZFmw",
+ "fulltitle": "データ改ざんの発見手法、徹底解説。",
+ "duration_string": "29:50",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792413806,
+ "format": "399 - 1920x1080 (1080p60)+251-1 - audio only (日本語（オリジナル） (default), medium)",
+ "format_id": "399+251-1",
+ "ext": "webm",
+ "protocol": "https+https",
+ "language": "ja",
+ "format_note": "1080p60+日本語（オリジナル） (default), medium",
+ "filesize_approx": 315996935,
+ "tbr": 1412.403,
+ "width": 1920,
+ "height": 1080,
+ "resolution": "1920x1080",
+ "fps": 60,
+ "dynamic_range": "SDR",
+ "vcodec": "av01.0.09M.08",
+ "vbr": 1301.593,
+ "stretched_ratio": null,
+ "aspect_ratio": 1.78,
+ "acodec": "opus",
+ "abr": 110.81,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [],
+ "auto_caption_has_ja": true,
+ "heatmap": [
+  {
+   "start_time": 0.0,
+   "end_time": 17.9,
+   "value": 1.0
+  },
+  {
+   "start_time": 17.9,
+   "end_time": 35.8,
+   "value": 0.32777613198160105
+  },
+  {
+   "start_time": 35.8,
+   "end_time": 53.7,
+   "value": 0.22220661289071306
+  },
+  {
+   "start_time": 53.7,
+   "end_time": 71.6,
+   "value": 0.17750622702566987
+  },
+  {
+   "start_time": 71.6,
+   "end_time": 89.5,
+   "value": 0.1916046869785393
+  },
+  {
+   "start_time": 89.5,
+   "end_time": 107.4,
+   "value": 0.34576502273444026
+  },
+  {
+   "start_time": 107.4,
+   "end_time": 125.3,
+   "value": 0.27627297111929666
+  },
+  {
+   "start_time": 125.3,
+   "end_time": 143.2,
+   "value": 0.14424975226752107
+  },
+  {
+   "start_time": 143.2,
+   "end_time": 161.1,
+   "value": 0.18558912509138223
+  },
+  {
+   "start_time": 161.1,
+   "end_time": 179.0,
+   "value": 0.1305086916574402
+  },
+  {
+   "start_time": 179.0,
+   "end_time": 196.9,
+   "value": 0.391104213128604
+  },
+  {
+   "start_time": 196.9,
+   "end_time": 214.8,
+   "value": 0.3851016858378618
+  },
+  {
+   "start_time": 214.8,
+   "end_time": 232.7,
+   "value": 0.3649554464104703
+  },
+  {
+   "start_time": 232.7,
+   "end_time": 250.6,
+   "value": 0.22215381867630313
+  },
+  {
+   "start_time": 250.6,
+   "end_time": 268.5,
+   "value": 0.15820141588508502
+  },
+  {
+   "start_time": 268.5,
+   "end_time": 286.4,
+   "value": 0.19155861500882132
+  },
+  {
+   "start_time": 286.4,
+   "end_time": 304.3,
+   "value": 0.18710706806045943
+  },
+  {
+   "start_time": 304.3,
+   "end_time": 322.2,
+   "value": 0.16563657375495217
+  },
+  {
+   "start_time": 322.2,
+   "end_time": 340.1,
+   "value": 0.16350365470135347
+  },
+  {
+   "start_time": 340.1,
+   "end_time": 358.0,
+   "value": 0.23561883003484718
+  },
+  {
+   "start_time": 358.0,
+   "end_time": 375.9,
+   "value": 0.23749810731921556
+  },
+  {
+   "start_time": 375.9,
+   "end_time": 393.8,
+   "value": 0.17021330201605311
+  },
+  {
+   "start_time": 393.8,
+   "end_time": 411.7,
+   "value": 0.19509383256183735
+  },
+  {
+   "start_time": 411.7,
+   "end_time": 429.6,
+   "value": 0.13818497589788353
+  },
+  {
+   "start_time": 429.6,
+   "end_time": 447.5,
+   "value": 0.23719863951604866
+  },
+  {
+   "start_time": 447.5,
+   "end_time": 465.4,
+   "value": 0.2645044247809375
+  },
+  {
+   "start_time": 465.4,
+   "end_time": 483.3,
+   "value": 0.24009445136358956
+  },
+  {
+   "start_time": 483.3,
+   "end_time": 501.2,
+   "value": 0.518839486979053
+  },
+  {
+   "start_time": 501.2,
+   "end_time": 519.1,
+   "value": 0.49769338196922913
+  },
+  {
+   "start_time": 519.1,
+   "end_time": 537.0,
+   "value": 0.23435543059953215
+  },
+  {
+   "start_time": 537.0,
+   "end_time": 554.9,
+   "value": 0.266912136080968
+  },
+  {
+   "start_time": 554.9,
+   "end_time": 572.8,
+   "value": 0.24318430654266512
+  },
+  {
+   "start_time": 572.8,
+   "end_time": 590.7,
+   "value": 0.07475433953003148
+  },
+  {
+   "start_time": 590.7,
+   "end_time": 608.6,
+   "value": 0.07104625644888024
+  },
+  {
+   "start_time": 608.6,
+   "end_time": 626.5,
+   "value": 0.07471474386922403
+  },
+  {
+   "start_time": 626.5,
+   "end_time": 644.4,
+   "value": 0.056179247179096094
+  },
+  {
+   "start_time": 644.4,
+   "end_time": 662.3,
+   "value": 0.10789320233226914
+  },
+  {
+   "start_time": 662.3,
+   "end_time": 680.2,
+   "value": 0.24669159672139185
+  },
+  {
+   "start_time": 680.2,
+   "end_time": 698.1,
+   "value": 0.1445394099656294
+  },
+  {
+   "start_time": 698.1,
+   "end_time": 716.0,
+   "value": 0.09626762666150457
+  },
+  {
+   "start_time": 716.0,
+   "end_time": 733.9,
+   "value": 0.11932129157055929
+  },
+  {
+   "start_time": 733.9,
+   "end_time": 751.8,
+   "value": 0.1506546578228524
+  },
+  {
+   "start_time": 751.8,
+   "end_time": 769.7,
+   "value": 0.1547309340949764
+  },
+  {
+   "start_time": 769.7,
+   "end_time": 787.6,
+   "value": 0.19146699026714611
+  },
+  {
+   "start_time": 787.6,
+   "end_time": 805.5,
+   "value": 0.36048996310116166
+  },
+  {
+   "start_time": 805.5,
+   "end_time": 823.4,
+   "value": 0.2999463668713135
+  },
+  {
+   "start_time": 823.4,
+   "end_time": 841.3,
+   "value": 0.12080693497367763
+  },
+  {
+   "start_time": 841.3,
+   "end_time": 859.2,
+   "value": 0.050811698749763594
+  },
+  {
+   "start_time": 859.2,
+   "end_time": 877.1,
+   "value": 0.07011689245711952
+  },
+  {
+   "start_time": 877.1,
+   "end_time": 895.0,
+   "value": 0.14255104649910552
+  },
+  {
+   "start_time": 895.0,
+   "end_time": 912.9,
+   "value": 0.08562412721831683
+  },
+  {
+   "start_time": 912.9,
+   "end_time": 930.8,
+   "value": 0.12149446211371584
+  },
+  {
+   "start_time": 930.8,
+   "end_time": 948.7,
+   "value": 0.14280110853640637
+  },
+  {
+   "start_time": 948.7,
+   "end_time": 966.6,
+   "value": 0.0993367139301497
+  },
+  {
+   "start_time": 966.6,
+   "end_time": 984.5,
+   "value": 0.05200426868003178
+  },
+  {
+   "start_time": 984.5,
+   "end_time": 1002.4,
+   "value": 0.0535970854314502
+  },
+  {
+   "start_time": 1002.4,
+   "end_time": 1020.3,
+   "value": 0.08570484880701608
+  },
+  {
+   "start_time": 1020.3,
+   "end_time": 1038.2,
+   "value": 0.1613239258706926
+  },
+  {
+   "start_time": 1038.2,
+   "end_time": 1056.1,
+   "value": 0.17828267361378775
+  },
+  {
+   "start_time": 1056.1,
+   "end_time": 1074.0,
+   "value": 0.17656781806239277
+  },
+  {
+   "start_time": 1074.0,
+   "end_time": 1091.9,
+   "value": 0.2626330447677723
+  },
+  {
+   "start_time": 1091.9,
+   "end_time": 1109.8,
+   "value": 0.2371380300090294
+  },
+  {
+   "start_time": 1109.8,
+   "end_time": 1127.7,
+   "value": 0.9686595835886397
+  },
+  {
+   "start_time": 1127.7,
+   "end_time": 1145.6,
+   "value": 0.10928828671543173
+  },
+  {
+   "start_time": 1145.6,
+   "end_time": 1163.5,
+   "value": 0.10089903464467294
+  },
+  {
+   "start_time": 1163.5,
+   "end_time": 1181.4,
+   "value": 0.1390948836367147
+  },
+  {
+   "start_time": 1181.4,
+   "end_time": 1199.3,
+   "value": 0.11402451799387778
+  },
+  {
+   "start_time": 1199.3,
+   "end_time": 1217.2,
+   "value": 0.06242287351421655
+  },
+  {
+   "start_time": 1217.2,
+   "end_time": 1235.1,
+   "value": 0.05519853726141599
+  },
+  {
+   "start_time": 1235.1,
+   "end_time": 1253.0,
+   "value": 0.07982602721432448
+  },
+  {
+   "start_time": 1253.0,
+   "end_time": 1270.9,
+   "value": 0.1324807960361929
+  },
+  {
+   "start_time": 1270.9,
+   "end_time": 1288.8,
+   "value": 0.20410975632983366
+  },
+  {
+   "start_time": 1288.8,
+   "end_time": 1306.7,
+   "value": 0.15502693147100557
+  },
+  {
+   "start_time": 1306.7,
+   "end_time": 1324.6,
+   "value": 0.14396126959592395
+  },
+  {
+   "start_time": 1324.6,
+   "end_time": 1342.5,
+   "value": 0.14204843574049172
+  },
+  {
+   "start_time": 1342.5,
+   "end_time": 1360.4,
+   "value": 0.10665685583290949
+  },
+  {
+   "start_time": 1360.4,
+   "end_time": 1378.3,
+   "value": 0.2697846933340664
+  },
+  {
+   "start_time": 1378.3,
+   "end_time": 1396.2,
+   "value": 0.2665070798489812
+  },
+  {
+   "start_time": 1396.2,
+   "end_time": 1414.1,
+   "value": 0.100383088701467
+  },
+  {
+   "start_time": 1414.1,
+   "end_time": 1432.0,
+   "value": 0.11064139805856654
+  },
+  {
+   "start_time": 1432.0,
+   "end_time": 1449.9,
+   "value": 0.25165247667305946
+  },
+  {
+   "start_time": 1449.9,
+   "end_time": 1467.8,
+   "value": 0.2583966643019486
+  },
+  {
+   "start_time": 1467.8,
+   "end_time": 1485.7,
+   "value": 0.044205344463257315
+  },
+  {
+   "start_time": 1485.7,
+   "end_time": 1503.6,
+   "value": 0.07544585629496817
+  },
+  {
+   "start_time": 1503.6,
+   "end_time": 1521.5,
+   "value": 0.08265663875359308
+  },
+  {
+   "start_time": 1521.5,
+   "end_time": 1539.4,
+   "value": 0.11602689979994217
+  },
+  {
+   "start_time": 1539.4,
+   "end_time": 1557.3,
+   "value": 0.1399912922337661
+  },
+  {
+   "start_time": 1557.3,
+   "end_time": 1575.2,
+   "value": 0.1269163896769385
+  },
+  {
+   "start_time": 1575.2,
+   "end_time": 1593.1,
+   "value": 0.09362594845475679
+  },
+  {
+   "start_time": 1593.1,
+   "end_time": 1611.0,
+   "value": 0.06578489762472216
+  },
+  {
+   "start_time": 1611.0,
+   "end_time": 1628.9,
+   "value": 0.09800565482874822
+  },
+  {
+   "start_time": 1628.9,
+   "end_time": 1646.8,
+   "value": 0.1489834422095592
+  },
+  {
+   "start_time": 1646.8,
+   "end_time": 1664.7,
+   "value": 0.08315607967324644
+  },
+  {
+   "start_time": 1664.7,
+   "end_time": 1682.6,
+   "value": 0.018349309640499547
+  },
+  {
+   "start_time": 1682.6,
+   "end_time": 1700.5,
+   "value": 0.0
+  },
+  {
+   "start_time": 1700.5,
+   "end_time": 1718.4,
+   "value": 0.024695395554776334
+  },
+  {
+   "start_time": 1718.4,
+   "end_time": 1736.3,
+   "value": 0.06818421978198667
+  },
+  {
+   "start_time": 1736.3,
+   "end_time": 1754.2,
+   "value": 0.0662155038517779
+  },
+  {
+   "start_time": 1754.2,
+   "end_time": 1772.1,
+   "value": 0.07120152390554546
+  },
+  {
+   "start_time": 1772.1,
+   "end_time": 1790.0,
+   "value": 0.0071321513240676935
+  }
+ ],
+ "tab": "videos",
+ "retrieved_at": "2026-10-19T12:43:26Z"
+}

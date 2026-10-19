@@ -1,0 +1,576 @@
+{
+ "id": "k_AE5UDVESI",
+ "title": "AIの真価は自分の分身を作れること。チャットで終わらせない僕のやり方を紹介します。",
+ "thumbnail": "https://i.ytimg.com/vi/k_AE5UDVESI/maxresdefault.jpg",
+ "description": "▼ 動画で紹介したリポジトリ（すべて無料・GitHub）\n\n・Claude for Financial Services（金融：投資銀行/株式調査/ファンド管理など）\nhttps://github.com/anthropics/financial-services\n\n・Knowledge Work Plugins（オフィスワーク全般：営業/サポート/法務/マーケ/データ）\nhttps://github.com/anthropics/knowledge-work-plugins\n\n・Claude for Life Sciences（バイオ・医療研究：論文DB/遺伝子解析/研究テーマ選定）\nhttps://github.com/anthropics/life-sciences\n\n▼ あわせて見ると便利\n\n・Anthropic 公式 GitHub\nhttps://github.com/anthropics\n\n・Agent Skills / Claude Plugins\nhttps://github.com/anthropics/claude-plugins-official\n\nAIは一問一答で使うもの――そう思っている人ほど、本当の価値を取りこぼしています。\nでは、AIを「自分の分身」として育てるには、何から手をつければいいのか。\n答えは、いきなり全自動を目指すことではありません。お金や資産を守る仕事の発想とまったく同じで、下から順番に積み上げていくことが鍵になります。\nこの動画では、AIを自分専用の仕事の基盤に変えていくために必要な、\n覚えさせる\nつなぐ\n役割を分けて任せる\n自動で回す\nという4つの段階を、実際の使い方やセキュリティの注意点も交えながら具体的に解説します。\nチャンネル登録・高評価もよろしくお願いします。#ニュージーランド AI活用 #業務効率化 #第二の脳 #資産運用思考 #AIエージェント",
+ "channel_id": "UC8fTn4DsxlAlql3OXJ8syRA",
+ "channel_url": "https://www.youtube.com/channel/UC8fTn4DsxlAlql3OXJ8syRA",
+ "duration": 1177,
+ "view_count": 145419,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=k_AE5UDVESI",
+ "categories": [
+  "News & Politics"
+ ],
+ "tags": [],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "video",
+ "release_timestamp": null,
+ "comment_count": 259,
+ "chapters": null,
+ "like_count": 3713,
+ "channel": "海外Yパパラジオ　世界を読み解く",
+ "channel_follower_count": null,
+ "creators": null,
+ "channel_is_verified": true,
+ "uploader": "海外Yパパラジオ　世界を読み解く",
+ "uploader_id": "@海外Yパパ",
+ "uploader_url": "https://www.youtube.com/@海外Yパパ",
+ "upload_date": "20260619",
+ "timestamp": 1781910279,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=k_AE5UDVESI",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "k_AE5UDVESI",
+ "fulltitle": "AIの真価は自分の分身を作れること。チャットで終わらせない僕のやり方を紹介します。",
+ "duration_string": "19:37",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792412428,
+ "format": "616 - 1920x1080 (Premium)+251-1 - audio only (日本語（オリジナル） (default), medium)",
+ "format_id": "616+251-1",
+ "ext": "webm",
+ "protocol": "m3u8_native+https",
+ "language": "ja",
+ "format_note": "Premium+日本語（オリジナル） (default), medium",
+ "filesize_approx": 22592022,
+ "tbr": 6254.902,
+ "width": 1920,
+ "height": 1080,
+ "resolution": "1920x1080",
+ "fps": 30.0,
+ "dynamic_range": "SDR",
+ "vcodec": "vp09.00.40.08",
+ "vbr": 6101.317,
+ "stretched_ratio": null,
+ "aspect_ratio": 1.78,
+ "acodec": "opus",
+ "abr": 153.585,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [],
+ "auto_caption_has_ja": true,
+ "heatmap": [
+  {
+   "start_time": 0.0,
+   "end_time": 11.77,
+   "value": 0.18797188397733824
+  },
+  {
+   "start_time": 11.77,
+   "end_time": 23.54,
+   "value": 0.0397654759933191
+  },
+  {
+   "start_time": 23.54,
+   "end_time": 35.31,
+   "value": 0.0
+  },
+  {
+   "start_time": 35.31,
+   "end_time": 47.08,
+   "value": 0.027962959075703866
+  },
+  {
+   "start_time": 47.08,
+   "end_time": 58.85,
+   "value": 0.0822279568736145
+  },
+  {
+   "start_time": 58.85,
+   "end_time": 70.62,
+   "value": 0.09779173909568457
+  },
+  {
+   "start_time": 70.62,
+   "end_time": 82.39,
+   "value": 0.09933651256190831
+  },
+  {
+   "start_time": 82.39,
+   "end_time": 94.16,
+   "value": 0.10606594666632939
+  },
+  {
+   "start_time": 94.16,
+   "end_time": 105.93,
+   "value": 0.11830818616372725
+  },
+  {
+   "start_time": 105.93,
+   "end_time": 117.7,
+   "value": 0.11468048315780739
+  },
+  {
+   "start_time": 117.7,
+   "end_time": 129.47,
+   "value": 0.20287017234701538
+  },
+  {
+   "start_time": 129.47,
+   "end_time": 141.24,
+   "value": 0.26823110475886375
+  },
+  {
+   "start_time": 141.24,
+   "end_time": 153.01,
+   "value": 0.14776337448954802
+  },
+  {
+   "start_time": 153.01,
+   "end_time": 164.78,
+   "value": 0.19109093115966044
+  },
+  {
+   "start_time": 164.78,
+   "end_time": 176.55,
+   "value": 0.3954142639634682
+  },
+  {
+   "start_time": 176.55,
+   "end_time": 188.32,
+   "value": 0.5489810428282045
+  },
+  {
+   "start_time": 188.32,
+   "end_time": 200.09,
+   "value": 0.3228907966967931
+  },
+  {
+   "start_time": 200.09,
+   "end_time": 211.86,
+   "value": 0.2573483268325731
+  },
+  {
+   "start_time": 211.86,
+   "end_time": 223.63,
+   "value": 0.26596855809731534
+  },
+  {
+   "start_time": 223.63,
+   "end_time": 235.4,
+   "value": 0.2813347449307744
+  },
+  {
+   "start_time": 235.4,
+   "end_time": 247.17,
+   "value": 0.3184927762794417
+  },
+  {
+   "start_time": 247.17,
+   "end_time": 258.94,
+   "value": 0.37101540522251764
+  },
+  {
+   "start_time": 258.94,
+   "end_time": 270.71,
+   "value": 0.36781348584554174
+  },
+  {
+   "start_time": 270.71,
+   "end_time": 282.48,
+   "value": 0.4102329248348863
+  },
+  {
+   "start_time": 282.48,
+   "end_time": 294.25,
+   "value": 0.7068098297348878
+  },
+  {
+   "start_time": 294.25,
+   "end_time": 306.02,
+   "value": 0.790379766550054
+  },
+  {
+   "start_time": 306.02,
+   "end_time": 317.79,
+   "value": 0.43802235887176477
+  },
+  {
+   "start_time": 317.79,
+   "end_time": 329.56,
+   "value": 0.3967125398311314
+  },
+  {
+   "start_time": 329.56,
+   "end_time": 341.33,
+   "value": 0.35146140794528147
+  },
+  {
+   "start_time": 341.33,
+   "end_time": 353.1,
+   "value": 0.326588889748991
+  },
+  {
+   "start_time": 353.1,
+   "end_time": 364.87,
+   "value": 0.3150594901840319
+  },
+  {
+   "start_time": 364.87,
+   "end_time": 376.64,
+   "value": 0.33591421340580085
+  },
+  {
+   "start_time": 376.64,
+   "end_time": 388.41,
+   "value": 0.3450254533188509
+  },
+  {
+   "start_time": 388.41,
+   "end_time": 400.18,
+   "value": 0.31260921465964425
+  },
+  {
+   "start_time": 400.18,
+   "end_time": 411.95,
+   "value": 0.25550782246637055
+  },
+  {
+   "start_time": 411.95,
+   "end_time": 423.72,
+   "value": 0.21578737491281533
+  },
+  {
+   "start_time": 423.72,
+   "end_time": 435.49,
+   "value": 0.20442007773100632
+  },
+  {
+   "start_time": 435.49,
+   "end_time": 447.26,
+   "value": 0.19576905495966082
+  },
+  {
+   "start_time": 447.26,
+   "end_time": 459.03,
+   "value": 0.1812092082894444
+  },
+  {
+   "start_time": 459.03,
+   "end_time": 470.8,
+   "value": 0.16215760920704453
+  },
+  {
+   "start_time": 470.8,
+   "end_time": 482.57,
+   "value": 0.17948690357762212
+  },
+  {
+   "start_time": 482.57,
+   "end_time": 494.34,
+   "value": 0.16477478794088057
+  },
+  {
+   "start_time": 494.34,
+   "end_time": 506.11,
+   "value": 0.18585723587492609
+  },
+  {
+   "start_time": 506.11,
+   "end_time": 517.88,
+   "value": 0.26579788044512204
+  },
+  {
+   "start_time": 517.88,
+   "end_time": 529.65,
+   "value": 0.32300429485231563
+  },
+  {
+   "start_time": 529.65,
+   "end_time": 541.42,
+   "value": 0.2957991379305207
+  },
+  {
+   "start_time": 541.42,
+   "end_time": 553.19,
+   "value": 0.23047942640654442
+  },
+  {
+   "start_time": 553.19,
+   "end_time": 564.96,
+   "value": 0.23478083433328475
+  },
+  {
+   "start_time": 564.96,
+   "end_time": 576.73,
+   "value": 0.2781931504194234
+  },
+  {
+   "start_time": 576.73,
+   "end_time": 588.5,
+   "value": 0.2797276600501127
+  },
+  {
+   "start_time": 588.5,
+   "end_time": 600.27,
+   "value": 0.21966809801923204
+  },
+  {
+   "start_time": 600.27,
+   "end_time": 612.04,
+   "value": 0.20928175864133836
+  },
+  {
+   "start_time": 612.04,
+   "end_time": 623.81,
+   "value": 0.2314479351712309
+  },
+  {
+   "start_time": 623.81,
+   "end_time": 635.58,
+   "value": 0.7966129607609594
+  },
+  {
+   "start_time": 635.58,
+   "end_time": 647.35,
+   "value": 1.0
+  },
+  {
+   "start_time": 647.35,
+   "end_time": 659.12,
+   "value": 0.26468975040802056
+  },
+  {
+   "start_time": 659.12,
+   "end_time": 670.89,
+   "value": 0.28232659564401497
+  },
+  {
+   "start_time": 670.89,
+   "end_time": 682.66,
+   "value": 0.27782553956155676
+  },
+  {
+   "start_time": 682.66,
+   "end_time": 694.43,
+   "value": 0.3198356170588125
+  },
+  {
+   "start_time": 694.43,
+   "end_time": 706.2,
+   "value": 0.3194102307396312
+  },
+  {
+   "start_time": 706.2,
+   "end_time": 717.97,
+   "value": 0.3218663996921644
+  },
+  {
+   "start_time": 717.97,
+   "end_time": 729.74,
+   "value": 0.29862291774092053
+  },
+  {
+   "start_time": 729.74,
+   "end_time": 741.51,
+   "value": 0.3124855851051748
+  },
+  {
+   "start_time": 741.51,
+   "end_time": 753.28,
+   "value": 0.32432462141180446
+  },
+  {
+   "start_time": 753.28,
+   "end_time": 765.05,
+   "value": 0.23603560478194083
+  },
+  {
+   "start_time": 765.05,
+   "end_time": 776.82,
+   "value": 0.2345503946709636
+  },
+  {
+   "start_time": 776.82,
+   "end_time": 788.59,
+   "value": 0.4014611861139973
+  },
+  {
+   "start_time": 788.59,
+   "end_time": 800.36,
+   "value": 0.45557133243192577
+  },
+  {
+   "start_time": 800.36,
+   "end_time": 812.13,
+   "value": 0.2916722483170124
+  },
+  {
+   "start_time": 812.13,
+   "end_time": 823.9,
+   "value": 0.30953311004083217
+  },
+  {
+   "start_time": 823.9,
+   "end_time": 835.67,
+   "value": 0.32277425249975716
+  },
+  {
+   "start_time": 835.67,
+   "end_time": 847.44,
+   "value": 0.2525387597194384
+  },
+  {
+   "start_time": 847.44,
+   "end_time": 859.21,
+   "value": 0.27664973442822194
+  },
+  {
+   "start_time": 859.21,
+   "end_time": 870.98,
+   "value": 0.26016025356838796
+  },
+  {
+   "start_time": 870.98,
+   "end_time": 882.75,
+   "value": 0.23739761575735815
+  },
+  {
+   "start_time": 882.75,
+   "end_time": 894.52,
+   "value": 0.2253348609452251
+  },
+  {
+   "start_time": 894.52,
+   "end_time": 906.29,
+   "value": 0.3056831784410187
+  },
+  {
+   "start_time": 906.29,
+   "end_time": 918.06,
+   "value": 0.43025084747827824
+  },
+  {
+   "start_time": 918.06,
+   "end_time": 929.83,
+   "value": 0.1414990576805705
+  },
+  {
+   "start_time": 929.83,
+   "end_time": 941.6,
+   "value": 0.13626168728053187
+  },
+  {
+   "start_time": 941.6,
+   "end_time": 953.37,
+   "value": 0.1450051838991278
+  },
+  {
+   "start_time": 953.37,
+   "end_time": 965.14,
+   "value": 0.14462538887520746
+  },
+  {
+   "start_time": 965.14,
+   "end_time": 976.91,
+   "value": 0.1590193587195289
+  },
+  {
+   "start_time": 976.91,
+   "end_time": 988.68,
+   "value": 0.18974994449251525
+  },
+  {
+   "start_time": 988.68,
+   "end_time": 1000.45,
+   "value": 0.2217815873015032
+  },
+  {
+   "start_time": 1000.45,
+   "end_time": 1012.22,
+   "value": 0.2831852482593363
+  },
+  {
+   "start_time": 1012.22,
+   "end_time": 1023.99,
+   "value": 0.30246933977116414
+  },
+  {
+   "start_time": 1023.99,
+   "end_time": 1035.76,
+   "value": 0.2827718474513274
+  },
+  {
+   "start_time": 1035.76,
+   "end_time": 1047.53,
+   "value": 0.21935134281098115
+  },
+  {
+   "start_time": 1047.53,
+   "end_time": 1059.3,
+   "value": 0.23315375152790435
+  },
+  {
+   "start_time": 1059.3,
+   "end_time": 1071.07,
+   "value": 0.2760286068326552
+  },
+  {
+   "start_time": 1071.07,
+   "end_time": 1082.84,
+   "value": 0.36014547364521843
+  },
+  {
+   "start_time": 1082.84,
+   "end_time": 1094.61,
+   "value": 0.319015967018522
+  },
+  {
+   "start_time": 1094.61,
+   "end_time": 1106.38,
+   "value": 0.26031106573245016
+  },
+  {
+   "start_time": 1106.38,
+   "end_time": 1118.15,
+   "value": 0.21914560257223636
+  },
+  {
+   "start_time": 1118.15,
+   "end_time": 1129.92,
+   "value": 0.19099700050994708
+  },
+  {
+   "start_time": 1129.92,
+   "end_time": 1141.69,
+   "value": 0.20876432889381613
+  },
+  {
+   "start_time": 1141.69,
+   "end_time": 1153.46,
+   "value": 0.2518238339107458
+  },
+  {
+   "start_time": 1153.46,
+   "end_time": 1165.23,
+   "value": 0.5426696448123562
+  },
+  {
+   "start_time": 1165.23,
+   "end_time": 1177.0,
+   "value": 0.4508551993313012
+  }
+ ],
+ "tab": "videos",
+ "retrieved_at": "2026-10-19T12:20:28Z"
+}

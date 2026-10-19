@@ -1,0 +1,9 @@
+{
+  "source": "YouTube 公開ウォッチページ",
+  "method": "yt-dlp (skip_download)",
+  "yt_dlp_version": "2026.08.19",
+  "channel_id": "UC8fTn4DsxlAlql3OXJ8syRA",
+  "lang": "ja",
+  "count": 351,
+  "retrieved_at": "2026-10-19T12:07:05Z"
+}

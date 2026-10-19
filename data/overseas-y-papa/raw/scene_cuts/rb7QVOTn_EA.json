@@ -1,0 +1,10 @@
+{
+ "video_id": "rb7QVOTn_EA",
+ "threshold": 0.3,
+ "cuts": [
+  327.233
+ ],
+ "frame_every_s": 15,
+ "retrieved_at": "2026-10-19T12:57:20Z",
+ "method": "yt-dlp <=360p + ffmpeg select=gt(scene,t)"
+}

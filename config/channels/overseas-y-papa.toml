@@ -1,0 +1,7 @@
+slug = "overseas-y-papa"
+name = "海外Yパパ"
+handle = "@海外Yパパ"
+channel_id = "UC8fTn4DsxlAlql3OXJ8syRA"
+url = "https://www.youtube.com/@海外Yパパ"
+# 表示言語（タイトル・説明文の自動翻訳を避けるため）
+lang = "ja"
