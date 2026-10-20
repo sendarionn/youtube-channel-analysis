@@ -37,7 +37,7 @@ def main() -> None:
 
     v = pd.read_csv(ch.processed_dir / "analysis_videos.csv")
     v = v[(v["kind"] == "video") & v["mature"]].merge(f, on="video_id")
-    content = v[v["theme"] != "Z"]
+    content = v[~v["theme"].isin(ch.get("analysis", "exclude_themes", []))]
     out_dir = ch.report_dir / "thumbnails"
     path = lambda vid: tdir / f"{vid}.jpg"  # noqa: E731
 

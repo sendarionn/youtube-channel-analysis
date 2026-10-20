@@ -1,0 +1,21 @@
+{
+  "built_at": "2026-10-20T18:28:11+00:00",
+  "videos_source": {
+    "source": "YouTube 公開ウォッチページ",
+    "method": "yt-dlp (skip_download)",
+    "yt_dlp_version": "2026.08.19",
+    "channel_id": "UCW01sMEVYQdhcvkrhbxdBpw",
+    "lang": "ja",
+    "count": 79,
+    "limit_per_tab": 30,
+    "retrieved_at": "2026-10-20T18:06:18Z"
+  },
+  "n_videos": 79,
+  "kinds": {
+    "short": 30,
+    "video": 30,
+    "live": 19
+  },
+  "n_history_points": 1,
+  "methodology_version": "1.1.0"
+}

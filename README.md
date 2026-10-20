@@ -4,19 +4,52 @@ YouTubeチャンネルの成長要因を、公開データの定量分析と動�
 
 Claude Code を使用して構築・分析した
 
-- 共通原則：[AGENTS.md](AGENTS.md)
+- 共通の作業方針：[AGENTS.md](AGENTS.md)
+- 分析方法（標準工程・指標・分類・品質基準・変更履歴）：[methodology/](methodology/README.md)
 - 調査一覧
-  - 海外Yパパ：[指示書](docs/overseas-y-papa-analysis.md) / [最終報告書](reports/overseas-y-papa/FINAL_REPORT.md) / [作業記録](docs/overseas-y-papa-progress.md)
+
+| チャンネル | 状態 | 方法論 | 資料 |
+|---|---|---|---|
+| 海外Yパパ | 完了 | 1.0.0（1.1.0 で頑健性を確認） | [指示書](docs/overseas-y-papa-analysis.md) / [最終報告書](reports/overseas-y-papa/FINAL_REPORT.md) / [頑健性](reports/overseas-y-papa/robustness.md) / [レビュー](methodology/reviews/2026-10-21-overseas-y-papa.md) |
+| リュウジのバズレシピ | 試験調査（直近30本） | 1.1.0 | [試験結果](methodology/reviews/2026-10-21-trial-ryuji-buzz-recipe.md) / [草稿](reports/ryuji-buzz-recipe/DRAFT_REPORT.md) |
+
+## 新しいチャンネルの調査を始める
+
+```sh
+# 1. チャンネルURLから設定・ディレクトリ・指示書のひな形を作る
+.venv/bin/python -m ycanalysis.init https://www.youtube.com/@handle --slug <slug>
+#    → docs/<slug>-analysis.md に調査目的・範囲を書く
+
+# 2. 収集と自動分析をまとめて実行（試験なら --limit 30、Wayback を省くなら --no-wayback）
+.venv/bin/python -m ycanalysis.run <slug> --collect
+
+# 3. テーマ体系を作る（人間の判断。再生数を伏せたシートを使う）
+.venv/bin/python -m ycanalysis.annotate <slug> export --columns theme,japan_angle,intl_compare
+#    → data/<slug>/annotations/labels_manual.csv を作り、config の [themes]・[flags] を埋める
+.venv/bin/python -m ycanalysis.run <slug>          # 収集済みデータで再分析
+
+# 4. 代表動画の内容分析・類似チャンネル比較・仮説検証・報告書（下の Phase 3〜4 と methodology/README.md）
+# 5. 調査方法をレビューし、methodology/reviews/ と CHANGELOG.md に記録する
+```
+
+- 自動で進むのは収集・集計・グラフ・頑健性チェック・代表動画の選定・報告書の草稿まで
+- テーマ分類、内容分析、比較対象の選定、結論の確信度は人間の判断が必要（AI が下案を作る場合も根拠を記録する）
+- 既存の分析コードを書き換えずに、設定ファイル（`config/channels/<slug>.toml`）でチャンネル固有の値を調整する
 
 ## 構成
 
 ```text
-config/channels/<slug>.toml     チャンネル設定（ID・ハンドル・表示言語）
+config/channels/<slug>.toml     チャンネル設定（識別情報と、テーマ・フラグ・期間・定型句など固有の値）
 config/channels/<slug>.peers.toml  比較チャンネル探索用の検索語
 src/ycanalysis/
+  init.py    新しいチャンネルの初期化
+  run.py     標準工程の一括実行
+  annotate.py 盲検コーディング用シートと一致率
   collect/   収集（ネットワークにアクセスするのはここだけ）
-  analyze/   集計・検定・Phase別の分析
+  analyze/   前処理・集計・検定・頑健性チェック・草稿
   visualize/ グラフ・一覧画像
+methodology/  分析方法の仕様・変更履歴・レビュー・回帰の基準値
+templates/    チャンネル設定・調査指示書・報告書のひな形
 data/<slug>/
   raw/          取得した元データ（タイムスタンプ付き、上書きしない）
   processed/    raw から再生成できる加工データ
@@ -90,20 +123,13 @@ python3 -m venv .venv
 .venv/bin/python -m ycanalysis.analyze.peers <slug> <peer> <peer> ...
 ```
 
-### テスト
+### テスト・回帰確認
 
 ```sh
-.venv/bin/pytest
+.venv/bin/pytest                                              # 単体テストと海外Yパパの回帰テスト
+.venv/bin/python -m ycanalysis.analyze.baseline <slug> check  # 主要な数値を基準値と照合
+.venv/bin/python -m ycanalysis.analyze.robustness <slug>      # 指標・分類方法を変えて結論を再確認
 ```
-
-## 別のチャンネルを調べる場合
-
-1. `config/channels/<新slug>.toml` を作る（`channel_id` はチャンネルページの URL などで確認）
-2. Phase 1・2 のコマンドを `<新slug>` で実行する
-3. テーマ分類は `data/<新slug>/annotations/labels_manual.csv` に手作業で作る（列は [コーディング基準](docs/overseas-y-papa-codebook.md) を参照し、テーマ体系はチャンネルに合わせて作り直す）
-4. `docs/<新slug>-analysis.md` に調査要件を書く
-
-チャンネル固有の定型句（Phase 3 の挨拶検出など）は `analyze/phase3.py` の `PATTERNS` を書き換える
 
 ## 技術選定
 

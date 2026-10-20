@@ -29,7 +29,7 @@ def channel_summary(ch, n: int) -> tuple[dict, pd.DataFrame]:
     page, _ = wayback_parse.build(ch.raw_dir / "channel_page")
     cur = page.iloc[-1]
     span_days = (vid["published_at"].max() - vid["published_at"].min()).total_seconds() / 86400
-    jst = vid["published_at"].dt.tz_convert("Asia/Tokyo")
+    jst = vid["published_at"].dt.tz_convert(ch.timezone)
     summary = {
         "チャンネル": ch.name,
         "登録者": cur["subscribers"], "総再生": cur["total_views"], "公開動画数": cur["video_count"],
@@ -52,6 +52,11 @@ def channel_summary(ch, n: int) -> tuple[dict, pd.DataFrame]:
         "Shorts本数(全体)": int((v["kind"] == "short").sum()),
     }
     return summary, vid.assign(channel=ch.name)
+
+
+def first_upload(ch) -> pd.Timestamp:
+    v, _ = load_videos(ch)
+    return v["published_at"].min().normalize()
 
 
 def history(ch) -> pd.DataFrame:
@@ -118,7 +123,8 @@ def main() -> None:
     for i, ch in enumerate(chans):
         g = hist[(hist["channel"] == ch.name) & ~hist["anomaly"]].dropna(subset=["subscribers"])
         if ch is main_ch:
-            start = pd.Timestamp("2026-02-12", tz="UTC")  # 初投稿日（joined は 2022 だが投稿開始は 2026-02）
+            # 対象チャンネルは全動画を取得しているため初投稿日を起点にする（開設日より後に投稿を始める場合がある）
+            start = first_upload(ch)
         else:
             start = pd.to_datetime(g["joined"].dropna().iloc[0], format="mixed").tz_localize("UTC")
         x = (g["snapshot_at"] - start).dt.days / 30.4

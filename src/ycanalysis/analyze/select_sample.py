@@ -1,7 +1,7 @@
 """Phase 3 の内容分析対象を選ぶ
 
 規則:
-- 対象: 通常動画・公開7日以上・雑談/告知/音楽（テーマZ）を除く
+- 対象: 通常動画・公開7日以上・config の exclude_themes を除く
 - 群: 相対再生指数の上位20%（high）、40〜60%（mid）、下位20%（low）
 - 各群から期間ごとに per_period 本、同じ期間内でテーマが重複しないように選ぶ
   - high は指数の高い順、low は低い順、mid は中央値に近い順に候補を並べる
@@ -35,8 +35,8 @@ def pick(cands: pd.DataFrame, n: int) -> list[int]:
     return chosen
 
 
-def select(v: pd.DataFrame, per_period: int = 3) -> pd.DataFrame:
-    pool = v[(v["kind"] == "video") & v["mature"] & (v["theme"] != "Z")].copy()
+def select(v: pd.DataFrame, per_period: int = 3, exclude_themes=()) -> pd.DataFrame:
+    pool = v[(v["kind"] == "video") & v["mature"] & ~v["theme"].isin(exclude_themes)].copy()
     q = pool["rel_index"].quantile([0.2, 0.4, 0.6, 0.8])
     med = pool["rel_index"].median()
     tiers = {
@@ -64,7 +64,7 @@ def main() -> None:
     a = ap.parse_args()
     ch = load_channel(a.slug)
     v = pd.read_csv(ch.processed_dir / "analysis_videos.csv")
-    s = select(v, a.per_period)
+    s = select(v, a.per_period, ch.get("analysis", "exclude_themes", []))
     cols = ["tier", "period", "theme", "video_id", "published_jst", "duration_min", "views", "rel_index", "title"]
     s[cols].to_csv(ch.processed_dir / "phase3_sample.csv", index=False)
     print(s[cols].to_string())

@@ -1,0 +1,40 @@
+# チャンネル設定のテンプレート
+# python -m ycanalysis.init <URL> が識別情報を埋めて config/channels/<slug>.toml に書き出す
+# 項目の意味：methodology/README.md・metrics.md・classification.md
+
+slug = "{slug}"
+name = "{name}"
+handle = "{handle}"
+channel_id = "{channel_id}"
+url = "{url}"
+# 取得時の表示言語（タイトル・説明文の自動翻訳を避ける）
+lang = "{lang}"
+# 投稿時刻を集計する現地時間（視聴者の主な居住地）
+timezone = "Asia/Tokyo"
+
+[analysis]
+# 相対再生指数：前後何本の中央値と比べるか（metrics.md）
+neighbor_window = 10
+# 比較から除く公開直後の日数
+min_age_days = 7
+# 内容比較から除くテーマコード（雑談・告知など）。テーマを作るまでは空
+exclude_themes = []
+# 重回帰の基準テーマ。空なら最多のテーマ
+reference_theme = ""
+# 期間を区切る登録者の節目（節目告知動画のタイトルから検出）。見つからなければ公開順に4等分
+period_milestones = [10000, 50000, 100000]
+# 定時投稿として比較する時間帯（timezone の時、開始と終了）
+posting_slot = [6, 7]
+
+# テーマコード → 表示名。annotations/labels_manual.csv を作るときに定義する（classification.md）
+[themes]
+
+# 手作業の特徴フラグ → 表示名。共通フラグ（classification.md）から必要なものを選び、固有のものを足す
+[flags]
+
+# タイトルの型・シリーズ名 → 正規表現（任意）
+[series]
+
+# Phase 3：チャンネル紹介の定型句の正規表現（任意。字幕の誤認識も許容する）
+[phase3]
+intro_pattern = ""

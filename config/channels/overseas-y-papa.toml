@@ -5,3 +5,62 @@ channel_id = "UC8fTn4DsxlAlql3OXJ8syRA"
 url = "https://www.youtube.com/@海外Yパパ"
 # 表示言語（タイトル・説明文の自動翻訳を避けるため）
 lang = "ja"
+timezone = "Asia/Tokyo"
+
+[analysis]
+# 相対再生指数（methodology/metrics.md）
+neighbor_window = 10
+min_age_days = 7
+# 内容分析・特徴比較から除外するテーマ（雑談・告知・音楽）
+exclude_themes = ["Z"]
+exclude_label = "雑談・告知"
+# 重回帰の基準テーマ（最多のテーマ）
+reference_theme = "E"
+# 期間を区切る登録者の節目（節目告知動画のタイトルから検出）
+period_milestones = [10000, 50000, 100000]
+# 定時投稿として比較する時間帯（timezone の時）
+posting_slot = [6, 7]
+
+# テーマコード → 表示名（docs/overseas-y-papa-codebook.md）
+[themes]
+G = "国際情勢・地政学"
+E = "経済・金融・投資"
+A = "AI・テック解説"
+P = "AI実務ハウツー"
+S = "サイバー・詐欺"
+D = "人口・社会・教育"
+L = "海外生活・現地"
+Z = "雑談・告知・音楽"
+
+# 手作業コーディングの特徴フラグ → 表示名
+[flags]
+japan_angle = "日本と結びつける"
+intl_compare = "国際比較・ランキング"
+timely = "時事ネタ"
+counterintuitive = "意外性・通説への反論"
+anxiety = "危機感・不安"
+
+# 論調の手作業コーディング（任意）
+[tone]
+column = "japan_tone"
+pos = "日本に肯定的・安心させる"
+neg = "日本に否定的・危機"
+neu = "日本に言及（中立）"
+none = "日本に言及なし"
+chart_title = "日本への言及の論調別・期間別の相対再生指数（数字は本数）"
+table_title = "日本への言及の論調（手作業コーディング）"
+
+# タイトルの型・シリーズ（正規表現）
+[series]
+"ゆる○○（雑談・訪問・紹介）" = "【ゆる"
+"AI実務（中級など）" = "【AI(?:実務)?(?:中級|やや上級)"
+"ラップバトル" = "ラップバトル"
+"コンテスト・レース型" = "コンテスト|レース|対決|大会|デッドヒート"
+"わかったから〜落ち着けって" = "落ち着けって"
+"〜に答えます" = "に答えます"
+"Yパパシュラン" = "Yパ(?:パ)?シュラン"
+"資産防衛" = "資産防衛"
+
+[phase3]
+# チャンネル紹介の定型句（字幕の誤認識を含めて許容）
+intro_pattern = "海外\\s*(?:[YyＹ]|ワイ)?\\s*パ\\s*パ?\\s*(?:ラジオ|です)|海外ワイパ|how\\s*are|ハウアー|ハワユ|ハウアユ"

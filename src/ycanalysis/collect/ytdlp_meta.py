@@ -44,10 +44,11 @@ def _opts(channel: Channel, **extra) -> dict:
     }
 
 
-def list_channel(channel: Channel) -> list[dict]:
-    """チャンネルの各タブから動画IDを列挙する"""
+def list_channel(channel: Channel, limit: int | None = None) -> list[dict]:
+    """チャンネルの各タブから動画IDを列挙する（limit があれば各タブ新しい順に limit 本で打ち切る）"""
     out = []
-    with yt_dlp.YoutubeDL(_opts(channel, extract_flat="in_playlist")) as ydl:
+    extra = {"playlistend": limit} if limit else {}
+    with yt_dlp.YoutubeDL(_opts(channel, extract_flat="in_playlist", **extra)) as ydl:
         for tab in TABS:
             try:
                 info = ydl.extract_info(f"https://www.youtube.com/channel/{channel.channel_id}/{tab}", download=False)
@@ -77,7 +78,7 @@ def collect_videos(channel: Channel, resume: Path | None = None, sleep: float = 
         listing = json.loads((d / "list.json").read_text())
     else:
         d = new_snapshot_dir(channel.raw_dir, "ytdlp_videos")
-        listing = list_channel(channel)
+        listing = list_channel(channel, limit)
         if limit:
             listing = [x for tab in TABS for x in [e for e in listing if e["tab"] == tab][:limit]]
         write_json(d / "list.json", listing)

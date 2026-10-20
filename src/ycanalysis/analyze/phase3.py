@@ -17,15 +17,19 @@ from ..config import load_channel
 from ..visualize.contact_sheet import contact_sheet
 from .transcript import first_time, load_json3, minute_blocks, speech_stats, text_between
 
-# チャンネル固有の挨拶・定型句（config に移すほどの汎用性はまだないため、ここで定義）
+# 字幕から位置を検出する定型句。チャンネル紹介の定型句は config の [phase3] intro_pattern で指定する
 PATTERNS = {
-    "t_channel_intro": r"海外\s*(?:[YyＹ]|ワイ)?\s*パ\s*パ?\s*(?:ラジオ|です)|海外ワイパ|how\s*are|ハウアー|ハワユ|ハウアユ",
     "t_today": r"今日は|今回は|本日は",
     "t_conclusion": r"結論|まとめると|つまり|要するに",
     "t_first_cta": r"チャンネル登録|高評価",
     "t_roadmap": r"[2-5２-５二三四五]つ(?:あって|です|に分けて|見ていきます|話します|の(?:ブロック|話|順番|ポイント|柱))|[2-5２-５]つの(?:ブロック|順番)",
     "t_callback": r"(?:最初|冒頭)の(?:問い?|疑問|数字|話)に戻",
 }
+
+
+def patterns(ch) -> dict:
+    intro = ch.get("phase3", "intro_pattern")
+    return ({"t_channel_intro": intro} if intro else {}) | PATTERNS
 
 
 def subs_path(ch, vid: str) -> Path | None:
@@ -39,7 +43,8 @@ def subs_path(ch, vid: str) -> Path | None:
 def metrics(ch) -> pd.DataFrame:
     sample = pd.read_csv(ch.processed_dir / "phase3_sample.csv")
     v = pd.read_csv(ch.processed_dir / "analysis_videos.csv").set_index("video_id")
-    extra = [vid for vid in json.loads((ch.data_dir / "annotations" / "phase3_extra.json").read_text())]
+    extra_path = ch.annotations_dir / "phase3_extra.json"
+    extra = json.loads(extra_path.read_text()) if extra_path.exists() else []
     ids = list(sample["video_id"]) + [x for x in extra if x not in set(sample["video_id"])]
     rows = []
     for vid in ids:
@@ -50,7 +55,7 @@ def metrics(ch) -> pd.DataFrame:
         if sp:
             segs = load_json3(sp)
             row.update(speech_stats(segs, dur))
-            row.update({k: first_time(segs, p) for k, p in PATTERNS.items()})
+            row.update({k: first_time(segs, p) for k, p in patterns(ch).items()})
         cp = ch.raw_dir / "scene_cuts" / f"{vid}.json"
         if cp.exists():
             cuts = json.loads(cp.read_text())["cuts"]
@@ -76,9 +81,7 @@ def timeline_chart(ch, df: pd.DataFrame) -> Path:
     fig, ax = plt.subplots(figsize=(9, 10))
     for i, r in d.iterrows():
         ax.plot([0, r["duration_min"]], [i, i], color=MUTED, lw=1.5, solid_capstyle="round")
-        if r["cuts_per_min"] == r["cuts_per_min"]:
-            pass
-    for col, label, color, m in marks:
+    for col, label, color, m in [mk for mk in marks if mk[0] in d]:
         ax.scatter(d[col] / 60, d.index, color=color, marker=m, s=34, label=label, zorder=3, edgecolor="white", linewidth=1)
     ax.set_yticks(d.index, [f"{r['tier']} {r['rel_index']:.2f} {str(r['title'])[:14]}" for _, r in d.iterrows()], fontsize=7.5)
     ax.invert_yaxis()

@@ -1,0 +1,64 @@
+{
+  "build_dataset": {
+    "methodology_version": "1.1.0",
+    "run_at": "2026-10-20T18:28:04+00:00",
+    "n_videos": 351,
+    "n_history_points": 11
+  },
+  "quant": {
+    "methodology_version": "1.1.0",
+    "run_at": "2026-10-20T18:30:20+00:00",
+    "labeled": true,
+    "n_videos": 351
+  },
+  "run:build_dataset": {
+    "methodology_version": "1.1.0",
+    "run_at": "2026-10-20T18:28:04+00:00",
+    "status": "ok",
+    "seconds": 0.6,
+    "stderr_tail": []
+  },
+  "run:quant": {
+    "methodology_version": "1.1.0",
+    "run_at": "2026-10-20T18:28:06+00:00",
+    "status": "ok",
+    "seconds": 2.0,
+    "stderr_tail": []
+  },
+  "run:thumbs": {
+    "methodology_version": "1.1.0",
+    "run_at": "2026-10-20T18:28:08+00:00",
+    "status": "ok",
+    "seconds": 2.1,
+    "stderr_tail": []
+  },
+  "run:robustness": {
+    "methodology_version": "1.1.0",
+    "run_at": "2026-10-20T18:28:09+00:00",
+    "status": "ok",
+    "seconds": 1.0,
+    "stderr_tail": []
+  },
+  "run:select_sample": {
+    "methodology_version": "1.1.0",
+    "run_at": "2026-10-20T18:28:09+00:00",
+    "status": "ok",
+    "seconds": 0.2,
+    "stderr_tail": []
+  },
+  "draft_report": {
+    "methodology_version": "1.1.0",
+    "run_at": "2026-10-20T18:28:10+00:00"
+  },
+  "run:draft_report": {
+    "methodology_version": "1.1.0",
+    "run_at": "2026-10-20T18:28:10+00:00",
+    "status": "ok",
+    "seconds": 0.9,
+    "stderr_tail": []
+  },
+  "robustness": {
+    "methodology_version": "1.1.0",
+    "run_at": "2026-10-20T18:30:43+00:00"
+  }
+}

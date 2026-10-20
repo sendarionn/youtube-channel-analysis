@@ -118,3 +118,12 @@
 - 手作業コーディング（テーマ・論調・Phase 3）の第三者による盲検の再コーディングと一致率の確認
 - 数か月後の再収集による、同じ動画の再生数推移の比較
 - YouTube Analytics（チャンネル所有者のみ）があれば、トラフィック元・視聴維持率・登録転換率で H1・H10・H13〜H16 を検証できる
+
+## 方法論レビュー（2026-10-21）
+
+- [methodology/reviews/2026-10-21-overseas-y-papa.md](../methodology/reviews/2026-10-21-overseas-y-papa.md)
+- 主要な結論の頑健性：[reports/overseas-y-papa/robustness.md](../reports/overseas-y-papa/robustness.md)
+- 確信度の修正（報告書は v1.0.0 の成果物として変更していない）
+  - 意外性・通説への反論：中 → 低（規則ベースでは効果が消える）
+  - 日本を安心させる論調：中〜高 → 中（盲検の再判定が必要）
+  - 投稿量による底上げ：中 → 低〜中（因果を識別できない）

@@ -13,7 +13,8 @@ from datetime import datetime, timezone
 import pandas as pd
 
 from ..collect.rawstore import latest_snapshot_dir
-from ..config import Channel, load_channel
+from .. import METHODOLOGY_VERSION
+from ..config import Channel, load_channel, record_run
 from . import wayback_parse
 from .performance import add_performance
 from .title_features import title_features
@@ -55,7 +56,8 @@ def load_videos(channel: Channel) -> tuple[pd.DataFrame, dict]:
         })
     df = pd.DataFrame(rows)
     df["age_days"] = (df["retrieved_at"] - df["published_at"]).dt.total_seconds() / 86400
-    jst = df["published_at"].dt.tz_convert("Asia/Tokyo")
+    # *_jst 列は設定 timezone の現地時刻（既定 Asia/Tokyo）。列名は v1.0 との互換のため維持
+    jst = df["published_at"].dt.tz_convert(channel.timezone)
     df["published_jst"] = jst.dt.strftime("%Y-%m-%d %H:%M")
     df["month"] = jst.dt.strftime("%Y-%m")
     df["weekday"] = jst.dt.dayofweek
@@ -66,7 +68,8 @@ def load_videos(channel: Channel) -> tuple[pd.DataFrame, dict]:
     df["hashtags"] = df["title"].map(lambda t: "|".join(HASHTAG.findall(t or "")))
     feats = pd.DataFrame([title_features(HASHTAG.sub("", t or "").strip()) for t in df["title"]])
     df = pd.concat([df, feats], axis=1)
-    df = add_performance(df)
+    df = add_performance(df, window=channel.get("analysis", "neighbor_window", 10),
+                         min_age_days=channel.get("analysis", "min_age_days", 7))
     return df, manifest
 
 
@@ -80,12 +83,21 @@ def main() -> None:
     df, manifest = load_videos(ch)
     df.to_csv(out / "videos.csv", index=False)
 
-    hist, snaps = wayback_parse.build(ch.raw_dir / "wayback")
-    hist["source"] = "wayback"
-    if (ch.raw_dir / "channel_page").exists():
-        cur, _ = wayback_parse.build(ch.raw_dir / "channel_page")
-        cur["source"] = "direct"
-        hist = pd.concat([hist, cur]).sort_values("snapshot_at")
+    # Wayback や概要ページが未取得でも動画データの処理は続ける
+    parts, snaps = [], pd.DataFrame()
+    for sub, source in (("wayback", "wayback"), ("channel_page", "direct")):
+        d = ch.raw_dir / sub
+        if d.exists() and list(d.glob("*.html")):
+            h, s = wayback_parse.build(d)
+            parts.append(h.assign(source=source))
+            if source == "wayback":
+                snaps = s
+        else:
+            print(f"注意: {d} がないため登録者推移の観測点を含めない")
+    hist = pd.concat(parts).sort_values("snapshot_at") if parts else pd.DataFrame(
+        columns=["snapshot_at", "file", "subscribers", "video_count", "total_views", "joined", "anomaly", "source"])
+    if snaps.empty:
+        snaps = pd.DataFrame(columns=["snapshot_at", "file", "video_id", "views", "published_text"])
     hist.to_csv(out / "channel_history.csv", index=False)
     snaps.to_csv(out / "video_view_snapshots.csv", index=False)
 
@@ -94,7 +106,9 @@ def main() -> None:
         "videos_source": manifest,
         "n_videos": len(df), "kinds": df["kind"].value_counts().to_dict(),
         "n_history_points": len(hist),
+        "methodology_version": METHODOLOGY_VERSION,
     }, ensure_ascii=False, indent=2, default=str))
+    record_run(ch, "build_dataset", n_videos=len(df), n_history_points=len(hist))
     print(out, len(df), df["kind"].value_counts().to_dict(), len(hist))
 
 

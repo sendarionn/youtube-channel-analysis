@@ -1,0 +1,47 @@
+# 料理研究家リュウジのバズレシピ の設定（2026-10-21 に ycanalysis.init で作成）
+# 項目の意味：methodology/README.md・metrics.md・classification.md
+
+slug = "ryuji-buzz-recipe"
+name = "料理研究家リュウジのバズレシピ"
+handle = "@ryuji825"
+channel_id = "UCW01sMEVYQdhcvkrhbxdBpw"
+url = "https://www.youtube.com/@ryuji825"
+# 取得時の表示言語（タイトル・説明文の自動翻訳を避ける）
+lang = "ja"
+# 投稿時刻を集計する現地時間（視聴者の主な居住地）
+timezone = "Asia/Tokyo"
+
+[analysis]
+# 相対再生指数：前後何本の中央値と比べるか（metrics.md）
+neighbor_window = 10
+# 比較から除く公開直後の日数
+min_age_days = 7
+# 内容比較から除くテーマコード（雑談・告知など）。テーマを作るまでは空
+exclude_themes = ["L", "X"]
+exclude_label = "生配信・告知と判断不能"
+# 重回帰の基準テーマ。空なら最多のテーマ
+reference_theme = "R"
+# 期間を区切る登録者の節目（節目告知動画のタイトルから検出）。見つからなければ公開順に4等分
+period_milestones = [10000, 50000, 100000]
+# 定時投稿として比較する時間帯（timezone の時、開始と終了）
+posting_slot = [6, 7]
+
+# テーマコード → 表示名。annotations/labels_manual.csv を作るときに定義する（classification.md）
+[themes]
+R = "レシピ実演"
+C = "市販品・店の再現とジャッジ"
+F = "騒動・本人の報告"
+K = "企画・コラボ・PR"
+L = "生配信・記念告知"
+X = "タイトルから判断不能"
+
+# 手作業の特徴フラグ → 表示名。共通フラグ（classification.md）から必要なものを選び、固有のものを足す
+[flags]
+controversy = "炎上・騒動に言及"
+
+# タイトルの型・シリーズ名 → 正規表現（任意）
+[series]
+
+# Phase 3：チャンネル紹介の定型句の正規表現（任意。字幕の誤認識も許容する）
+[phase3]
+intro_pattern = ""

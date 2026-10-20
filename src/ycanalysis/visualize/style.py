@@ -59,3 +59,12 @@ def save(fig, path: Path) -> Path:
     fig.savefig(path, bbox_inches="tight")
     plt.close(fig)
     return path
+
+
+def compact_dates(ax, index) -> None:
+    """期間が60日未満のとき、日付の目盛りを簡潔な表記にする（重なり防止）"""
+    import matplotlib.dates as mdates
+    if len(index) and (index.max() - index.min()).days < 60:
+        loc = mdates.AutoDateLocator(maxticks=6)
+        ax.xaxis.set_major_locator(loc)
+        ax.xaxis.set_major_formatter(mdates.ConciseDateFormatter(loc))
