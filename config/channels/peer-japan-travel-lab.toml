@@ -1,0 +1,21 @@
+slug = "peer-japan-travel-lab"
+name = "にっこーけん -Japan Travel Lab.-"
+handle = ""
+channel_id = "UCZAr1Ra4mMc3X5kD-iEhhlg"
+url = "https://www.youtube.com/channel/UCZAr1Ra4mMc3X5kD-iEhhlg"
+lang = "ja"
+timezone = "Asia/Tokyo"
+
+[analysis]
+neighbor_window = 10
+min_age_days = 7
+exclude_themes = []
+reference_theme = ""
+period_milestones = []
+posting_slot = [6, 7]
+
+[themes]
+[flags]
+[series]
+[phase3]
+intro_pattern = ""

@@ -1,0 +1,126 @@
+{
+ "id": "5NUMt4HmqVA",
+ "title": "東海道貨物線の歴史～小学生でもわかるように解説",
+ "thumbnail": "https://i.ytimg.com/vi_webp/5NUMt4HmqVA/maxresdefault.webp",
+ "description": "東海道貨物線の歴史について、小学生でもわかるように解説。\n\n大正時代、すでに東海道線だけでは不足。旅客電車だけで線路がパンクしそうになったため、貨物列車専用の線路を作ることにして、鶴見～平塚を複々線化。\n東京～鶴見間は宅地開発が進んでいたため、品鶴線を別途作ってバイパスに。\n\n戦後、横須賀線が品鶴線を使用。\n一方、貨物ターミナル駅は東京貨物ターミナル駅に移転。\n鶴見～大船間では、それまでの貨物線が横須賀線に使用されるようになったため、貨物線を新たに建設。これが羽沢横浜国大経由の「羽沢線」となった。\nまた、平塚～小田原間を複々線化し、新しくできた区間が東海道貨物線になる。\n\nただ、近年は貨物列車が減少。そんな影響もあって、JR・相鉄直通線がオープン。東海道貨物線を通るルートとなった。",
+ "channel_id": "UC21f1t3X_sYMD28XclLNpUw",
+ "channel_url": "https://www.youtube.com/channel/UC21f1t3X_sYMD28XclLNpUw",
+ "duration": 293,
+ "view_count": 15286,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=5NUMt4HmqVA",
+ "categories": [
+  "Autos & Vehicles"
+ ],
+ "tags": [
+  "東海道貨物線",
+  "JR・相鉄直通線",
+  "複々線",
+  "貨物列車"
+ ],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "video",
+ "release_timestamp": null,
+ "comment_count": 17,
+ "chapters": [
+  {
+   "start_time": 0,
+   "end_time": 43,
+   "title": "<Untitled Chapter 1>"
+  },
+  {
+   "start_time": 43,
+   "title": "最近、人様が乗る電車が 増えているから",
+   "end_time": 47
+  },
+  {
+   "start_time": 47,
+   "title": "貨物と分けた方が よくね!?",
+   "end_time": 74
+  },
+  {
+   "start_time": 74,
+   "title": "平塚まで貨物ONLYの 線路を作るぞー!",
+   "end_time": 92
+  },
+  {
+   "start_time": 92,
+   "title": "やべっ、すでにお家が たくさん建っているな!",
+   "end_time": 130
+  },
+  {
+   "start_time": 130,
+   "title": "武蔵小杉の 方を回るぞー!",
+   "end_time": 166
+  },
+  {
+   "start_time": 166,
+   "title": "横須賀線を 貨物線に回すぞー!",
+   "end_time": 195
+  },
+  {
+   "start_time": 195,
+   "title": "やっぱり、貨物列車ONLY の線路も必要だな!",
+   "end_time": 238
+  },
+  {
+   "start_time": 238,
+   "title": "相鉄線に お邪魔するぞー!",
+   "end_time": 293
+  }
+ ],
+ "like_count": 395,
+ "channel": "たくみっく",
+ "channel_follower_count": null,
+ "creators": null,
+ "channel_is_verified": true,
+ "uploader": "たくみっく",
+ "uploader_id": "@upunushi-ossan",
+ "uploader_url": "https://www.youtube.com/@upunushi-ossan",
+ "upload_date": "20210818",
+ "timestamp": 1629288438,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=5NUMt4HmqVA",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "5NUMt4HmqVA",
+ "fulltitle": "東海道貨物線の歴史～小学生でもわかるように解説",
+ "duration_string": "4:53",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792530957,
+ "format": "137 - 1920x1080 (1080p)+251 - audio only (medium)",
+ "format_id": "137+251",
+ "ext": "mkv",
+ "protocol": "https+https",
+ "language": "ja",
+ "format_note": "1080p+medium",
+ "filesize_approx": 84918117,
+ "tbr": 2319.559,
+ "width": 1920,
+ "height": 1080,
+ "resolution": "1920x1080",
+ "fps": 24,
+ "dynamic_range": "SDR",
+ "vcodec": "avc1.640028",
+ "vbr": 2171.733,
+ "stretched_ratio": null,
+ "aspect_ratio": 1.78,
+ "acodec": "opus",
+ "abr": 147.826,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [],
+ "auto_caption_has_ja": true,
+ "heatmap": null,
+ "tab": "videos",
+ "retrieved_at": "2026-10-20T21:15:57Z"
+}

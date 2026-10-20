@@ -14,7 +14,10 @@ import subprocess
 import sys
 import time
 
-from .config import load_channel, record_run
+import json
+from datetime import datetime, timezone
+
+from .config import ROOT, load_channel, record_run
 
 PY = sys.executable
 
@@ -26,9 +29,11 @@ ANALYZE = [
     ("thumbs", ["-m", "ycanalysis.analyze.thumbs"], ["quant"]),
     ("robustness", ["-m", "ycanalysis.analyze.robustness"], ["quant"]),
     ("select_sample", ["-m", "ycanalysis.analyze.select_sample"], ["quant"]),
+    ("hypothesis_test", ["-m", "ycanalysis.analyze.hypothesis_test"], ["select_sample"]),
     ("draft_report", ["-m", "ycanalysis.analyze.draft_report"], ["quant"]),
-    ("finalize", ["-m", "ycanalysis.analyze.finalize"], ["draft_report"]),
     ("methodology_review", ["-m", "ycanalysis.analyze.review"], ["quant"]),
+    ("quality_gate", ["-m", "ycanalysis.analyze.quality_gate"], ["draft_report"]),
+    ("finalize", ["-m", "ycanalysis.analyze.finalize"], ["quality_gate"]),
 ]
 
 
@@ -42,6 +47,19 @@ def collect_steps(limit: int | None, wayback: bool) -> list:
     return steps
 
 
+def _snapshot(dirs) -> dict:
+    return {p: p.stat().st_mtime for d in dirs if d.exists() for p in d.rglob("*") if p.is_file()}
+
+
+def record_step(ch, name: str, info: dict) -> None:
+    """research_status.json の steps に工程の実行記録（開始・終了・結果・変更ファイル・理由）を残す"""
+    path = ch.report_dir / "research_status.json"
+    st = json.loads(path.read_text()) if path.exists() else {"slug": ch.slug, "state": "collecting"}
+    st.setdefault("steps", {})[name] = info
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(st, ensure_ascii=False, indent=2))
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("slug")
@@ -52,23 +70,39 @@ def main() -> None:
     ch = load_channel(a.slug)
     steps = (collect_steps(a.limit, not a.no_wayback) if a.collect else []) + \
         [(n, c + [a.slug], d) for n, c, d in ANALYZE]
+    watch = [ch.raw_dir, ch.processed_dir, ch.report_dir]
     status: dict[str, str] = {}
     for name, cmd, deps in steps:
         cmd = [x.replace("{slug}", a.slug) for x in cmd]
+        started = datetime.now(timezone.utc).isoformat(timespec="seconds")
         if any(status.get(d) != "ok" for d in deps if d in status):
             status[name] = "skipped"
             print(f"[skip] {name}（依存する工程が失敗）")
+            record_step(ch, name, {"status": "skipped", "started_at": started, "ended_at": started,
+                                   "reason": "依存する工程が失敗: " + ", ".join(d for d in deps if status.get(d) != "ok")})
             continue
+        before = _snapshot(watch)
         t0 = time.time()
         r = subprocess.run([PY, *cmd], capture_output=True, text=True)
         status[name] = "ok" if r.returncode == 0 else "failed"
+        after = _snapshot(watch)
+        changed = sorted(str(p.relative_to(ROOT)) if p.is_relative_to(ROOT) else str(p)
+                         for p, m in after.items() if before.get(p) != m)
         print(f"[{status[name]}] {name} {time.time() - t0:.0f}秒")
         if r.returncode != 0:
             print("  " + "\n  ".join(r.stderr.strip().splitlines()[-5:]))
-        record_run(ch, f"run:{name}", status=status[name], seconds=round(time.time() - t0, 1),
-                   stderr_tail=r.stderr.strip().splitlines()[-3:] if r.returncode else [])
+        tail = r.stderr.strip().splitlines()[-3:] if r.returncode else []
+        record_run(ch, f"run:{name}", status=status[name], seconds=round(time.time() - t0, 1), stderr_tail=tail)
+        record_step(ch, name, {"status": status[name], "started_at": started,
+                               "ended_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                               "command": " ".join(cmd), "outputs": changed[:50], "n_outputs": len(changed),
+                               "reason": " / ".join(tail)})
     failed = [k for k, v in status.items() if v != "ok"]
-    print("\n完了" if not failed else f"\n失敗・未実行: {', '.join(failed)}")
+    st = json.loads((ch.report_dir / "research_status.json").read_text())
+    print(f"\n自動工程: {'すべて成功' if not failed else '失敗・未実行あり ' + ', '.join(failed)}")
+    print(f"調査状態: {st.get('state')}（自動工程の成功は調査の完成を意味しない）")
+    for x in st.get("next_actions", []):
+        print(f"  次: {x}")
     sys.exit(1 if failed else 0)
 
 

@@ -1,0 +1,116 @@
+{
+ "id": "Vdo7BYCv9VE",
+ "title": "山陽電鉄の歴史～小学生でもわかるように解説",
+ "thumbnail": "https://i.ytimg.com/vi_webp/Vdo7BYCv9VE/maxresdefault.webp",
+ "description": "山陽電鉄の歴史について、小学生でもわかるように解説。\n存在感があまりないが、色々と悪戦苦闘してきた経歴を持つ関西私鉄。\n\n1900年代、兵庫電気鉄道として開業。最終的に兵庫駅-明石駅が開通。\nその先は明姫電気鉄道として姫路まで延伸計画を出すが、播州鉄道（JR加古川線）が色々と妨害。\nただ、鉄道建設の許可は明姫電気鉄道に降りる。\nその後、宇治川電気という電力会社に買収されて合併。\nさらに、宇治川電気の鉄道部門は分離独立して、「山陽電気鉄道」となる。\n\n戦後、路面電車区間だった神戸市内では、地下鉄の神戸高速鉄道が建設。\n山陽電車の神戸市内の区間は神戸高速線として切り替わる。\n阪神本線、阪急神戸線と接続し、阪神線とは相互直通運転を積極的に実施。大阪梅田駅まで走るようになった。\n（一時期は阪急六甲駅までも乗り入れ）",
+ "channel_id": "UC21f1t3X_sYMD28XclLNpUw",
+ "channel_url": "https://www.youtube.com/channel/UC21f1t3X_sYMD28XclLNpUw",
+ "duration": 392,
+ "view_count": 36047,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=Vdo7BYCv9VE",
+ "categories": [
+  "Autos & Vehicles"
+ ],
+ "tags": [
+  "山陽電鉄",
+  "兵庫電気鉄道",
+  "明姫電気鉄道",
+  "山陽電車"
+ ],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "video",
+ "release_timestamp": null,
+ "comment_count": 60,
+ "chapters": [
+  {
+   "start_time": 0,
+   "end_time": 85,
+   "title": "<Untitled Chapter 1>"
+  },
+  {
+   "start_time": 85,
+   "title": "うわー、思ったほど 儲からねーなー!",
+   "end_time": 110
+  },
+  {
+   "start_time": 110,
+   "title": "とにかく、姫路までは 延伸したいなー!",
+   "end_time": 176
+  },
+  {
+   "start_time": 176,
+   "title": "明姫電気鉄道、 君が作り給え",
+   "end_time": 229
+  },
+  {
+   "start_time": 229,
+   "title": "お前たちを 買い取ってやるよ!",
+   "end_time": 259
+  },
+  {
+   "start_time": 259,
+   "title": "鉄道担当は別の 会社に分けよう!",
+   "end_time": 290
+  },
+  {
+   "start_time": 290,
+   "title": "路面電車を 地下化するぞー!",
+   "end_time": 392
+  }
+ ],
+ "like_count": 782,
+ "channel": "たくみっく",
+ "channel_follower_count": null,
+ "creators": null,
+ "channel_is_verified": true,
+ "uploader": "たくみっく",
+ "uploader_id": "@upunushi-ossan",
+ "uploader_url": "https://www.youtube.com/@upunushi-ossan",
+ "upload_date": "20210703",
+ "timestamp": 1625272203,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=Vdo7BYCv9VE",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "Vdo7BYCv9VE",
+ "fulltitle": "山陽電鉄の歴史～小学生でもわかるように解説",
+ "duration_string": "6:32",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792531057,
+ "format": "137 - 1920x1080 (1080p)+251 - audio only (medium)",
+ "format_id": "137+251",
+ "ext": "mkv",
+ "protocol": "https+https",
+ "language": "ja",
+ "format_note": "1080p+medium",
+ "filesize_approx": 90687005,
+ "tbr": 1853.4209999999998,
+ "width": 1920,
+ "height": 1080,
+ "resolution": "1920x1080",
+ "fps": 24,
+ "dynamic_range": "SDR",
+ "vcodec": "avc1.640028",
+ "vbr": 1704.004,
+ "stretched_ratio": null,
+ "aspect_ratio": 1.78,
+ "acodec": "opus",
+ "abr": 149.417,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [],
+ "auto_caption_has_ja": true,
+ "heatmap": null,
+ "tab": "videos",
+ "retrieved_at": "2026-10-20T21:17:37Z"
+}

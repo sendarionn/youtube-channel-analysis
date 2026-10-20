@@ -55,33 +55,34 @@ def _text(o) -> str | None:
     return None
 
 
-def parse_snapshot(html: str) -> dict:
-    out = {"subscribers": None, "video_count": None, "total_views": None, "joined": None, "videos": []}
+def parse_snapshot(html: str, expected_channel_id: str | None = None,
+                   expected_handle: str | None = None) -> dict:
+    out = {"subscribers": None, "video_count": None, "total_views": None, "joined": None, "videos": [],
+           "subscriber_text": None, "subscriber_source": None, "identity_validated": False,
+           "subscriber_precision": None}
     tv = re.search(r'viewCountText":"([\d,]+) views', html)
     if tv:
         out["total_views"] = parse_count(tv.group(1))
     jd = re.search(r'joinedDateText":\{"content":"Joined ([^"]+)"', html)
     if jd:
         out["joined"] = jd.group(1)
-    # 新レイアウトはヘッダーの「@handle • 1.07M subscribers」、旧レイアウトは subscriberCountText
-    # （おすすめチャンネル欄にも subscriberCountText があるため、ヘッダー表記を優先する）
-    head = re.search(r'"content":"([^"]{0,60}?@[^"]{0,60}?subscribers[^"]{0,5})"', html)
-    subs = (re.search(r'subscriberCountText"[^}]{0,200}?(?:label|simpleText)":"([^"]+)"', html)
-            or re.search(r'"(?:simpleText|content)":"([^"]{0,20}(?:subscribers|チャンネル登録者[^"]{0,10}))[^"]{0,5}"', html))
-    if head:
-        out["subscribers"] = parse_count(head.group(1).split("•")[-1].split("\\u2022")[-1])
-    elif subs:
-        out["subscribers"] = parse_count(subs.group(1).replace("チャンネル登録者数", ""))
     vc = re.search(r'"(?:simpleText|content)":"([\d.,kK万]+\s*(?:videos|本の動画))"', html)
     if vc:
         out["video_count"] = parse_count(vc.group(1))
     m = INITIAL_DATA.search(html)
     if not m:
+        if expected_channel_id:
+            _scoped_html_subscriber(html, out, expected_channel_id)
+        elif not expected_handle:
+            _legacy_subscriber(html, out)
         return out
     try:
         data = json.loads(m.group(1))
     except json.JSONDecodeError:
         return out
+    _extract_target_subscribers(data, out, expected_channel_id, expected_handle)
+    if out["subscribers"] is None and not expected_channel_id and not expected_handle:
+        _legacy_subscriber(html, out)
     seen = set()
     for node in _walk(data):
         vr = node.get("videoRenderer") or node.get("gridVideoRenderer")
@@ -103,6 +104,98 @@ def parse_snapshot(html: str) -> dict:
     return out
 
 
+def _scoped_html_subscriber(html: str, out: dict, channel_id: str) -> None:
+    """初期データが別形式で埋め込まれたページをID近傍のフィールドから読む"""
+    cid = re.escape(channel_id)
+    patterns = [
+        rf'subscriberCountText":"([^"]+)".{{0,3000}}?"channelId":"{cid}"',
+        rf'"channelId":"{cid}".{{0,3000}}?subscriberCountText":"([^"]+)"',
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, html, re.S)
+        if match:
+            _set_subscribers(out, match.group(1), "channel_id_html", True)
+            return
+
+
+def _legacy_subscriber(html: str, out: dict) -> None:
+    """識別情報を渡さない旧用途だけの互換処理"""
+    head = re.search(r'"content":"([^"]{0,60}?@[^"]{0,60}?subscribers[^"]{0,5})"', html)
+    subs = (re.search(r'subscriberCountText"[^}]{0,200}?(?:label|simpleText)":"([^"]+)"', html)
+            or re.search(r'"(?:simpleText|content)":"([^"]{0,20}(?:subscribers|チャンネル登録者[^"]{0,10}))[^"]{0,5}"', html))
+    if head:
+        _set_subscribers(out, head.group(1).split("•")[-1].split("\\u2022")[-1], "unvalidated_header", False)
+    elif subs:
+        _set_subscribers(out, subs.group(1), "unvalidated_first_match", False)
+
+
+def _subscriber_text(node: dict) -> str | None:
+    value = node.get("subscriberCountText")
+    text = _text(value)
+    if text and re.search(r"subscribers|チャンネル登録者", text, re.I):
+        return text
+    return None
+
+
+def _set_subscribers(out: dict, text: str, source: str, validated: bool) -> None:
+    value = parse_count(text.replace("チャンネル登録者数", ""))
+    if value is None:
+        return
+    out["subscribers"] = value
+    out["subscriber_text"] = text
+    out["subscriber_source"] = source
+    out["identity_validated"] = validated
+    out["subscriber_precision"] = "exact" if re.search(r"\d{1,3}(?:,\d{3})+", text) else "rounded_display"
+
+
+def _extract_target_subscribers(data: dict, out: dict, expected_channel_id: str | None,
+                                expected_handle: str | None) -> None:
+    """対象IDまたはハンドルと同じ構造化領域にある登録者数だけを採用する"""
+    nodes = list(_walk(data))
+    if expected_channel_id:
+        for node in nodes:
+            if node.get("channelId") == expected_channel_id or node.get("externalId") == expected_channel_id:
+                text = _subscriber_text(node)
+                if text:
+                    _set_subscribers(out, text, "channel_id_node", True)
+                    return
+    handle = expected_handle or ""
+    handle = handle if handle.startswith("@") else f"@{handle}" if handle else ""
+    # ページの持ち主（channelMetadataRenderer.externalId）が対象IDなら、先頭のヘッダーは対象チャンネルのもの
+    # ハンドルは変更されることがある（例：海外Yパパ @neko_Ypapa → @海外Yパパ）ため、IDを優先する
+    owners = {node["channelMetadataRenderer"].get("externalId") for node in nodes
+              if isinstance(node.get("channelMetadataRenderer"), dict)}
+    owners.discard(None)
+    if expected_channel_id and owners and expected_channel_id not in owners:
+        return
+    owner_ok = bool(expected_channel_id and expected_channel_id in owners)
+    for node in nodes:
+        header = node.get("pageHeaderViewModel")
+        if not isinstance(header, dict):
+            continue
+        serialized = json.dumps(header, ensure_ascii=False)
+        if not owner_ok and handle and handle not in serialized:
+            continue
+        texts = [_text(x.get("text")) for x in _walk(header) if isinstance(x, dict) and "text" in x]
+        text = next((x for x in texts if x and re.search(r"subscribers|チャンネル登録者", x, re.I)), None)
+        if text and (owner_ok or handle):
+            _set_subscribers(out, text, "page_owner_header" if owner_ok else "handle_header", True)
+            return
+    # 後方互換は期待する識別情報がないテスト・旧用途だけに限定する
+    if expected_channel_id or expected_handle:
+        return
+    head = next((re.search(r'"content":"([^"]{0,60}?@[^"]{0,60}?subscribers[^"]{0,5})"',
+                           json.dumps(node, ensure_ascii=False)) for node in nodes), None)
+    if head:
+        _set_subscribers(out, head.group(1).split("•")[-1], "unvalidated_header", False)
+        return
+    for node in nodes:
+        text = _subscriber_text(node)
+        if text:
+            _set_subscribers(out, text, "unvalidated_first_match", False)
+            return
+
+
 def _lockup_rows(lv: dict) -> list:
     try:
         return lv["metadata"]["lockupMetadataViewModel"]["metadata"]["contentMetadataViewModel"]["metadataRows"]
@@ -114,22 +207,61 @@ def snapshot_time(name: str) -> datetime:
     return datetime.strptime(name[:14], "%Y%m%d%H%M%S").replace(tzinfo=timezone.utc)
 
 
-def build(raw_wayback: Path) -> tuple[pd.DataFrame, pd.DataFrame]:
+def build(raw_wayback: Path, expected_channel_id: str | None = None,
+          expected_handle: str | None = None, with_audit: bool = False):
+    """観測点（有効なものだけ）と動画一覧の再生数を返す。with_audit=True なら全観測点の検証表も返す"""
     hist, views = [], []
     for f in sorted(raw_wayback.glob("*.html")):
-        p = parse_snapshot(f.read_text(encoding="utf-8", errors="ignore"))
+        p = parse_snapshot(f.read_text(encoding="utf-8", errors="ignore"), expected_channel_id, expected_handle)
         t = snapshot_time(f.name)
         hist.append({"snapshot_at": t, "file": f.name, "subscribers": p["subscribers"],
-                     "video_count": p["video_count"], "total_views": p["total_views"], "joined": p["joined"]})
+                     "video_count": p["video_count"], "total_views": p["total_views"], "joined": p["joined"],
+                     "subscriber_text": p["subscriber_text"], "subscriber_source": p["subscriber_source"],
+                     "identity_validated": p["identity_validated"],
+                     "subscriber_precision": p["subscriber_precision"]})
         for v in p["videos"]:
             views.append({"snapshot_at": t, "file": f.name, **v})
-    h = pd.DataFrame(hist).dropna(subset=["subscribers"])
+    full = pd.DataFrame(hist)
+    if full.empty:
+        return (full, pd.DataFrame(views), full) if with_audit else (full, pd.DataFrame(views))
+    full["valid"] = full["subscribers"].notna() & full["identity_validated"].eq(True)
+    h = full[full["valid"]].copy()
     # 同日の重複スナップショットは最初の1件を残す
     h["date"] = h["snapshot_at"].dt.date
     h = (h.sort_values(["date", "total_views"], na_position="last")
           .drop_duplicates("date").drop(columns="date").sort_values("snapshot_at"))
     h = flag_anomalies(h)
+    if with_audit:
+        return h, pd.DataFrame(views), audit_table(full, h)
     return h, pd.DataFrame(views)
+
+
+def audit_table(full: pd.DataFrame, used: pd.DataFrame) -> pd.DataFrame:
+    """全スナップショットの検証結果（有効・疑義あり・無効と理由）"""
+    a = full.copy()
+    anomaly = dict(zip(used["file"], used["anomaly"]))
+    kept = set(used["file"])
+    status, note = [], []
+    for _, r in a.iterrows():
+        if pd.isna(r["subscribers"]):
+            status.append("無効")
+            note.append("対象チャンネルの登録者数が見つからない（別チャンネルの値では補完しない）")
+        elif not r["identity_validated"]:
+            status.append("無効")
+            note.append("対象チャンネルとの同一性を確認できない")
+        elif r["file"] not in kept:
+            status.append("重複")
+            note.append("同日の別スナップショットを採用")
+        elif anomaly.get(r["file"]):
+            status.append("疑義あり")
+            note.append("過去最大値の7割未満への急減。保存ページの古い表示の可能性があり成長分析に使わない")
+        else:
+            status.append("有効")
+            note.append("")
+    a["status"] = status
+    a["note"] = note
+    return a[["snapshot_at", "file", "subscriber_text", "subscribers", "subscriber_source", "identity_validated",
+              "subscriber_precision", "video_count", "total_views", "status", "note"]]
 
 
 def flag_anomalies(h: pd.DataFrame, ratio: float = 0.7) -> pd.DataFrame:

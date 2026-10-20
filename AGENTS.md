@@ -8,8 +8,17 @@ YouTubeチャンネル分析リポジトリで作業するすべてのエージ�
 
 - YouTubeチャンネルURLが単独で入力された場合は「このチャンネルの成長要因を分析する」と解釈する
 - URL以外の指示がある場合は、その指示を優先する
-- URLだけでも手順の説明で終了せず、`.venv/bin/python -m ycanalysis.research <URL>` で実際の調査を開始する
-- 認証、権限付与、費用発生など利用者の判断が必要な場合だけ停止し、必要な操作を具体的に報告する
+- `.venv/bin/python -m ycanalysis.research <URL>` で収集・検証・定量分析・標本選定まで実行する
+- **自動工程の終了は調査の完成ではない**。表示された「次の作業」（`reports/<slug>/research_status.json` の `next_actions`）を、品質ゲートを通過するまで続ける
+  1. 検証済みの登録者推移と初期集計を見て、`docs/<slug>-analysis.md` に調査目的と問いを書く
+  2. 外部統計の値を `annotations/external_checks.json` に記録する（同一性の根拠つき）
+  3. テーマ体系を作り、盲検の抜き取りで一致率を測る（`ycanalysis.annotate ... --record`）
+  4. 代表動画の字幕と映像を取得して目視し、`annotations/phase3_coding.csv` に記録する。開始時に標本を固定する
+  5. 内容分析から立てた仮説を、標本外の検証の前に `[hypotheses]` に登録する
+  6. 比較チャンネルを選んで比較し、`reports/<slug>/hypotheses.md` と `DRAFT_REPORT.md` を書く
+  7. `ycanalysis.analyze.finalize <slug>` が品質ゲートを通過したときだけ FINAL_REPORT.md を作る
+- 動画ID・数値は必ず取得データから引く。記憶から書かない
+- 認証、権限付与、費用発生など利用者の判断が必要な場合と、外部要因で必須工程を実施できない場合（`annotations/blocked.json` に理由を書く）は停止し、具体的に報告する
 
 ## 作業の進め方
 
@@ -47,6 +56,8 @@ YouTubeチャンネル分析リポジトリで作業するすべてのエージ�
 - `raw/` は取得した元データのみを置き、上書きしない。再取得はタイムスタンプ付きの新しいファイルにする
 - `processed/` は `raw/` から再生成できるものだけを置く。人間の判断は `annotations/` に置く
 - 過去の調査結果（`reports/<slug>/FINAL_REPORT.md` など）を無断で上書きしない
+  - 品質ゲートを通過していない調査を完成と報告しない
+  - 方法の修正の影響を確かめるときは `YCANALYSIS_OUTPUT_ROOT` で別の出力先に再計算し、既存の成果物と比べる
   - 方法の変更で結論が変わる場合は、レビューと CHANGELOG に記録し、報告書の改訂は別途判断する
 - 収集処理（`collect`）と分析処理（`analyze`）を分離する。分析処理はネットワークにアクセスしない
 

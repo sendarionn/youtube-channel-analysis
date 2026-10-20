@@ -12,18 +12,24 @@ Claude Code を使用して構築・分析した
 |---|---|---|---|
 | 海外Yパパ | 完了 | 1.0.0（1.1.0 で頑健性を確認） | [指示書](docs/overseas-y-papa-analysis.md) / [最終報告書](reports/overseas-y-papa/FINAL_REPORT.md) / [頑健性](reports/overseas-y-papa/robustness.md) / [レビュー](methodology/reviews/2026-10-21-overseas-y-papa.md) |
 | リュウジのバズレシピ | 試験調査（直近30本） | 1.1.0 | [試験結果](methodology/reviews/2026-10-21-trial-ryuji-buzz-recipe.md) / [草稿](reports/ryuji-buzz-recipe/DRAFT_REPORT.md) |
+| たくみっく | 完了（品質ゲート通過） | 1.3.0 | [指示書](docs/upunushi-ossan-analysis.md) / [最終報告書](reports/upunushi-ossan/FINAL_REPORT.md) / [仮説検証](reports/upunushi-ossan/hypotheses.md) / [レビュー](methodology/reviews/2026-10-21-upunushi-ossan.md) / [修正前の版](reports/upunushi-ossan/archive/FINAL_REPORT-20261020-incomplete.md) |
+
+- 海外Yパパ v1.0 は 1.3.0 の品質ゲートでは incomplete（外部統計との照合なし、1章に確信度なし）。成果物は当時のまま保全している
 
 ## 新しいチャンネルの調査を始める
 
 ```sh
-# URLの識別、登録または更新、収集、暫定テーマ分類、分析、報告書、レビューを連続実行
+# 1. URLから識別・収集・検証・定量分析・標本選定まで（自動）
 .venv/bin/python -m ycanalysis.research https://www.youtube.com/@handle
 ```
 
-- 同じチャンネルIDの設定があれば既存調査を更新し、過去の最終報告書は上書きしない
-- テーマ分類はタイトルから暫定生成し、確信度と未検証事項を保存する
-- 字幕や映像を確認できない場合は内容分析済みと扱わない
-- 従来の `init`、`run --collect`、`run`、`annotate` も引き続き利用できる
+- 終了時に調査状態と「次の作業」を表示する。自動工程が成功しても、定量分析までの段階では完成ではない
+- 2. 以降は AIエージェント（Claude Code・Codex）または人間が続ける：調査目的、外部統計の記録、テーマの盲検検証、代表動画の字幕・映像の確認、仮説の事前登録と標本外検証、比較、報告書（手順は [AGENTS.md](AGENTS.md) の「URLだけの依頼」）
+- 3. `.venv/bin/python -m ycanalysis.analyze.finalize <slug>` が品質ゲート（[evaluation.md](methodology/evaluation.md) 4章）を通過したときだけ `FINAL_REPORT.md` を作る
+- 状態と根拠は `reports/<slug>/research_status.json`。作業用の報告書は `DRAFT_REPORT.md`（自動処理は上書きしない）、自動集計は `AUTO_DRAFT.md`
+- 同じチャンネルIDの設定があれば既存調査を更新し、過去の最終報告書は `archive/` に退避してから更新する
+- 収集が途中で止まった場合は `ytdlp_meta <slug> videos --resume <raw のディレクトリ>` で再開できる（品質ゲートが概要ページの動画数と照合して検出する）
+- 人の操作が必要になりやすいもの：統計サイト（ユーチュラ等）が自動取得を拒否する場合の現在値の確認と記録
 - 既存の分析コードを書き換えずに、設定ファイル（`config/channels/<slug>.toml`）でチャンネル固有の値を調整する
 
 ## 構成

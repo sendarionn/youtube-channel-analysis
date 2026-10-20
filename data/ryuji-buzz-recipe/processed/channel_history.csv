@@ -1,2 +1,2 @@
-snapshot_at,file,subscribers,video_count,total_views,joined,anomaly,source
-2026-10-20 18:22:53+00:00,20261020182253_about.html,5690000.0,3800.0,3080009351.0,"Nov 29, 2018",False,direct
+snapshot_at,file,subscribers,video_count,total_views,joined,subscriber_text,subscriber_source,identity_validated,subscriber_precision,valid,anomaly,source
+2026-10-20 18:22:53+00:00,20261020182253_about.html,5690000.0,3800.0,3080009351.0,"Nov 29, 2018",5.69M subscribers,channel_id_node,True,rounded_display,True,False,direct

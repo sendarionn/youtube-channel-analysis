@@ -1,0 +1,586 @@
+{
+ "id": "DaTnv7ypbi0",
+ "title": "【大阪→東京】下道だけで移動したら何回信号に引っ掛かる？【VOICEROID旅行】",
+ "thumbnail": "https://i.ytimg.com/vi/DaTnv7ypbi0/hq720_2.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYUiBjKGUwDw==&rs=AOn4CLAYOLc0ea-GD-_v9joRP-0ODHJ_rA",
+ "description": "本編:https://youtu.be/DSuovjAgW5I　\n\n当チャンネルでは週1本程度のペースで旅行動画や交通系解説動画をアップロードしております。旅先で友人に知識でマウントをとりたい方は是非ご覧ください。\n\nBGM:\n\nED:\nBirth_of_Life(FLASH☆BEAT　さん)\n\n立ち絵:\nblueberry さん(https://seiga.nicovideo.jp/seiga/im5985123)\nOSM:\nhttp://www.openstreetmap.org/copyright\n\n連絡はこちらから\nnikkoken0902@gmail.com\n\namazonアソシエイト:\nhttps://amzn.to/3gvXYWy\n(このリンクを通じて買っていただくと、私の懐にいくらかのゼニが入ります。)\n\nTwitter:\nhttp://twitter.com/japanroute43\n\nニコニコ:\nhttp://www.nicovideo.jp/user/92164945\n\n#日本の交通を研究する会　#shorts  #ドライブ",
+ "channel_id": "UCZAr1Ra4mMc3X5kD-iEhhlg",
+ "channel_url": "https://www.youtube.com/channel/UCZAr1Ra4mMc3X5kD-iEhhlg",
+ "duration": 59,
+ "view_count": 255945,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=DaTnv7ypbi0",
+ "categories": [
+  "Travel & Events"
+ ],
+ "tags": [
+  "みちめぐり",
+  "VOICEROID",
+  "ゆっくり解説",
+  "VOICEROID解説",
+  "琴葉葵",
+  "琴葉姉妹",
+  "琴葉葵解説",
+  "解説動画",
+  "日交研",
+  "鉄道"
+ ],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "short",
+ "release_timestamp": null,
+ "comment_count": 221,
+ "chapters": null,
+ "like_count": 7036,
+ "channel": "にっこーけん -Japan Travel Lab.-",
+ "channel_follower_count": null,
+ "creators": null,
+ "uploader": "にっこーけん -Japan Travel Lab.-",
+ "uploader_id": "@JapanTrafficLab",
+ "uploader_url": "https://www.youtube.com/@JapanTrafficLab",
+ "upload_date": "20230810",
+ "timestamp": 1691636867,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=DaTnv7ypbi0",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "DaTnv7ypbi0",
+ "fulltitle": "【大阪→東京】下道だけで移動したら何回信号に引っ掛かる？【VOICEROID旅行】",
+ "duration_string": "59",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792528200,
+ "format": "399 - 1080x1920 (1080p60)+251 - audio only (medium)",
+ "format_id": "399+251",
+ "ext": "webm",
+ "protocol": "https+https",
+ "language": "ja",
+ "format_note": "1080p60+medium",
+ "filesize_approx": 21028011,
+ "tbr": 2837.143,
+ "width": 1080,
+ "height": 1920,
+ "resolution": "1080x1920",
+ "fps": 60,
+ "dynamic_range": "SDR",
+ "vcodec": "av01.0.09M.08",
+ "vbr": 2692.843,
+ "stretched_ratio": null,
+ "aspect_ratio": 0.56,
+ "acodec": "opus",
+ "abr": 144.3,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [],
+ "auto_caption_has_ja": true,
+ "heatmap": [
+  {
+   "start_time": 0.0,
+   "end_time": 0.6,
+   "value": 1.0
+  },
+  {
+   "start_time": 0.6,
+   "end_time": 1.2,
+   "value": 0.747272098672764
+  },
+  {
+   "start_time": 1.2,
+   "end_time": 1.8,
+   "value": 0.5668869208002986
+  },
+  {
+   "start_time": 1.8,
+   "end_time": 2.4,
+   "value": 0.4676765925505898
+  },
+  {
+   "start_time": 2.4,
+   "end_time": 3.0,
+   "value": 0.37571496755849365
+  },
+  {
+   "start_time": 3.0,
+   "end_time": 3.6,
+   "value": 0.32124628008819683
+  },
+  {
+   "start_time": 3.6,
+   "end_time": 4.2,
+   "value": 0.2737061641921647
+  },
+  {
+   "start_time": 4.2,
+   "end_time": 4.8,
+   "value": 0.24023725847344407
+  },
+  {
+   "start_time": 4.8,
+   "end_time": 5.4,
+   "value": 0.22838035193068268
+  },
+  {
+   "start_time": 5.4,
+   "end_time": 6.0,
+   "value": 0.20695671950182248
+  },
+  {
+   "start_time": 6.0,
+   "end_time": 6.6,
+   "value": 0.19311446619903033
+  },
+  {
+   "start_time": 6.6,
+   "end_time": 7.2,
+   "value": 0.1912645558440605
+  },
+  {
+   "start_time": 7.2,
+   "end_time": 7.8,
+   "value": 0.18400942751602697
+  },
+  {
+   "start_time": 7.8,
+   "end_time": 8.4,
+   "value": 0.17280961190534955
+  },
+  {
+   "start_time": 8.4,
+   "end_time": 9.0,
+   "value": 0.15663271237917298
+  },
+  {
+   "start_time": 9.0,
+   "end_time": 9.6,
+   "value": 0.14458305372378724
+  },
+  {
+   "start_time": 9.6,
+   "end_time": 10.2,
+   "value": 0.13345697344508198
+  },
+  {
+   "start_time": 10.2,
+   "end_time": 10.8,
+   "value": 0.1242080335817014
+  },
+  {
+   "start_time": 10.8,
+   "end_time": 11.4,
+   "value": 0.11499494153185917
+  },
+  {
+   "start_time": 11.4,
+   "end_time": 12.0,
+   "value": 0.10319774734991341
+  },
+  {
+   "start_time": 12.0,
+   "end_time": 12.6,
+   "value": 0.0949456112689616
+  },
+  {
+   "start_time": 12.6,
+   "end_time": 13.2,
+   "value": 0.0869248287157814
+  },
+  {
+   "start_time": 13.2,
+   "end_time": 13.8,
+   "value": 0.07863082769184954
+  },
+  {
+   "start_time": 13.8,
+   "end_time": 14.4,
+   "value": 0.07143219918942127
+  },
+  {
+   "start_time": 14.4,
+   "end_time": 15.0,
+   "value": 0.06338388062015188
+  },
+  {
+   "start_time": 15.0,
+   "end_time": 15.6,
+   "value": 0.05938983247903693
+  },
+  {
+   "start_time": 15.6,
+   "end_time": 16.2,
+   "value": 0.055178402788684536
+  },
+  {
+   "start_time": 16.2,
+   "end_time": 16.8,
+   "value": 0.061187016462458214
+  },
+  {
+   "start_time": 16.8,
+   "end_time": 17.4,
+   "value": 0.07176237641937964
+  },
+  {
+   "start_time": 17.4,
+   "end_time": 18.0,
+   "value": 0.07707004550581621
+  },
+  {
+   "start_time": 18.0,
+   "end_time": 18.6,
+   "value": 0.07634130993927798
+  },
+  {
+   "start_time": 18.6,
+   "end_time": 19.2,
+   "value": 0.07022086944460876
+  },
+  {
+   "start_time": 19.2,
+   "end_time": 19.8,
+   "value": 0.06707538953264242
+  },
+  {
+   "start_time": 19.8,
+   "end_time": 20.4,
+   "value": 0.06669304684998174
+  },
+  {
+   "start_time": 20.4,
+   "end_time": 21.0,
+   "value": 0.06356036608623464
+  },
+  {
+   "start_time": 21.0,
+   "end_time": 21.6,
+   "value": 0.060413152425107135
+  },
+  {
+   "start_time": 21.6,
+   "end_time": 22.2,
+   "value": 0.0554277057195365
+  },
+  {
+   "start_time": 22.2,
+   "end_time": 22.8,
+   "value": 0.052567682507694787
+  },
+  {
+   "start_time": 22.8,
+   "end_time": 23.4,
+   "value": 0.04868714394401418
+  },
+  {
+   "start_time": 23.4,
+   "end_time": 24.0,
+   "value": 0.04412564990097233
+  },
+  {
+   "start_time": 24.0,
+   "end_time": 24.6,
+   "value": 0.04182195619937707
+  },
+  {
+   "start_time": 24.6,
+   "end_time": 25.2,
+   "value": 0.040573299854976985
+  },
+  {
+   "start_time": 25.2,
+   "end_time": 25.8,
+   "value": 0.04494963968613021
+  },
+  {
+   "start_time": 25.8,
+   "end_time": 26.4,
+   "value": 0.045046168720309546
+  },
+  {
+   "start_time": 26.4,
+   "end_time": 27.0,
+   "value": 0.04358987041754799
+  },
+  {
+   "start_time": 27.0,
+   "end_time": 27.6,
+   "value": 0.04346743713119586
+  },
+  {
+   "start_time": 27.6,
+   "end_time": 28.2,
+   "value": 0.040766918842181914
+  },
+  {
+   "start_time": 28.2,
+   "end_time": 28.8,
+   "value": 0.038948368949980314
+  },
+  {
+   "start_time": 28.8,
+   "end_time": 29.4,
+   "value": 0.036790106207433906
+  },
+  {
+   "start_time": 29.4,
+   "end_time": 30.0,
+   "value": 0.034833621271674414
+  },
+  {
+   "start_time": 30.0,
+   "end_time": 30.6,
+   "value": 0.03632801106335935
+  },
+  {
+   "start_time": 30.6,
+   "end_time": 31.2,
+   "value": 0.03401233409550306
+  },
+  {
+   "start_time": 31.2,
+   "end_time": 31.8,
+   "value": 0.03215982311679146
+  },
+  {
+   "start_time": 31.8,
+   "end_time": 32.4,
+   "value": 0.02936201090426237
+  },
+  {
+   "start_time": 32.4,
+   "end_time": 33.0,
+   "value": 0.027800667799382787
+  },
+  {
+   "start_time": 33.0,
+   "end_time": 33.6,
+   "value": 0.027470745532536353
+  },
+  {
+   "start_time": 33.6,
+   "end_time": 34.2,
+   "value": 0.02498490618377333
+  },
+  {
+   "start_time": 34.2,
+   "end_time": 34.8,
+   "value": 0.024383652173203582
+  },
+  {
+   "start_time": 34.8,
+   "end_time": 35.4,
+   "value": 0.02374950792119396
+  },
+  {
+   "start_time": 35.4,
+   "end_time": 36.0,
+   "value": 0.027699804392300523
+  },
+  {
+   "start_time": 36.0,
+   "end_time": 36.6,
+   "value": 0.02972783197726953
+  },
+  {
+   "start_time": 36.6,
+   "end_time": 37.2,
+   "value": 0.02986979543799603
+  },
+  {
+   "start_time": 37.2,
+   "end_time": 37.8,
+   "value": 0.031252868335009294
+  },
+  {
+   "start_time": 37.8,
+   "end_time": 38.4,
+   "value": 0.032309741426610396
+  },
+  {
+   "start_time": 38.4,
+   "end_time": 39.0,
+   "value": 0.033950480044547156
+  },
+  {
+   "start_time": 39.0,
+   "end_time": 39.6,
+   "value": 0.036475022793702204
+  },
+  {
+   "start_time": 39.6,
+   "end_time": 40.2,
+   "value": 0.039753899405833966
+  },
+  {
+   "start_time": 40.2,
+   "end_time": 40.8,
+   "value": 0.04459177346221549
+  },
+  {
+   "start_time": 40.8,
+   "end_time": 41.4,
+   "value": 0.04774816579537273
+  },
+  {
+   "start_time": 41.4,
+   "end_time": 42.0,
+   "value": 0.048928848974130426
+  },
+  {
+   "start_time": 42.0,
+   "end_time": 42.6,
+   "value": 0.049147301368438014
+  },
+  {
+   "start_time": 42.6,
+   "end_time": 43.2,
+   "value": 0.051068907350484534
+  },
+  {
+   "start_time": 43.2,
+   "end_time": 43.8,
+   "value": 0.05253219164251316
+  },
+  {
+   "start_time": 43.8,
+   "end_time": 44.4,
+   "value": 0.050511659973035104
+  },
+  {
+   "start_time": 44.4,
+   "end_time": 45.0,
+   "value": 0.04852111196552083
+  },
+  {
+   "start_time": 45.0,
+   "end_time": 45.6,
+   "value": 0.04112886447588763
+  },
+  {
+   "start_time": 45.6,
+   "end_time": 46.2,
+   "value": 0.03008478033398128
+  },
+  {
+   "start_time": 46.2,
+   "end_time": 46.8,
+   "value": 0.023605912696551063
+  },
+  {
+   "start_time": 46.8,
+   "end_time": 47.4,
+   "value": 0.018878845608617346
+  },
+  {
+   "start_time": 47.4,
+   "end_time": 48.0,
+   "value": 0.01647229978766672
+  },
+  {
+   "start_time": 48.0,
+   "end_time": 48.6,
+   "value": 0.013258693732190827
+  },
+  {
+   "start_time": 48.6,
+   "end_time": 49.2,
+   "value": 0.011205271821272898
+  },
+  {
+   "start_time": 49.2,
+   "end_time": 49.8,
+   "value": 0.009950853310543031
+  },
+  {
+   "start_time": 49.8,
+   "end_time": 50.4,
+   "value": 0.00838940822041867
+  },
+  {
+   "start_time": 50.4,
+   "end_time": 51.0,
+   "value": 0.008560029534926886
+  },
+  {
+   "start_time": 51.0,
+   "end_time": 51.6,
+   "value": 0.006491972741383777
+  },
+  {
+   "start_time": 51.6,
+   "end_time": 52.2,
+   "value": 0.004637982976622942
+  },
+  {
+   "start_time": 52.2,
+   "end_time": 52.8,
+   "value": 0.003744235284039105
+  },
+  {
+   "start_time": 52.8,
+   "end_time": 53.4,
+   "value": 0.0026817020113529973
+  },
+  {
+   "start_time": 53.4,
+   "end_time": 54.0,
+   "value": 0.0013400351237183004
+  },
+  {
+   "start_time": 54.0,
+   "end_time": 54.6,
+   "value": 0.0
+  },
+  {
+   "start_time": 54.6,
+   "end_time": 55.2,
+   "value": 0.0014187677326844353
+  },
+  {
+   "start_time": 55.2,
+   "end_time": 55.8,
+   "value": 0.011492054329579596
+  },
+  {
+   "start_time": 55.8,
+   "end_time": 56.4,
+   "value": 0.022471377841053956
+  },
+  {
+   "start_time": 56.4,
+   "end_time": 57.0,
+   "value": 0.03792255036541313
+  },
+  {
+   "start_time": 57.0,
+   "end_time": 57.6,
+   "value": 0.05588057119895894
+  },
+  {
+   "start_time": 57.6,
+   "end_time": 58.2,
+   "value": 0.07865153069653882
+  },
+  {
+   "start_time": 58.2,
+   "end_time": 58.8,
+   "value": 0.1720805193904546
+  },
+  {
+   "start_time": 58.8,
+   "end_time": 59.4,
+   "value": 0.24281309980072083
+  },
+  {
+   "start_time": 59.4,
+   "end_time": 60.0,
+   "value": 0.25890198606065673
+  }
+ ],
+ "tab": "shorts",
+ "retrieved_at": "2026-10-20T20:30:00Z"
+}

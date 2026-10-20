@@ -1,0 +1,21 @@
+{
+ "video_id": "ZJXGWATbHPw",
+ "threshold": 0.3,
+ "cuts": [
+  7.073,
+  8.542,
+  11.545,
+  11.678,
+  16.116,
+  17.317,
+  19.719,
+  30.264,
+  31.965,
+  79.813,
+  83.917,
+  87.988
+ ],
+ "frame_every_s": 15,
+ "retrieved_at": "2026-10-20T21:19:20Z",
+ "method": "yt-dlp <=360p + ffmpeg select=gt(scene,t)"
+}

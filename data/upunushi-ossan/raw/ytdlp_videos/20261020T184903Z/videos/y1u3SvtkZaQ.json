@@ -1,0 +1,118 @@
+{
+ "id": "y1u3SvtkZaQ",
+ "title": "鉄とは？ 小学生でもわかるように解説",
+ "thumbnail": "https://i.ytimg.com/vi_webp/y1u3SvtkZaQ/maxresdefault.webp",
+ "description": "鉄とは何か、小学生でも理解できるようにわかりやすく解説。\n\n金属の一種である鉄は、鉄道のレールをはじめ、様々な物に使われている。\n正確には元素の一種。\n一般的に言われる鉄とは鋼のことを指す。\n\n鉄鉱石から不純物を取り除いて鉄分を取り出して、銀色でピカピカの鉄が出てくるとの事。\n\n歴史のスタートは紀元前1500年で、中世時代から本格的に鉄の生産がスタート。\n石炭の加工物であるコークスが出てくると、鉄の大量生産が可能になり、「産業革命」の一因になる。",
+ "channel_id": "UC21f1t3X_sYMD28XclLNpUw",
+ "channel_url": "https://www.youtube.com/channel/UC21f1t3X_sYMD28XclLNpUw",
+ "duration": 320,
+ "view_count": 38740,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=y1u3SvtkZaQ",
+ "categories": [
+  "Autos & Vehicles"
+ ],
+ "tags": [
+  "鉄"
+ ],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "video",
+ "release_timestamp": null,
+ "comment_count": 165,
+ "chapters": [
+  {
+   "start_time": 0,
+   "end_time": 70,
+   "title": "<Untitled Chapter 1>"
+  },
+  {
+   "start_time": 70,
+   "title": "鉄鉱石は特に鉄分が、 多く含まれるから",
+   "end_time": 73
+  },
+  {
+   "start_time": 73,
+   "title": "効率的に 鉄を取り出せるんだな",
+   "end_time": 153
+  },
+  {
+   "start_time": 153,
+   "title": "これ叩いて 尖がったものにすれば",
+   "end_time": 156
+  },
+  {
+   "start_time": 156,
+   "title": "何か武器として 使えるんじゃね?",
+   "end_time": 175
+  },
+  {
+   "start_time": 175,
+   "title": "もっと強くて簡単に鉄を 作る方法はないかな",
+   "end_time": 199
+  },
+  {
+   "start_time": 199,
+   "title": "程よく炭素を含ませると、 ガチで強い鉄ができるな",
+   "end_time": 245
+  },
+  {
+   "start_time": 245,
+   "title": "石炭を使えば、 いいんじゃね?",
+   "end_time": 320
+  }
+ ],
+ "like_count": 1209,
+ "channel": "たくみっく",
+ "channel_follower_count": null,
+ "creators": null,
+ "channel_is_verified": true,
+ "uploader": "たくみっく",
+ "uploader_id": "@upunushi-ossan",
+ "uploader_url": "https://www.youtube.com/@upunushi-ossan",
+ "upload_date": "20220121",
+ "timestamp": 1642770643,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=y1u3SvtkZaQ",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "y1u3SvtkZaQ",
+ "fulltitle": "鉄とは？ 小学生でもわかるように解説",
+ "duration_string": "5:20",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792530449,
+ "format": "137 - 1920x1080 (1080p)+251 - audio only (medium)",
+ "format_id": "137+251",
+ "ext": "mkv",
+ "protocol": "https+https",
+ "language": "ja",
+ "format_note": "1080p+medium",
+ "filesize_approx": 61623607,
+ "tbr": 1538.634,
+ "width": 1920,
+ "height": 1080,
+ "resolution": "1920x1080",
+ "fps": 24,
+ "dynamic_range": "SDR",
+ "vcodec": "avc1.640028",
+ "vbr": 1386.851,
+ "stretched_ratio": null,
+ "aspect_ratio": 1.78,
+ "acodec": "opus",
+ "abr": 151.783,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [],
+ "auto_caption_has_ja": true,
+ "heatmap": null,
+ "tab": "videos",
+ "retrieved_at": "2026-10-20T21:07:29Z"
+}

@@ -1,0 +1,119 @@
+{
+ "id": "er5JKfwRyBw",
+ "title": "西武新宿線の歴史～小学生でもわかるように解説",
+ "thumbnail": "https://i.ytimg.com/vi_webp/er5JKfwRyBw/maxresdefault.webp",
+ "description": "西武新宿線の歴史について、小学生でもわかるように解説。\n\n今から約130年前、川越鉄道が西武国分寺線と新宿線の国分寺～本川越間に鉄道を建設。\n川越鉄道は現在のJR中央線を運営していた鉄道会社の子会社だった。（中央線はその後国有化）\n\nその後、西武村山線として高田馬場～東村山が開業。\n戦時中は都心からのバキュームカーの役割を果たす。\n\n戦後になると、西武新宿駅がオープン。路線名が西武新宿線に切り替わる。\n東村山～本川越間の複線化が進められる。\n\nその後、西武池袋線では複々線化の計画が上がり、西武新宿線でも同じように複々線化の計画が登場。\nしかし、スペースに余裕がなく、建設費が値上がりしていたため計画中止に。\n沿線の人口減少が進む予測が出たこともその理由となった。\n\nただ、開かずの踏切は社会的な問題となっていた。\n西武新宿線は特に地上区間が多く（連続立体交差化が進んでいない）、踏切の存在が問題視された。\nそこで、東京都内を中心に地下化が現在は行われている。",
+ "channel_id": "UC21f1t3X_sYMD28XclLNpUw",
+ "channel_url": "https://www.youtube.com/channel/UC21f1t3X_sYMD28XclLNpUw",
+ "duration": 362,
+ "view_count": 28981,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=er5JKfwRyBw",
+ "categories": [
+  "Autos & Vehicles"
+ ],
+ "tags": [
+  "西武新宿線",
+  "川越鉄道"
+ ],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "video",
+ "release_timestamp": null,
+ "comment_count": 53,
+ "chapters": [
+  {
+   "start_time": 0,
+   "end_time": 46,
+   "title": "<Untitled Chapter 1>"
+  },
+  {
+   "start_time": 46,
+   "title": "川越まで鉄道を 作るぞー!",
+   "end_time": 104
+  },
+  {
+   "start_time": 104,
+   "title": "複線化して、 電化するぞー!",
+   "end_time": 140
+  },
+  {
+   "start_time": 140,
+   "title": "武蔵野鉄道と 合併するぞー!",
+   "end_time": 190
+  },
+  {
+   "start_time": 190,
+   "title": "しかし、ガソリンが品切れとなっていたため、 鉄道で田舎へ運んで捨てる方式にしようと",
+   "end_time": 247
+  },
+  {
+   "start_time": 247,
+   "title": "複線化 しようかなー!",
+   "end_time": 278
+  },
+  {
+   "start_time": 278,
+   "title": "やっぱりなかった事 にするわ!",
+   "end_time": 313
+  },
+  {
+   "start_time": 313,
+   "title": "線路を地下に 埋めよう~!",
+   "end_time": 362
+  }
+ ],
+ "like_count": 727,
+ "channel": "たくみっく",
+ "channel_follower_count": null,
+ "creators": null,
+ "channel_is_verified": true,
+ "uploader": "たくみっく",
+ "uploader_id": "@upunushi-ossan",
+ "uploader_url": "https://www.youtube.com/@upunushi-ossan",
+ "upload_date": "20210726",
+ "timestamp": 1627305465,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=er5JKfwRyBw",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "er5JKfwRyBw",
+ "fulltitle": "西武新宿線の歴史～小学生でもわかるように解説",
+ "duration_string": "6:02",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792531016,
+ "format": "137 - 1920x1080 (1080p)+251 - audio only (medium)",
+ "format_id": "137+251",
+ "ext": "mkv",
+ "protocol": "https+https",
+ "language": "ja",
+ "format_note": "1080p+medium",
+ "filesize_approx": 114857952,
+ "tbr": 2536.6240000000003,
+ "width": 1920,
+ "height": 1080,
+ "resolution": "1920x1080",
+ "fps": 24,
+ "dynamic_range": "SDR",
+ "vcodec": "avc1.640028",
+ "vbr": 2387.838,
+ "stretched_ratio": null,
+ "aspect_ratio": 1.78,
+ "acodec": "opus",
+ "abr": 148.786,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [],
+ "auto_caption_has_ja": true,
+ "heatmap": null,
+ "tab": "videos",
+ "retrieved_at": "2026-10-20T21:16:56Z"
+}

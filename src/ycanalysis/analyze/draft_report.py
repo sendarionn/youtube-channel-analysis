@@ -1,6 +1,9 @@
 """報告書の草稿を作る（自動で書ける事実の節だけを埋め、判断が必要な節は「要記入」で残す）
 
-既存の FINAL_REPORT.md は上書きしない。出力は reports/<slug>/DRAFT_REPORT.md
+- AUTO_DRAFT.md：毎回作り直す自動集計の草稿
+- DRAFT_REPORT.md：AIエージェント・人間が考察を書き込む作業用の報告書。存在しない場合だけ AUTO_DRAFT.md から作り、
+  既にあれば上書きしない（書き込んだ考察を消さないため）
+- FINAL_REPORT.md：品質ゲートを通過した後に analyze.finalize が DRAFT_REPORT.md から作る
 
 使い方:
     python -m ycanalysis.analyze.draft_report <slug>
@@ -20,12 +23,8 @@ from .quant import has_labels
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("slug")
-    ap.add_argument("--force", action="store_true", help="FINAL_REPORT.md がある調査でも草稿を作る")
     a = ap.parse_args()
     ch = load_channel(a.slug)
-    if (ch.report_dir / "FINAL_REPORT.md").exists() and not a.force:
-        print("FINAL_REPORT.md があるため草稿を作らない（--force で作成）")
-        return
     v = pd.read_csv(ch.processed_dir / "analysis_videos.csv", parse_dates=["published_at", "retrieved_at"])
     h = pd.read_csv(ch.processed_dir / "channel_history.csv")
     vid = v[v["kind"] == "video"]
@@ -60,10 +59,15 @@ def main() -> None:
     text = tpl.format(name=ch.name, url=ch.url, channel_id=ch.channel_id, retrieved=f"{v['retrieved_at'].min():%Y-%m-%d}",
                       version=METHODOLOGY_VERSION, summary=summary, growth=growth, themes=themes, duration=duration,
                       robustness=robustness, limits=limits)
-    out = ch.report_dir / "DRAFT_REPORT.md"
-    out.write_text(text)
+    auto = ch.report_dir / "AUTO_DRAFT.md"
+    auto.write_text(text)
+    work = ch.report_dir / "DRAFT_REPORT.md"
+    if not work.exists():
+        work.write_text(text)
+        print(f"作成: {work}")
+    else:
+        print(f"既存の {work.name} は変更しない（自動集計の更新は {auto.name}）")
     record_run(ch, "draft_report")
-    print(out)
 
 
 if __name__ == "__main__":

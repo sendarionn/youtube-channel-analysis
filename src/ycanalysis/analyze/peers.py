@@ -26,7 +26,9 @@ from .quant import md_table
 def channel_summary(ch, n: int) -> tuple[dict, pd.DataFrame]:
     v, _ = load_videos(ch)
     vid = v[(v["kind"] == "video") & v["mature"]].sort_values("published_at").tail(n)
-    page, _ = wayback_parse.build(ch.raw_dir / "channel_page")
+    page, _ = wayback_parse.build(ch.raw_dir / "channel_page", ch.channel_id, ch.handle)
+    if page.empty:
+        raise ValueError(f"{ch.slug}: 対象チャンネルと照合できる現在値がない")
     cur = page.iloc[-1]
     span_days = (vid["published_at"].max() - vid["published_at"].min()).total_seconds() / 86400
     jst = vid["published_at"].dt.tz_convert(ch.timezone)
@@ -64,9 +66,9 @@ def history(ch) -> pd.DataFrame:
     for sub in ("wayback", "channel_page"):
         d = ch.raw_dir / sub
         if d.exists() and list(d.glob("*.html")):
-            h, _ = wayback_parse.build(d)
+            h, _ = wayback_parse.build(d, ch.channel_id, ch.handle)
             frames.append(h)
-    h = pd.concat(frames).sort_values("snapshot_at").drop_duplicates("snapshot_at")
+    h = pd.concat(frames).sort_values("snapshot_at").drop_duplicates("snapshot_at") if frames else pd.DataFrame()
     return wayback_parse.flag_anomalies(h).assign(channel=ch.name)
 
 

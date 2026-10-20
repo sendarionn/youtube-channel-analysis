@@ -6,6 +6,7 @@ config/channels/<slug>.toml のうち、識別情報（slug・name・handle・ch
 from __future__ import annotations
 
 import json
+import os
 import tomllib
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
@@ -14,6 +15,14 @@ from pathlib import Path
 from . import METHODOLOGY_VERSION
 
 ROOT = Path(__file__).resolve().parents[2]
+# 回帰確認用：設定すると processed/ と reports/ だけをこの下に書き出し、既存の成果物を上書きしない
+OUTPUT_ROOT_ENV = "YCANALYSIS_OUTPUT_ROOT"
+
+
+def output_root() -> Path:
+    return Path(os.environ[OUTPUT_ROOT_ENV]) if os.environ.get(OUTPUT_ROOT_ENV) else ROOT
+
+
 IDENTITY_KEYS = ("slug", "name", "handle", "channel_id", "url", "lang")
 
 
@@ -37,7 +46,7 @@ class Channel:
 
     @property
     def processed_dir(self) -> Path:
-        return self.data_dir / "processed"
+        return output_root() / "data" / self.slug / "processed"
 
     @property
     def annotations_dir(self) -> Path:
@@ -45,7 +54,7 @@ class Channel:
 
     @property
     def report_dir(self) -> Path:
-        return ROOT / "reports" / self.slug
+        return output_root() / "reports" / self.slug
 
     @property
     def timezone(self) -> str:

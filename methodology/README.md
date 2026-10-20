@@ -43,6 +43,27 @@
 | 11 | 最終報告書 | 全結果 | `analyze.draft_report` で草稿、人間が判断の節を書く | `reports/<slug>/FINAL_REPORT.md` | 9章構成、各結論に出典・URL・数値 | [evaluation.md](evaluation.md) の報告書チェックリスト | 人間＋自動 |
 | 12 | 調査方法の振り返り | 報告書、ログ | 方法論レビュー、改善案の検証と採否 | `methodology/reviews/`、`CHANGELOG.md` | 改善案ごとに採用・保留・却下が決まっている | 回帰テスト、基準値の照合 | 人間＋自動 |
 
+## 調査状態
+
+`reports/<slug>/research_status.json` に、状態・品質ゲートの根拠・次の作業・工程ごとの記録（開始・終了・結果・変更ファイル・理由）を残す
+自動工程がすべて成功しても、AIエージェントの工程と品質ゲートを通過するまで調査は完成しない
+
+| 状態 | 意味 |
+|---|---|
+| `collecting` | 公開データの取得が終わっていない |
+| `quantitative_complete` | 定量分析まで完了し、AIエージェントの工程が未着手 |
+| `qualitative_in_progress` | テーマ検証・内容分析・比較のいずれかが進行中 |
+| `validation_in_progress` | 内容分析と比較が完了し、仮説検証・報告書が未完了 |
+| `incomplete` | 報告書は書かれているが品質ゲートを通過していない |
+| `complete` | 品質ゲートを通過し、FINAL_REPORT.md を作った |
+| `blocked` | 外部要因で必須工程を実施できない（`annotations/blocked.json`） |
+| `failed` | 自動工程が失敗した |
+
+報告書のファイル
+- `AUTO_DRAFT.md`：自動集計の草稿（毎回作り直す）
+- `DRAFT_REPORT.md`：AIエージェント・人間が考察を書く作業用の報告書（自動処理は上書きしない）
+- `FINAL_REPORT.md`：品質ゲート通過後に `analyze.finalize` が作る。既存版は `archive/` に退避する
+
 ## 新しいチャンネルの調査
 
 ```sh

@@ -74,6 +74,12 @@ def classify(df: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
 
 
 def generate(slug: str) -> None:
+    ch0 = load_channel(slug)
+    if not (ch0.annotations_dir / "labels_manual.csv").exists() and ch0.settings.get("theme_rules"):
+        # 設定にチャンネル固有の規則があれば、反復語による暫定分類より優先する
+        from .configured_themes import generate as configured
+        configured(slug)
+        return
     ch = load_channel(slug)
     manual = ch.annotations_dir / "labels_manual.csv"
     if manual.exists():

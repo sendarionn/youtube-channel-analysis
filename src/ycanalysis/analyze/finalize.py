@@ -1,28 +1,46 @@
-"""自動生成した草稿を、未検証事項を明示した最終報告書として保存する"""
+"""品質ゲートを通過した DRAFT_REPORT.md を FINAL_REPORT.md にする
+
+- research_status.json の状態が complete でなければ作らない
+- 既存の FINAL_REPORT.md と内容が違う場合は reports/<slug>/archive/ に退避してから書く
+
+使い方:
+    python -m ycanalysis.analyze.finalize <slug>
+"""
 from __future__ import annotations
 
 import argparse
+import json
+import shutil
+from datetime import datetime, timezone
 
 from ..config import load_channel, record_run
+from .quality_gate import evaluate
 
 
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("slug")
     ch = load_channel(ap.parse_args().slug)
-    final = ch.report_dir / "FINAL_REPORT.md"
-    if final.exists():
-        print("既存のFINAL_REPORT.mdを変更しない")
+    status = evaluate(ch.slug)  # 直前の状態ではなく、その時点の成果物で判定する
+    if status["state"] != "complete":
+        print(f"品質ゲート未通過（{status['state']}）のため FINAL_REPORT.md を作らない")
+        print("未通過: " + ", ".join(status["missing"]))
+        record_run(ch, "finalize", status="skipped_quality_gate", missing=status["missing"])
         return
     draft = ch.report_dir / "DRAFT_REPORT.md"
-    if not draft.exists():
-        raise SystemExit("DRAFT_REPORT.mdがないため最終報告書を作成できない")
-    note = ("# 自動調査の検証状態\n\n"
-            "定量分析まで完了\n\n"
-            "テーマ分類は自動生成した暫定結果で、人手による一致率検証は未実施\n\n"
-            "字幕または映像を取得していない動画の内容は確認済みと扱わない\n\n")
-    final.write_text(note + draft.read_text())
-    record_run(ch, "finalize", qualitative_validation=False)
+    final = ch.report_dir / "FINAL_REPORT.md"
+    text = draft.read_text()
+    if final.exists():
+        if final.read_text() == text:
+            print("FINAL_REPORT.md は最新")
+            return
+        stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+        arch = ch.report_dir / "archive" / f"FINAL_REPORT-{stamp}.md"
+        arch.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(final, arch)
+        print(f"既存の最終報告書を退避: {arch}")
+    final.write_text(text)
+    record_run(ch, "finalize", status="complete")
     print(final)
 
 

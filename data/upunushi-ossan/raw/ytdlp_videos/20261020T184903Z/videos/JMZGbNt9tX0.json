@@ -1,0 +1,619 @@
+{
+ "id": "JMZGbNt9tX0",
+ "title": "【KTX】韓国の新幹線、なぜフランスのTGVを採用？",
+ "thumbnail": "https://i.ytimg.com/vi_webp/JMZGbNt9tX0/maxresdefault.webp",
+ "description": "韓国の高速鉄道「KTX」が日本の新幹線ではなくフランスのTGVを採用した理由について、小学生でも理解できるようにわかりやすく解説。\n\n1990年代、高速鉄道の計画が登場した際、日本・フランス・ドイツの3か国が国際入札に参加。\nただ、値段や歴史的認識の影響で、フランスのTGVの技術を採用した。\n\n＜画像出典＞\n・国土地理院地図、https://maps.gsi.go.jp/\n・iStock、https://www.istockphoto.com/jp\n・Shutterstock、https://www.shutterstock.com/ja/",
+ "channel_id": "UC21f1t3X_sYMD28XclLNpUw",
+ "channel_url": "https://www.youtube.com/channel/UC21f1t3X_sYMD28XclLNpUw",
+ "duration": 520,
+ "view_count": 173696,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=JMZGbNt9tX0",
+ "categories": [
+  "Autos & Vehicles"
+ ],
+ "tags": [
+  "KTX"
+ ],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "video",
+ "release_timestamp": null,
+ "comment_count": 841,
+ "chapters": [
+  {
+   "start_time": 0,
+   "end_time": 89,
+   "title": "<Untitled Chapter 1>"
+  },
+  {
+   "start_time": 89,
+   "title": "おい、何で日本のように しなかったんだよ?",
+   "end_time": 92
+  },
+  {
+   "start_time": 92,
+   "title": "やっぱり、歴史的な 問題が影響したのか?",
+   "end_time": 164
+  },
+  {
+   "start_time": 164,
+   "title": "うん、作り方、 わかんねー",
+   "end_time": 229
+  },
+  {
+   "start_time": 229,
+   "title": "日本、戦時中まじ ひでえ事してくれたよな",
+   "end_time": 250
+  },
+  {
+   "start_time": 250,
+   "title": "ご縁がなかった ということで",
+   "end_time": 297
+  },
+  {
+   "start_time": 297,
+   "title": "何か線路が グニャグニャになるな",
+   "end_time": 427
+  },
+  {
+   "start_time": 427,
+   "title": "次は動力分散方式 にするぞー",
+   "end_time": 520
+  }
+ ],
+ "like_count": 2806,
+ "channel": "たくみっく",
+ "channel_follower_count": null,
+ "creators": null,
+ "channel_is_verified": true,
+ "uploader": "たくみっく",
+ "uploader_id": "@upunushi-ossan",
+ "uploader_url": "https://www.youtube.com/@upunushi-ossan",
+ "upload_date": "20220517",
+ "timestamp": 1652785216,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=JMZGbNt9tX0",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "JMZGbNt9tX0",
+ "fulltitle": "【KTX】韓国の新幹線、なぜフランスのTGVを採用？",
+ "duration_string": "8:40",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792530135,
+ "format": "137 - 1920x1080 (1080p)+251 - audio only (medium)",
+ "format_id": "137+251",
+ "ext": "mkv",
+ "protocol": "https+https",
+ "language": "ja",
+ "format_note": "1080p+medium",
+ "filesize_approx": 135857095,
+ "tbr": 2088.518,
+ "width": 1920,
+ "height": 1080,
+ "resolution": "1920x1080",
+ "fps": 24,
+ "dynamic_range": "SDR",
+ "vcodec": "avc1.640028",
+ "vbr": 1946.896,
+ "stretched_ratio": null,
+ "aspect_ratio": 1.78,
+ "acodec": "opus",
+ "abr": 141.622,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [],
+ "auto_caption_has_ja": true,
+ "heatmap": [
+  {
+   "start_time": 0.0,
+   "end_time": 5.21,
+   "value": 1.0
+  },
+  {
+   "start_time": 5.21,
+   "end_time": 10.42,
+   "value": 0.014506711453097967
+  },
+  {
+   "start_time": 10.42,
+   "end_time": 15.63,
+   "value": 0.03391367525563028
+  },
+  {
+   "start_time": 15.63,
+   "end_time": 20.84,
+   "value": 0.09554716950889534
+  },
+  {
+   "start_time": 20.84,
+   "end_time": 26.05,
+   "value": 0.1293454642718682
+  },
+  {
+   "start_time": 26.05,
+   "end_time": 31.26,
+   "value": 0.11259172586376336
+  },
+  {
+   "start_time": 31.26,
+   "end_time": 36.47,
+   "value": 0.06638225179043877
+  },
+  {
+   "start_time": 36.47,
+   "end_time": 41.68,
+   "value": 0.050538659352306455
+  },
+  {
+   "start_time": 41.68,
+   "end_time": 46.89,
+   "value": 0.03454630196379752
+  },
+  {
+   "start_time": 46.89,
+   "end_time": 52.1,
+   "value": 0.05363908120362365
+  },
+  {
+   "start_time": 52.1,
+   "end_time": 57.31,
+   "value": 0.08979642743726578
+  },
+  {
+   "start_time": 57.31,
+   "end_time": 62.52,
+   "value": 0.10776305099382
+  },
+  {
+   "start_time": 62.52,
+   "end_time": 67.73,
+   "value": 0.08123933725965946
+  },
+  {
+   "start_time": 67.73,
+   "end_time": 72.94,
+   "value": 0.15668961420289534
+  },
+  {
+   "start_time": 72.94,
+   "end_time": 78.15,
+   "value": 0.12470692803883716
+  },
+  {
+   "start_time": 78.15,
+   "end_time": 83.36,
+   "value": 0.07933299205885683
+  },
+  {
+   "start_time": 83.36,
+   "end_time": 88.57,
+   "value": 0.042079593756480294
+  },
+  {
+   "start_time": 88.57,
+   "end_time": 93.78,
+   "value": 0.018663664987342458
+  },
+  {
+   "start_time": 93.78,
+   "end_time": 98.99,
+   "value": 0.04218207627785085
+  },
+  {
+   "start_time": 98.99,
+   "end_time": 104.2,
+   "value": 0.05358503494724104
+  },
+  {
+   "start_time": 104.2,
+   "end_time": 109.41,
+   "value": 0.09148468422260045
+  },
+  {
+   "start_time": 109.41,
+   "end_time": 114.62,
+   "value": 0.07115848325868372
+  },
+  {
+   "start_time": 114.62,
+   "end_time": 119.83,
+   "value": 0.014205299638656447
+  },
+  {
+   "start_time": 119.83,
+   "end_time": 125.04,
+   "value": 0.0
+  },
+  {
+   "start_time": 125.04,
+   "end_time": 130.25,
+   "value": 0.031549589819468475
+  },
+  {
+   "start_time": 130.25,
+   "end_time": 135.46,
+   "value": 0.07518856082683259
+  },
+  {
+   "start_time": 135.46,
+   "end_time": 140.67,
+   "value": 0.13414243267258988
+  },
+  {
+   "start_time": 140.67,
+   "end_time": 145.88,
+   "value": 0.09566583084473447
+  },
+  {
+   "start_time": 145.88,
+   "end_time": 151.09,
+   "value": 0.03498002442349825
+  },
+  {
+   "start_time": 151.09,
+   "end_time": 156.3,
+   "value": 0.0003675295701644629
+  },
+  {
+   "start_time": 156.3,
+   "end_time": 161.51,
+   "value": 0.005040076376025702
+  },
+  {
+   "start_time": 161.51,
+   "end_time": 166.72,
+   "value": 0.007188728124790251
+  },
+  {
+   "start_time": 166.72,
+   "end_time": 171.93,
+   "value": 0.017703229451653396
+  },
+  {
+   "start_time": 171.93,
+   "end_time": 177.14,
+   "value": 0.019275679986055165
+  },
+  {
+   "start_time": 177.14,
+   "end_time": 182.35,
+   "value": 0.009756676641097795
+  },
+  {
+   "start_time": 182.35,
+   "end_time": 187.56,
+   "value": 0.0812157452422765
+  },
+  {
+   "start_time": 187.56,
+   "end_time": 192.77,
+   "value": 0.13155124276336155
+  },
+  {
+   "start_time": 192.77,
+   "end_time": 197.98,
+   "value": 0.1428682483503119
+  },
+  {
+   "start_time": 197.98,
+   "end_time": 203.19,
+   "value": 0.04161889825779714
+  },
+  {
+   "start_time": 203.19,
+   "end_time": 208.4,
+   "value": 0.053033552757461036
+  },
+  {
+   "start_time": 208.4,
+   "end_time": 213.61,
+   "value": 0.07996972608215232
+  },
+  {
+   "start_time": 213.61,
+   "end_time": 218.82,
+   "value": 0.110752199667608
+  },
+  {
+   "start_time": 218.82,
+   "end_time": 224.03,
+   "value": 0.10034887133985629
+  },
+  {
+   "start_time": 224.03,
+   "end_time": 229.24,
+   "value": 0.12242756849949761
+  },
+  {
+   "start_time": 229.24,
+   "end_time": 234.45,
+   "value": 0.10254656042411535
+  },
+  {
+   "start_time": 234.45,
+   "end_time": 239.66,
+   "value": 0.1209760834045435
+  },
+  {
+   "start_time": 239.66,
+   "end_time": 244.87,
+   "value": 0.16251538990942868
+  },
+  {
+   "start_time": 244.87,
+   "end_time": 250.08,
+   "value": 0.17167560425117134
+  },
+  {
+   "start_time": 250.08,
+   "end_time": 255.29,
+   "value": 0.19191695409524362
+  },
+  {
+   "start_time": 255.29,
+   "end_time": 260.5,
+   "value": 0.1838871029303189
+  },
+  {
+   "start_time": 260.5,
+   "end_time": 265.71,
+   "value": 0.2708808888630651
+  },
+  {
+   "start_time": 265.71,
+   "end_time": 270.92,
+   "value": 0.968562209294754
+  },
+  {
+   "start_time": 270.92,
+   "end_time": 276.13,
+   "value": 0.19014244369221583
+  },
+  {
+   "start_time": 276.13,
+   "end_time": 281.34,
+   "value": 0.1656519260803491
+  },
+  {
+   "start_time": 281.34,
+   "end_time": 286.55,
+   "value": 0.1713830832713062
+  },
+  {
+   "start_time": 286.55,
+   "end_time": 291.76,
+   "value": 0.17563936370676175
+  },
+  {
+   "start_time": 291.76,
+   "end_time": 296.97,
+   "value": 0.22880129510658484
+  },
+  {
+   "start_time": 296.97,
+   "end_time": 302.18,
+   "value": 0.2562643568194955
+  },
+  {
+   "start_time": 302.18,
+   "end_time": 307.39,
+   "value": 0.2535035398043916
+  },
+  {
+   "start_time": 307.39,
+   "end_time": 312.6,
+   "value": 0.21289486575591127
+  },
+  {
+   "start_time": 312.6,
+   "end_time": 317.81,
+   "value": 0.1762674823861297
+  },
+  {
+   "start_time": 317.81,
+   "end_time": 323.02,
+   "value": 0.1566056145996019
+  },
+  {
+   "start_time": 323.02,
+   "end_time": 328.23,
+   "value": 0.16434800379475847
+  },
+  {
+   "start_time": 328.23,
+   "end_time": 333.44,
+   "value": 0.14880988039698703
+  },
+  {
+   "start_time": 333.44,
+   "end_time": 338.65,
+   "value": 0.1580727275277269
+  },
+  {
+   "start_time": 338.65,
+   "end_time": 343.86,
+   "value": 0.15479423853883767
+  },
+  {
+   "start_time": 343.86,
+   "end_time": 349.07,
+   "value": 0.14286068487977088
+  },
+  {
+   "start_time": 349.07,
+   "end_time": 354.28,
+   "value": 0.15846337326778995
+  },
+  {
+   "start_time": 354.28,
+   "end_time": 359.49,
+   "value": 0.1812495053690623
+  },
+  {
+   "start_time": 359.49,
+   "end_time": 364.7,
+   "value": 0.12843126107597633
+  },
+  {
+   "start_time": 364.7,
+   "end_time": 369.91,
+   "value": 0.11372416774274983
+  },
+  {
+   "start_time": 369.91,
+   "end_time": 375.12,
+   "value": 0.11102005171209925
+  },
+  {
+   "start_time": 375.12,
+   "end_time": 380.33,
+   "value": 0.09706514802863901
+  },
+  {
+   "start_time": 380.33,
+   "end_time": 385.54,
+   "value": 0.09331649668058813
+  },
+  {
+   "start_time": 385.54,
+   "end_time": 390.75,
+   "value": 0.08410421460621367
+  },
+  {
+   "start_time": 390.75,
+   "end_time": 395.96,
+   "value": 0.09266027795503792
+  },
+  {
+   "start_time": 395.96,
+   "end_time": 401.17,
+   "value": 0.0890204704578855
+  },
+  {
+   "start_time": 401.17,
+   "end_time": 406.38,
+   "value": 0.1121463576629978
+  },
+  {
+   "start_time": 406.38,
+   "end_time": 411.59,
+   "value": 0.08948680099256777
+  },
+  {
+   "start_time": 411.59,
+   "end_time": 416.8,
+   "value": 0.1001998809880397
+  },
+  {
+   "start_time": 416.8,
+   "end_time": 422.01,
+   "value": 0.10629931908729447
+  },
+  {
+   "start_time": 422.01,
+   "end_time": 427.22,
+   "value": 0.10691318738673578
+  },
+  {
+   "start_time": 427.22,
+   "end_time": 432.43,
+   "value": 0.12660991726264478
+  },
+  {
+   "start_time": 432.43,
+   "end_time": 437.64,
+   "value": 0.14949720452125234
+  },
+  {
+   "start_time": 437.64,
+   "end_time": 442.85,
+   "value": 0.15690960600830078
+  },
+  {
+   "start_time": 442.85,
+   "end_time": 448.06,
+   "value": 0.1513573674714667
+  },
+  {
+   "start_time": 448.06,
+   "end_time": 453.27,
+   "value": 0.12952142766266722
+  },
+  {
+   "start_time": 453.27,
+   "end_time": 458.48,
+   "value": 0.11792607634196504
+  },
+  {
+   "start_time": 458.48,
+   "end_time": 463.69,
+   "value": 0.12497791065888347
+  },
+  {
+   "start_time": 463.69,
+   "end_time": 468.9,
+   "value": 0.1262072751570547
+  },
+  {
+   "start_time": 468.9,
+   "end_time": 474.11,
+   "value": 0.4879463825072454
+  },
+  {
+   "start_time": 474.11,
+   "end_time": 479.32,
+   "value": 0.6870787873202173
+  },
+  {
+   "start_time": 479.32,
+   "end_time": 484.53,
+   "value": 0.551035193679944
+  },
+  {
+   "start_time": 484.53,
+   "end_time": 489.74,
+   "value": 0.1869569202750098
+  },
+  {
+   "start_time": 489.74,
+   "end_time": 494.95,
+   "value": 0.11386076101536836
+  },
+  {
+   "start_time": 494.95,
+   "end_time": 500.16,
+   "value": 0.12592269331679723
+  },
+  {
+   "start_time": 500.16,
+   "end_time": 505.37,
+   "value": 0.06979017129507653
+  },
+  {
+   "start_time": 505.37,
+   "end_time": 510.58,
+   "value": 0.07785651244867109
+  },
+  {
+   "start_time": 510.58,
+   "end_time": 515.79,
+   "value": 0.10067502722348502
+  },
+  {
+   "start_time": 515.79,
+   "end_time": 521.0,
+   "value": 0.11163702554249118
+  }
+ ],
+ "tab": "videos",
+ "retrieved_at": "2026-10-20T21:02:15Z"
+}

@@ -21,103 +21,145 @@
     "stderr_tail": []
   },
   "build_dataset": {
-    "methodology_version": "1.2.0",
-    "run_at": "2026-10-20T19:34:52+00:00",
-    "n_videos": 505,
-    "n_history_points": 17
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:34:39+00:00",
+    "n_videos": 957,
+    "n_history_points": 19
   },
   "run:build_dataset": {
-    "methodology_version": "1.2.0",
-    "run_at": "2026-10-20T19:34:53+00:00",
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:34:39+00:00",
     "status": "ok",
-    "seconds": 1.1,
+    "seconds": 0.7,
     "stderr_tail": []
   },
   "auto_themes": {
     "methodology_version": "1.2.0",
-    "run_at": "2026-10-20T19:34:53+00:00",
+    "run_at": "2026-10-20T20:51:32+00:00",
     "n_videos": 505,
     "n_themes": 7,
     "validated": false
   },
   "run:auto_themes": {
-    "methodology_version": "1.2.0",
-    "run_at": "2026-10-20T19:34:53+00:00",
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:34:40+00:00",
     "status": "ok",
-    "seconds": 0.3,
+    "seconds": 0.2,
     "stderr_tail": []
   },
   "quant": {
-    "methodology_version": "1.2.0",
-    "run_at": "2026-10-20T19:35:06+00:00",
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:35:59+00:00",
     "labeled": true,
-    "n_videos": 505
+    "n_videos": 957
   },
   "run:quant": {
-    "methodology_version": "1.2.0",
-    "run_at": "2026-10-20T19:35:06+00:00",
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:34:42+00:00",
     "status": "ok",
-    "seconds": 12.8,
+    "seconds": 2.0,
     "stderr_tail": []
   },
   "run:thumbs": {
-    "methodology_version": "1.2.0",
-    "run_at": "2026-10-20T19:35:19+00:00",
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:34:46+00:00",
     "status": "ok",
-    "seconds": 13.6,
+    "seconds": 4.1,
     "stderr_tail": []
   },
   "robustness": {
-    "methodology_version": "1.2.0",
-    "run_at": "2026-10-20T19:35:31+00:00"
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:34:47+00:00"
   },
   "run:robustness": {
-    "methodology_version": "1.2.0",
-    "run_at": "2026-10-20T19:35:31+00:00",
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:34:47+00:00",
     "status": "ok",
-    "seconds": 11.8,
+    "seconds": 1.0,
     "stderr_tail": []
   },
   "run:select_sample": {
-    "methodology_version": "1.2.0",
-    "run_at": "2026-10-20T19:35:31+00:00",
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:34:47+00:00",
     "status": "ok",
     "seconds": 0.2,
     "stderr_tail": []
   },
   "draft_report": {
-    "methodology_version": "1.2.0",
-    "run_at": "2026-10-20T19:33:42+00:00"
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:34:49+00:00"
   },
   "run:draft_report": {
-    "methodology_version": "1.2.0",
-    "run_at": "2026-10-20T19:35:43+00:00",
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:34:49+00:00",
     "status": "ok",
-    "seconds": 11.6,
+    "seconds": 1.0,
     "stderr_tail": []
   },
   "finalize": {
-    "methodology_version": "1.2.0",
-    "run_at": "2026-10-20T19:33:43+00:00",
-    "qualitative_validation": false
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:40:55+00:00",
+    "status": "complete"
   },
   "run:finalize": {
-    "methodology_version": "1.2.0",
-    "run_at": "2026-10-20T19:35:43+00:00",
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:34:50+00:00",
     "status": "ok",
-    "seconds": 0.0,
+    "seconds": 0.2,
     "stderr_tail": []
   },
   "methodology_review": {
-    "methodology_version": "1.2.0",
-    "run_at": "2026-10-20T19:35:43+00:00",
-    "improvements_adopted": false
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:41:33+00:00",
+    "state": "complete"
   },
   "run:methodology_review": {
-    "methodology_version": "1.2.0",
-    "run_at": "2026-10-20T19:35:43+00:00",
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:34:49+00:00",
     "status": "ok",
-    "seconds": 0.0,
+    "seconds": 0.1,
+    "stderr_tail": []
+  },
+  "quality_gate": {
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:42:03+00:00",
+    "state": "complete",
+    "missing": []
+  },
+  "run:quality_gate": {
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:34:49+00:00",
+    "status": "ok",
+    "seconds": 0.2,
+    "stderr_tail": []
+  },
+  "configured_themes": {
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:34:40+00:00",
+    "method": "config [theme_rules] の正規表現を上から順に適用（タイトルのみ、再生数を参照しない）",
+    "n_videos": 957,
+    "counts": {
+      "rail": 393,
+      "road": 206,
+      "shinkansen": 203,
+      "other": 79,
+      "urban": 60,
+      "aviation": 10,
+      "society": 6
+    },
+    "ambiguous": 390,
+    "unclassified": 79
+  },
+  "hypothesis_test": {
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:34:48+00:00",
+    "n_out_of_sample": 915
+  },
+  "run:hypothesis_test": {
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:34:48+00:00",
+    "status": "ok",
+    "seconds": 1.0,
     "stderr_tail": []
   }
 }

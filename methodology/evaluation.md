@@ -1,6 +1,6 @@
 # 品質基準と評価方法
 
-バージョン 1.1.0
+バージョン 1.3.0
 
 ## 1. データの品質基準
 
@@ -39,7 +39,43 @@
 
 ジャンル横断の一般化は、同じバージョンの方法で調べた比較可能な事例が3件以上そろうまで行わない
 
-## 4. 報告書チェックリスト
+## 4. 品質ゲート（`analyze/quality_gate.py`）
+
+最終報告書（FINAL_REPORT.md）は、全チェックを通過した場合だけ `analyze.finalize` が作る
+各チェックは文章の有無ではなく、根拠のファイルと数値で判定し、`reports/<slug>/research_status.json` に根拠を残す
+
+| 区分 | チェック | 通過条件 |
+|---|---|---|
+| データ | `channel_identity` | 概要ページの登録者数を、対象チャンネルIDの構造化データから取得できた（`subscriber_audit.csv` の direct が有効） |
+| データ | `current_subscriber_source` | 取得元が対象IDのノード・ページの持ち主のヘッダーのどちらか（別チャンネルの値を使わない） |
+| データ | `cross_source` | 同一性を確認した外部情報源（`annotations/external_checks.json`）と、同時期（14日以内）の観測値の差が5%以内、かつどの情報源とも20%を超えて乖離しない |
+| データ | `history_validated` | 過去の観測値がすべて対象IDで検証済み（無効・重複・疑義ありは `subscriber_audit.csv` に理由つき） |
+| データ | `anomalies_explained` | 有効以外の観測すべてに理由がある |
+| データ | `counts_consistent` | 概要ページの動画数と取得本数の差が5%以内（試験取得は不通過） |
+| データ | `milestones_valid` | 節目告知の候補を判定済みで、人口・商圏などの人数表現を採用していない |
+| データ | `report_uses_validated_subscribers` | 報告書に検証済みの現在の登録者数がある |
+| 分析 | `research_question` | `docs/<slug>-analysis.md` にチャンネル固有の調査目的が書かれている（40字以上、テンプレートの文のままでない） |
+| 分析 | `quantitative_analysis` | `phase2_tables.md` と `analysis_videos.csv` がある |
+| 分析 | `theme_classification_validated` | 手作業ラベル、または再生数を伏せた再判定50本以上で κ≥0.6（一致率≥0.8でも可） |
+| 分析 | `tier_comparison` | 内容分析のコーディングが高・低実績それぞれ5本以上 |
+| 分析 | `subtitles_and_video_checked` | コーディングした動画の90%以上で字幕と映像フレームを取得している |
+| 分析 | `peer_comparison` | 比較チャンネル2件以上の比較表があり、報告書6章に選定理由を含む400字以上の記述がある |
+| 分析 | `hypotheses_validated` | 支持・反証・代替説明・確信度・再現可能性がそろった仮説が3件以上、7章で4段階（発見・クリック・継続・再訪）を論じている |
+| 報告書 | `report_structure` | 9章構成 |
+| 報告書 | `no_placeholders` | 「要記入」「TODO」「（要…）」などが残っていない |
+| 報告書 | `conclusions_supported` | 動画URL 10本以上、【事実】【推論】の区別、1章に確信度 |
+| 報告書 | `limitations`・`transferable_insights` | 9章・8章に3項目以上 |
+
+外部要因で必須工程を実施できない場合は `annotations/blocked.json` に工程と理由を書く。状態は `blocked` になり、完成とは扱わない
+
+## 5. 仮説の事前登録と標本外検証
+
+- 代表動画の内容分析から立てた仮説は、その標本で検証すると循環する
+- 仮説の判定規則（タイトルの正規表現）と予想の向きを、検証用のデータを見る前に `config/channels/<slug>.toml` の `[hypotheses]` に登録する（`registered_at` と根拠を書く）
+- `analyze.hypothesis_test` は内容分析の標本を除いた動画で、片側検定と仮説間の多重比較補正を行う
+- 登録後に規則を変えた場合は、変更前の結果も残し、変えた理由を記録する
+
+## 6. 報告書チェックリスト
 
 - [ ] 事実・推論・仮説を区別している
 - [ ] 各結論に数値・出典・動画URL がある
@@ -49,7 +85,7 @@
 - [ ] 反例を挙げている
 - [ ] 手作業の判定が盲検かどうかを書いている
 
-## 5. 改善サイクル
+## 7. 改善サイクル
 
 **調査 → 評価 → 問題発見 → 改善案 → 検証 → 採用・却下 → 次回調査**
 

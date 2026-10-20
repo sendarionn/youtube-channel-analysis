@@ -34,8 +34,14 @@ TITLE_FEATURES = {"has_bracket": "【】隅付き括弧", "has_question_mark": "
                   "w_curiosity": "好奇心語彙", "w_explain": "説明語彙"}
 DUR_BINS = [0, 5, 10, 13, 16, 20, 200]
 DUR_LABELS = ["〜5分", "5〜10分", "10〜13分", "13〜16分", "16〜20分", "20分〜"]
-MILESTONE = re.compile(r"(\d+)万(?:人)?")
-MILESTONE_NC = r"\d+万"
+# 登録者数の節目告知（methodology/metrics.md）
+# 1. 「登録者」「チャンネル登録」と同じ句にある N万人 → 採用
+# 2. 「N万人達成・突破」で、人口・商圏などの他の数量名詞がない → 採用（YouTube の記念告知の定型）
+# 3. 万人を含むがどちらにも当たらない → 候補として記録し、期間区分には使わない
+MILESTONE_SUBS = re.compile(r"(?:チャンネル)?登録者(?:数)?[^\d０-９]{0,12}([\d０-９]+)万(?:人)?")
+MILESTONE_SUBS_REV = re.compile(r"([\d０-９]+)万(?:人)?[^\d０-９]{0,8}(?:登録者|チャンネル登録)")
+MILESTONE_ACHIEVE = re.compile(r"([\d０-９]+)万人(?:登録)?(?:達成|突破)")
+OTHER_COUNT_NOUNS = re.compile(r"人口|商圏|来場|利用者|乗降|都市|動員|観客|フォロワー|会員|ユーザー|免停|患者|人出|移民|留学生")
 
 
 def has_labels(ch) -> bool:
@@ -43,7 +49,7 @@ def has_labels(ch) -> bool:
 
 
 def label_path(ch):
-    for name in ("labels_manual.csv", "labels_auto.csv"):
+    for name in ("labels_manual.csv", "labels_semantic.csv", "labels_auto.csv"):
         path = ch.annotations_dir / name
         if path.exists():
             return path
@@ -70,14 +76,43 @@ def load(ch):
     a, b = slot_hours(ch)
     v["morning_slot"] = v["hour_jst"].between(a, b)
     h = pd.read_csv(ch.processed_dir / "channel_history.csv", parse_dates=["snapshot_at"])
+    if "anomaly" in h:
+        h = h[~h["anomaly"].fillna(False).astype(bool)]  # 疑義ありの観測は成長分析に使わない（subscriber_audit.csv）
     s = pd.read_csv(ch.processed_dir / "video_view_snapshots.csv", parse_dates=["snapshot_at"])
     return v, h, s
 
 
+def classify_milestone(title: str) -> tuple[int | None, str]:
+    """タイトルから登録者数の節目を判定する。戻り値は（人数, 判定理由）"""
+    t = title or ""
+    m = MILESTONE_SUBS.search(t) or MILESTONE_SUBS_REV.search(t)
+    if m:
+        return int(m.group(1)) * 10000, "subscriber_word"
+    if "万人" not in t:
+        return None, "none"
+    if OTHER_COUNT_NOUNS.search(t):
+        return None, "other_count_noun"
+    m = MILESTONE_ACHIEVE.search(t)
+    if m:
+        return int(m.group(1)) * 10000, "achievement_phrase"
+    return None, "ambiguous"
+
+
+def milestone_candidates(v: pd.DataFrame) -> pd.DataFrame:
+    """「万人」を含む全タイトルの判定結果（採用・除外の理由つき）"""
+    m = v[v["title"].fillna("").str.contains("万人")].copy()
+    res = m["title"].map(classify_milestone)
+    m["subs_claimed"] = res.map(lambda x: x[0])
+    m["reason"] = res.map(lambda x: x[1])
+    m["accepted"] = m["subs_claimed"].notna()
+    return m
+
+
 def milestones(v: pd.DataFrame) -> pd.DataFrame:
     """登録者数の節目を告知した動画（自己申告。公開日は到達日以降）"""
-    m = v[v["title"].str.contains("登録者|達成|万人", regex=True) & v["title"].str.contains(MILESTONE_NC)].copy()
-    m["subs_claimed"] = m["title"].map(lambda t: int(MILESTONE.search(t).group(1)) * 10000)
+    m = milestone_candidates(v)
+    m = m[m["accepted"]].copy()
+    m["subs_claimed"] = m["subs_claimed"].astype(int)
     return m[["pub_jst", "subs_claimed", "title", "url"]]
 
 
@@ -140,6 +175,8 @@ def main() -> None:
     charts = ch.report_dir / "charts"
     v, h, snaps = load(ch)
     ms = milestones(v)
+    milestone_candidates(v)[["published_jst", "title", "subs_claimed", "reason", "accepted"]].to_csv(
+        ch.processed_dir / "milestone_candidates.csv", index=False)
     v["period"] = assign_period(v, ms, ch.get("analysis", "period_milestones", []))
     themes = ch.settings.get("themes", {})
     flags = {k: lab for k, lab in ch.settings.get("flags", {}).items() if k in v}
@@ -221,8 +258,10 @@ def main() -> None:
                      "登録者増": hs.loc[i, "subscribers"] - hs.loc[i - 1, "subscribers"],
                      "1日あたり": (hs.loc[i, "subscribers"] - hs.loc[i - 1, "subscribers"]) / max((t1 - t0).total_seconds() / 86400, 0.1),
                      "投稿数": len(inside),
+                     "区間内公開動画の再生/日": inside["views"].sum() / max((t1 - t0).total_seconds() / 86400, 0.1),
                      "区間内の再生上位": " / ".join(f"{t[:22]}({x / 10000:.0f}万)" for t, x in zip(best["title"], best["views"]))})
     out += [md_table(pd.DataFrame(rows), "{:,.0f}"), ""]
+    growth_drivers_chart(pd.DataFrame(rows), hs, charts)
 
     # ---- 2. 期間 ----
     per = vid.groupby("period").agg(本数=("video_id", "size"), 期間開始=("published_jst", "min"),
@@ -265,6 +304,26 @@ def main() -> None:
     (ch.report_dir / "phase2_tables.md").write_text("\n".join(out))
     record_run(ch, "quant", labeled=labeled, n_videos=len(v))
     print(ch.report_dir / "phase2_tables.md")
+
+
+def growth_drivers_chart(rows: pd.DataFrame, hs: pd.DataFrame, charts) -> None:
+    """観測区間ごとの登録者増・投稿頻度・区間内公開動画の再生（1日あたり）を縦に並べる（二重軸にしない）"""
+    r = rows[rows["日数"] >= 14] if len(rows) else rows
+    if len(r) < 3:
+        return
+    mid = [hs["snapshot_at"].iloc[i - 1] + (hs["snapshot_at"].iloc[i] - hs["snapshot_at"].iloc[i - 1]) / 2
+           for i in range(1, len(hs))]
+    r = r.assign(mid=[mid[i] for i in r.index])
+    fig, axes = plt.subplots(3, 1, figsize=(9, 7), sharex=True)
+    for ax, col, title in [(axes[0], "1日あたり", "登録者増（1日あたり）"),
+                           (axes[1], "投稿数", "投稿本数（1日あたり）"),
+                           (axes[2], "区間内公開動画の再生/日", "区間内に公開した動画の再生合計（1日あたり、取得時点の累計）")]:
+        y = r[col] / r["日数"] if col == "投稿数" else r[col]
+        ax.step(r["mid"], y, where="mid", color=SERIES[0], lw=2)
+        ax.scatter(r["mid"], y, s=14, color=SERIES[0], zorder=3)
+        ax.set_title(title, fontsize=10)
+    fig.suptitle("観測区間ごとの登録者増と投稿", x=0.02, ha="left", fontsize=12, fontweight="bold")
+    save(fig, charts / "13_growth_drivers.png")
 
 
 def theme_section(ch, out, mature, content, charts):

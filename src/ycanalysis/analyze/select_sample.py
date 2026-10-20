@@ -7,6 +7,8 @@
   - high は指数の高い順、low は低い順、mid は中央値に近い順に候補を並べる
 - 期間内の候補が足りない場合は、他期間の候補で補う
 
+- annotations/phase3_sample_frozen.csv があれば、それを標本として使う（内容分析の開始時に固定する）
+
 使い方:
     python -m ycanalysis.analyze.select_sample <slug> [--per-period 3]
 """
@@ -63,6 +65,13 @@ def main() -> None:
     ap.add_argument("--per-period", type=int, default=3)
     a = ap.parse_args()
     ch = load_channel(a.slug)
+    frozen = ch.annotations_dir / "phase3_sample_frozen.csv"
+    if frozen.exists():
+        # 内容分析を始めた後はテーマ分類や再生数が更新されても標本を変えない（字幕・コーディングと対応させる）
+        s = pd.read_csv(frozen)
+        s.to_csv(ch.processed_dir / "phase3_sample.csv", index=False)
+        print(f"固定した標本を使用: {frozen}（{len(s)} 本）")
+        return
     v = pd.read_csv(ch.processed_dir / "analysis_videos.csv")
     s = select(v, a.per_period, ch.get("analysis", "exclude_themes", []))
     cols = ["tier", "period", "theme", "video_id", "published_jst", "duration_min", "views", "rel_index", "title"]

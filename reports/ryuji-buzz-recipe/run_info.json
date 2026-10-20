@@ -21,65 +21,142 @@
     "stderr_tail": []
   },
   "build_dataset": {
-    "methodology_version": "1.1.0",
-    "run_at": "2026-10-20T18:28:11+00:00",
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:43:35+00:00",
     "n_videos": 79,
     "n_history_points": 1
   },
   "run:build_dataset": {
-    "methodology_version": "1.1.0",
-    "run_at": "2026-10-20T18:28:11+00:00",
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:43:36+00:00",
     "status": "ok",
     "seconds": 0.3,
     "stderr_tail": []
   },
   "quant": {
-    "methodology_version": "1.1.0",
-    "run_at": "2026-10-20T18:30:22+00:00",
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:43:37+00:00",
     "labeled": true,
     "n_videos": 79
   },
   "run:quant": {
-    "methodology_version": "1.1.0",
-    "run_at": "2026-10-20T18:28:13+00:00",
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:43:37+00:00",
     "status": "ok",
     "seconds": 1.7,
     "stderr_tail": []
   },
   "run:thumbs": {
-    "methodology_version": "1.1.0",
-    "run_at": "2026-10-20T18:28:14+00:00",
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:43:39+00:00",
     "status": "ok",
     "seconds": 1.3,
     "stderr_tail": []
   },
   "run:robustness": {
-    "methodology_version": "1.1.0",
-    "run_at": "2026-10-20T18:28:15+00:00",
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:43:40+00:00",
     "status": "ok",
-    "seconds": 1.0,
+    "seconds": 0.9,
     "stderr_tail": []
   },
   "run:select_sample": {
-    "methodology_version": "1.1.0",
-    "run_at": "2026-10-20T18:28:16+00:00",
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:43:40+00:00",
     "status": "ok",
     "seconds": 0.2,
     "stderr_tail": []
   },
   "draft_report": {
-    "methodology_version": "1.1.0",
-    "run_at": "2026-10-20T18:28:16+00:00"
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:43:42+00:00"
   },
   "run:draft_report": {
-    "methodology_version": "1.1.0",
-    "run_at": "2026-10-20T18:28:16+00:00",
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:43:42+00:00",
     "status": "ok",
     "seconds": 0.9,
     "stderr_tail": []
   },
   "robustness": {
-    "methodology_version": "1.1.0",
-    "run_at": "2026-10-20T18:30:43+00:00"
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:43:40+00:00"
+  },
+  "auto_themes": {
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:43:36+00:00",
+    "status": "skipped_manual_labels"
+  },
+  "run:auto_themes": {
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:43:36+00:00",
+    "status": "ok",
+    "seconds": 0.2,
+    "stderr_tail": []
+  },
+  "run:hypothesis_test": {
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:43:41+00:00",
+    "status": "ok",
+    "seconds": 0.9,
+    "stderr_tail": []
+  },
+  "methodology_review": {
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:43:42+00:00",
+    "state": "collecting"
+  },
+  "run:methodology_review": {
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:43:42+00:00",
+    "status": "ok",
+    "seconds": 0.0,
+    "stderr_tail": []
+  },
+  "quality_gate": {
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:43:42+00:00",
+    "state": "quantitative_complete",
+    "missing": [
+      "cross_source",
+      "counts_consistent",
+      "tier_comparison",
+      "subtitles_and_video_checked",
+      "peer_comparison",
+      "hypotheses_validated",
+      "no_placeholders",
+      "conclusions_supported",
+      "transferable_insights"
+    ]
+  },
+  "run:quality_gate": {
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:43:42+00:00",
+    "status": "ok",
+    "seconds": 0.2,
+    "stderr_tail": []
+  },
+  "finalize": {
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:43:42+00:00",
+    "status": "skipped_quality_gate",
+    "missing": [
+      "cross_source",
+      "counts_consistent",
+      "tier_comparison",
+      "subtitles_and_video_checked",
+      "peer_comparison",
+      "hypotheses_validated",
+      "no_placeholders",
+      "conclusions_supported",
+      "transferable_insights"
+    ]
+  },
+  "run:finalize": {
+    "methodology_version": "1.3.0",
+    "run_at": "2026-10-20T21:43:42+00:00",
+    "status": "ok",
+    "seconds": 0.2,
+    "stderr_tail": []
   }
 }

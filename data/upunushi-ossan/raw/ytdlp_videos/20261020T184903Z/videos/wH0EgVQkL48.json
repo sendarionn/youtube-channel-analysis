@@ -1,0 +1,130 @@
+{
+ "id": "wH0EgVQkL48",
+ "title": "京王電鉄の歴史～小学生でもわかるように解説",
+ "thumbnail": "https://i.ytimg.com/vi_webp/wH0EgVQkL48/maxresdefault.webp",
+ "description": "京王電鉄の歴史について、小学生でもわかるように解説。\n主に京王線をメインに、新宿～京王八王子間ができるまでについて取り上げる。\n\n戦前の明治時代、「日本電気鉄道」という鉄道会社が、東京西部まで鉄道を作る計画を持つ。\nその後、京王電気軌道という名前に変更し、京王線の笹塚-府中間を建設。\n\nさらに、子会社として王南電気鉄道という鉄道会社を立ち上げ、府中-京王八王子間を建設。\n延伸区間は完全な鉄道として建設。JR中央線に並行するという理由で、国から給付金（補助金）がもらえなかった。\n結果的に貧乏状態になり、京王に吸収合併。\nレール幅を1,067mmから1,372mmに改軌して、京王線に編入。\n\n戦時中、東急と合併するものの、戦後すぐに分離独立。\nこの時、かつての小田急が所有していた井の頭線を入手。\n\n戦後、新宿駅付近は路面電車の状態から地下化。\nさらに多摩ニュータウンの形成によって、京王相模原線を建設。\nその後、調布駅の地下化を得て現在に至る。",
+ "channel_id": "UC21f1t3X_sYMD28XclLNpUw",
+ "channel_url": "https://www.youtube.com/channel/UC21f1t3X_sYMD28XclLNpUw",
+ "duration": 352,
+ "view_count": 30676,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=wH0EgVQkL48",
+ "categories": [
+  "Autos & Vehicles"
+ ],
+ "tags": [
+  "京王電鉄",
+  "京王線",
+  "王南電気鉄道"
+ ],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "video",
+ "release_timestamp": null,
+ "comment_count": 46,
+ "chapters": [
+  {
+   "start_time": 0,
+   "title": "先頭",
+   "end_time": 40
+  },
+  {
+   "start_time": 40,
+   "title": "東京の西の方で、 鉄道作りてーなー!",
+   "end_time": 88
+  },
+  {
+   "start_time": 88,
+   "title": "大通り沿いに 線路を作るぞー!",
+   "end_time": 117
+  },
+  {
+   "start_time": 117,
+   "title": "府中から八王子まで 鉄道作るぞー!",
+   "end_time": 155
+  },
+  {
+   "start_time": 155,
+   "title": "ゲッ、 カネがねーなー!",
+   "end_time": 178
+  },
+  {
+   "start_time": 178,
+   "title": "じゃあ、 全部もらうわ!",
+   "end_time": 210
+  },
+  {
+   "start_time": 210,
+   "title": "井の頭線 もらいまーす!",
+   "end_time": 223
+  },
+  {
+   "start_time": 223,
+   "title": "路面電車だと色々と面倒 だから、地下に潜らせよう!",
+   "end_time": 257
+  },
+  {
+   "start_time": 257,
+   "title": "新しい路線 を作るぞー!",
+   "end_time": 279
+  },
+  {
+   "start_time": 279,
+   "title": "あのさー、踏切 全然開かないんだけど!",
+   "end_time": 352
+  }
+ ],
+ "like_count": 730,
+ "channel": "たくみっく",
+ "channel_follower_count": null,
+ "creators": null,
+ "channel_is_verified": true,
+ "uploader": "たくみっく",
+ "uploader_id": "@upunushi-ossan",
+ "uploader_url": "https://www.youtube.com/@upunushi-ossan",
+ "upload_date": "20210709",
+ "timestamp": 1625839232,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=wH0EgVQkL48",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "wH0EgVQkL48",
+ "fulltitle": "京王電鉄の歴史～小学生でもわかるように解説",
+ "duration_string": "5:52",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792531050,
+ "format": "137 - 1920x1080 (1080p)+251 - audio only (medium)",
+ "format_id": "137+251",
+ "ext": "mkv",
+ "protocol": "https+https",
+ "language": "ja",
+ "format_note": "1080p+medium",
+ "filesize_approx": 108611751,
+ "tbr": 2471.518,
+ "width": 1920,
+ "height": 1080,
+ "resolution": "1920x1080",
+ "fps": 24,
+ "dynamic_range": "SDR",
+ "vcodec": "avc1.640028",
+ "vbr": 2322.651,
+ "stretched_ratio": null,
+ "aspect_ratio": 1.78,
+ "acodec": "opus",
+ "abr": 148.867,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [],
+ "auto_caption_has_ja": true,
+ "heatmap": null,
+ "tab": "videos",
+ "retrieved_at": "2026-10-20T21:17:30Z"
+}

@@ -1,0 +1,616 @@
+{
+ "id": "bTG5PmEPYSA",
+ "title": "Suicaの歴史～小学生でもわかるように解説",
+ "thumbnail": "https://i.ytimg.com/vi/bTG5PmEPYSA/maxresdefault.jpg",
+ "description": "Suicaの歴史について、小学生でも理解できるように分かりやすく解説。\n交通系ICカードのパイオニアとして、JR東日本が生み出したもの。\n\n元々は、オレンジカード、イオカードといったプリペイドカードの後継者として作成。\n切符代わりのICカードとなっていた。\n\nしかし、その後はコンビニや飲食店など、その辺のお店でも使えるようになり、電車の切符の代わりの役割にとどまらない感じになった。\n\nまた、最初はJR東日本でしか使えず、パスモのテリトリーである首都圏の私鉄では使えなかった。\nしかし、互いに連携するようになり、相互利用が可能に。\nさらに、全国の交通系ICカードとも相互利用ができるように。\nそんな感じで現在に至る。",
+ "channel_id": "UC21f1t3X_sYMD28XclLNpUw",
+ "channel_url": "https://www.youtube.com/channel/UC21f1t3X_sYMD28XclLNpUw",
+ "duration": 352,
+ "view_count": 67318,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=bTG5PmEPYSA",
+ "categories": [
+  "Autos & Vehicles"
+ ],
+ "tags": [
+  "Suica",
+  "交通系ICカード",
+  "JR東日本"
+ ],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "video",
+ "release_timestamp": null,
+ "comment_count": 247,
+ "chapters": [
+  {
+   "start_time": 0,
+   "end_time": 48,
+   "title": "<Untitled Chapter 1>"
+  },
+  {
+   "start_time": 48,
+   "title": "ああ、切符買うの めんどくせー!",
+   "end_time": 71
+  },
+  {
+   "start_time": 71,
+   "title": "そのまま改札を 通れるようにしようぜ!",
+   "end_time": 93
+  },
+  {
+   "start_time": 93,
+   "title": "いちいち財布から出すの、 めんどくせーなー!",
+   "end_time": 110
+  },
+  {
+   "start_time": 110,
+   "title": "俺たち、 機械にタッチするだけで",
+   "end_time": 113
+  },
+  {
+   "start_time": 113,
+   "title": "お金が払えるカード 開発しようぜ!",
+   "end_time": 217
+  },
+  {
+   "start_time": 217,
+   "title": "おい、その辺も店、お前らも Suica使えるようにしろよ!",
+   "end_time": 352
+  }
+ ],
+ "like_count": 1595,
+ "channel": "たくみっく",
+ "channel_follower_count": null,
+ "creators": null,
+ "channel_is_verified": true,
+ "uploader": "たくみっく",
+ "uploader_id": "@upunushi-ossan",
+ "uploader_url": "https://www.youtube.com/@upunushi-ossan",
+ "upload_date": "20210825",
+ "timestamp": 1629891508,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=bTG5PmEPYSA",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "bTG5PmEPYSA",
+ "fulltitle": "Suicaの歴史～小学生でもわかるように解説",
+ "duration_string": "5:52",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792530939,
+ "format": "137 - 1920x1080 (1080p)+251 - audio only (medium)",
+ "format_id": "137+251",
+ "ext": "mkv",
+ "protocol": "https+https",
+ "language": "ja",
+ "format_note": "1080p+medium",
+ "filesize_approx": 124729243,
+ "tbr": 2835.597,
+ "width": 1920,
+ "height": 1080,
+ "resolution": "1920x1080",
+ "fps": 24,
+ "dynamic_range": "SDR",
+ "vcodec": "avc1.640028",
+ "vbr": 2687.945,
+ "stretched_ratio": null,
+ "aspect_ratio": 1.78,
+ "acodec": "opus",
+ "abr": 147.652,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [],
+ "auto_caption_has_ja": true,
+ "heatmap": [
+  {
+   "start_time": 0.0,
+   "end_time": 3.52,
+   "value": 0.9815751122180268
+  },
+  {
+   "start_time": 3.52,
+   "end_time": 7.04,
+   "value": 0.09594314378610462
+  },
+  {
+   "start_time": 7.04,
+   "end_time": 10.56,
+   "value": 0.08077754754756489
+  },
+  {
+   "start_time": 10.56,
+   "end_time": 14.08,
+   "value": 0.06516977466691233
+  },
+  {
+   "start_time": 14.08,
+   "end_time": 17.6,
+   "value": 0.08554996732548266
+  },
+  {
+   "start_time": 17.6,
+   "end_time": 21.12,
+   "value": 0.11256809319219101
+  },
+  {
+   "start_time": 21.12,
+   "end_time": 24.64,
+   "value": 0.10594084454975461
+  },
+  {
+   "start_time": 24.64,
+   "end_time": 28.16,
+   "value": 0.1627639480327381
+  },
+  {
+   "start_time": 28.16,
+   "end_time": 31.68,
+   "value": 0.3739873035070942
+  },
+  {
+   "start_time": 31.68,
+   "end_time": 35.2,
+   "value": 0.5111258177178455
+  },
+  {
+   "start_time": 35.2,
+   "end_time": 38.72,
+   "value": 0.5659251353028529
+  },
+  {
+   "start_time": 38.72,
+   "end_time": 42.24,
+   "value": 1.0
+  },
+  {
+   "start_time": 42.24,
+   "end_time": 45.76,
+   "value": 0.7913709392669619
+  },
+  {
+   "start_time": 45.76,
+   "end_time": 49.28,
+   "value": 0.4242521970798671
+  },
+  {
+   "start_time": 49.28,
+   "end_time": 52.8,
+   "value": 0.37866755422923437
+  },
+  {
+   "start_time": 52.8,
+   "end_time": 56.32,
+   "value": 0.2667841831912232
+  },
+  {
+   "start_time": 56.32,
+   "end_time": 59.84,
+   "value": 0.2242277341209228
+  },
+  {
+   "start_time": 59.84,
+   "end_time": 63.36,
+   "value": 0.27185154394762945
+  },
+  {
+   "start_time": 63.36,
+   "end_time": 66.88,
+   "value": 0.20460905159421205
+  },
+  {
+   "start_time": 66.88,
+   "end_time": 70.4,
+   "value": 0.18934937834173368
+  },
+  {
+   "start_time": 70.4,
+   "end_time": 73.92,
+   "value": 0.1695620910199953
+  },
+  {
+   "start_time": 73.92,
+   "end_time": 77.44,
+   "value": 0.16818894820812347
+  },
+  {
+   "start_time": 77.44,
+   "end_time": 80.96,
+   "value": 0.22053539478134696
+  },
+  {
+   "start_time": 80.96,
+   "end_time": 84.48,
+   "value": 0.19783380410488685
+  },
+  {
+   "start_time": 84.48,
+   "end_time": 88.0,
+   "value": 0.2696847492471858
+  },
+  {
+   "start_time": 88.0,
+   "end_time": 91.52,
+   "value": 0.3085165704551857
+  },
+  {
+   "start_time": 91.52,
+   "end_time": 95.04,
+   "value": 0.2433035585210248
+  },
+  {
+   "start_time": 95.04,
+   "end_time": 98.56,
+   "value": 0.2058620811015482
+  },
+  {
+   "start_time": 98.56,
+   "end_time": 102.08,
+   "value": 0.14781577096494514
+  },
+  {
+   "start_time": 102.08,
+   "end_time": 105.6,
+   "value": 0.08411952706237583
+  },
+  {
+   "start_time": 105.6,
+   "end_time": 109.12,
+   "value": 0.06175605592524772
+  },
+  {
+   "start_time": 109.12,
+   "end_time": 112.64,
+   "value": 0.08467832397792956
+  },
+  {
+   "start_time": 112.64,
+   "end_time": 116.16,
+   "value": 0.14070912581965517
+  },
+  {
+   "start_time": 116.16,
+   "end_time": 119.68,
+   "value": 0.11065705294492902
+  },
+  {
+   "start_time": 119.68,
+   "end_time": 123.2,
+   "value": 0.142079685549709
+  },
+  {
+   "start_time": 123.2,
+   "end_time": 126.72,
+   "value": 0.2993237932098587
+  },
+  {
+   "start_time": 126.72,
+   "end_time": 130.24,
+   "value": 0.2588571160367024
+  },
+  {
+   "start_time": 130.24,
+   "end_time": 133.76,
+   "value": 0.12576306218244054
+  },
+  {
+   "start_time": 133.76,
+   "end_time": 137.28,
+   "value": 0.14062693685271968
+  },
+  {
+   "start_time": 137.28,
+   "end_time": 140.8,
+   "value": 0.1662768805987748
+  },
+  {
+   "start_time": 140.8,
+   "end_time": 144.32,
+   "value": 0.17590619867133903
+  },
+  {
+   "start_time": 144.32,
+   "end_time": 147.84,
+   "value": 0.2042345634370111
+  },
+  {
+   "start_time": 147.84,
+   "end_time": 151.36,
+   "value": 0.18029303478151956
+  },
+  {
+   "start_time": 151.36,
+   "end_time": 154.88,
+   "value": 0.12231259323127479
+  },
+  {
+   "start_time": 154.88,
+   "end_time": 158.4,
+   "value": 0.21586929230280072
+  },
+  {
+   "start_time": 158.4,
+   "end_time": 161.92,
+   "value": 0.21318429616582893
+  },
+  {
+   "start_time": 161.92,
+   "end_time": 165.44,
+   "value": 0.20842931219018246
+  },
+  {
+   "start_time": 165.44,
+   "end_time": 168.96,
+   "value": 0.18556780526662792
+  },
+  {
+   "start_time": 168.96,
+   "end_time": 172.48,
+   "value": 0.20717992247995345
+  },
+  {
+   "start_time": 172.48,
+   "end_time": 176.0,
+   "value": 0.31941535582847314
+  },
+  {
+   "start_time": 176.0,
+   "end_time": 179.52,
+   "value": 0.30675661114107255
+  },
+  {
+   "start_time": 179.52,
+   "end_time": 183.04,
+   "value": 0.391889117220928
+  },
+  {
+   "start_time": 183.04,
+   "end_time": 186.56,
+   "value": 0.537415778690708
+  },
+  {
+   "start_time": 186.56,
+   "end_time": 190.08,
+   "value": 0.44599241166880205
+  },
+  {
+   "start_time": 190.08,
+   "end_time": 193.6,
+   "value": 0.3519552593791334
+  },
+  {
+   "start_time": 193.6,
+   "end_time": 197.12,
+   "value": 0.2986399222985507
+  },
+  {
+   "start_time": 197.12,
+   "end_time": 200.64,
+   "value": 0.2180546382272098
+  },
+  {
+   "start_time": 200.64,
+   "end_time": 204.16,
+   "value": 0.17256239925797454
+  },
+  {
+   "start_time": 204.16,
+   "end_time": 207.68,
+   "value": 0.12072922278326302
+  },
+  {
+   "start_time": 207.68,
+   "end_time": 211.2,
+   "value": 0.11522267941139668
+  },
+  {
+   "start_time": 211.2,
+   "end_time": 214.72,
+   "value": 0.07975549839051987
+  },
+  {
+   "start_time": 214.72,
+   "end_time": 218.24,
+   "value": 0.11696978202282488
+  },
+  {
+   "start_time": 218.24,
+   "end_time": 221.76,
+   "value": 0.14100412550454852
+  },
+  {
+   "start_time": 221.76,
+   "end_time": 225.28,
+   "value": 0.12839029121693768
+  },
+  {
+   "start_time": 225.28,
+   "end_time": 228.8,
+   "value": 0.06850752732056659
+  },
+  {
+   "start_time": 228.8,
+   "end_time": 232.32,
+   "value": 0.06299775509642777
+  },
+  {
+   "start_time": 232.32,
+   "end_time": 235.84,
+   "value": 0.041370697103041455
+  },
+  {
+   "start_time": 235.84,
+   "end_time": 239.36,
+   "value": 0.023063691782215793
+  },
+  {
+   "start_time": 239.36,
+   "end_time": 242.88,
+   "value": 0.10691023406155596
+  },
+  {
+   "start_time": 242.88,
+   "end_time": 246.4,
+   "value": 0.13411651395614155
+  },
+  {
+   "start_time": 246.4,
+   "end_time": 249.92,
+   "value": 0.12670095570798412
+  },
+  {
+   "start_time": 249.92,
+   "end_time": 253.44,
+   "value": 0.21905552372526893
+  },
+  {
+   "start_time": 253.44,
+   "end_time": 256.96,
+   "value": 0.09235759139713993
+  },
+  {
+   "start_time": 256.96,
+   "end_time": 260.48,
+   "value": 0.09370836706872433
+  },
+  {
+   "start_time": 260.48,
+   "end_time": 264.0,
+   "value": 0.10013572040229268
+  },
+  {
+   "start_time": 264.0,
+   "end_time": 267.52,
+   "value": 0.19091431497858993
+  },
+  {
+   "start_time": 267.52,
+   "end_time": 271.04,
+   "value": 0.271881366801346
+  },
+  {
+   "start_time": 271.04,
+   "end_time": 274.56,
+   "value": 0.2497479367120298
+  },
+  {
+   "start_time": 274.56,
+   "end_time": 278.08,
+   "value": 0.28332741328161376
+  },
+  {
+   "start_time": 278.08,
+   "end_time": 281.6,
+   "value": 0.22220224573720318
+  },
+  {
+   "start_time": 281.6,
+   "end_time": 285.12,
+   "value": 0.4923158746257797
+  },
+  {
+   "start_time": 285.12,
+   "end_time": 288.64,
+   "value": 0.5142960809981663
+  },
+  {
+   "start_time": 288.64,
+   "end_time": 292.16,
+   "value": 0.4767388345481205
+  },
+  {
+   "start_time": 292.16,
+   "end_time": 295.68,
+   "value": 0.4476879113502758
+  },
+  {
+   "start_time": 295.68,
+   "end_time": 299.2,
+   "value": 0.3221011151487093
+  },
+  {
+   "start_time": 299.2,
+   "end_time": 302.72,
+   "value": 0.319233424679521
+  },
+  {
+   "start_time": 302.72,
+   "end_time": 306.24,
+   "value": 0.2567762088067063
+  },
+  {
+   "start_time": 306.24,
+   "end_time": 309.76,
+   "value": 0.18825321234843437
+  },
+  {
+   "start_time": 309.76,
+   "end_time": 313.28,
+   "value": 0.16645787244524768
+  },
+  {
+   "start_time": 313.28,
+   "end_time": 316.8,
+   "value": 0.13980416658729072
+  },
+  {
+   "start_time": 316.8,
+   "end_time": 320.32,
+   "value": 0.07173831690439483
+  },
+  {
+   "start_time": 320.32,
+   "end_time": 323.84,
+   "value": 0.06526490839614013
+  },
+  {
+   "start_time": 323.84,
+   "end_time": 327.36,
+   "value": 0.0444625286263438
+  },
+  {
+   "start_time": 327.36,
+   "end_time": 330.88,
+   "value": 0.062212057925727184
+  },
+  {
+   "start_time": 330.88,
+   "end_time": 334.4,
+   "value": 0.06526857754644975
+  },
+  {
+   "start_time": 334.4,
+   "end_time": 337.92,
+   "value": 0.037852686432976235
+  },
+  {
+   "start_time": 337.92,
+   "end_time": 341.44,
+   "value": 0.03425539276302077
+  },
+  {
+   "start_time": 341.44,
+   "end_time": 344.96,
+   "value": 0.040751872888422344
+  },
+  {
+   "start_time": 344.96,
+   "end_time": 348.48,
+   "value": 0.0
+  },
+  {
+   "start_time": 348.48,
+   "end_time": 352.0,
+   "value": 0.03475542456721565
+  }
+ ],
+ "tab": "videos",
+ "retrieved_at": "2026-10-20T21:15:39Z"
+}

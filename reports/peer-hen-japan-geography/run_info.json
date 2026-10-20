@@ -1,0 +1,8 @@
+{
+  "build_dataset": {
+    "methodology_version": "1.2.0",
+    "run_at": "2026-10-20T20:34:44+00:00",
+    "n_videos": 40,
+    "n_history_points": 1
+  }
+}

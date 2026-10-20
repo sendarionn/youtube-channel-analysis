@@ -21,12 +21,30 @@ exclude_themes = []
 # 重回帰の基準テーマ。空なら最多のテーマ
 reference_theme = ""
 # 期間を区切る登録者の節目（節目告知動画のタイトルから検出）。見つからなければ公開順に4等分
-period_milestones = [10000, 50000, 100000]
+period_milestones = []  # 節目告知が1万人の1件だけで期間が偏るため、公開日の4等分を使う（2026-10-21）
 # 定時投稿として比較する時間帯（timezone の時、開始と終了）
 posting_slot = [6, 7]
 
 # テーマコード → 表示名。annotations/labels_manual.csv を作るときに定義する（classification.md）
 [themes]
+shinkansen = "新幹線・リニア"
+road = "道路・経路"
+rail = "在来線・鉄道政策"
+urban = "都市・地域経済"
+aviation = "航空・空港"
+society = "社会・国際・技術"
+other = "その他"
+
+# 上から先に適用するチャンネル固有の意味分類
+[theme_rules]
+# v2（2026-10-21）：盲検の抜き取り（seed=1、100本）で「その他」に在来線・地域の動画が多かったため語彙を追加
+# 改訂後は別の抜き取り（seed=2）で一致率を検証する
+shinkansen = "新幹線|リニア"
+road = "高速道路|道路|バイパス|酷道|国道|渋滞|開通|ルート|トンネル|高速|インター|サービスエリア|トラック|アウトバーン|自動車"
+rail = "鉄道|駅|路線|JR|私鉄|電車|廃線|ローカル線|線|快速|特急|急行|地下鉄|LRT|路面電車|複線|ダイヤ|踏切|運転|ATC|ATS|きっぷ|ICOCA|PiTaPa|Suica|PASMO|ワンマン|自由席|指定席|優先席|近鉄|阪急|京阪|南海|名鉄|東急|相鉄|阪神|西武|東武|小田急|京王|京急|三セク|第3セクター|車両"
+urban = "都市|市|街|人口|商圏|イオン|自治体|衰退|ニュータウン|町|村|区|県|温泉|合併|開発|再開発|空洞化|住みたい|不動産"
+aviation = "空港|航空|飛行機"
+society = "国際|政治|経済|イスラエル|中国|アメリカ|ChatGPT|Google|半導体|資源|電池|ペット|砂丘"
 
 # 手作業の特徴フラグ → 表示名。共通フラグ（classification.md）から必要なものを選び、固有のものを足す
 [flags]
@@ -37,3 +55,36 @@ posting_slot = [6, 7]
 # Phase 3：チャンネル紹介の定型句の正規表現（任意。字幕の誤認識も許容する）
 [phase3]
 intro_pattern = ""
+
+# 標本外検証する仮説（methodology/evaluation.md「仮説の事前登録」）
+# 2026-10-21、代表36本の字幕を読んだ後・全957本の取得完了前に登録。規則と予想の向きは結果を見て変えない
+# direction：+ は該当すると相対再生指数が高い、- は低いと予想
+[hypotheses]
+registered_at = "2026-10-21T05:55:00+09:00"
+basis = "代表36本（高・中・低各12本）の字幕の目視。標本外の動画で検証する"
+exclude_sample = true
+
+[hypotheses.H1_regional_stakes]
+label = "実在の地域・事業者が得をした・損をした・取り残された因果を問う"
+rule = "損|後悔|除外|衰退|閉店|失敗|取り残|置き去り|撤退|赤字|廃止|消滅|末路|敗北|見捨て|格差"
+direction = "+"
+
+[hypotheses.H2_new_route]
+label = "新規開通・短縮ルートなど、移動に使える新しい情報"
+rule = "開通|ショートカット|最短|新ルート|延伸|ついに|遂に"
+direction = "+"
+
+[hypotheses.H3_hypothetical]
+label = "仮定・妄想（もし〜だったら）"
+rule = "もし|だったら|なかったら|妄想|仮に"
+direction = "-"
+
+[hypotheses.H4_off_genre]
+label = "交通・地域以外の話題（IT・生活・国際）"
+rule = "ChatGPT|Google|AI|ペット|電池|半導体|スマホ|イスラエル|パレスチナ|ウクライナ|ロシア"
+direction = "-"
+
+[hypotheses.H5_why_question]
+label = "「なぜ」「理由」で因果を問うタイトル（探索的）"
+rule = "なぜ|理由|どうして|背景|事情"
+direction = "+"

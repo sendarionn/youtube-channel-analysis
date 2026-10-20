@@ -1,0 +1,123 @@
+{
+ "id": "r7C47nlB9Ik",
+ "title": "なぜ、京阪電車はカーブが多いのか？ 小学生でもわかるように解説（阪急京都線・JR京都線にボロ負け）",
+ "thumbnail": "https://i.ytimg.com/vi_webp/r7C47nlB9Ik/maxresdefault.webp",
+ "description": "京阪電鉄本線はなぜカーブが多くて線形が悪いのか、小学生でも理解できるようにわかりやすく解説。\n\n京阪電車は緩急・JRに比べて大阪-京都間の所要時間が長い。\n快速特急、特急でも、JR京都線の新快速・快速、阪急京都線の特急よりも遅い。\n京阪間の速達性という意味ではボロ負けの状態。\n\n理由は単純で、線路がくねくねしていてスピードが出せないため。\n最高速度こそは110km/hと遅くはないが、制限速度のある曲線が数多く存在するため、高速運転ができない。\n\n背景には歴史的な事情がある。\nなお、京阪電鉄では戦前、速達のため「新京阪線」を作った。\nただ、こちらは阪急京都線として阪急側に没収されてしまった。\n\nなお、途中にうぷ主のおっさんの親父ギャグがあります。",
+ "channel_id": "UC21f1t3X_sYMD28XclLNpUw",
+ "channel_url": "https://www.youtube.com/channel/UC21f1t3X_sYMD28XclLNpUw",
+ "duration": 360,
+ "view_count": 41013,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=r7C47nlB9Ik",
+ "categories": [
+  "Autos & Vehicles"
+ ],
+ "tags": [
+  "京阪電車"
+ ],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "video",
+ "release_timestamp": null,
+ "comment_count": 174,
+ "chapters": [
+  {
+   "start_time": 0,
+   "end_time": 18,
+   "title": "<Untitled Chapter 1>"
+  },
+  {
+   "start_time": 18,
+   "title": "おい、京阪電車だけカーブ、 何でそんなに多いんだよ?",
+   "end_time": 55
+  },
+  {
+   "start_time": 55,
+   "title": "俺たちでリーズナブルな 鉄道作りたいなー",
+   "end_time": 92
+  },
+  {
+   "start_time": 92,
+   "title": "なるべく人様がたくさん住ん でいるエリアを通した方が",
+   "end_time": 145
+  },
+  {
+   "start_time": 145,
+   "title": "お前ら、鉄道を作るもんなら 厳しく審査してやるからな",
+   "end_time": 204
+  },
+  {
+   "start_time": 204,
+   "title": "時間短縮って 重要ですよね",
+   "end_time": 207
+  },
+  {
+   "start_time": 207,
+   "title": "というわけで、 急行走らせるぞー",
+   "end_time": 234
+  },
+  {
+   "start_time": 234,
+   "title": "うっし、もう1本 京阪線を作るぞー",
+   "end_time": 278
+  },
+  {
+   "start_time": 278,
+   "title": "おい、新京阪線は、 オレが作ったんだ",
+   "end_time": 360
+  }
+ ],
+ "like_count": 1054,
+ "channel": "たくみっく",
+ "channel_follower_count": null,
+ "creators": null,
+ "channel_is_verified": true,
+ "uploader": "たくみっく",
+ "uploader_id": "@upunushi-ossan",
+ "uploader_url": "https://www.youtube.com/@upunushi-ossan",
+ "upload_date": "20211202",
+ "timestamp": 1638446151,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=r7C47nlB9Ik",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "r7C47nlB9Ik",
+ "fulltitle": "なぜ、京阪電車はカーブが多いのか？ 小学生でもわかるように解説（阪急京都線・JR京都線にボロ負け）",
+ "duration_string": "6:00",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792530616,
+ "format": "137 - 1920x1080 (1080p)+251 - audio only (medium)",
+ "format_id": "137+251",
+ "ext": "mkv",
+ "protocol": "https+https",
+ "language": "ja",
+ "format_note": "1080p+medium",
+ "filesize_approx": 39268964,
+ "tbr": 872.464,
+ "width": 1920,
+ "height": 1080,
+ "resolution": "1920x1080",
+ "fps": 24,
+ "dynamic_range": "SDR",
+ "vcodec": "avc1.640028",
+ "vbr": 723.509,
+ "stretched_ratio": null,
+ "aspect_ratio": 1.78,
+ "acodec": "opus",
+ "abr": 148.955,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [],
+ "auto_caption_has_ja": true,
+ "heatmap": null,
+ "tab": "videos",
+ "retrieved_at": "2026-10-20T21:10:16Z"
+}

@@ -6,10 +6,12 @@
 from __future__ import annotations
 
 import argparse
+import json
 import subprocess
 import sys
 
 from .channel_url import parse_channel_url
+from .config import load_channel
 from .init import initialize
 
 
@@ -35,9 +37,20 @@ def main() -> None:
     result = subprocess.run(cmd)
     if result.returncode:
         raise SystemExit(f"調査に失敗しました  run_info.jsonで工程別の原因を確認してください  slug={slug}")
-    print(f"分析完了: reports/{slug}/FINAL_REPORT.md")
+    ch = load_channel(slug)
+    status_path = ch.report_dir / "research_status.json"
+    status = json.loads(status_path.read_text()) if status_path.exists() else {"state": "failed", "missing": []}
+    state = status["state"]
+    print(f"\n調査状態: {state}")
+    if state == "complete":
+        print(f"最終報告書: reports/{slug}/FINAL_REPORT.md（品質ゲート通過）")
+    else:
+        print("自動工程（収集・検証・定量分析・標本選定）まで実行した。調査は未完成")
+        print(f"作業用の報告書: reports/{slug}/DRAFT_REPORT.md、自動集計: reports/{slug}/AUTO_DRAFT.md")
+        print("AIエージェントが続ける工程（methodology/README.md）:")
+        for x in status.get("next_actions", []):
+            print(f"  - {x}")
     print(f"グラフ: reports/{slug}/charts/")
-
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,21 @@
+slug = "peer-tetsubozu"
+name = "鐵坊主"
+handle = ""
+channel_id = "UCX2B8AAnHPRMmJFjjUo7EeQ"
+url = "https://www.youtube.com/channel/UCX2B8AAnHPRMmJFjjUo7EeQ"
+lang = "ja"
+timezone = "Asia/Tokyo"
+
+[analysis]
+neighbor_window = 10
+min_age_days = 7
+exclude_themes = []
+reference_theme = ""
+period_milestones = []
+posting_slot = [6, 7]
+
+[themes]
+[flags]
+[series]
+[phase3]
+intro_pattern = ""

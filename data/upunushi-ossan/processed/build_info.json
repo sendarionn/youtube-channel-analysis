@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-10-20T19:34:52+00:00",
+  "built_at": "2026-10-20T21:34:39+00:00",
   "videos_source": {
     "source": "YouTube 公開ウォッチページ",
     "method": "yt-dlp (skip_download)",
@@ -10,10 +10,11 @@
     "limit_per_tab": null,
     "retrieved_at": "2026-10-20T18:49:18Z"
   },
-  "n_videos": 505,
+  "n_videos": 957,
   "kinds": {
-    "video": 505
+    "video": 953,
+    "short": 4
   },
-  "n_history_points": 17,
-  "methodology_version": "1.2.0"
+  "n_history_points": 19,
+  "methodology_version": "1.3.0"
 }

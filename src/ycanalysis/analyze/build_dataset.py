@@ -84,11 +84,12 @@ def main() -> None:
     df.to_csv(out / "videos.csv", index=False)
 
     # Wayback や概要ページが未取得でも動画データの処理は続ける
-    parts, snaps = [], pd.DataFrame()
+    parts, audits, snaps = [], [], pd.DataFrame()
     for sub, source in (("wayback", "wayback"), ("channel_page", "direct")):
         d = ch.raw_dir / sub
         if d.exists() and list(d.glob("*.html")):
-            h, s = wayback_parse.build(d)
+            h, s, audit = wayback_parse.build(d, ch.channel_id, ch.handle, with_audit=True)
+            audits.append(audit.assign(source=source))
             parts.append(h.assign(source=source))
             if source == "wayback":
                 snaps = s
@@ -99,6 +100,8 @@ def main() -> None:
     if snaps.empty:
         snaps = pd.DataFrame(columns=["snapshot_at", "file", "video_id", "views", "published_text"])
     hist.to_csv(out / "channel_history.csv", index=False)
+    if audits:
+        pd.concat(audits).sort_values("snapshot_at").to_csv(out / "subscriber_audit.csv", index=False)
     snaps.to_csv(out / "video_view_snapshots.csv", index=False)
 
     (out / "build_info.json").write_text(json.dumps({

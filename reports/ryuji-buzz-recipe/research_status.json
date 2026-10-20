@@ -1,0 +1,260 @@
+{
+  "slug": "ryuji-buzz-recipe",
+  "state": "quantitative_complete",
+  "methodology_version": "1.3.0",
+  "checked_at": "2026-10-20T21:43:42+00:00",
+  "checks": {
+    "channel_identity": {
+      "ok": true,
+      "evidence": "概要ページ 20261020182253_about.html の channel_id_node から対象IDの値を取得"
+    },
+    "current_subscriber_source": {
+      "ok": true,
+      "evidence": "5.69M subscribers（rounded_display）"
+    },
+    "cross_source": {
+      "ok": false,
+      "evidence": "annotations/external_checks.json に同一性を確認した外部情報源がない"
+    },
+    "history_validated": {
+      "ok": true,
+      "evidence": "観測 1 件：有効 1、疑義あり 0、無効 0、重複 0"
+    },
+    "anomalies_explained": {
+      "ok": true,
+      "evidence": "有効以外の全観測に理由が記録されている"
+    },
+    "counts_consistent": {
+      "ok": false,
+      "evidence": "各タブ 30 本に限定した取得のため全体の整合性を確認できない"
+    },
+    "milestones_valid": {
+      "ok": true,
+      "evidence": "候補 3 件、採用 1 件、人数表現の誤採用 0 件"
+    },
+    "report_uses_validated_subscribers": {
+      "ok": true,
+      "evidence": "DRAFT_REPORT.md に検証済みの現在値（5,690,000・569.0万・569万）がある"
+    },
+    "research_question": {
+      "ok": true,
+      "evidence": "docs/ryuji-buzz-recipe-analysis.md の調査目的 139 字"
+    },
+    "quantitative_analysis": {
+      "ok": true,
+      "evidence": "phase2_tables.md と analysis_videos.csv"
+    },
+    "theme_classification_validated": {
+      "ok": true,
+      "evidence": "手作業ラベル あり、検証 0 本、κ=None、一致率=None"
+    },
+    "tier_comparison": {
+      "ok": false,
+      "evidence": "annotations/phase3_coding.csv がない"
+    },
+    "subtitles_and_video_checked": {
+      "ok": false,
+      "evidence": "annotations/phase3_coding.csv がない"
+    },
+    "peer_comparison": {
+      "ok": false,
+      "evidence": "比較チャンネル 0 件、報告書6章 62 字"
+    },
+    "hypotheses_validated": {
+      "ok": false,
+      "evidence": "5要素がそろった仮説 0 件、4段階の言及 []"
+    },
+    "report_structure": {
+      "ok": true,
+      "evidence": "DRAFT_REPORT.md の章 ['1', '2', '3', '4', '5', '6', '7', '8', '9']"
+    },
+    "no_placeholders": {
+      "ok": false,
+      "evidence": "未記入の印 8 件 ['要記入', '要記入', '要記入']"
+    },
+    "conclusions_supported": {
+      "ok": false,
+      "evidence": "動画URL 5 本、事実・推論の区別 あり、1章の確信度 なし"
+    },
+    "cited_videos_exist": {
+      "ok": true,
+      "evidence": "引用 5 本、取得データにないID 0 本 []"
+    },
+    "limitations": {
+      "ok": true,
+      "evidence": "9章の項目 3"
+    },
+    "transferable_insights": {
+      "ok": false,
+      "evidence": "8章の項目 0"
+    }
+  },
+  "missing": [
+    "cross_source",
+    "counts_consistent",
+    "tier_comparison",
+    "subtitles_and_video_checked",
+    "peer_comparison",
+    "hypotheses_validated",
+    "no_placeholders",
+    "conclusions_supported",
+    "transferable_insights"
+  ],
+  "next_actions": [
+    "外部統計（ユーチュラ等）の登録者数と取得日時を annotations/external_checks.json に記録する",
+    "全動画を取得する（--limit なし）か、差の理由を調べる",
+    "processed/phase3_sample.csv の動画を annotations/phase3_coding.csv にコーディングする",
+    "collect.ytdlp_meta subs と collect.media_sample で字幕・フレームを取得し目視する",
+    "collect.search_peers → 比較チャンネルの収集 → analyze.peers、報告書6章に選定理由を書く",
+    "reports/ryuji-buzz-recipe/hypotheses.md に5要素（支持・反証・代替説明・確信度・再現可能性）で仮説を書き、7章で4段階を論じる",
+    "DRAFT_REPORT.md の未記入箇所を埋める",
+    "結論に動画URL・数値・【事実】【推論】の区別・確信度を付ける",
+    "報告書8章に他チャンネルへの応用を3項目以上書く"
+  ],
+  "steps": {
+    "build_dataset": {
+      "status": "ok",
+      "started_at": "2026-10-20T21:43:35+00:00",
+      "ended_at": "2026-10-20T21:43:36+00:00",
+      "command": "-m ycanalysis.analyze.build_dataset ryuji-buzz-recipe",
+      "outputs": [
+        "data/ryuji-buzz-recipe/processed/build_info.json",
+        "data/ryuji-buzz-recipe/processed/channel_history.csv",
+        "data/ryuji-buzz-recipe/processed/subscriber_audit.csv",
+        "data/ryuji-buzz-recipe/processed/video_view_snapshots.csv",
+        "data/ryuji-buzz-recipe/processed/videos.csv",
+        "reports/ryuji-buzz-recipe/run_info.json"
+      ],
+      "n_outputs": 6,
+      "reason": ""
+    },
+    "auto_themes": {
+      "status": "ok",
+      "started_at": "2026-10-20T21:43:36+00:00",
+      "ended_at": "2026-10-20T21:43:36+00:00",
+      "command": "-m ycanalysis.analyze.auto_themes ryuji-buzz-recipe",
+      "outputs": [
+        "reports/ryuji-buzz-recipe/run_info.json"
+      ],
+      "n_outputs": 1,
+      "reason": ""
+    },
+    "quant": {
+      "status": "ok",
+      "started_at": "2026-10-20T21:43:36+00:00",
+      "ended_at": "2026-10-20T21:43:37+00:00",
+      "command": "-m ycanalysis.analyze.quant ryuji-buzz-recipe",
+      "outputs": [
+        "data/ryuji-buzz-recipe/processed/analysis_videos.csv",
+        "data/ryuji-buzz-recipe/processed/milestone_candidates.csv",
+        "reports/ryuji-buzz-recipe/charts/01_subscribers.png",
+        "reports/ryuji-buzz-recipe/charts/02_monthly.png",
+        "reports/ryuji-buzz-recipe/charts/03_views_timeline.png",
+        "reports/ryuji-buzz-recipe/charts/04_theme_rel.png",
+        "reports/ryuji-buzz-recipe/charts/05_feature_effects.png",
+        "reports/ryuji-buzz-recipe/charts/06_duration.png",
+        "reports/ryuji-buzz-recipe/charts/07_duration_rel.png",
+        "reports/ryuji-buzz-recipe/charts/08_posting.png",
+        "reports/ryuji-buzz-recipe/phase2_tables.md",
+        "reports/ryuji-buzz-recipe/run_info.json"
+      ],
+      "n_outputs": 12,
+      "reason": ""
+    },
+    "thumbs": {
+      "status": "ok",
+      "started_at": "2026-10-20T21:43:37+00:00",
+      "ended_at": "2026-10-20T21:43:39+00:00",
+      "command": "-m ycanalysis.analyze.thumbs ryuji-buzz-recipe",
+      "outputs": [
+        "data/ryuji-buzz-recipe/processed/thumbnail_features.csv",
+        "reports/ryuji-buzz-recipe/thumbnail_tables.md",
+        "reports/ryuji-buzz-recipe/thumbnails/bottom24.jpg",
+        "reports/ryuji-buzz-recipe/thumbnails/by_month.jpg",
+        "reports/ryuji-buzz-recipe/thumbnails/top24.jpg"
+      ],
+      "n_outputs": 5,
+      "reason": ""
+    },
+    "robustness": {
+      "status": "ok",
+      "started_at": "2026-10-20T21:43:39+00:00",
+      "ended_at": "2026-10-20T21:43:40+00:00",
+      "command": "-m ycanalysis.analyze.robustness ryuji-buzz-recipe",
+      "outputs": [
+        "data/ryuji-buzz-recipe/processed/robustness_findings.csv",
+        "reports/ryuji-buzz-recipe/robustness.md",
+        "reports/ryuji-buzz-recipe/run_info.json"
+      ],
+      "n_outputs": 3,
+      "reason": ""
+    },
+    "select_sample": {
+      "status": "ok",
+      "started_at": "2026-10-20T21:43:40+00:00",
+      "ended_at": "2026-10-20T21:43:40+00:00",
+      "command": "-m ycanalysis.analyze.select_sample ryuji-buzz-recipe",
+      "outputs": [
+        "data/ryuji-buzz-recipe/processed/phase3_sample.csv"
+      ],
+      "n_outputs": 1,
+      "reason": ""
+    },
+    "hypothesis_test": {
+      "status": "ok",
+      "started_at": "2026-10-20T21:43:40+00:00",
+      "ended_at": "2026-10-20T21:43:41+00:00",
+      "command": "-m ycanalysis.analyze.hypothesis_test ryuji-buzz-recipe",
+      "outputs": [],
+      "n_outputs": 0,
+      "reason": ""
+    },
+    "draft_report": {
+      "status": "ok",
+      "started_at": "2026-10-20T21:43:41+00:00",
+      "ended_at": "2026-10-20T21:43:42+00:00",
+      "command": "-m ycanalysis.analyze.draft_report ryuji-buzz-recipe",
+      "outputs": [
+        "reports/ryuji-buzz-recipe/AUTO_DRAFT.md",
+        "reports/ryuji-buzz-recipe/run_info.json"
+      ],
+      "n_outputs": 2,
+      "reason": ""
+    },
+    "methodology_review": {
+      "status": "ok",
+      "started_at": "2026-10-20T21:43:42+00:00",
+      "ended_at": "2026-10-20T21:43:42+00:00",
+      "command": "-m ycanalysis.analyze.review ryuji-buzz-recipe",
+      "outputs": [
+        "reports/ryuji-buzz-recipe/run_info.json"
+      ],
+      "n_outputs": 1,
+      "reason": ""
+    },
+    "quality_gate": {
+      "status": "ok",
+      "started_at": "2026-10-20T21:43:42+00:00",
+      "ended_at": "2026-10-20T21:43:42+00:00",
+      "command": "-m ycanalysis.analyze.quality_gate ryuji-buzz-recipe",
+      "outputs": [
+        "reports/ryuji-buzz-recipe/research_status.json",
+        "reports/ryuji-buzz-recipe/run_info.json"
+      ],
+      "n_outputs": 2,
+      "reason": ""
+    },
+    "finalize": {
+      "status": "ok",
+      "started_at": "2026-10-20T21:43:42+00:00",
+      "ended_at": "2026-10-20T21:43:42+00:00",
+      "command": "-m ycanalysis.analyze.finalize ryuji-buzz-recipe",
+      "outputs": [
+        "reports/ryuji-buzz-recipe/research_status.json",
+        "reports/ryuji-buzz-recipe/run_info.json"
+      ],
+      "n_outputs": 2,
+      "reason": ""
+    }
+  }
+}

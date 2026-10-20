@@ -12,6 +12,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 from datetime import date
 from pathlib import Path
 
@@ -30,9 +31,12 @@ def cohen_kappa_nominal(a: pd.Series, b: pd.Series) -> float:
     return float((po - pe) / (1 - pe)) if pe < 1 else float("nan")
 
 
-def export(ch, columns: list[str], seed: int) -> Path:
+def export(ch, columns: list[str], seed: int, n: int | None = None) -> Path:
     v = pd.read_csv(ch.processed_dir / "videos.csv")
+    v = v[v["kind"] == "video"] if "kind" in v else v
     sheet = v[["video_id", "title"]].sample(frac=1, random_state=seed).reset_index(drop=True)
+    if n:
+        sheet = sheet.head(n)  # 乱数で並べた先頭 n 本（再判定の抜き取り）
     for c in columns:
         sheet[c] = ""
     d = ch.annotations_dir / "blind"
@@ -61,14 +65,27 @@ def main() -> None:
     ap.add_argument("file", nargs="?")
     ap.add_argument("--columns", default="theme")
     ap.add_argument("--seed", type=int, default=0)
+    ap.add_argument("--n", type=int, help="抜き取る本数（省略時は全件）")
     ap.add_argument("--against", default="labels_manual.csv")
+    ap.add_argument("--record", action="store_true",
+                    help="テーマ列の結果を annotations/theme_validation.json に記録する（品質ゲートが参照）")
     a = ap.parse_args()
     ch = load_channel(a.slug)
     if a.cmd == "export":
-        print(export(ch, a.columns.split(","), a.seed))
+        print(export(ch, a.columns.split(","), a.seed, a.n))
     else:
         res = agreement(ch, Path(a.file), a.against)
         print(res.round(3).to_string(index=False))
+        if a.record:
+            t = res[res["column"] == "theme"]
+            if t.empty:
+                raise SystemExit("theme 列がないため記録しない")
+            k, agree, n = float(t["kappa"].iloc[0]), float(t["一致率"].iloc[0]), int(t["n"].iloc[0])
+            rec = {"validated": bool(n >= 50 and (k >= 0.6 or agree >= 0.8)), "method": "盲検の再判定との一致",
+                   "against": a.against, "recoded_file": str(Path(a.file).name), "n_checked": n,
+                   "kappa": round(k, 3), "agreement": round(agree, 3), "recorded_at": date.today().isoformat()}
+            (ch.annotations_dir / "theme_validation.json").write_text(json.dumps(rec, ensure_ascii=False, indent=2))
+            print(f"記録: {rec}")
         print("\n目安：κ ≥ 0.8 ほぼ一致、0.6〜0.8 実質的に一致、0.4〜0.6 中程度、0.4 未満は基準の見直しが必要")
 
 

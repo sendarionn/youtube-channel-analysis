@@ -1,0 +1,245 @@
+{
+  "slug": "upunushi-ossan",
+  "state": "complete",
+  "methodology_version": "1.3.0",
+  "checked_at": "2026-10-20T21:42:03+00:00",
+  "checks": {
+    "channel_identity": {
+      "ok": true,
+      "evidence": "概要ページ 20261020193105_about.html の channel_id_node から対象IDの値を取得"
+    },
+    "current_subscriber_source": {
+      "ok": true,
+      "evidence": "251K subscribers（rounded_display）"
+    },
+    "cross_source": {
+      "ok": true,
+      "evidence": "vidIQ 205,000（2025-06-03、2025-06-07 の観測との差0.0%）"
+    },
+    "history_validated": {
+      "ok": true,
+      "evidence": "観測 19 件：有効 19、疑義あり 0、無効 0、重複 0"
+    },
+    "anomalies_explained": {
+      "ok": true,
+      "evidence": "有効以外の全観測に理由が記録されている"
+    },
+    "counts_consistent": {
+      "ok": true,
+      "evidence": "概要ページ 957 本、取得 957 本（差 0.0%）"
+    },
+    "milestones_valid": {
+      "ok": true,
+      "evidence": "候補 6 件、採用 2 件、人数表現の誤採用 0 件"
+    },
+    "report_uses_validated_subscribers": {
+      "ok": true,
+      "evidence": "DRAFT_REPORT.md に検証済みの現在値（25.1万・251,000）がある"
+    },
+    "research_question": {
+      "ok": true,
+      "evidence": "docs/upunushi-ossan-analysis.md の調査目的 442 字"
+    },
+    "quantitative_analysis": {
+      "ok": true,
+      "evidence": "phase2_tables.md と analysis_videos.csv"
+    },
+    "theme_classification_validated": {
+      "ok": true,
+      "evidence": "手作業ラベル なし、検証 100 本、κ=0.66、一致率=0.76"
+    },
+    "tier_comparison": {
+      "ok": true,
+      "evidence": "コーディング 36 本 {'high': 12, 'mid': 12, 'low': 12}"
+    },
+    "subtitles_and_video_checked": {
+      "ok": true,
+      "evidence": "字幕 36/36 本、映像フレーム 36/36 本"
+    },
+    "peer_comparison": {
+      "ok": true,
+      "evidence": "比較チャンネル 3 件、報告書6章 1462 字"
+    },
+    "hypotheses_validated": {
+      "ok": true,
+      "evidence": "5要素がそろった仮説 4 件、4段階の言及 ['発見', 'クリック', '継続', '再訪']"
+    },
+    "report_structure": {
+      "ok": true,
+      "evidence": "DRAFT_REPORT.md の章 ['1', '2', '3', '4', '5', '6', '7', '8', '9']"
+    },
+    "no_placeholders": {
+      "ok": true,
+      "evidence": "未記入の印 0 件 []"
+    },
+    "conclusions_supported": {
+      "ok": true,
+      "evidence": "動画URL 12 本、事実・推論の区別 あり、1章の確信度 あり"
+    },
+    "cited_videos_exist": {
+      "ok": true,
+      "evidence": "引用 14 本、取得データにないID 0 本 []"
+    },
+    "limitations": {
+      "ok": true,
+      "evidence": "9章の項目 8"
+    },
+    "transferable_insights": {
+      "ok": true,
+      "evidence": "8章の項目 5"
+    }
+  },
+  "missing": [],
+  "next_actions": [],
+  "steps": {
+    "build_dataset": {
+      "status": "ok",
+      "started_at": "2026-10-20T21:34:39+00:00",
+      "ended_at": "2026-10-20T21:34:39+00:00",
+      "command": "-m ycanalysis.analyze.build_dataset upunushi-ossan",
+      "outputs": [
+        "data/upunushi-ossan/processed/build_info.json",
+        "data/upunushi-ossan/processed/channel_history.csv",
+        "data/upunushi-ossan/processed/subscriber_audit.csv",
+        "data/upunushi-ossan/processed/video_view_snapshots.csv",
+        "data/upunushi-ossan/processed/videos.csv",
+        "reports/upunushi-ossan/run_info.json"
+      ],
+      "n_outputs": 6,
+      "reason": ""
+    },
+    "auto_themes": {
+      "status": "ok",
+      "started_at": "2026-10-20T21:34:39+00:00",
+      "ended_at": "2026-10-20T21:34:40+00:00",
+      "command": "-m ycanalysis.analyze.auto_themes upunushi-ossan",
+      "outputs": [
+        "reports/upunushi-ossan/run_info.json"
+      ],
+      "n_outputs": 1,
+      "reason": ""
+    },
+    "quant": {
+      "status": "ok",
+      "started_at": "2026-10-20T21:34:40+00:00",
+      "ended_at": "2026-10-20T21:34:42+00:00",
+      "command": "-m ycanalysis.analyze.quant upunushi-ossan",
+      "outputs": [
+        "data/upunushi-ossan/processed/analysis_videos.csv",
+        "data/upunushi-ossan/processed/milestone_candidates.csv",
+        "data/upunushi-ossan/processed/view_accumulation.csv",
+        "reports/upunushi-ossan/charts/01_subscribers.png",
+        "reports/upunushi-ossan/charts/02_monthly.png",
+        "reports/upunushi-ossan/charts/03_views_timeline.png",
+        "reports/upunushi-ossan/charts/04_theme_rel.png",
+        "reports/upunushi-ossan/charts/05_feature_effects.png",
+        "reports/upunushi-ossan/charts/06_duration.png",
+        "reports/upunushi-ossan/charts/07_duration_rel.png",
+        "reports/upunushi-ossan/charts/08_posting.png",
+        "reports/upunushi-ossan/phase2_tables.md",
+        "reports/upunushi-ossan/run_info.json"
+      ],
+      "n_outputs": 13,
+      "reason": ""
+    },
+    "thumbs": {
+      "status": "ok",
+      "started_at": "2026-10-20T21:34:42+00:00",
+      "ended_at": "2026-10-20T21:34:46+00:00",
+      "command": "-m ycanalysis.analyze.thumbs upunushi-ossan",
+      "outputs": [
+        "data/upunushi-ossan/processed/thumbnail_features.csv",
+        "reports/upunushi-ossan/thumbnail_tables.md",
+        "reports/upunushi-ossan/thumbnails/bottom24.jpg",
+        "reports/upunushi-ossan/thumbnails/by_month.jpg",
+        "reports/upunushi-ossan/thumbnails/top24.jpg"
+      ],
+      "n_outputs": 5,
+      "reason": ""
+    },
+    "robustness": {
+      "status": "ok",
+      "started_at": "2026-10-20T21:34:46+00:00",
+      "ended_at": "2026-10-20T21:34:47+00:00",
+      "command": "-m ycanalysis.analyze.robustness upunushi-ossan",
+      "outputs": [
+        "data/upunushi-ossan/processed/robustness_findings.csv",
+        "reports/upunushi-ossan/robustness.md",
+        "reports/upunushi-ossan/run_info.json"
+      ],
+      "n_outputs": 3,
+      "reason": ""
+    },
+    "select_sample": {
+      "status": "ok",
+      "started_at": "2026-10-20T21:34:47+00:00",
+      "ended_at": "2026-10-20T21:34:47+00:00",
+      "command": "-m ycanalysis.analyze.select_sample upunushi-ossan",
+      "outputs": [
+        "data/upunushi-ossan/processed/phase3_sample.csv"
+      ],
+      "n_outputs": 1,
+      "reason": ""
+    },
+    "draft_report": {
+      "status": "ok",
+      "started_at": "2026-10-20T21:34:48+00:00",
+      "ended_at": "2026-10-20T21:34:49+00:00",
+      "command": "-m ycanalysis.analyze.draft_report upunushi-ossan",
+      "outputs": [
+        "reports/upunushi-ossan/AUTO_DRAFT.md",
+        "reports/upunushi-ossan/run_info.json"
+      ],
+      "n_outputs": 2,
+      "reason": ""
+    },
+    "methodology_review": {
+      "status": "ok",
+      "started_at": "2026-10-20T21:34:49+00:00",
+      "ended_at": "2026-10-20T21:34:49+00:00",
+      "command": "-m ycanalysis.analyze.review upunushi-ossan",
+      "outputs": [
+        "reports/upunushi-ossan/run_info.json"
+      ],
+      "n_outputs": 1,
+      "reason": ""
+    },
+    "quality_gate": {
+      "status": "ok",
+      "started_at": "2026-10-20T21:34:49+00:00",
+      "ended_at": "2026-10-20T21:34:49+00:00",
+      "command": "-m ycanalysis.analyze.quality_gate upunushi-ossan",
+      "outputs": [
+        "reports/upunushi-ossan/research_status.json",
+        "reports/upunushi-ossan/run_info.json"
+      ],
+      "n_outputs": 2,
+      "reason": ""
+    },
+    "finalize": {
+      "status": "ok",
+      "started_at": "2026-10-20T21:34:49+00:00",
+      "ended_at": "2026-10-20T21:34:50+00:00",
+      "command": "-m ycanalysis.analyze.finalize upunushi-ossan",
+      "outputs": [
+        "reports/upunushi-ossan/research_status.json",
+        "reports/upunushi-ossan/run_info.json"
+      ],
+      "n_outputs": 2,
+      "reason": ""
+    },
+    "hypothesis_test": {
+      "status": "ok",
+      "started_at": "2026-10-20T21:34:47+00:00",
+      "ended_at": "2026-10-20T21:34:48+00:00",
+      "command": "-m ycanalysis.analyze.hypothesis_test upunushi-ossan",
+      "outputs": [
+        "data/upunushi-ossan/processed/hypothesis_tests.csv",
+        "reports/upunushi-ossan/hypothesis_tests.md",
+        "reports/upunushi-ossan/run_info.json"
+      ],
+      "n_outputs": 3,
+      "reason": ""
+    }
+  }
+}

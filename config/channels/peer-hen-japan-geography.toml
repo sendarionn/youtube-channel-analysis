@@ -1,0 +1,21 @@
+slug = "peer-hen-japan-geography"
+name = "ここがヘンだよ日本地理【ゆっくり解説】"
+handle = ""
+channel_id = "UC-WIQz0m2ZbC6HM_vgFjltQ"
+url = "https://www.youtube.com/channel/UC-WIQz0m2ZbC6HM_vgFjltQ"
+lang = "ja"
+timezone = "Asia/Tokyo"
+
+[analysis]
+neighbor_window = 10
+min_age_days = 7
+exclude_themes = []
+reference_theme = ""
+period_milestones = []
+posting_slot = [6, 7]
+
+[themes]
+[flags]
+[series]
+[phase3]
+intro_pattern = ""

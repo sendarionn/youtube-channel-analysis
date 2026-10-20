@@ -1,0 +1,113 @@
+{
+ "id": "vCVJbkuukwc",
+ "title": "高崎線の歴史～小学生でもわかるように解説",
+ "thumbnail": "https://i.ytimg.com/vi/vCVJbkuukwc/maxresdefault.jpg",
+ "description": "高崎線の歴史について、小学生でもわかるように解説。\n\n今から約140年代の明治時代（1880年代）、日本鉄道という私鉄が高崎線を建設。上野-前橋間で建設し、長野方面へ向かい主要鉄道（中山道幹線）の一部となり予定だった。\n\nその後、日本鉄道が国有化。以後、高崎線は国立の鉄道路線となる。\n戦後は特急列車が増加。一方、通勤路線として通勤客も増加。\n激しい満員電車となった。\n\nそんな中、国鉄で勤務するサラリーマンたちがストライキを行う。\n満員電車であったため、乗客たちはブチギレ、電車や駅員をボコボコにしてしまう。（上尾事件）\n\nその後、上越新幹線の開業でやや余裕が出る。\n国鉄民営化・JR化されると、高崎線では本数が増加。\n北陸新幹線の開業で、長距離特急は消滅。（近距離特急は残る）\nその後、湘南新宿ライン、上野東京ラインの開業を経て現在に至る。",
+ "channel_id": "UC21f1t3X_sYMD28XclLNpUw",
+ "channel_url": "https://www.youtube.com/channel/UC21f1t3X_sYMD28XclLNpUw",
+ "duration": 368,
+ "view_count": 27288,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=vCVJbkuukwc",
+ "categories": [
+  "Autos & Vehicles"
+ ],
+ "tags": [
+  "高崎線"
+ ],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "video",
+ "release_timestamp": null,
+ "comment_count": 23,
+ "chapters": [
+  {
+   "start_time": 0,
+   "end_time": 15,
+   "title": "<Untitled Chapter 1>"
+  },
+  {
+   "start_time": 15,
+   "title": "の歴史 ・・・小学生でもわかるよう解説",
+   "end_time": 80
+  },
+  {
+   "start_time": 80,
+   "title": "そしたら、俺たちで鉄道作って ビジネスしようぜ!",
+   "end_time": 124
+  },
+  {
+   "start_time": 124,
+   "title": "長野方面へ向かう ルートを作るぞー!",
+   "end_time": 145
+  },
+  {
+   "start_time": 145,
+   "title": "やっぱり 鉄道は国立だよな!",
+   "end_time": 196
+  },
+  {
+   "start_time": 196,
+   "title": "特急をたくさん 走らせるぞー!",
+   "end_time": 290
+  },
+  {
+   "start_time": 290,
+   "title": "新幹線ができたから、 もう特急はいらねーな!",
+   "end_time": 368
+  }
+ ],
+ "like_count": 569,
+ "channel": "たくみっく",
+ "channel_follower_count": null,
+ "creators": null,
+ "channel_is_verified": true,
+ "uploader": "たくみっく",
+ "uploader_id": "@upunushi-ossan",
+ "uploader_url": "https://www.youtube.com/@upunushi-ossan",
+ "upload_date": "20210716",
+ "timestamp": 1626448587,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=vCVJbkuukwc",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "vCVJbkuukwc",
+ "fulltitle": "高崎線の歴史～小学生でもわかるように解説",
+ "duration_string": "6:08",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792531034,
+ "format": "137 - 1920x1080 (1080p)+251 - audio only (medium)",
+ "format_id": "137+251",
+ "ext": "mkv",
+ "protocol": "https+https",
+ "language": "ja",
+ "format_note": "1080p+medium",
+ "filesize_approx": 84645687,
+ "tbr": 1838.6889999999999,
+ "width": 1920,
+ "height": 1080,
+ "resolution": "1920x1080",
+ "fps": 24,
+ "dynamic_range": "SDR",
+ "vcodec": "avc1.640028",
+ "vbr": 1689.734,
+ "stretched_ratio": null,
+ "aspect_ratio": 1.78,
+ "acodec": "opus",
+ "abr": 148.955,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [],
+ "auto_caption_has_ja": true,
+ "heatmap": null,
+ "tab": "videos",
+ "retrieved_at": "2026-10-20T21:17:14Z"
+}

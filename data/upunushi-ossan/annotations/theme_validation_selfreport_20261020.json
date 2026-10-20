@@ -1,0 +1,21 @@
+{
+  "validated": true,
+  "scope": "全505本を規則分類し、高中低36本のタイトルと字幕で境界を確認",
+  "blind_to_views_when_rules_created": false,
+  "limitations": [
+    "実績確認後に作成",
+    "複数テーマは設定順で一つに決定",
+    "独立コーダー一致率は未測定"
+  ],
+  "counts": {
+    "road": 150,
+    "shinkansen": 135,
+    "rail": 108,
+    "other": 73,
+    "urban": 25,
+    "aviation": 7,
+    "society": 7
+  },
+  "ambiguous": 142,
+  "unclassified": 73
+}

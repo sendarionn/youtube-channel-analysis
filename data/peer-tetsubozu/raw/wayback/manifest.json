@@ -1,0 +1,8 @@
+{
+  "source": "Internet Archive Wayback Machine",
+  "method": "CDX API + id_ raw snapshot",
+  "patterns": [
+    "www.youtube.com/channel/UCX2B8AAnHPRMmJFjjUo7EeQ*"
+  ],
+  "updated_at": "2026-10-20T20:59:27Z"
+}

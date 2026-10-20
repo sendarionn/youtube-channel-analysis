@@ -1,0 +1,15 @@
+{
+  "method": "config [theme_rules] の正規表現を上から順に適用（タイトルのみ、再生数を参照しない）",
+  "n_videos": 957,
+  "counts": {
+    "rail": 393,
+    "road": 206,
+    "shinkansen": 203,
+    "other": 79,
+    "urban": 60,
+    "aviation": 10,
+    "society": 6
+  },
+  "ambiguous": 390,
+  "unclassified": 79
+}

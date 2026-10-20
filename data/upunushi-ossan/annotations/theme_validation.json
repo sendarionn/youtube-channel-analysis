@@ -1,0 +1,30 @@
+{
+  "validated": true,
+  "method": "盲検の再判定との一致",
+  "against": "labels_semantic.csv",
+  "recoded_file": "recoded_20261021_seed2.csv",
+  "n_checked": 100,
+  "kappa": 0.66,
+  "agreement": 0.76,
+  "recorded_at": "2026-10-21",
+  "rules_version": "v2（config [theme_rules]、2026-10-21）",
+  "development_sample": {
+    "file": "recoded_20261021_seed1.csv",
+    "n": 100,
+    "kappa_v1": 0.563,
+    "kappa_v2_in_sample": 0.772
+  },
+  "validation_sample": {
+    "file": "recoded_20261021_seed2.csv",
+    "n": 100,
+    "kappa_v1": 0.507,
+    "kappa_v2": 0.66,
+    "note": "seed1 と重ならない動画。v2 の規則作成に使っていない"
+  },
+  "coder": "分析エージェント1名（タイトルのみ、再生数は非表示）。ただし調査中に一部タイトルの実績を見ている",
+  "limitations": [
+    "独立した第二のコーダーではない",
+    "1本1テーマに強制しており、新幹線と地域の両方を扱う動画の境界は不一致が残る",
+    "その他（未分類）が79本（8%）で目安の5%を超える"
+  ]
+}

@@ -1,0 +1,129 @@
+{
+ "id": "S2wu63jIC_k",
+ "title": "阪急千里線の歴史～小学生でもわかるように解説",
+ "thumbnail": "https://i.ytimg.com/vi_webp/S2wu63jIC_k/maxresdefault.webp",
+ "description": "阪急千里線の歴史について、小学生でもわかるように解説。\n\n今から約100年前の1920年代、北大阪電気鉄道という鉄道会社が千里山線を建設。\n当時の開業区間は、十三-豊津間。直後には、豊津-千里山間も開業。\nただ、当初は淡路-天神橋筋六丁目を建設したかったとの事。\nしかし、淀川を渡る橋を建設するお金がなかったため、あきらめた。\n\n一方、京阪がその計画に目をつける。\n北大阪電気鉄道を丸ごと買収して、今の阪急千里線の部分を入手。\n京阪本線のバイパスとして、新京阪線（阪急京都線）を建設し、淡路-天六の部分の淀川橋を作り上げた。\n\n京阪はその後阪急と合併。\n京阪は戦後に分離独立するが、千里線は阪急の所属となった。\nそして、千里ニュータウンの計画が出ると、千里線は北千住駅まで延伸して今に至る。",
+ "channel_id": "UC21f1t3X_sYMD28XclLNpUw",
+ "channel_url": "https://www.youtube.com/channel/UC21f1t3X_sYMD28XclLNpUw",
+ "duration": 339,
+ "view_count": 26323,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=S2wu63jIC_k",
+ "categories": [
+  "Autos & Vehicles"
+ ],
+ "tags": [
+  "阪急千里線",
+  "北大阪電気鉄道"
+ ],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "video",
+ "release_timestamp": null,
+ "comment_count": 48,
+ "chapters": [
+  {
+   "start_time": 0,
+   "end_time": 43,
+   "title": "<Untitled Chapter 1>"
+  },
+  {
+   "start_time": 43,
+   "title": "千里山へ鉄道を 作るぞー!",
+   "end_time": 70
+  },
+  {
+   "start_time": 70,
+   "title": "大阪の街中まで 鉄道を作りたいなー!",
+   "end_time": 88
+  },
+  {
+   "start_time": 88,
+   "title": "淀川の橋を作る お金がないよー!",
+   "end_time": 131
+  },
+  {
+   "start_time": 131,
+   "title": "もう1本京阪線を 作りたいなー!",
+   "end_time": 171
+  },
+  {
+   "start_time": 171,
+   "title": "北大阪電気鉄道を 丸ごとゲットするぞー!",
+   "end_time": 195
+  },
+  {
+   "start_time": 195,
+   "title": "せっかくだから、 千里線ももらっちゃおー!",
+   "end_time": 247
+  },
+  {
+   "start_time": 247,
+   "title": "もっと北の方へ 延伸するぞー!",
+   "end_time": 274
+  },
+  {
+   "start_time": 274,
+   "title": "地下鉄堺筋線が できるらしいから",
+   "end_time": 278
+  },
+  {
+   "start_time": 278,
+   "title": "ここへお邪魔するぞー!",
+   "end_time": 339
+  }
+ ],
+ "like_count": 595,
+ "channel": "たくみっく",
+ "channel_follower_count": null,
+ "creators": null,
+ "channel_is_verified": true,
+ "uploader": "たくみっく",
+ "uploader_id": "@upunushi-ossan",
+ "uploader_url": "https://www.youtube.com/@upunushi-ossan",
+ "upload_date": "20210627",
+ "timestamp": 1624764608,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=S2wu63jIC_k",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "S2wu63jIC_k",
+ "fulltitle": "阪急千里線の歴史～小学生でもわかるように解説",
+ "duration_string": "5:39",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792531068,
+ "format": "137 - 1920x1080 (1080p)+251 - audio only (medium)",
+ "format_id": "137+251",
+ "ext": "mkv",
+ "protocol": "https+https",
+ "language": "ja",
+ "format_note": "1080p+medium",
+ "filesize_approx": 104678213,
+ "tbr": 2473.2729999999997,
+ "width": 1920,
+ "height": 1080,
+ "resolution": "1920x1080",
+ "fps": 24,
+ "dynamic_range": "SDR",
+ "vcodec": "avc1.640028",
+ "vbr": 2324.506,
+ "stretched_ratio": null,
+ "aspect_ratio": 1.78,
+ "acodec": "opus",
+ "abr": 148.767,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [],
+ "auto_caption_has_ja": true,
+ "heatmap": null,
+ "tab": "videos",
+ "retrieved_at": "2026-10-20T21:17:48Z"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "source": "vidIQ",
+    "url": "https://vidiq.com/youtube-stats/channel/UC21f1t3X_sYMD28XclLNpUw",
+    "subscribers": 205000,
+    "as_of": "2025-06-03",
+    "retrieved_at": "2026-10-21",
+    "method": "Web検索結果の要約（ページの「Data Updated on Jun 03, 2025」の値。ページ本文は直接取得できなかった）",
+    "channel_id_confirmed": true,
+    "identity_evidence": "URL のチャンネルID が対象IDと一致、説明文「うぷ主のおっさん」が一致"
+  },
+  {
+    "source": "ユーチュラ",
+    "url": "https://yutura.net/",
+    "subscribers": 251000,
+    "as_of": "2026-10-19",
+    "retrieved_at": "2026-10-20",
+    "method": "Codex が 2026-10-20 に記録した値（data_quality.md）。2026-10-21 に再取得を試みたが 403 で再確認できない",
+    "channel_id_confirmed": false,
+    "identity_evidence": "未確認（再取得不可）"
+  }
+]

@@ -57,7 +57,11 @@ def main() -> None:
     # 上位20%と下位20%の客観特徴の比較（期間の交絡を避けるため P3・P4 に限定した結果も併記）
     from scipy import stats
     lines = ["# サムネイル客観特徴（自動生成）", ""]
-    for name, sub in [("全期間", content), ("P3・P4（登録者5万以降）", content[content["period"].str.startswith(("P3", "P4"))])]:
+    periods = sorted(content["period"].dropna().unique())
+    late = periods[-2:]
+    # 見出しは実際の期間ラベルから作る（節目で区切った場合は「5万〜」など、4等分なら「公開日3/4」など）
+    late_name = "・".join(p.split()[0] for p in late) + "（" + "、".join(p.split(" ", 1)[-1] for p in late) + "）"
+    for name, sub in [("全期間", content), (late_name, content[content["period"].isin(late)])]:
         hi, lo = sub["rel_index"].quantile(0.8), sub["rel_index"].quantile(0.2)
         a, b = sub[sub["rel_index"] >= hi], sub[sub["rel_index"] <= lo]
         res = []
