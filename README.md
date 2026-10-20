@@ -16,24 +16,14 @@ Claude Code を使用して構築・分析した
 ## 新しいチャンネルの調査を始める
 
 ```sh
-# 1. チャンネルURLから設定・ディレクトリ・指示書のひな形を作る
-.venv/bin/python -m ycanalysis.init https://www.youtube.com/@handle --slug <slug>
-#    → docs/<slug>-analysis.md に調査目的・範囲を書く
-
-# 2. 収集と自動分析をまとめて実行（試験なら --limit 30、Wayback を省くなら --no-wayback）
-.venv/bin/python -m ycanalysis.run <slug> --collect
-
-# 3. テーマ体系を作る（人間の判断。再生数を伏せたシートを使う）
-.venv/bin/python -m ycanalysis.annotate <slug> export --columns theme,japan_angle,intl_compare
-#    → data/<slug>/annotations/labels_manual.csv を作り、config の [themes]・[flags] を埋める
-.venv/bin/python -m ycanalysis.run <slug>          # 収集済みデータで再分析
-
-# 4. 代表動画の内容分析・類似チャンネル比較・仮説検証・報告書（下の Phase 3〜4 と methodology/README.md）
-# 5. 調査方法をレビューし、methodology/reviews/ と CHANGELOG.md に記録する
+# URLの識別、登録または更新、収集、暫定テーマ分類、分析、報告書、レビューを連続実行
+.venv/bin/python -m ycanalysis.research https://www.youtube.com/@handle
 ```
 
-- 自動で進むのは収集・集計・グラフ・頑健性チェック・代表動画の選定・報告書の草稿まで
-- テーマ分類、内容分析、比較対象の選定、結論の確信度は人間の判断が必要（AI が下案を作る場合も根拠を記録する）
+- 同じチャンネルIDの設定があれば既存調査を更新し、過去の最終報告書は上書きしない
+- テーマ分類はタイトルから暫定生成し、確信度と未検証事項を保存する
+- 字幕や映像を確認できない場合は内容分析済みと扱わない
+- 従来の `init`、`run --collect`、`run`、`annotate` も引き続き利用できる
 - 既存の分析コードを書き換えずに、設定ファイル（`config/channels/<slug>.toml`）でチャンネル固有の値を調整する
 
 ## 構成
@@ -43,6 +33,7 @@ config/channels/<slug>.toml     チャンネル設定（識別情報と、テー
 config/channels/<slug>.peers.toml  比較チャンネル探索用の検索語
 src/ycanalysis/
   init.py    新しいチャンネルの初期化
+  research.py URLから調査を連続実行
   run.py     標準工程の一括実行
   annotate.py 盲検コーディング用シートと一致率
   collect/   収集（ネットワークにアクセスするのはここだけ）

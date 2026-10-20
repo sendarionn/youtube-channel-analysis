@@ -46,14 +46,10 @@
 ## 新しいチャンネルの調査
 
 ```sh
-# 1. 対象の特定
-.venv/bin/python -m ycanalysis.init https://www.youtube.com/@handle --slug <slug>
-#    → docs/<slug>-analysis.md に目的・範囲を書く
+# 対象の特定から収集、暫定分類、分析、報告書、レビューまで
+.venv/bin/python -m ycanalysis.research https://www.youtube.com/@handle
 
-# 2〜7. 収集と自動分析（試験調査なら --limit 30）
-.venv/bin/python -m ycanalysis.run <slug> --collect
-
-# 5. テーマを作る（人間の判断）
+# 自動分類を検証または置き換える場合
 .venv/bin/python -m ycanalysis.annotate <slug> export --columns theme,intl_compare,...
 #    → classification.md の手順でテーマ体系を作り、data/<slug>/annotations/labels_manual.csv を作成
 #    → config の [themes]・[flags]・exclude_themes を埋めて再実行
@@ -73,3 +69,4 @@
 2. 再生数を伏せたシートで判定する
 3. 結果を見てから基準を変えた場合は、その事実と理由を記録する
 4. 結論を書く前に `analyze.robustness` を実行する
+5. 自動テーマは暫定結果として `labels_auto.csv` に保存し、人手ラベルと混同しない

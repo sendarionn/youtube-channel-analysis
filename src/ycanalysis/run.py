@@ -21,11 +21,14 @@ PY = sys.executable
 # (工程名, コマンド, 依存する工程)
 ANALYZE = [
     ("build_dataset", ["-m", "ycanalysis.analyze.build_dataset"], []),
-    ("quant", ["-m", "ycanalysis.analyze.quant"], ["build_dataset"]),
+    ("auto_themes", ["-m", "ycanalysis.analyze.auto_themes"], ["build_dataset"]),
+    ("quant", ["-m", "ycanalysis.analyze.quant"], ["build_dataset", "auto_themes"]),
     ("thumbs", ["-m", "ycanalysis.analyze.thumbs"], ["quant"]),
     ("robustness", ["-m", "ycanalysis.analyze.robustness"], ["quant"]),
     ("select_sample", ["-m", "ycanalysis.analyze.select_sample"], ["quant"]),
     ("draft_report", ["-m", "ycanalysis.analyze.draft_report"], ["quant"]),
+    ("finalize", ["-m", "ycanalysis.analyze.finalize"], ["draft_report"]),
+    ("methodology_review", ["-m", "ycanalysis.analyze.review"], ["quant"]),
 ]
 
 

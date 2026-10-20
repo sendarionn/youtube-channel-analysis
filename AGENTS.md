@@ -4,6 +4,13 @@ YouTubeチャンネル分析リポジトリで作業するすべてのエージ�
 チャンネル固有の調査要件は `docs/<slug>-analysis.md` に書き、ここには書かない
 分析方法の基準は [methodology/](methodology/README.md) にある
 
+## URLだけの依頼
+
+- YouTubeチャンネルURLが単独で入力された場合は「このチャンネルの成長要因を分析する」と解釈する
+- URL以外の指示がある場合は、その指示を優先する
+- URLだけでも手順の説明で終了せず、`.venv/bin/python -m ycanalysis.research <URL>` で実際の調査を開始する
+- 認証、権限付与、費用発生など利用者の判断が必要な場合だけ停止し、必要な操作を具体的に報告する
+
 ## 作業の進め方
 
 - 調査は [methodology/README.md](methodology/README.md) の標準工程に従う

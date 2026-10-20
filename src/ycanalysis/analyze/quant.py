@@ -39,18 +39,31 @@ MILESTONE_NC = r"\d+万"
 
 
 def has_labels(ch) -> bool:
-    return (ch.annotations_dir / "labels_manual.csv").exists()
+    return label_path(ch) is not None
+
+
+def label_path(ch):
+    for name in ("labels_manual.csv", "labels_auto.csv"):
+        path = ch.annotations_dir / name
+        if path.exists():
+            return path
+    return None
 
 
 def load(ch):
     """*_jst 列は設定 timezone の現地時刻（既定 Asia/Tokyo）。列名は v1.0 との互換のため維持"""
     v = pd.read_csv(ch.processed_dir / "videos.csv", parse_dates=["published_at", "retrieved_at"])
     if has_labels(ch):
-        lab = pd.read_csv(ch.annotations_dir / "labels_manual.csv").drop(columns="title", errors="ignore")
+        lab = pd.read_csv(label_path(ch)).drop(columns="title", errors="ignore")
         v = v.merge(lab, on="video_id", how="left")
     else:
         v["theme"] = np.nan
-    v["theme_name"] = v["theme"].map(ch.settings.get("themes", {})).fillna(UNCLASSIFIED)
+    themes = ch.settings.get("themes", {})
+    model = ch.annotations_dir / "theme_model.json"
+    if not themes and model.exists():
+        import json
+        themes = json.loads(model.read_text()).get("themes", {})
+    v["theme_name"] = v["theme"].map(themes).fillna(UNCLASSIFIED)
     v["pub_jst"] = v["published_at"].dt.tz_convert(ch.timezone)
     v["date_jst"] = v["pub_jst"].dt.date
     v["dur_bin"] = pd.cut(v["duration_min"], DUR_BINS, labels=DUR_LABELS, right=False)
