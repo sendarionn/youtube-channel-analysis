@@ -1,0 +1,123 @@
+{
+  "run:collect_videos": {
+    "methodology_version": "1.2.0",
+    "run_at": "2026-10-20T19:27:33+00:00",
+    "status": "ok",
+    "seconds": 2309.7,
+    "stderr_tail": []
+  },
+  "run:collect_thumbnails": {
+    "methodology_version": "1.2.0",
+    "run_at": "2026-10-20T19:31:05+00:00",
+    "status": "ok",
+    "seconds": 212.2,
+    "stderr_tail": []
+  },
+  "run:collect_channel_page": {
+    "methodology_version": "1.2.0",
+    "run_at": "2026-10-20T19:31:05+00:00",
+    "status": "ok",
+    "seconds": 0.6,
+    "stderr_tail": []
+  },
+  "build_dataset": {
+    "methodology_version": "1.2.0",
+    "run_at": "2026-10-20T19:34:52+00:00",
+    "n_videos": 505,
+    "n_history_points": 17
+  },
+  "run:build_dataset": {
+    "methodology_version": "1.2.0",
+    "run_at": "2026-10-20T19:34:53+00:00",
+    "status": "ok",
+    "seconds": 1.1,
+    "stderr_tail": []
+  },
+  "auto_themes": {
+    "methodology_version": "1.2.0",
+    "run_at": "2026-10-20T19:34:53+00:00",
+    "n_videos": 505,
+    "n_themes": 7,
+    "validated": false
+  },
+  "run:auto_themes": {
+    "methodology_version": "1.2.0",
+    "run_at": "2026-10-20T19:34:53+00:00",
+    "status": "ok",
+    "seconds": 0.3,
+    "stderr_tail": []
+  },
+  "quant": {
+    "methodology_version": "1.2.0",
+    "run_at": "2026-10-20T19:35:06+00:00",
+    "labeled": true,
+    "n_videos": 505
+  },
+  "run:quant": {
+    "methodology_version": "1.2.0",
+    "run_at": "2026-10-20T19:35:06+00:00",
+    "status": "ok",
+    "seconds": 12.8,
+    "stderr_tail": []
+  },
+  "run:thumbs": {
+    "methodology_version": "1.2.0",
+    "run_at": "2026-10-20T19:35:19+00:00",
+    "status": "ok",
+    "seconds": 13.6,
+    "stderr_tail": []
+  },
+  "robustness": {
+    "methodology_version": "1.2.0",
+    "run_at": "2026-10-20T19:35:31+00:00"
+  },
+  "run:robustness": {
+    "methodology_version": "1.2.0",
+    "run_at": "2026-10-20T19:35:31+00:00",
+    "status": "ok",
+    "seconds": 11.8,
+    "stderr_tail": []
+  },
+  "run:select_sample": {
+    "methodology_version": "1.2.0",
+    "run_at": "2026-10-20T19:35:31+00:00",
+    "status": "ok",
+    "seconds": 0.2,
+    "stderr_tail": []
+  },
+  "draft_report": {
+    "methodology_version": "1.2.0",
+    "run_at": "2026-10-20T19:33:42+00:00"
+  },
+  "run:draft_report": {
+    "methodology_version": "1.2.0",
+    "run_at": "2026-10-20T19:35:43+00:00",
+    "status": "ok",
+    "seconds": 11.6,
+    "stderr_tail": []
+  },
+  "finalize": {
+    "methodology_version": "1.2.0",
+    "run_at": "2026-10-20T19:33:43+00:00",
+    "qualitative_validation": false
+  },
+  "run:finalize": {
+    "methodology_version": "1.2.0",
+    "run_at": "2026-10-20T19:35:43+00:00",
+    "status": "ok",
+    "seconds": 0.0,
+    "stderr_tail": []
+  },
+  "methodology_review": {
+    "methodology_version": "1.2.0",
+    "run_at": "2026-10-20T19:35:43+00:00",
+    "improvements_adopted": false
+  },
+  "run:methodology_review": {
+    "methodology_version": "1.2.0",
+    "run_at": "2026-10-20T19:35:43+00:00",
+    "status": "ok",
+    "seconds": 0.0,
+    "stderr_tail": []
+  }
+}

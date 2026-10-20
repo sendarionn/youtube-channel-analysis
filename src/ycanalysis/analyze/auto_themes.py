@@ -15,18 +15,37 @@ import pandas as pd
 
 from ..config import load_channel, record_run
 
-NOISE = re.compile(r"[\s\d０-９【】\[\]（）()!！?？、。・…\-ー_]+")
+NOISE = re.compile(r"[\s\d０-９【】\[\]（）()!！?？、。・…\-_]+")
+STOP = re.compile(
+    r"している|されている|なっている|について|として|っている|れている|されてい|なってい|"
+    r"わかりやすく|どうなる|だったら|なのに|だけど|しかし|なぜ|理由|解説|"
+    r"ある|いる|する|した|して|です|ます|ない|った|でも|のに|なの|しか|たら|って|これ"
+)
+PARTICLES = tuple("のにはをがでとへもやか")
 
 
 def candidates(titles: list[str], max_themes: int = 6) -> list[str]:
     docs: list[set[str]] = []
+    contexts: dict[str, tuple[set[str], set[str]]] = {}
     for title in titles:
         clean = NOISE.sub("", str(title))
-        docs.append({clean[i:i + n] for n in range(2, 7) for i in range(max(0, len(clean) - n + 1))})
+        found = set()
+        for n in range(2, 9):
+            for i in range(max(0, len(clean) - n + 1)):
+                phrase = clean[i:i + n]
+                found.add(phrase)
+                left, right = contexts.setdefault(phrase, (set(), set()))
+                left.add(clean[i - 1:i] or "^")
+                right.add(clean[i + n:i + n + 1] or "$")
+        docs.append(found)
     counts = Counter(x for doc in docs for x in doc)
     minimum = 2 if len(titles) < 30 else max(3, round(len(titles) * .04))
-    pool = [x for x, n in counts.items() if minimum <= n <= max(minimum, len(titles) * .6)]
-    pool.sort(key=lambda x: (counts[x] * len(x), len(x), x), reverse=True)
+    pool = [x for x, n in counts.items()
+            if minimum <= n <= max(minimum, len(titles) * .6)
+            and not STOP.search(x) and not x.startswith(PARTICLES) and not x.endswith(PARTICLES)
+            and len(contexts[x][0]) >= 2 and len(contexts[x][1]) >= 2]
+    pool.sort(key=lambda x: (counts[x] * len(x) * len(contexts[x][0]) * len(contexts[x][1]),
+                             counts[x], len(x), x), reverse=True)
     chosen: list[str] = []
     for phrase in pool:
         if any(phrase in old or old in phrase for old in chosen):
@@ -38,8 +57,7 @@ def candidates(titles: list[str], max_themes: int = 6) -> list[str]:
 
 
 def classify(df: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
-    descriptions = df["description"].fillna("").astype(str) if "description" in df else pd.Series("", index=df.index)
-    texts = (df["title"].fillna("").astype(str) + " " + descriptions).tolist()
+    texts = df["title"].fillna("").astype(str).tolist()
     phrases = candidates(texts)
     codes = {p: "auto_" + hashlib.sha1(p.encode()).hexdigest()[:8] for p in phrases}
     rows = []
@@ -52,7 +70,7 @@ def classify(df: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
     themes = {code: f"「{phrase}」を含む" for phrase, code in codes.items()}
     themes["auto_other"] = "その他・未確定"
     return pd.DataFrame(rows), {"themes": themes, "phrases": phrases,
-                                "method": "title_description_repeated_substrings", "validated": False}
+                                "method": "title_repeated_substrings_with_grammar_filter", "validated": False}
 
 
 def generate(slug: str) -> None:
@@ -68,7 +86,8 @@ def generate(slug: str) -> None:
     labels.to_csv(ch.annotations_dir / "labels_auto.csv", index=False)
     (ch.annotations_dir / "theme_model.json").write_text(json.dumps(model, ensure_ascii=False, indent=2))
     codebook = "\n".join([f"# {ch.name} 自動テーマ分類", "",
-        "- タイトルと概要欄を使用し、再生数は参照していない",
+        "- タイトルを使用し、再生数は参照していない",
+        "- 概要欄は定型の出典表記が多数を占めたため分類入力から除外",
         "- 複数動画で反復する文字列による暫定分類",
         "- 人手による妥当性確認と一致率検証は未実施",
         "- `theme_confidence` が `low` の判定は結論の単独根拠にしない", "",

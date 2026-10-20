@@ -1,0 +1,582 @@
+{
+ "id": "JWH26KPb1XM",
+ "title": "379名を救ったエアバスA350機素材「CFRP」を超わかりやすく。（羽田空港炎上事故）",
+ "thumbnail": "https://i.ytimg.com/vi/JWH26KPb1XM/maxresdefault.jpg",
+ "description": "羽田空港でのJAL炎上事故で議論の対象となったCFRP（炭素繊維強化プラスチック）について解説。\nエアバスA350、ボーイング787などで使われている最新素材。\n従来のアルミ合金に比べて軽くて丈夫で燃費が向上したとされているが、燃えにくい点が疑問視されている模様。\n\n参考文献\n・ロイター通信、Valerie Insinna、Joanna Plucinska著、『焦点：羽田事故での大火災、炭素繊維複合材の安全検証する初の機会に』、2024年1月5日公開、https://jp.reuters.com/markets/world-indices/OJPBWYIUFVKUNOPQOCBS3QSDNA-2024-01-05/\n・Business Insider、Mia Jankowicz ［原文］ （翻訳：仲田文子、編集：井上俊彦）『衝突、炎上したJAL機に使われていたのは｢炭素繊維強化プラスチック（CFRP）｣…専門家の注目が集まる』、2024年1月5日公開、https://www.businessinsider.jp/post-280704\n・UACJ、『航空機用アルミニウム合金開発の最近の動向』、https://www.uacj.co.jp/review/uacj/vol3no1/pdf/vol3no1_09.pdf\n・松尾産業、『CFRPリサイクルは難しい？CFRPリサイクルの現状と課題、電解硫酸法についてもわかりやすく解説！』、https://www.matsuo-sangyo.co.jp/innovation/cfrprecycling/\n・その他Wikipedia等\n\nサムネイル画像：3DCADBrowser、\"Airbus A350-900 CAD Model\"、https://www.3dcadbrowser.com/3d-model/airbus-a350-900",
+ "channel_id": "UC21f1t3X_sYMD28XclLNpUw",
+ "channel_url": "https://www.youtube.com/channel/UC21f1t3X_sYMD28XclLNpUw",
+ "duration": 502,
+ "view_count": 67693,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=JWH26KPb1XM",
+ "categories": [
+  "Science & Technology"
+ ],
+ "tags": [
+  "CFRP",
+  "A350",
+  "羽田空港"
+ ],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "video",
+ "release_timestamp": null,
+ "comment_count": 260,
+ "chapters": null,
+ "like_count": 1408,
+ "channel": "たくみっく",
+ "channel_follower_count": null,
+ "creators": null,
+ "channel_is_verified": true,
+ "uploader": "たくみっく",
+ "uploader_id": "@upunushi-ossan",
+ "uploader_url": "https://www.youtube.com/@upunushi-ossan",
+ "upload_date": "20240110",
+ "timestamp": 1704887102,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=JWH26KPb1XM",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "JWH26KPb1XM",
+ "fulltitle": "379名を救ったエアバスA350機素材「CFRP」を超わかりやすく。（羽田空港炎上事故）",
+ "duration_string": "8:22",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792523587,
+ "format": "399 - 1920x1080 (1080p)+251 - audio only (medium)",
+ "format_id": "399+251",
+ "ext": "webm",
+ "protocol": "https+https",
+ "language": "ja",
+ "format_note": "1080p+medium",
+ "filesize_approx": 37708651,
+ "tbr": 601.004,
+ "width": 1920,
+ "height": 1080,
+ "resolution": "1920x1080",
+ "fps": 30,
+ "dynamic_range": "SDR",
+ "vcodec": "av01.0.08M.08",
+ "vbr": 453.23,
+ "stretched_ratio": null,
+ "aspect_ratio": 1.78,
+ "acodec": "opus",
+ "abr": 147.774,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [
+  "ja"
+ ],
+ "auto_caption_has_ja": true,
+ "heatmap": [
+  {
+   "start_time": 0.0,
+   "end_time": 5.02,
+   "value": 1.0
+  },
+  {
+   "start_time": 5.02,
+   "end_time": 10.04,
+   "value": 0.25209992704911993
+  },
+  {
+   "start_time": 10.04,
+   "end_time": 15.06,
+   "value": 0.29553682545252385
+  },
+  {
+   "start_time": 15.06,
+   "end_time": 20.08,
+   "value": 0.39685499335296376
+  },
+  {
+   "start_time": 20.08,
+   "end_time": 25.1,
+   "value": 0.6576977274716744
+  },
+  {
+   "start_time": 25.1,
+   "end_time": 30.12,
+   "value": 0.6275080395808157
+  },
+  {
+   "start_time": 30.12,
+   "end_time": 35.14,
+   "value": 0.47647582955330053
+  },
+  {
+   "start_time": 35.14,
+   "end_time": 40.16,
+   "value": 0.22461613089816526
+  },
+  {
+   "start_time": 40.16,
+   "end_time": 45.18,
+   "value": 0.1478930463376092
+  },
+  {
+   "start_time": 45.18,
+   "end_time": 50.2,
+   "value": 0.08427596749228297
+  },
+  {
+   "start_time": 50.2,
+   "end_time": 55.22,
+   "value": 0.07725018816097444
+  },
+  {
+   "start_time": 55.22,
+   "end_time": 60.24,
+   "value": 0.06361358167945634
+  },
+  {
+   "start_time": 60.24,
+   "end_time": 65.26,
+   "value": 0.05247400543158282
+  },
+  {
+   "start_time": 65.26,
+   "end_time": 70.28,
+   "value": 0.051610555178309994
+  },
+  {
+   "start_time": 70.28,
+   "end_time": 75.3,
+   "value": 0.04351628406865012
+  },
+  {
+   "start_time": 75.3,
+   "end_time": 80.32,
+   "value": 0.06702732669269956
+  },
+  {
+   "start_time": 80.32,
+   "end_time": 85.34,
+   "value": 0.04166778979493642
+  },
+  {
+   "start_time": 85.34,
+   "end_time": 90.36,
+   "value": 0.04392730866346445
+  },
+  {
+   "start_time": 90.36,
+   "end_time": 95.38,
+   "value": 0.08330765606546565
+  },
+  {
+   "start_time": 95.38,
+   "end_time": 100.4,
+   "value": 0.17754737193634146
+  },
+  {
+   "start_time": 100.4,
+   "end_time": 105.42,
+   "value": 0.20857780540359472
+  },
+  {
+   "start_time": 105.42,
+   "end_time": 110.44,
+   "value": 0.17806228925876708
+  },
+  {
+   "start_time": 110.44,
+   "end_time": 115.46,
+   "value": 0.18300892277660552
+  },
+  {
+   "start_time": 115.46,
+   "end_time": 120.48,
+   "value": 0.09079048807469128
+  },
+  {
+   "start_time": 120.48,
+   "end_time": 125.5,
+   "value": 0.07076864854284666
+  },
+  {
+   "start_time": 125.5,
+   "end_time": 130.52,
+   "value": 0.07442124998500253
+  },
+  {
+   "start_time": 130.52,
+   "end_time": 135.54,
+   "value": 0.09151719914245189
+  },
+  {
+   "start_time": 135.54,
+   "end_time": 140.56,
+   "value": 0.07160218457729406
+  },
+  {
+   "start_time": 140.56,
+   "end_time": 145.58,
+   "value": 0.06681106733556151
+  },
+  {
+   "start_time": 145.58,
+   "end_time": 150.6,
+   "value": 0.10346419028585242
+  },
+  {
+   "start_time": 150.6,
+   "end_time": 155.62,
+   "value": 0.15312518309680925
+  },
+  {
+   "start_time": 155.62,
+   "end_time": 160.64,
+   "value": 0.1409160390195475
+  },
+  {
+   "start_time": 160.64,
+   "end_time": 165.66,
+   "value": 0.07823881005111297
+  },
+  {
+   "start_time": 165.66,
+   "end_time": 170.68,
+   "value": 0.060462420020489085
+  },
+  {
+   "start_time": 170.68,
+   "end_time": 175.7,
+   "value": 0.09222863028548871
+  },
+  {
+   "start_time": 175.7,
+   "end_time": 180.72,
+   "value": 0.12780239334195573
+  },
+  {
+   "start_time": 180.72,
+   "end_time": 185.74,
+   "value": 0.13172424965481627
+  },
+  {
+   "start_time": 185.74,
+   "end_time": 190.76,
+   "value": 0.13359786972024126
+  },
+  {
+   "start_time": 190.76,
+   "end_time": 195.78,
+   "value": 0.09599989325573714
+  },
+  {
+   "start_time": 195.78,
+   "end_time": 200.8,
+   "value": 0.0391607522866488
+  },
+  {
+   "start_time": 200.8,
+   "end_time": 205.82,
+   "value": 0.04347569004328362
+  },
+  {
+   "start_time": 205.82,
+   "end_time": 210.84,
+   "value": 0.052480676948011507
+  },
+  {
+   "start_time": 210.84,
+   "end_time": 215.86,
+   "value": 0.09525620748286967
+  },
+  {
+   "start_time": 215.86,
+   "end_time": 220.88,
+   "value": 0.13800429871628725
+  },
+  {
+   "start_time": 220.88,
+   "end_time": 225.9,
+   "value": 0.16424288860735806
+  },
+  {
+   "start_time": 225.9,
+   "end_time": 230.92,
+   "value": 0.10457330299084619
+  },
+  {
+   "start_time": 230.92,
+   "end_time": 235.94,
+   "value": 0.06297712439241451
+  },
+  {
+   "start_time": 235.94,
+   "end_time": 240.96,
+   "value": 0.029735298439257915
+  },
+  {
+   "start_time": 240.96,
+   "end_time": 245.98,
+   "value": 0.04900274549041806
+  },
+  {
+   "start_time": 245.98,
+   "end_time": 251.0,
+   "value": 0.03134192334115569
+  },
+  {
+   "start_time": 251.0,
+   "end_time": 256.02,
+   "value": 0.06254533201258829
+  },
+  {
+   "start_time": 256.02,
+   "end_time": 261.04,
+   "value": 0.037581216969604626
+  },
+  {
+   "start_time": 261.04,
+   "end_time": 266.06,
+   "value": 0.05904418475387404
+  },
+  {
+   "start_time": 266.06,
+   "end_time": 271.08,
+   "value": 0.037597223228778294
+  },
+  {
+   "start_time": 271.08,
+   "end_time": 276.1,
+   "value": 0.2598655183695632
+  },
+  {
+   "start_time": 276.1,
+   "end_time": 281.12,
+   "value": 0.4734475529227456
+  },
+  {
+   "start_time": 281.12,
+   "end_time": 286.14,
+   "value": 0.017167398946298543
+  },
+  {
+   "start_time": 286.14,
+   "end_time": 291.16,
+   "value": 0.0
+  },
+  {
+   "start_time": 291.16,
+   "end_time": 296.18,
+   "value": 0.0070600246555574085
+  },
+  {
+   "start_time": 296.18,
+   "end_time": 301.2,
+   "value": 0.05236311837223177
+  },
+  {
+   "start_time": 301.2,
+   "end_time": 306.22,
+   "value": 0.02207290041325202
+  },
+  {
+   "start_time": 306.22,
+   "end_time": 311.24,
+   "value": 0.04921147249029792
+  },
+  {
+   "start_time": 311.24,
+   "end_time": 316.26,
+   "value": 0.04115195782912944
+  },
+  {
+   "start_time": 316.26,
+   "end_time": 321.28,
+   "value": 0.06451022810721709
+  },
+  {
+   "start_time": 321.28,
+   "end_time": 326.3,
+   "value": 0.09001110430867514
+  },
+  {
+   "start_time": 326.3,
+   "end_time": 331.32,
+   "value": 0.1478742154444637
+  },
+  {
+   "start_time": 331.32,
+   "end_time": 336.34,
+   "value": 0.1682089706178346
+  },
+  {
+   "start_time": 336.34,
+   "end_time": 341.36,
+   "value": 0.11622817317900824
+  },
+  {
+   "start_time": 341.36,
+   "end_time": 346.38,
+   "value": 0.09041446203985166
+  },
+  {
+   "start_time": 346.38,
+   "end_time": 351.4,
+   "value": 0.07944818381146854
+  },
+  {
+   "start_time": 351.4,
+   "end_time": 356.42,
+   "value": 0.08635618935678996
+  },
+  {
+   "start_time": 356.42,
+   "end_time": 361.44,
+   "value": 0.08160502050980177
+  },
+  {
+   "start_time": 361.44,
+   "end_time": 366.46,
+   "value": 0.08284137624990726
+  },
+  {
+   "start_time": 366.46,
+   "end_time": 371.48,
+   "value": 0.06147382729133366
+  },
+  {
+   "start_time": 371.48,
+   "end_time": 376.5,
+   "value": 0.09871791747108206
+  },
+  {
+   "start_time": 376.5,
+   "end_time": 381.52,
+   "value": 0.04798940132770709
+  },
+  {
+   "start_time": 381.52,
+   "end_time": 386.54,
+   "value": 0.04559664043953672
+  },
+  {
+   "start_time": 386.54,
+   "end_time": 391.56,
+   "value": 0.05583704153971282
+  },
+  {
+   "start_time": 391.56,
+   "end_time": 396.58,
+   "value": 0.0626908141127752
+  },
+  {
+   "start_time": 396.58,
+   "end_time": 401.6,
+   "value": 0.07676381309230221
+  },
+  {
+   "start_time": 401.6,
+   "end_time": 406.62,
+   "value": 0.1153834193125013
+  },
+  {
+   "start_time": 406.62,
+   "end_time": 411.64,
+   "value": 0.09749848263353161
+  },
+  {
+   "start_time": 411.64,
+   "end_time": 416.66,
+   "value": 0.08964901313476317
+  },
+  {
+   "start_time": 416.66,
+   "end_time": 421.68,
+   "value": 0.08479752942986135
+  },
+  {
+   "start_time": 421.68,
+   "end_time": 426.7,
+   "value": 0.09945323694713776
+  },
+  {
+   "start_time": 426.7,
+   "end_time": 431.72,
+   "value": 0.09629475814111968
+  },
+  {
+   "start_time": 431.72,
+   "end_time": 436.74,
+   "value": 0.09607284951603798
+  },
+  {
+   "start_time": 436.74,
+   "end_time": 441.76,
+   "value": 0.16861539509446624
+  },
+  {
+   "start_time": 441.76,
+   "end_time": 446.78,
+   "value": 0.1575551507092871
+  },
+  {
+   "start_time": 446.78,
+   "end_time": 451.8,
+   "value": 0.08802605915838067
+  },
+  {
+   "start_time": 451.8,
+   "end_time": 456.82,
+   "value": 0.05326135197527192
+  },
+  {
+   "start_time": 456.82,
+   "end_time": 461.84,
+   "value": 0.03670630677278897
+  },
+  {
+   "start_time": 461.84,
+   "end_time": 466.86,
+   "value": 0.029514492766489014
+  },
+  {
+   "start_time": 466.86,
+   "end_time": 471.88,
+   "value": 0.0347546730071898
+  },
+  {
+   "start_time": 471.88,
+   "end_time": 476.9,
+   "value": 0.053336218226163225
+  },
+  {
+   "start_time": 476.9,
+   "end_time": 481.92,
+   "value": 0.06361896193464077
+  },
+  {
+   "start_time": 481.92,
+   "end_time": 486.94,
+   "value": 0.08151167308235197
+  },
+  {
+   "start_time": 486.94,
+   "end_time": 491.96,
+   "value": 0.09743862729460485
+  },
+  {
+   "start_time": 491.96,
+   "end_time": 496.98,
+   "value": 0.15857694187263763
+  },
+  {
+   "start_time": 496.98,
+   "end_time": 502.0,
+   "value": 0.15995127425694775
+  }
+ ],
+ "tab": "videos",
+ "retrieved_at": "2026-10-20T19:13:07Z"
+}

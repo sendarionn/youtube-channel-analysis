@@ -1,0 +1,113 @@
+{
+ "id": "apaDmXxY1K4",
+ "title": "【本日はお休み】乗り鉄して疲れました。",
+ "thumbnail": "https://i.ytimg.com/vi_webp/apaDmXxY1K4/maxresdefault.webp",
+ "description": "たくみっくチャンネル、本日はお休みさせて下さい。\nうぷ主のおっさん、近鉄3日間、3,000円で乗り放題になるフルーパスで乗り鉄に行ってきて疲れてしまい、本編をアップする気力がなくなってしまいました。",
+ "channel_id": "UC21f1t3X_sYMD28XclLNpUw",
+ "channel_url": "https://www.youtube.com/channel/UC21f1t3X_sYMD28XclLNpUw",
+ "duration": 336,
+ "view_count": 41711,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=apaDmXxY1K4",
+ "categories": [
+  "Autos & Vehicles"
+ ],
+ "tags": [
+  "近鉄"
+ ],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "video",
+ "release_timestamp": null,
+ "comment_count": 244,
+ "chapters": [
+  {
+   "start_time": 0,
+   "end_time": 16,
+   "title": "<Untitled Chapter 1>"
+  },
+  {
+   "start_time": 16,
+   "title": "乗り鉄してきたから、 ちょっと疲れちゃっいました",
+   "end_time": 51
+  },
+  {
+   "start_time": 51,
+   "title": "そう言えば、 何か近鉄で",
+   "end_time": 143
+  },
+  {
+   "start_time": 143,
+   "title": "電車に乗る時間がなくなっちゃう から、Uターンしよう",
+   "end_time": 159
+  },
+  {
+   "start_time": 159,
+   "title": "御所線って何だ?",
+   "end_time": 235
+  },
+  {
+   "start_time": 235,
+   "title": "平城京跡とかあるみたいだから、 ちょっと行ってみるか",
+   "end_time": 284
+  },
+  {
+   "start_time": 284,
+   "title": "明日会社行きたくねー",
+   "end_time": 336
+  }
+ ],
+ "like_count": 1776,
+ "channel": "たくみっく",
+ "channel_follower_count": null,
+ "creators": null,
+ "channel_is_verified": true,
+ "uploader": "たくみっく",
+ "uploader_id": "@upunushi-ossan",
+ "uploader_url": "https://www.youtube.com/@upunushi-ossan",
+ "upload_date": "20211212",
+ "timestamp": 1639319552,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=apaDmXxY1K4",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "apaDmXxY1K4",
+ "fulltitle": "【本日はお休み】乗り鉄して疲れました。",
+ "duration_string": "5:36",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792524291,
+ "format": "137 - 1920x1080 (1080p)+251 - audio only (medium)",
+ "format_id": "137+251",
+ "ext": "mkv",
+ "protocol": "https+https",
+ "language": "ja",
+ "format_note": "1080p+medium",
+ "filesize_approx": 105710540,
+ "tbr": 2515.6369999999997,
+ "width": 1920,
+ "height": 1080,
+ "resolution": "1920x1080",
+ "fps": 24,
+ "dynamic_range": "SDR",
+ "vcodec": "avc1.640028",
+ "vbr": 2365.437,
+ "stretched_ratio": null,
+ "aspect_ratio": 1.78,
+ "acodec": "opus",
+ "abr": 150.2,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [],
+ "auto_caption_has_ja": true,
+ "heatmap": null,
+ "tab": "videos",
+ "retrieved_at": "2026-10-20T19:24:51Z"
+}

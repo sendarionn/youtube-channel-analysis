@@ -1,0 +1,123 @@
+{
+ "id": "_tgfVF2QGVA",
+ "title": "【新幹線】なぜ、\"新\"幹線という名前なのか？ 小学生でもわかるように解説",
+ "thumbnail": "https://i.ytimg.com/vi_webp/_tgfVF2QGVA/maxresdefault.webp",
+ "description": "なぜ新幹線はもう新しくないのに「新」幹線という名前となっているのか、単語の事情について小学生でも理解できるようにわかりやすく解説。\n\n東海道新幹線は元々、東海道本線という日本の大動脈に対する追加建設分（線増）として建設された。\n幹線に対する新しい路線の意味合いで「新幹線」となったとの事。\n\n当初は時速200キロ以上の高速運転は予定していなかったとの事だが、戦前の弾丸列車の構想もあって、最終的に高速鉄道方式で作れたため、新幹線の意味は時速200キロ以上で走る電車の事を指すようになった。\n東海道新幹線の次にできた山陽新幹線も、このような「新しい幹線」の意味合いの線増扱いで建設された。\n\nしかし、その後にできた東北新幹線と上越新幹線は、地方の活性化を目的に建設された。\n整備新幹線（北陸新幹線、九州新幹線、北海道新幹線など）も同じ。\nただ、整備新幹線では並行在来線の問題が登場。古い在来線はJRから経営分離され、新幹線が唯一の幹線になった。\n\n＜画像出典＞\n・https://commons.wikimedia.org/wiki/File:200_H6_Yamabiko_43_Tokyo_20020601.jpg\n・https://commons.wikimedia.org/wiki/File:JRW-500-nozomi.jpg",
+ "channel_id": "UC21f1t3X_sYMD28XclLNpUw",
+ "channel_url": "https://www.youtube.com/channel/UC21f1t3X_sYMD28XclLNpUw",
+ "duration": 364,
+ "view_count": 43211,
+ "average_rating": null,
+ "age_limit": 0,
+ "webpage_url": "https://www.youtube.com/watch?v=_tgfVF2QGVA",
+ "categories": [
+  "Autos & Vehicles"
+ ],
+ "tags": [
+  "新幹線"
+ ],
+ "playable_in_embed": true,
+ "live_status": "not_live",
+ "media_type": "video",
+ "release_timestamp": null,
+ "comment_count": 227,
+ "chapters": [
+  {
+   "start_time": 0,
+   "end_time": 41,
+   "title": "<Untitled Chapter 1>"
+  },
+  {
+   "start_time": 41,
+   "title": "おい、何で「新」幹線、 っていうんだよ?",
+   "end_time": 73
+  },
+  {
+   "start_time": 73,
+   "title": "メインルートを 作るぞー",
+   "end_time": 116
+  },
+  {
+   "start_time": 116,
+   "title": "もう1本、東海道本線 必要じゃねー!",
+   "end_time": 156
+  },
+  {
+   "start_time": 156,
+   "title": "せっかくだから、めっちゃ 飛ばせるように作ろうぜー",
+   "end_time": 225
+  },
+  {
+   "start_time": 225,
+   "title": "新幹線を作れば",
+   "end_time": 273
+  },
+  {
+   "start_time": 273,
+   "title": "古い在来線なんか 捨ててしまえ!",
+   "end_time": 319
+  },
+  {
+   "start_time": 319,
+   "title": "なるほど、 新幹線ができると",
+   "end_time": 323
+  },
+  {
+   "start_time": 323,
+   "title": "死幹線 になってしまうんだね",
+   "end_time": 364
+  }
+ ],
+ "like_count": 1188,
+ "channel": "たくみっく",
+ "channel_follower_count": null,
+ "creators": null,
+ "channel_is_verified": true,
+ "uploader": "たくみっく",
+ "uploader_id": "@upunushi-ossan",
+ "uploader_url": "https://www.youtube.com/@upunushi-ossan",
+ "upload_date": "20211206",
+ "timestamp": 1638791314,
+ "availability": "public",
+ "original_url": "https://www.youtube.com/watch?v=_tgfVF2QGVA",
+ "webpage_url_basename": "watch",
+ "webpage_url_domain": "youtube.com",
+ "extractor": "youtube",
+ "extractor_key": "Youtube",
+ "playlist": null,
+ "playlist_index": null,
+ "display_id": "_tgfVF2QGVA",
+ "fulltitle": "【新幹線】なぜ、\"新\"幹線という名前なのか？ 小学生でもわかるように解説",
+ "duration_string": "6:04",
+ "release_year": null,
+ "is_live": false,
+ "was_live": false,
+ "_has_drm": null,
+ "epoch": 1792524299,
+ "format": "137 - 1920x1080 (1080p)+251 - audio only (medium)",
+ "format_id": "137+251",
+ "ext": "mkv",
+ "protocol": "https+https",
+ "language": "ja",
+ "format_note": "1080p+medium",
+ "filesize_approx": 106629020,
+ "tbr": 2340.8669999999997,
+ "width": 1920,
+ "height": 1080,
+ "resolution": "1920x1080",
+ "fps": 24,
+ "dynamic_range": "SDR",
+ "vcodec": "avc1.640028",
+ "vbr": 2190.917,
+ "stretched_ratio": null,
+ "aspect_ratio": 1.78,
+ "acodec": "opus",
+ "abr": 149.95,
+ "asr": 48000,
+ "audio_channels": 2,
+ "subtitle_langs": [],
+ "auto_caption_has_ja": true,
+ "heatmap": null,
+ "tab": "videos",
+ "retrieved_at": "2026-10-20T19:24:59Z"
+}

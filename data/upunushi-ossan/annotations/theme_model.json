@@ -1,0 +1,21 @@
+{
+  "themes": {
+    "auto_c27f2bb4": "「新幹線」を含む",
+    "auto_22bd1f19": "「鉄道」を含む",
+    "auto_a0d00fd8": "「高速道路」を含む",
+    "auto_b67db701": "「開通」を含む",
+    "auto_ea0043a2": "「ルート」を含む",
+    "auto_385a3b02": "「大阪」を含む",
+    "auto_other": "その他・未確定"
+  },
+  "phrases": [
+    "新幹線",
+    "鉄道",
+    "高速道路",
+    "開通",
+    "ルート",
+    "大阪"
+  ],
+  "method": "title_repeated_substrings_with_grammar_filter",
+  "validated": false
+}
